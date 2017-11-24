@@ -30,7 +30,7 @@ li a{
 }
 
 li a:hover{
-	background-color:#DDDDDD;	
+	background-color:#DDDDDD;
 	text-decoration:none;
 }
 
@@ -40,7 +40,7 @@ li a:hover{
  }/*base padding for container fluid calss*/
 
 .row{
-	margin:0 auto;	
+	margin:0 auto;
 }
 
 .no-padding{
@@ -88,7 +88,7 @@ li a:hover{
         font-size: 12px;
         line-height: 19px;
     }
-	
+
 
 }
 
@@ -165,8 +165,8 @@ li a:hover{
         font-size: 16px;
         line-height: 26px;
     }
-	
-	
+
+
 .textonlylogo{
 	display:none;
 }
@@ -212,7 +212,7 @@ li a:hover{
 }
 
 @media (max-width: 992px){
-	
+
 .logo img{
 	display:none;
 }
@@ -272,7 +272,7 @@ display:none;
 	z-index:3;
 	position:relative;
 	margin-bottom:5em;
-	
+
 }
 
 .navigation{
@@ -345,10 +345,10 @@ text-decoration:none;
 	margin-top:0.5em;
 	margin-right:0.25em;
 	position:relative;
-	
+
 }
 
-	
+
 .socialmedia a{
 	border-bottom:none;
 }
@@ -380,7 +380,7 @@ text-decoration:none;
 .bannerimage{
   object-fit: cover;
   object-position: 50% 50%; /* default value: image is centred*/
-  background-image:url(AESGlobal.png);
+  background-image:url(Images/AESGlobal.png);
   background-repeat:no-repeat;
 }
 
