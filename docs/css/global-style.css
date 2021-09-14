@@ -2974,6 +2974,11 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   text-shadow: 1px 1px 1px #000000
 }
 
+.pause-play-btn button{
+  background-color: transparent;
+  border: none;
+}
+
 @media all and (transform-3d), (-webkit-transform-3d) {
 
   .carousel-fade .carousel-inner>.item.next,
