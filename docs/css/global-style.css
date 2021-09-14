@@ -2970,6 +2970,8 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 .pause-play-btn{
   right: 2.5em;
   padding-top: 0.5em;
+  color: #ffffff;
+  text-shadow: 1px 1px 1px #000000
 }
 
 @media all and (transform-3d), (-webkit-transform-3d) {
