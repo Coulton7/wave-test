@@ -54,7 +54,7 @@ function startTimer() {
   }, 1000);
 }
 
-window.addEventListener("load", () => {
+window.addEventListener("DOMContentLoaded", () => {
   setDisabled(startBtn);
   startTimer();
 });
