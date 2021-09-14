@@ -63,7 +63,7 @@ window.addEventListener("load", () => {
 //HELPER METHODS
 //---------------------------------------------
 function setDisabled(button) {
-  button.setAttribute("disabled", "disabled");
+  button.setAttribute("disabled");
 }
 
 function removeDisabled(button) {
@@ -74,7 +74,7 @@ function timeIsUp() {
   removeDisabled(stopBtn);
   reset();
   startTimer();
-  $('#carousel-fade').carousel('next');  
+  $('#carousel-fade').carousel('next');
 }
 
 function resetVars() {
