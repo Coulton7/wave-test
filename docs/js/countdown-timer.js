@@ -63,7 +63,7 @@ window.addEventListener("load", () => {
 //HELPER METHODS
 //---------------------------------------------
 function setDisabled(button) {
-  button.setAttribute("disabled");
+  button.setAttribute("disabled", "disabled");
 }
 
 function removeDisabled(button) {
