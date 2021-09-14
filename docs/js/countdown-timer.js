@@ -69,6 +69,7 @@ function setDisabled(button) {
 function removeDisabled(button) {
   button.removeAttribute("disabled");
 }
+
 function timeIsUp() {
   setDisabled(startBtn);
   removeDisabled(stopBtn);
