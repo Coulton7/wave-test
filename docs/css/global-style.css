@@ -2965,6 +2965,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   position: absolute;
   left: 1em;
   bottom: 0;
+  z-index: 10;
 }
 
 #app, .pause-play-btn {
@@ -2977,7 +2978,8 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   padding-top: 0.5em;
   color: #ffffff;
   text-shadow: 1px 1px 1px #000000;
-  bottom: 5.75em
+  bottom: 5.75em;
+  z-index: 2
 }
 
 .pause-play-btn button{
