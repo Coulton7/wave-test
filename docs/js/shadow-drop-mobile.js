@@ -11,6 +11,9 @@ if ($(window).width() > 992) {
    $('.net-zero-container').css({
      'transform': 'translate( 25%,' + (lScroll) + '%)'
    });
+   $('.slider-timer').css({
+     'transform': 'translate( 0%,' + (lScroll) + '%)'
+   })
    $('.mobile-carousel-caption').css({
      'transform': 'translate( 0%,' + (tScroll) + '%)'
    });
