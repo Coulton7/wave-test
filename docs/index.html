@@ -319,6 +319,29 @@
                       </div>
                     </div>
                   </div>
+
+                  <div class="slider-timer">
+                  <div id="app">
+                    <div class="base-timer">
+                      <svg class="base-timer__svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                        <g class="base-timer__circle">
+                          <circle class="base-timer__path-elapsed" cx="50" cy="50" r="45"></circle>
+                          <path id="base-timer-path-remaining" stroke-dasharray="283" class="base-timer__path-remaining arc" d=" M 50, 50 m -45, 0 a 45,45 0 1,0 90,0 a 45,45 0 1,0 -90,0
+                          "></path>
+                        </g>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="pause-play-btn buttons">
+                    <button onclick="start()" class="start">
+                      <i class="fas fa-play fa-2x"></i>
+                    </button>
+                    <button onclick="stop()" class="stop">
+                      <i class="fas fa-pause fa-2x"></i>
+                    </button>
+                  </div>
+                </div>
+
                   <div class=" social-media text-center white-text">
                     <ul>
                       <li> <a href="https://twitter.com/AESSEALplc" target="_self" data-toggle="tooltip" data-placement="top" title="" data-original-title="AESSEAL Twitter"> <i class="fab fa-twitter " aria-hidden="true"></i></a></li>
@@ -329,26 +352,6 @@
                             aria-hidden="true"></i></a></li>
                       <li> <a href="/locations" target="_self" data-toggle="tooltip" data-placement="top" title="" data-original-title="Browse all Locations"> <i class="fas fa-globe-americas" aria-hidden="true"></i></a></li>
                     </ul>
-
-                    <div id="app" class="slide-timer">
-                      <div class="base-timer">
-                        <svg class="base-timer__svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-                          <g class="base-timer__circle">
-                            <circle class="base-timer__path-elapsed" cx="50" cy="50" r="45"></circle>
-                            <path id="base-timer-path-remaining" stroke-dasharray="283" class="base-timer__path-remaining arc" d=" M 50, 50 m -45, 0 a 45,45 0 1,0 90,0 a 45,45 0 1,0 -90,0
-                            "></path>
-                          </g>
-                        </svg>
-                      </div>
-                    </div>
-                    <div class="pause-play-btn buttons">
-                      <button onclick="start()" class="start">
-                        <i class="fas fa-play fa-2x"></i>
-                      </button>
-                      <button onclick="stop()" class="stop">
-                        <i class="fas fa-pause fa-2x"></i>
-                      </button>
-                    </div>
 
                   </div>
                 </div>

@@ -2961,15 +2961,19 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   color: #002a5b;
 }
 
-.slide-timer, .pause-play-btn {
+.slide-timer{
+  position: absolute;
+  left: 1em;
+  bottom: 0;
+}
+
+#app, .pause-play-btn {
   display: flex;
   justify-content: flex-start;
-  left: 1em;
   position: relative;
 }
 
 .pause-play-btn{
-  left: 2.5em;
   padding-top: 0.5em;
   color: #ffffff;
   text-shadow: 1px 1px 1px #000000
