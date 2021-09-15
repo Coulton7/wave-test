@@ -2961,7 +2961,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   color: #002a5b;
 }
 
-#app, .slide-timer, .pause-play-btn {
+.slide-timer, .pause-play-btn {
   display: flex;
   justify-content: flex-start;
   left: 1em;
