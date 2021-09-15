@@ -62,8 +62,7 @@ window.addEventListener("DOMContentLoaded", () => {
 //---------------------------------------------
 //HELPER METHODS
 //---------------------------------------------
-function setDisabled() {
-  var button = startBtn || stopBtn;
+function setDisabled(button) {
   button.setAttribute("disabled", "disabled");
 }
 
