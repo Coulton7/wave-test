@@ -2977,7 +2977,6 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 .pause-play-btn{
   padding-top: 0.5em;
   color: #ffffff;
-  text-shadow: 1px 1px 1px #000000;
   bottom: 5.75em;
   z-index: 2
 }
