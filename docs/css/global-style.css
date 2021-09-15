@@ -3210,6 +3210,20 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   .sustainability-advert img, .sustainability-advert-home img, , .rel-logos-wave img {
     max-width: 75%;
   }
+
+  .slider-timer {
+    bottom: 4em;
+    left: 5%;
+  }
+
+  .base-timer {
+    height: 7em;
+    width: 7em;
+  }
+
+  .pause-play-btn {
+    bottom: 5em;
+  }
 }
 
 @media screen and (max-width:500px) and (min-width:371px) {
@@ -3816,6 +3830,20 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   blockquote.image-quote{
     left: -1.9em;
     top: -1.1em;
+  }
+
+  .slider-timer {
+    bottom: 4.25em;
+    left: 5%;
+  }
+
+  .base-timer {
+    height: 7em;
+    width: 7em;
+  }
+
+  .pause-play-btn {
+    bottom: 5.5em;
   }
 }
 
