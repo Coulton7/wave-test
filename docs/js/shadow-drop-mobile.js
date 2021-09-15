@@ -5,7 +5,7 @@
  });
 
 if ($(window).width() > 992) {
-  $(window).on("scroll", function() {
+  $(window).on("scroll load", function() {
    var lScroll = ($(this).scrollTop() / $(window).height())*90 - 100;
    var tScroll = ($(this).scrollTop() / $(window).height())*90 - 75;
    var cScroll = ($(this).scrollTop() / $(window).height())*80 - 75;
