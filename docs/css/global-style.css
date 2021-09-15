@@ -2969,14 +2969,15 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
 #app, .pause-play-btn {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   position: relative;
 }
 
 .pause-play-btn{
   padding-top: 0.5em;
   color: #ffffff;
-  text-shadow: 1px 1px 1px #000000
+  text-shadow: 1px 1px 1px #000000;
+  bottom: 5.75em
 }
 
 .pause-play-btn button{
