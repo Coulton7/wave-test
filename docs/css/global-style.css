@@ -4611,6 +4611,11 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     top: -1.1em;
   }
 
+  .mobile-carousel-caption {
+    bottom: 0;
+    position: relative;
+  }
+
   .slider-timer {
     bottom: -1em;
   }
