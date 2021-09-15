@@ -2933,7 +2933,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
 /* scaleX(1) = CLOCKWISE, scaleX(-1) = ANTI-CLOCKWISE */
 .base-timer__svg {
-  transform: scaleX(-1);
+  transform: scaleX(1);
 }
 
 .base-timer__circle {
