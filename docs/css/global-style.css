@@ -2962,13 +2962,13 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
 #app, .pause-play-btn {
   display: flex;
-  justify-content: flex-end;
-  right: 1em;
+  justify-content: flex-start;
+  left: 1em;
   position: relative;
 }
 
 .pause-play-btn{
-  right: 2.5em;
+  left: 2.5em;
   padding-top: 0.5em;
   color: #ffffff;
   text-shadow: 1px 1px 1px #000000
