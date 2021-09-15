@@ -2667,7 +2667,7 @@ a.btn-transparent-green-border:hover {
   top: 4em;
   z-index: 10;
   background: transparent;
-  .overflow: hidden;
+  overflow: hidden;
 }
 
 .social-media ul {
