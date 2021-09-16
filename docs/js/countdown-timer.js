@@ -51,6 +51,7 @@ function startTimer() {
     timePassed = timePassed += 1;
     timeLeft = TIME_LIMIT - timePassed;
     startBtn.setAttribute("title", "Slider is playing");
+    stopBtn.setAttribute("title", "Pause slider");
     /*setCircleDasharray();*/
 
     if (timeLeft === 0) {
