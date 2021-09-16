@@ -46,7 +46,7 @@ function startTimer() {
   timerInterval = setInterval(() => {
     timePassed = timePassed += 1;
     timeLeft = TIME_LIMIT - timePassed;
-    setCircleDasharray();
+    /*setCircleDasharray();*/
 
     if (timeLeft === 0) {
       timeIsUp();
