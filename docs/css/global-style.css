@@ -2951,7 +2951,9 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   stroke-width: 7px;
   stroke-linecap: square;
   transform: rotate(90deg);
+  -webkit-transform-origin: center;
   transform-origin: center;
+  -webkit-transform-box: fill-box;
   transform-box: fill-box;
   transition: 1s linear all;
   fill-rule: nonzero;
