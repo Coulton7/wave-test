@@ -2985,13 +2985,15 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
 .pause-play-btn button{
   background-color: transparent;
+  color: #ffffff;
   border: none;
-  opacity: 0.85
+  opacity: 0.5
 }
 
 .pause-play-btn button:disabled{
-  color: #eeeeee;
-  opacity: 0.5;
+  color: #ffffff;
+  opacity: 0.85;
+  cursor: not-allowed;
 }
 
 .start, .stop {
