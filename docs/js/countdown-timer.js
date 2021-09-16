@@ -30,9 +30,7 @@ function reset() {
 function start(withReset = false) {
   setDisabled(startBtn);
   startBtn.removeAttribute("data-original-title", "Resume slider");
-  startBtn.setAttribute("data-original-title", "Slider is playing");
   removeDisabled(stopBtn);
-  stopBtn.removeAttribute("data-original-title", "Slider is paused");
   stopBtn.setAttribute("data-original-title", "Pause slider");
   if (withReset) {
     resetVars();
@@ -43,9 +41,7 @@ function start(withReset = false) {
 function stop() {
   setDisabled(stopBtn);
   stopBtn.removeAttribute("data-original-title", "Pause slider");
-  stopBtn.setAttribute("data-original-title", "Slider is paused");
   removeDisabled(startBtn);
-  startBtn.removeAttribute("data-original-title", "Slider is playing");
   startBtn.setAttribute("data-original-title", "Resume slider");
   clearInterval(timerInterval);
 }
@@ -54,7 +50,6 @@ function startTimer() {
   timerInterval = setInterval(() => {
     timePassed = timePassed += 1;
     timeLeft = TIME_LIMIT - timePassed;
-    startBtn.setAttribute("data-original-title", "Slider is playing");
     stopBtn.setAttribute("data-original-title", "Pause slider");
     /*setCircleDasharray();*/
 
