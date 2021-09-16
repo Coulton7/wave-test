@@ -2994,6 +2994,10 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   opacity: 0.5;
 }
 
+.start, .stop {
+  font-size: 1.75em;
+}
+
 @media all and (transform-3d), (-webkit-transform-3d) {
 
   .carousel-fade .carousel-inner>.item.next,
