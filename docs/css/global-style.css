@@ -2987,6 +2987,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   background-color: transparent;
   color: #ffffff;
   border: none;
+  left: 0.5em;
   opacity: 0.5
 }
 
