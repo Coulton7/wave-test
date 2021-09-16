@@ -50,6 +50,7 @@ function startTimer() {
   timerInterval = setInterval(() => {
     timePassed = timePassed += 1;
     timeLeft = TIME_LIMIT - timePassed;
+    startBtn.setAttribute("title", "Slider is playing");
     /*setCircleDasharray();*/
 
     if (timeLeft === 0) {
