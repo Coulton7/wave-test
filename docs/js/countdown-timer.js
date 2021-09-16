@@ -29,10 +29,7 @@ function reset() {
 
 function start(withReset = false) {
   setDisabled(startBtn);
-  startBtn.removeAttribute("data-original-title", "Resume slider");
   removeDisabled(stopBtn);
-  stopBtn.setAttribute("data-original-title", "Pause slider");
-  startBtn.tooltip('hide');
   if (withReset) {
     resetVars();
   }
@@ -41,10 +38,7 @@ function start(withReset = false) {
 
 function stop() {
   setDisabled(stopBtn);
-  stopBtn.removeAttribute("data-original-title", "Pause slider");
-  stopBtn.tooltip('hide');
   removeDisabled(startBtn);
-  startBtn.setAttribute("data-original-title", "Resume slider");
   clearInterval(timerInterval);
 }
 
@@ -52,7 +46,6 @@ function startTimer() {
   timerInterval = setInterval(() => {
     timePassed = timePassed += 1;
     timeLeft = TIME_LIMIT - timePassed;
-    stopBtn.setAttribute("data-original-title", "Pause slider");
     /*setCircleDasharray();*/
 
     if (timeLeft === 0) {
