@@ -50,8 +50,8 @@ function startTimer() {
   timerInterval = setInterval(() => {
     timePassed = timePassed += 1;
     timeLeft = TIME_LIMIT - timePassed;
-    startBtn.setAttribute("title", "Slider is playing");
-    stopBtn.setAttribute("title", "Pause slider");
+    startBtn.setAttribute("data-original-title", "Slider is playing");
+    stopBtn.setAttribute("data-original-title", "Pause slider");
     /*setCircleDasharray();*/
 
     if (timeLeft === 0) {
