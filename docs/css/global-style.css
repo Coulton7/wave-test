@@ -2949,7 +2949,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
 .base-timer__path-remaining {
   stroke-width: 7px;
-  stroke-linecap: round;
+  stroke-linecap: square;
   transform: rotate(90deg);
   transform-origin: center;
   transform-box: fill-box;
