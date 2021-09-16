@@ -2952,6 +2952,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   stroke-linecap: round;
   transform: rotate(90deg);
   transform-origin: center;
+  transform-box: fill-box;
   transition: 1s linear all;
   fill-rule: nonzero;
   stroke: currentColor;
