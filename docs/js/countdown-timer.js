@@ -32,6 +32,7 @@ function start(withReset = false) {
   startBtn.removeAttribute("data-original-title", "Resume slider");
   removeDisabled(stopBtn);
   stopBtn.setAttribute("data-original-title", "Pause slider");
+  startBtn.tooltip('hide');
   if (withReset) {
     resetVars();
   }
@@ -41,6 +42,7 @@ function start(withReset = false) {
 function stop() {
   setDisabled(stopBtn);
   stopBtn.removeAttribute("data-original-title", "Pause slider");
+  stopBtn.tooltip('hide');
   removeDisabled(startBtn);
   startBtn.setAttribute("data-original-title", "Resume slider");
   clearInterval(timerInterval);
