@@ -29,8 +29,10 @@ function reset() {
 
 function start(withReset = false) {
   setDisabled(startBtn);
+  startBtn.removeAttribute("title", "Resume slider");
   startBtn.setAttribute("title", "Slider is playing");
   removeDisabled(stopBtn);
+  stopBtn.removeAttribute("title", "Slider is paused");
   stopBtn.setAttribute("title", "Pause slider");
   if (withReset) {
     resetVars();
@@ -40,9 +42,11 @@ function start(withReset = false) {
 
 function stop() {
   setDisabled(stopBtn);
-  stopBtn.setAttribute("title", "Slider is paused")
+  stopBtn.removeAttribute("title", "Pause slider");
+  stopBtn.setAttribute("title", "Slider is paused");
   removeDisabled(startBtn);
-  startBtn.setAttribute("title", "Resume slider")
+  startBtn.removeAttribute("title", "Slider is playing");
+  startBtn.setAttribute("title", "Resume slider");
   clearInterval(timerInterval);
 }
 
