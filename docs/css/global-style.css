@@ -4211,10 +4211,6 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     transform: translateY(-75%);
   }
 
-  .slider-timer {
-    transform: translateY(-75%);
-  }
-
   .media-carousel-block .nav li a {
     color: #dd1e25;
   }
@@ -4355,11 +4351,16 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
   .slider-timer {
     bottom: 5em;
+    transform: translateY(-15%);
   }
 
   .base-timer {
     height: 7.5em;
     width: 7.5em;
+  }
+
+  .pause-play-btn{
+    bottom: 5.25em;
   }
 }
 
@@ -4667,11 +4668,16 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
   .slider-timer {
     bottom: -1em;
+    transform: translateY(-75%);
   }
 
   .base-timer {
     height: 9em;
     width: 9em;
+  }
+
+  .pause-play-btn{
+    bottom: 6.2em;
   }
 }
 
@@ -4828,6 +4834,10 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   .base-timer {
     height: 8.5em;
     width: 8.5em;
+  }
+
+  .pause-play-btn{
+    bottom: 5.75em;
   }
 }
 
