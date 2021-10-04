@@ -3747,6 +3747,11 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   .mobile-carousel-caption {
     bottom: 6em;
     position: relative;
+    transform: translateY(0);
+  }
+
+  .slider-timer {
+    transform: translateY(0);
   }
 
   .media-carousel-block .nav li a {
@@ -4203,6 +4208,11 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   .mobile-carousel-caption {
     bottom: 0;
     position: relative;
+    transform: translateY(-75%);
+  }
+
+  .slider-timer {
+    transform: translateY(-75%);
   }
 
   .media-carousel-block .nav li a {
