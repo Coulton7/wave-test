@@ -4,7 +4,7 @@
     $(".dropdown-menu.shadow-drop-menu:first-child").val($(this).text());
  });
 
-if ($(window).width() > 992) {
+/**if ($(window).width() > 992) {
   $(window).on("scroll load", function() {
    var lScroll = ($(this).scrollTop() / $(window).height())*90 - 100;
    var tScroll = ($(this).scrollTop() / $(window).height())*90 - 75;
@@ -29,6 +29,6 @@ if ($(window).width() > 992) {
   $('.mobile-carousel-caption').css({
     'transform': 'translate(0% 0%)'
   });
-}
+}**/
 
 })(jQuery);
