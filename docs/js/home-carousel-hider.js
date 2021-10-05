@@ -1,11 +1,77 @@
 (function($) {
 
-  var carouselData = $(this).data('bs.carousel');
-  var currentIndex = carouselData.getItemIndex(carouselData.$element.find('.item.active'));
-  var total = carouselData.$items.length;
-  var slide = (currentIndex + 1);
   $(document).ready(function() {
+    $('#carousel-fade').on('load', function() {
+      var loadData = $(this).data('bs.carousel');
+      var loadIndex = carouselData.getItemIndex(carouselData.$element.find('.item.active'));
+      var loadSlide = (currentIndex + 1);
+      if (loadSlide === 1) {
+        if ($('.sus-media-carousel').hasClass('display-none')) {
+          $('.sus-media-carousel').removeClass('display-none');
+          if ($(window).width() < 767) {
+            $('.sus-media-carousel').find('#sus-main').addClass('active');
+            $('.sus-media-carousel').find('.shadow-drop-menu li:first').addClass('active');
+            $('.sus-media-carousel').find('.inner').addClass('carousel-inner');
+            $('.sus-media-carousel').find('.media-tab.active .mob-slide:first').addClass('item active');
+            $('.sus-media-carousel').find('.media-tab.active .mob-slide').addClass('item');
+          }
+          if ($('.mob-slide').hasClass('item' || 'item active')) {
+            $(this).removeClass('item');
+            $(this).removeClass('active');
+          }
+        }
+      } else if (loadSlide === 2) {
+        if ($('.tech-media-carousel').hasClass('display-none')) {
+          $('.tech-media-carousel').removeClass('display-none');
+          if ($(window).width() < 767) {
+            $('.tech-media-carousel').find('#tech-main').addClass('active');
+            $('.tech-media-carousel').find('.shadow-drop-menu li:first').addClass('active');
+            $('.tech-media-carousel').find('.inner').addClass('carousel-inner');
+            $('.tech-media-carousel').find('.media-tab.active .mob-slide:first').addClass('item active');
+            $('.tech-media-carousel').find('.media-tab.active .mob-slide').addClass('item');
+          }
+          if ($('.mob-slide').hasClass('item' || 'item active')) {
+            $(this).removeClass('item');
+            $(this).removeClass('active');
+          }
+        }
+      } else if (loadSlide === 3) {
+        if ($('.cust-media-carousel').hasClass('display-none')) {
+          $('.cust-media-carousel').removeClass('display-none');
+          if ($(window).width() < 767) {
+            $('.cust-media-carousel').find('#cust-main').addClass('active');
+            $('.cust-media-carousel').find('.shadow-drop-menu li:first').addClass('active');
+            $('.cust-media-carousel').find('.inner').addClass('carousel-inner');
+            $('.cust-media-carousel').find('.media-tab.active .mob-slide:first').addClass('item active');
+            $('.cust-media-carousel').find('.media-tab.active .mob-slide').addClass('item');
+          }
+          if ($('.mob-slide').hasClass('item' || 'item active')) {
+            $(this).removeClass('item');
+            $(this).removeClass('active');
+          }
+        }
+      } else if (loadSlide === 4) {
+        if ($('.why-media-carousel').hasClass('display-none')) {
+          $('.why-media-carousel').removeClass('display-none');
+          if ($(window).width() < 767) {
+            $('.why-media-carousel').find('#why-main').addClass('active');
+            $('.why-media-carousel').find('.shadow-drop-menu li:first').addClass('active');
+            $('.why-media-carousel').find('.inner').addClass('carousel-inner');
+            $('.why-media-carousel').find('.media-tab.active .mob-slide:first').addClass('item active');
+            $('.why-media-carousel').find('.media-tab.active .mob-slide').addClass('item');
+          }
+          if ($('.mob-slide').hasClass('item' || 'item active')) {
+            $(this).removeClass('item');
+            $(this).removeClass('active');
+          }
+        }
+      }
+    });
 
+    var carouselData = $(this).data('bs.carousel');
+    var currentIndex = carouselData.getItemIndex(carouselData.$element.find('.item.active'));
+    var total = carouselData.$items.length;
+    var slide = (currentIndex + 1);
     $('#carousel-fade').on('slid.bs.carousel', function() {
       if (slide === 1) {
         if ($('.sus-media-carousel').hasClass('display-none')) {
