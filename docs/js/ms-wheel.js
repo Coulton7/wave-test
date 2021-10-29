@@ -1700,8 +1700,8 @@ lib.properties = {
 	color: "#666666",
 	opacity: 1.00,
 	manifest: [
-		{src:"Images/ms-circle.png", id:"Image"},
-		{src:"Images/ms-wheel_atlas_1.png", id:"MS Wheel_atlas_1"}
+		{src:"docs/Images/ms-circle.png", id:"Image"},
+		{src:"docs/Images/ms-wheel_atlas_1.png", id:"MS Wheel_atlas_1"}
 	],
 	preloads: []
 };
