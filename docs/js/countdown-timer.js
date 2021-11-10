@@ -63,7 +63,7 @@ mediaCarousel.addEventListener("mouseover", function(){
   stop();
 });
 mediaCarousel.addEventListener("mouseleave", function(){
-  start();
+  start(withReset = false);
 });
 //---------------------------------------------
 //HELPER METHODS
