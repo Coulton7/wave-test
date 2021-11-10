@@ -60,7 +60,7 @@ window.addEventListener("DOMContentLoaded", () => {
 });
 
 for (let i=0; i<mediaCarousel.length; i++) {
-  mediaCarousel[i].addEventListener("mouseleave", function(){
+  mediaCarousel[i].addEventListener("mouseleave", function(withReset = false){
     setDisabled(startBtn);
     removeDisabled(stopBtn);
     if (withReset) {
@@ -69,7 +69,7 @@ for (let i=0; i<mediaCarousel.length; i++) {
     startTimer();
   });
 
-  mediaCarousel[i].addEventListener("mouseenter", function(withReset = false){
+  mediaCarousel[i].addEventListener("mouseenter", function(){
     setDisabled(stopBtn);
     removeDisabled(startBtn);
     clearInterval(timerInterval);
