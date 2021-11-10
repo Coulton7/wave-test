@@ -28,10 +28,21 @@
     doAnimations($animatingElems);
   });
 
+var isOnDiv = false;
+  document.querySelector(".media-carousel-block").addEventListener("mouseenter", function(  ) {isOnDiv=true;});
+  document.querySelector(".media-carousel-block").addEventListener("mouseout", function(  ) {isOnDiv=false;});
 
   $('#carousel-fade').on('slid.bs.carousel', function (){
     reset();
-    
+    if(isOnDiv == true){
+      setDisabled(stopBtn);
+      removeDisabled(startBtn);
+      clearInterval(timerInterval);
+    } else {
+      setDisabled(startBtn);
+      removeDisabled(stopBtn);
+      startTimer();
+    }
   });
 
   function carouselNormalization() {
