@@ -38,12 +38,12 @@ var isOnDiv = false;
   });
 
   $('#carousel-fade').on('slid.bs.carousel', function (){
+    reset();
     if(isOnDiv == true){
       setDisabled(stopBtn);
       removeDisabled(startBtn);
       clearInterval(timerInterval);
     } else {
-      reset();
       setDisabled(startBtn);
       removeDisabled(stopBtn);
       startTimer();
