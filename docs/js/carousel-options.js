@@ -29,8 +29,13 @@
   });
 
 var isOnDiv = false;
-  document.querySelectorAll(".media-carousel-block").addEventListener("mouseenter", function(  ) {isOnDiv=true;});
-  document.querySelectorAll(".media-carousel-block").addEventListener("mouseout", function(  ) {isOnDiv=false;});
+  document.querySelectorAll(".media-carousel-block").forEach(i => {
+      i.addEventListener("mouseenter", function(  ) {isOnDiv=true;});
+  });
+
+  document.querySelectorAll(".media-carousel-block").forEach(i =>{
+    i.addEventListener("mouseout", function(  ) {isOnDiv=false;});
+  });
 
   $('#carousel-fade').on('slid.bs.carousel', function (){
     if(isOnDiv == true){
