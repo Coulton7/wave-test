@@ -31,15 +31,7 @@
 
   $('#carousel-fade').on('slid.bs.carousel', function (){
     reset();
-    $(".media-carousel-block").mouseover(function(){
-      setDisabled(stopBtn);
-      removeDisabled(startBtn);
-      clearInterval(timerInterval);
-    }).mouseout(function() {
-      setDisabled(startBtn);
-      removeDisabled(stopBtn);
-      startTimer();
-    });
+    
   });
 
   function carouselNormalization() {
