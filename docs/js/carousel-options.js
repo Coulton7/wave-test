@@ -37,6 +37,7 @@ var isOnDiv = false;
     if(isOnDiv == true){
       setDisabled(stopBtn);
       removeDisabled(startBtn);
+      clearInterval(timerInterval);
     } else {
       setDisabled(startBtn);
       removeDisabled(stopBtn);
