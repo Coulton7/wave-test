@@ -59,8 +59,20 @@ window.addEventListener("DOMContentLoaded", () => {
   startTimer();
 });
 
-mediaCarousel.addEventListener("mouseenter", stop);
-mediaCarousel.addEventListener("mouseleave", start);
+mediaCarousel.addEventListener("mouseenter", function(){
+  setDisabled(stopBtn);
+  removeDisabled(startBtn);
+  clearInterval(timerInterval);
+});
+mediaCarousel.addEventListener("mouseleave", function(withReset = false){
+  setDisabled(startBtn);
+  removeDisabled(stopBtn);
+    if (withReset) {
+      resetVars();
+    }
+      startTimer();
+    }
+});
 //---------------------------------------------
 //HELPER METHODS
 //---------------------------------------------
