@@ -59,19 +59,25 @@ window.addEventListener("DOMContentLoaded", () => {
   startTimer();
 });
 
-mediaCarousel.addEventListener("mouseenter", function(){
-  setDisabled(stopBtn);
-  removeDisabled(startBtn);
-  clearInterval(timerInterval);
-});
-mediaCarousel.addEventListener("mouseleave", function(){
-  setDisabled(startBtn);
-  removeDisabled(stopBtn);
+for (let i=0; i<mediaCarousel.length; i++) {
+  mediaCarousel[i].addEventListener("mouseleave", function(){
+    setDisabled(startBtn);
+    removeDisabled(stopBtn);
     if (withReset) {
       resetVars();
     }
-      startTimer();
-});
+    startTimer();
+  });
+
+  mediaCarousel[i].addEventListener("mouseenter", function(withReset = false){
+    setDisabled(stopBtn);
+    removeDisabled(startBtn);
+    clearInterval(timerInterval);
+  });
+}
+
+
+
 //---------------------------------------------
 //HELPER METHODS
 //---------------------------------------------
