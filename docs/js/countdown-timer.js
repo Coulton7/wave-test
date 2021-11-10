@@ -57,22 +57,22 @@ function startTimer() {
 window.addEventListener("DOMContentLoaded", () => {
   setDisabled(startBtn);
   startTimer();
-
-  for (let i=0; i<mediaCarousel.length; i++) {
-    mediaCarousel[i].addEventListener("mouseleave", function(){
-      setDisabled(startBtn);
-      removeDisabled(stopBtn);
-      startTimer();
-    });
-
-    mediaCarousel[i].addEventListener("mouseenter", function(){
-      setDisabled(stopBtn);
-      removeDisabled(startBtn);
-      clearInterval(timerInterval);
-    });
-  }
-  
 });
+
+for (let i=0; i<mediaCarousel.length; i++) {
+  mediaCarousel[i].addEventListener("mouseleave", function(){
+    setDisabled(startBtn);
+    removeDisabled(stopBtn);
+    startTimer();
+  });
+
+  mediaCarousel[i].addEventListener("mouseenter", function(){
+    setDisabled(stopBtn);
+    removeDisabled(startBtn);
+    clearInterval(timerInterval);
+  });
+}
+
 
 
 //---------------------------------------------
