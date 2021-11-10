@@ -28,19 +28,18 @@
     doAnimations($animatingElems);
   });
 
-  var n =$(".media-carousel-block").mouseover(function(){});
 
   $('#carousel-fade').on('slid.bs.carousel', function (){
     reset();
-    if (n){
+    $(".media-carousel-block").mouseover(function(){
       setDisabled(stopBtn);
       removeDisabled(startBtn);
       clearInterval(timerInterval);
-    } else{
+    }).mouseout(function() {
       setDisabled(startBtn);
       removeDisabled(stopBtn);
       startTimer();
-    }
+    });
   });
 
   function carouselNormalization() {
