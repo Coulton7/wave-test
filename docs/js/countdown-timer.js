@@ -60,7 +60,9 @@ window.addEventListener("DOMContentLoaded", () => {
 });
 
 mediaCarousel.addEventListener("mouseover", function(){
-  stop();
+  setDisabled(stopBtn);
+  removeDisabled(startBtn);
+  clearInterval(timerInterval);
 });
 mediaCarousel.addEventListener("mouseleave", function(){
   start(withReset = false);
