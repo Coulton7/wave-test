@@ -60,7 +60,7 @@ window.addEventListener("DOMContentLoaded", () => {
 });
 
 mediaCarousel.addEventListener("mouseover", stop,false);
-mediaCarousel.addEventListener("mouseleave", start, false);
+mediaCarousel.addEventListener("mouseout", start, false);
 //---------------------------------------------
 //HELPER METHODS
 //---------------------------------------------
