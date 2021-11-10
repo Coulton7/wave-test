@@ -60,12 +60,9 @@ window.addEventListener("DOMContentLoaded", () => {
 });
 
 for (let i=0; i<mediaCarousel.length; i++) {
-  mediaCarousel[i].addEventListener("mouseleave", function(withReset = false){
+  mediaCarousel[i].addEventListener("mouseleave", function(){
     setDisabled(startBtn);
     removeDisabled(stopBtn);
-    if (withReset) {
-      resetVars();
-    }
     startTimer();
   });
 
