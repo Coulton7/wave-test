@@ -28,9 +28,20 @@
     doAnimations($animatingElems);
   });
 
+  var n =$(".media-carousel-block").mouseover(function(){});
+
   $('#carousel-fade').on('slid.bs.carousel', function (){
     reset();
-  })
+    if (n){
+      setDisabled(stopBtn);
+      removeDisabled(startBtn);
+      clearInterval(timerInterval);
+    } else{
+      setDisabled(startBtn);
+      removeDisabled(stopBtn);
+      startTimer();
+    }
+  });
 
   function carouselNormalization() {
     var items = $('#carousel-fade .item'),
