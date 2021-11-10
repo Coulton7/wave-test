@@ -59,8 +59,7 @@ window.addEventListener("DOMContentLoaded", () => {
   startTimer();
 });
 
-mediaCarousel.addEventListener("mouseover", stop,false);
-mediaCarousel.addEventListener("mouseout", start, false);
+
 //---------------------------------------------
 //HELPER METHODS
 //---------------------------------------------
