@@ -59,7 +59,8 @@ window.addEventListener("DOMContentLoaded", () => {
   startTimer();
 });
 
-
+mediaCarousel.addEventListener("mouseenter", stop);
+mediaCarousel.addEventListener("mouseleave", start);
 //---------------------------------------------
 //HELPER METHODS
 //---------------------------------------------
