@@ -30,7 +30,7 @@
 
 var isOnDiv = false;
   document.querySelectorAll(".media-carousel-block").forEach(i => {
-      i.addEventListener("mouseenter", function(  ) {isOnDiv=true;});
+      i.addEventListener("mouseover", function(  ) {isOnDiv=true;});
   });
 
   document.querySelectorAll(".media-carousel-block").forEach(i =>{
