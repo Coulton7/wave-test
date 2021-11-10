@@ -71,7 +71,6 @@ mediaCarousel.addEventListener("mouseleave", function(){
       resetVars();
     }
       startTimer();
-    }
 });
 //---------------------------------------------
 //HELPER METHODS
