@@ -4221,7 +4221,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   .envirologo-container {
-    transform: translate(25%, -80%);
+    transform: translate(8%, -50%);
     position: relative;
     bottom: 4em;
     z-index: 1032;
