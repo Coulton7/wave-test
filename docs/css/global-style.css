@@ -4221,10 +4221,11 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   .envirologo-container {
-    transform: translate(25%, -120%);
+    transform: translateY(-80%);
     position: relative;
     bottom: 4em;
     z-index: 1032;
+    right: -25%
   }
 
   .carousel-control {
