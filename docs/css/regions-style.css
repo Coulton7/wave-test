@@ -213,7 +213,7 @@ html {
 }
 
 .section-shadow-menu {
-  background-image: url(wave-test/Images/section-shadow.png);
+  background-image: url(/wave-test/docs/Images/section-shadow.png);
   height: 1em;
   list-style-type: none;
   background-repeat: no-repeat;
