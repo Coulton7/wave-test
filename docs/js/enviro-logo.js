@@ -6,7 +6,7 @@
     var enviroLogo = -1;
     var runCount = 0;
 
-    function showNextIcon() {
+    function showNextLogo() {
       if (runCount < 101) {
         ++enviroLogo;
         enviro_logo.eq(enviroLogo % enviro_logo.length)
