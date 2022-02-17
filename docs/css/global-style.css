@@ -4480,7 +4480,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   .net-zero-container:hover {
-    background-image: url(/Images/Net-Zero-Logo.svg);
+    background-image: url(/docs/Images/Net-Zero-Logo.svg);
     background-repeat: no-repeat;
     background-position: 24% 100%;
     background-size: 64%;
