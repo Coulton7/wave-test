@@ -11,7 +11,7 @@
         ++enviroLogo;
         enviro_logo.eq(enviroLogo % enviro_logo.length)
           .show(0)
-          .delay(1800)
+          .delay(5000)
           .hide(0, showNextLogo);
         runCount++;
       } else {
