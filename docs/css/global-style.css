@@ -4225,7 +4225,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     position: relative;
     bottom: 4em;
     z-index: 1032;
-    right: -25%
+    right: -0%
   }
 
   .carousel-control {
