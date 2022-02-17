@@ -4486,7 +4486,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     background-size: 64%;
   }
 
-  .net-zero-container:hover img {
+  .net-zero-container:hover img, .container-29by29:hover img {
     opacity: 0;
   }
 
