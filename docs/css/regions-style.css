@@ -16,7 +16,8 @@ body.navbar-is-fixed-top.navbar-administration.navbar-horizontal.navbar-tray-ope
 
 html {
   scroll-behavior: smooth;
-  overflow-x: hidden;overflow-y: scroll;
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 
 /*Added so the logo doesn't slide in front of adminimal menu*/
