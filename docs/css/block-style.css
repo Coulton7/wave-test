@@ -72,7 +72,6 @@
   margin-top: 20px;
 }
 
-/*margin for blocks*/
 .block-margin-bottom {
   margin-bottom: 1em;
 }
@@ -81,12 +80,10 @@
   float: left;
 }
 
-/*Float for the solutions - industries section*/
 .float-right {
   float: right;
 }
 
-/*Float for the solutions - industries section*/
 .float-bottom {
   vertical-align: bottom;
 }
@@ -99,7 +96,10 @@
   vertical-align: middle;
 }
 
-/*blockquote styling to add quotation mark images*/
+.float-sub {
+  vertical-align: sub;
+}
+
 .blockquote {
   margin: 0 5em 0 5em;
   color: #002A5B;
@@ -167,6 +167,10 @@ blockquote {
 
 .display-none {
   display: none;
+}
+
+.display-none-important{
+  display: none!important;
 }
 
 .flex {
@@ -306,7 +310,19 @@ blockquote {
 .blue-background {
   background: #002A5B;
   color: #FFFFFF;
-  padding: 10px 5px 10px 5px;
+  padding: 1em 0.5em 1em 0.5em;
+}
+
+.green-background {
+  background: #03943e;
+  color: #FFFFFF;
+  padding: 1em 0.5em 1em 0.5em;
+}
+
+.betterworld-green-background {
+  background: #4bb485;
+  color: #FFFFFF;
+  padding: 1em 0.5em 1em 0.5em;
 }
 
 .blue-background-np{
@@ -321,7 +337,7 @@ blockquote {
 .light-blue-background{
   color: #ffffff;
   background: #004a8c;
-  padding: 10px 5px;
+  padding: 1em 0.5em 1em 0.5em;
 }
 
 .light-blue-background-np{
@@ -338,7 +354,7 @@ blockquote {
 .darkgrey-background {
   background: #888C8F;
   color: #FFFFFF;
-  padding: 10px 5px 10px 5px;
+  padding: 1em 0.5em 1em 0.5em;
 }
 
 .midgrey-background {
@@ -349,7 +365,7 @@ blockquote {
 
 .lightgrey-background {
   background: #E5E5E7;
-  padding: 10px 5px 10px 5px;
+  padding: 1em 0.5em 1em 0.5em;
 }
 
 .lightgrey-background-np{
@@ -377,19 +393,29 @@ blockquote {
 
 .feature-background {
   background: #888C8F;
-  color: #FFFFFF; !important;
+  color: #FFFFFF;
   background: -moz-radial-gradient(center, ellipse cover, #888C8F 0%, #000000 80%);
   background: -webkit-radial-gradient(center, ellipse cover, #888C8F 0%, #000000 80%);
   background: radial-gradient(ellipse at center, #888C8F 0%, #000000 80%);
   padding: 30px 50px 30px 50px;
 }
 
-.chris-background{
+.chris-background.lazy-back {
+  background-image: none;
+  background-color: #efefef;
+}
+
+.chris-background {
   background-image: url(https://static.aesseal.com/photo/service/CHRIS_REA_WORKSHOP_1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
   background-position: right top;
+}
+
+.testhouse-background.lazy-back {
+  background-image: none;
+  background-color: #03943e;
 }
 
 .testhouse-background{
@@ -534,27 +560,26 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00428e', end
 }
 
 .grey-flex-gradient {
-height: 100%;
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
-background: #6A6D6D;
-background-image: -moz-linear-gradient(-45deg, #888C8F 0%, #6A6D6D 41%, #888C8F 100%);
-background-image: -webkit-linear-gradient(-45deg, #888C8F 0%, #6A6D6D 41%, #888C8F 100%);
-background-image: linear-gradient(135deg, #888C8F 0%, #6A6D6D 41%, #888C8F 100%);
--ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#002a5b', endColorstr='#004a8c', GradientType=1);
-background-attachment: fixed;
+  height: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background: #6A6D6D;
+  background-image: -moz-linear-gradient(-45deg, #888C8F 0%, #6A6D6D 41%, #888C8F 100%);
+  background-image: -webkit-linear-gradient(-45deg, #888C8F 0%, #6A6D6D 41%, #888C8F 100%);
+  background-image: linear-gradient(135deg, #888C8F 0%, #6A6D6D 41%, #888C8F 100%);
+  -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#002a5b', endColorstr='#004a8c', GradientType=1);
+  background-attachment: fixed;
 }
 
-.grey-flex-gradient a{
+.grey-flex-gradient a {
   color: #ffffff;
 }
 
-.grey-flex-gradient a:hover{
+.grey-flex-gradient a:hover {
   color: #e7e7e7;
 }
-
 
 .grey-gradient {
   background: #cbd1d5;
@@ -610,11 +635,16 @@ background-attachment: fixed;
   background-position: top center;
 }
 
+.water-background.lazy-back {
+  background-image: none;
+  background-color: #efefef;
+}
+
 .water-background {
   background-image: url(/sites/all/themes/aesbs337/images/graphics/water-background.jpg);
   background-repeat: no-repeat;
   border: 5px solid #ffffff;
-  background-size: 100%;
+  background-size: cover;
 }
 
 .iceberg-sea {
@@ -624,6 +654,12 @@ background-attachment: fixed;
 .iceberg-bottomsea{
   margin-bottom: -9.5em;
   z-index: 10;
+}
+
+.iceberg-footer-banner {
+  margin-bottom: -4.5em;
+  display: inline-block;
+  width: 100%;
 }
 
 .footer-banner{
@@ -666,6 +702,11 @@ background-attachment: fixed;
 .iceberg-gradientsea {
   padding-bottom: 5em;
   padding-top: 10px;
+}
+
+.iceberg-bottom-big-sea {
+  padding-top: 1.8em;
+  padding-bottom: 13em;
 }
 
 .iceberg-cta-upper{
@@ -727,6 +768,11 @@ background-attachment: fixed;
   margin: 0px auto;
 }
 
+.youtube-block iframe {
+  display: block;
+  margin: 0 auto;
+}
+
 @media screen and (max-width: 370px) {
   .search-block {
     position: absolute;
@@ -776,6 +822,11 @@ background-attachment: fixed;
   .mobile-fade-white-top-blue-bottom-background {
     background-image:linear-gradient(to bottom,rgba(255,255,255,0) 1%,rgba(255,255,255,1) 20%,rgba(255,255,255,1) 31%,rgba(0,42,91,1) 31%,rgba(0,42,91,1) 100%)
   }
+
+  .footer-banner{
+    margin-bottom: 0em;
+    z-index: 10;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -789,6 +840,11 @@ background-attachment: fixed;
 
   .iceberg-bottomsea{
     margin-bottom: -7.5em;
+    z-index: 10;
+  }
+
+  .footer-banner{
+    margin-bottom: -6em;
     z-index: 10;
   }
 }
