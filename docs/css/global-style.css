@@ -3184,7 +3184,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   width: 100%;
 }
 
-.front .social-id {
+.social-id {
   position: absolute;
   top: 3.8em;
   z-index: 1034;
@@ -4747,18 +4747,18 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     padding-top: 0.35em;
   }
 
-  .front .social-id p:nth-child(1) {
+  .social-id p:nth-child(1) {
     position: relative;
     right: auto;
   }
 
-  .front .social-id p:nth-child(2) {
+  .social-id p:nth-child(2) {
     position: relative;
     right: 8%;
     left: auto;
   }
 
-  .front .social-id p:nth-child(3) {
+  .social-id p:nth-child(3) {
     position: relative;
     right: 3%;
   }
