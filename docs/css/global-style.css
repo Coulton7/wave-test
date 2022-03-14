@@ -3221,6 +3221,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
 .front-fade {
   display: none;
+  color: #ffffff;
 }
 
 @media all and (transform-3d), (-webkit-transform-3d) {
