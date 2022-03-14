@@ -45,7 +45,8 @@
   $(document).ready(function() {
     if ($('.socialmedia').is(':visible')) {
       $('.socialmedia').contactIcon();
-    } else if ($('.social-media').is(':visible')) {
+    }
+     if ($('.social-media').is(':visible')) {
       $('.social-media').frontIcon();
     }
   });
