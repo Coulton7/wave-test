@@ -4209,17 +4209,17 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     padding-top: 0.1em;
   }
 
-  .front .social-id p:nth-child(1) {
+  .social-id p:nth-child(1) {
     position: relative;
     right: 62%;
   }
 
-  .front .social-id p:nth-child(2) {
+  .social-id p:nth-child(2) {
     position: relative;
     left: 52%;
   }
 
-  .front .social-id p:nth-child(3) {
+  .social-id p:nth-child(3) {
     position: relative;
     right: 13%;
   }
