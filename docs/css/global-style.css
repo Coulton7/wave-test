@@ -4110,7 +4110,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   .media-carousel-block {
     position: relative;
     bottom: 0;
-    margin-top: 6.1em;
+    margin-top: -6.1em;
   }
 
   .social-id {
