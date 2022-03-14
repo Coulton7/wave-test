@@ -24,5 +24,10 @@
 })(jQuery);
 
 jQuery(document).ready(function() {
-  jQuery('.socialmedia').contactIcon();
+  if(jQuery('.socialmedia').is(':visible')){
+    jQuery('.socialmedia').contactIcon();
+  }
+  if(jQuery('.social-media').is(':visible')){
+    jQuery('.socialmedia').contactIcon();
+  }
 });
