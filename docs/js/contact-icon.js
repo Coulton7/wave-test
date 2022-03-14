@@ -24,10 +24,10 @@
 })(jQuery);
 
 $(document).ready(function() {
-  if($('.socialmedia').is(':visible')){
+  if($('.socialmedia').visible(true)){
     $('.socialmedia').contactIcon();
   }
-   else if($('.social-media').is(':visible')){
+   else if($('.social-media').visible(true){
     $('.social-media').contactIcon();
   }
 })(jQuery);
