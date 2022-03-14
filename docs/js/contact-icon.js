@@ -27,20 +27,20 @@
   var frontIcon = -1;
   var frontRunCount = 0;
 
-  function mobshowNextIcon() {
+  function frontShowNextIcon() {
     if (frontRunCount < 101) {
       ++frontIcon;
       front_icon.eq(frontIcon % front_icon.length)
         .show(0)
         .delay(1800)
-        .hide(0, showNextIcon);
-      runCount++;
+        .hide(0, frontShowNextIcon);
+      frontRunCount++;
     } else {
       front_icon.eq(frontIcon % front_icon.length)
         .show(0);
     }
   }
-  mobshowNextIcon();
+  frontShowNextIcon();
 }
 })(jQuery);
 
