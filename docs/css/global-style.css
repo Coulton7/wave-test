@@ -4752,18 +4752,18 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     padding-top: 0.35em;
   }
 
-  .social-id p:nth-child(1) {
+  .social-id p.front-fade:nth-child(1) {
     position: relative;
     right: auto;
   }
 
-  .social-id p:nth-child(2) {
+  .social-id p.front-fade:nth-child(2) {
     position: relative;
     right: 8%;
     left: auto;
   }
 
-  .social-id p:nth-child(3) {
+  .social-id p.front-fade:nth-child(3) {
     position: relative;
     right: 3%;
   }
