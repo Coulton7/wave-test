@@ -28,6 +28,6 @@ jQuery(document).ready(function() {
     jQuery('.socialmedia').contactIcon();
   }
   if(jQuery('.social-media').is(':visible')){
-    jQuery('.socialmedia').contactIcon();
+    jQuery('.social-media').contactIcon();
   }
 });
