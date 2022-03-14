@@ -3219,6 +3219,10 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   padding: 0.5em 1em 0.5em 1em;
 }
 
+.front-fade {
+  display: none;
+}
+
 @media all and (transform-3d), (-webkit-transform-3d) {
 
   .carousel-fade .carousel-inner>.item.next,
