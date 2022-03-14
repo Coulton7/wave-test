@@ -1,7 +1,7 @@
 (function($) {
-  $(".dropdown-menu .shadow-drop-menu li a").click(function(){
-    $(".dropdown-menu .shadow-drop-menu:first-child").text($(this).text());
-    $(".dropdown-menu .shadow-drop-menu:first-child").val($(this).text());
+  $(".dropdown-menu").on('click', 'li a', (function(){
+    $(".btn:first-child").text($(this).text());
+    $(".btn:first-child").val($(this).text());
  });
 
 })(jQuery);
