@@ -4224,7 +4224,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     right: 13%;
   }
 
-  .front .fade_text {
+  .fade_text {
     display: none;
   }
 }
@@ -4763,7 +4763,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     right: 3%;
   }
 
-  .front .fade_text {
+  .fade_text {
     color: #ffffff;
   }
 
