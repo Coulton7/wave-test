@@ -495,10 +495,21 @@
               <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-12 mobile-col-padding">
                 <div class="indicators-container">
                   <ol class="carousel-indicators">
-                    <li data-target="#carousel-fade" data-slide-to="3" class="active" data-toggle="tooltip" data-placement="top" title="Product Information">Product Info</li>
-                    <li data-target="#carousel-fade" data-slide-to="0" class="" data-toggle="tooltip" data-placement="top" title="Environmental, social and corporate governance">ESG</li>
-                    <li data-target="#carousel-fade" data-slide-to="1" class="" data-toggle="tooltip" data-placement="top" title="Advanced Technology"><span class="hidden-xs">Advanced&nbsp;</span> Technology</li>
-                    <li data-target="#carousel-fade" data-slide-to="2" class="" data-toggle="tooltip" data-placement="top" title="Customer Service">Customer Service</li>
+                    <li data-target="#carousel-fade" data-slide-to="3" class="active hidden-xs" data-toggle="tooltip" data-placement="top" title="Product Information">Product Info</li>
+                    <li data-target="#carousel-fade" data-slide-to="0" class="hidden-xs" data-toggle="tooltip" data-placement="top" title="Environmental, social and corporate governance">ESG</li>
+                    <li data-target="#carousel-fade" data-slide-to="1" class="hidden-xs" data-toggle="tooltip" data-placement="top" title="Advanced Technology"><span class="hidden-xs">Advanced&nbsp;</span> Technology</li>
+                    <li data-target="#carousel-fade" data-slide-to="2" class="hidden-xs" data-toggle="tooltip" data-placement="top" title="Customer Service">Customer Service</li>
+                    <li class="dropdown visible-xs hidden-sm hidden-lg hidden-md">
+                      <button class="btn drodown-toggle shadow-drop shadow-drop-btn" href="#" data-toggle="dropdown">
+                        Select a filter <span class="caret"></span>
+                      </button>
+                      <ul class="shadow-drop-menu dropdown-menu" name="shadow-drop">
+                        <li><a role="tab" data-target="#carousel-fade" data-slide-to="3" class="" title="Product Information">Product Info</a></li>
+                        <li><a role="tab" data-target="#carousel-fade" data-slide-to="0" class="" title="Environmental, social and corporate governance">ESG</a></li>
+                        <li><a role="tab" data-target="#carousel-fade" data-slide-to="0" class="" title="Advanced Technology">Advanced Technology</a></li>
+                        <li><a role="tab" data-target="#carousel-fade" data-slide-to="0" class="" title="Customer Service">Customer Service</a></li>
+                      </ul>
+                    </li>
                   </ol>
                 </div>
                 <div class="shadow-container">
