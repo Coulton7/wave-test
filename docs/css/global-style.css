@@ -4158,9 +4158,9 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   .media-carousel-block .carousel-controls .carousel-control.right, .media-carousel-block .carousel-controls .carousel-control.left {
-    bottom: 0;
+    bottom: 50%;
     top: auto;
-    margin: 0 1.65em;
+    margin: 0;
     height: auto;
     width: auto;
     border: none;
