@@ -43,9 +43,9 @@
   };
 
   $(document).ready(function() {
-    if ($('.socialmedia').visible(true)) {
+    if ($('.socialmedia').is(':visible')) {
       $('.socialmedia').contactIcon();
-    } else if ($('.social-media').visible(true)) {
+    } else if ($('.social-media').is(':visible')) {
       $('.social-media').frontIcon();
     }
   });
