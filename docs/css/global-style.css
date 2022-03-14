@@ -201,8 +201,11 @@ a.no-underline :hover {
   margin-bottom: 0;
 }
 
+.socialmedia ul li a {
+  color: #ffffff;
+}
+
 .socialmedia ul li:nth-child(1) a {
-  color: #1da1f2;
   margin-right: 0.4em;
   font-size: 2.5em;
 }
@@ -212,7 +215,6 @@ a.no-underline :hover {
 }
 
 .socialmedia ul li:nth-child(2) a {
-  color: #0077b5;
   margin-right: 0.4em;
   font-size: 2.5em;
 }
@@ -222,7 +224,6 @@ a.no-underline :hover {
 }
 
 .socialmedia ul li:nth-child(3) a {
-  color: #d34836;
   margin-right: 0.4em;
   font-size: 2.5em;
 }
@@ -232,7 +233,6 @@ a.no-underline :hover {
 }
 
 .socialmedia ul li:nth-child(4) a {
-  color: #d34836;
   margin-right: 0.4em;
   font-size: 2.5em;
 }
@@ -242,7 +242,6 @@ a.no-underline :hover {
 }
 
 .socialmedia ul li:nth-child(5) a {
-  color: #002a5b;
   margin-right: 0.4em;
   font-size: 2.5em;
 }
@@ -252,7 +251,6 @@ a.no-underline :hover {
 }
 
 .socialmedia ul li:nth-child(6) a {
-  color: #d34836;
   margin-right: 0.4em;
   font-size: 2.5em;
 }
