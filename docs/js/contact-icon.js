@@ -40,13 +40,13 @@
       }
     }
     frontShowNextIcon();
-  }
+  };
 
   $(document).ready(function() {
     if ($('.socialmedia').visible(true)) {
       $('.socialmedia').contactIcon();
-    } else if ($('.social-media').visible(true) {
+    } else if ($('.social-media').visible(true)) {
       $('.social-media').frontIcon();
     }
-  })
+  });
 })(jQuery);
