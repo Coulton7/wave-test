@@ -1,7 +1,6 @@
 (function($) {
 
   $.fn.contactIcon = function() {
-
     var contact_icon = $(".contact_icon");
     var contactIcon = -1;
     var runCount = 0;
@@ -16,39 +15,38 @@
         runCount++;
       } else {
         contact_icon.eq(contactIcon % contact_icon.length)
-          .show(0);
+        .show(0);
       }
     }
     showNextIcon();
   };
 
-   $.fn.frontIcon= function() {
-  var front_icon = $(".front-icon");
-  var frontIcon = -1;
-  var frontRunCount = 0;
+  $.fn.frontIcon = function() {
+    var front_icon = $(".front-icon");
+    var frontIcon = -1;
+    var frontRunCount = 0;
 
-  function frontShowNextIcon() {
-    if (frontRunCount < 101) {
-      ++frontIcon;
-      front_icon.eq(frontIcon % front_icon.length)
-        .show(0)
-        .delay(1800)
-        .hide(0, frontShowNextIcon);
-      frontRunCount++;
-    } else {
-      front_icon.eq(frontIcon % front_icon.length)
+    function frontShowNextIcon() {
+      if (frontRunCount < 101) {
+        ++frontIcon;
+        front_icon.eq(frontIcon % front_icon.length)
+          .show(0)
+          .delay(1800)
+          .hide(0, frontShowNextIcon);
+        frontRunCount++;
+      } else {
+        front_icon.eq(frontIcon % front_icon.length)
         .show(0);
+      }
     }
+    frontShowNextIcon();
   }
-  frontShowNextIcon();
-}
-})(jQuery);
 
-$(document).ready(function() {
-  if($('.socialmedia').visible(true)){
-    $('.socialmedia').contactIcon();
-  }
-   else if($('.social-media').visible(true){
-    $('.social-media').frontIcon();
-  }
+  $(document).ready(function() {
+    if ($('.socialmedia').visible(true)) {
+      $('.socialmedia').contactIcon();
+    } else if ($('.social-media').visible(true) {
+      $('.social-media').frontIcon();
+    }
+  })
 })(jQuery);
