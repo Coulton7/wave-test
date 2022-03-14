@@ -2,7 +2,7 @@
 
   $.fn.contactIcon = function() {
 
-    var contact_icon = jQuery(".contact_icon");
+    var contact_icon = $(".contact_icon");
     var contactIcon = -1;
     var runCount = 0;
 
@@ -23,11 +23,11 @@
   };
 })(jQuery);
 
-jQuery(document).ready(function() {
-  if(jQuery('.socialmedia').is(':visible')){
-    jQuery('.socialmedia').contactIcon();
+$(document).ready(function() {
+  if($('.socialmedia').is(':visible')){
+    $('.socialmedia').contactIcon();
   }
-   else if(jQuery('.social-media').is(':visible')){
-    jQuery('.social-media').contactIcon();
+   else if($('.social-media').is(':visible')){
+    $('.social-media').contactIcon();
   }
-});
+})(jQuery);
