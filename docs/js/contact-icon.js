@@ -27,7 +27,7 @@ jQuery(document).ready(function() {
   if(jQuery('.socialmedia').is(':visible')){
     jQuery('.socialmedia').contactIcon();
   }
-  if(jQuery('.social-media').is(':visible')){
+   else if(jQuery('.social-media').is(':visible')){
     jQuery('.social-media').contactIcon();
   }
 });
