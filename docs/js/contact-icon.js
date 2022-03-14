@@ -21,6 +21,27 @@
     }
     showNextIcon();
   };
+
+   $.fn.frontIcon= function() {
+  var front_icon = $(".front-icon");
+  var frontIcon = -1;
+  var frontRunCount = 0;
+
+  function mobshowNextIcon() {
+    if (frontRunCount < 101) {
+      ++frontIcon;
+      front_icon.eq(frontIcon % front_icon.length)
+        .show(0)
+        .delay(1800)
+        .hide(0, showNextIcon);
+      runCount++;
+    } else {
+      front_icon.eq(frontIcon % front_icon.length)
+        .show(0);
+    }
+  }
+  mobshowNextIcon();
+}
 })(jQuery);
 
 $(document).ready(function() {
@@ -28,6 +49,6 @@ $(document).ready(function() {
     $('.socialmedia').contactIcon();
   }
    else if($('.social-media').visible(true){
-    $('.social-media').contactIcon();
+    $('.social-media').frontIcon();
   }
 })(jQuery);
