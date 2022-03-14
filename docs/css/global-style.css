@@ -3633,7 +3633,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   .media-carousel-block .item div {
-    min-height: 19em;
+    min-height: 15em;
   }
 
   .media-carousel .carousel-inner .item {
