@@ -4069,7 +4069,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   .media-carousel-block .carousel-indicators li, .media-carousel-block .carousel-indicators li:hover, .media-carousel-block .carousel-indicators li.active {
-    width: 64%;
+    width: 75%;
     margin-right: 0.15em;
     margin-left: 0.15em;
     padding: 1em;
