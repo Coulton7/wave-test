@@ -2678,6 +2678,13 @@ a.btn-transparent {
   text-shadow: 0 1px 2px rgb(0 0 0 / 60%)
 }
 
+.big-title {
+  font-size: 3.5em;
+  line-height: 1em;
+  font-weight: 700;
+  text-shadow: 0 1px 2px rgb(0 0 0 / 60%)
+}
+
 .thinner-title {
   font-size: 3.5em;
   line-height: 1em;
@@ -3529,6 +3536,13 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     text-shadow: 0 1px 2px rgb(0 0 0 / 60%)
   }
 
+  .big-title {
+    font-size: 2.4em;
+    line-height: 1em;
+    font-weight: 700;
+    text-shadow: 0 1px 2px rgb(0 0 0 / 60%)
+  }
+
   .thinner-title {
     font-size: 3.5em;
     line-height: 1em;
@@ -3625,6 +3639,13 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     text-shadow: 0 1px 2px rgb(0 0 0 / 60%)
   }
 
+  .big-title {
+    font-size: 3.5em;
+    line-height: 1em;
+    font-weight: 700;
+    text-shadow: 0 1px 2px rgb(0 0 0 / 60%)
+  }
+
   .thinner-title {
     font-size: 3.5em;
     line-height: 1em;
@@ -3687,6 +3708,13 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
   .carousel-title {
     font-size: 2.5em;
+    line-height: 1em;
+    font-weight: 700;
+    text-shadow: 0 1px 2px rgb(0 0 0 / 60%)
+  }
+
+  .big-title {
+    font-size: 3.5em;
     line-height: 1em;
     font-weight: 700;
     text-shadow: 0 1px 2px rgb(0 0 0 / 60%)
@@ -4627,6 +4655,13 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   .carousel-title {
+    font-size: 3.5em;
+    line-height: 1em;
+    font-weight: 700;
+    text-shadow: 0 1px 2px rgb(0 0 0 / 60%)
+  }
+
+  .big-title {
     font-size: 3.5em;
     line-height: 1em;
     font-weight: 700;
