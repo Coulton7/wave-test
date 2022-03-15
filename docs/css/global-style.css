@@ -2794,9 +2794,9 @@ a.btn-transparent-green-border:hover {
 
 .shadow-drop {
   width: 100%;
-  background-color: rgba(255, 255, 255, 1);
-  color: #dd1e25;
-  border: 1px solid #dd1e25;
+  background-color: #464645;
+  color: #ffffff;
+  border: 1px solid #ffffff;
 }
 
 .shadow-drop-menu {
