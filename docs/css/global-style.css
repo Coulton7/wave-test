@@ -4285,21 +4285,25 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   #carousel-fade .carousel-inner .item:nth-child(1) {
     background-image: none;
     background-color: #002a5b;
+    padding-top: 0;
   }
 
   #carousel-fade .carousel-inner .item:nth-child(2) {
     background-image: none;
     background-color: #002a5b;
+    padding-top: 0;
   }
 
   #carousel-fade .carousel-inner .item:nth-child(3) {
     background-image: none;
     background-color: #002a5b;
+    padding-top: 0;
   }
 
   #carousel-fade .carousel-inner .item:nth-child(4) {
     background-image: none;
     background-color: #002a5b;
+    padding-top: 0;
   }
 }
 
