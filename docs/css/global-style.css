@@ -4282,6 +4282,10 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     background-color: transparent;
   }
 
+  .carousel-indicators li:hover {
+    background-color: transparent;
+  }
+
   #carousel-fade .carousel-inner .item:nth-child(1) {
     background-image: none;
     background-color: #002a5b;
