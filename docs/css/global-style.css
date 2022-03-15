@@ -4282,6 +4282,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
   .carousel-indicators li {
     background-color: transparent;
+    display: block;
   }
 
   .carousel-indicators li:hover {
