@@ -4274,6 +4274,10 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   .fade_text {
     display: none;
   }
+
+  .carousel-indicators li {
+    background-color: none;
+  }
 }
 
 @media screen and (min-width: 768px) {
