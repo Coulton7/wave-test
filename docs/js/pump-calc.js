@@ -5,7 +5,7 @@
         costYear = pumps * cost,
         labtectaOneYear = 132.06,
         oneYear = pumps * labtectaOneYear,
-        fiveYear = (labtectaOneYear) + (costYear * 4);
+        fiveYear = (pumps * labtectaOneYear) + (pumps * cost * 4);
 
       document.getElementById('lipSealCost').innerHTML = '£' + costYear.toFixed(2);
       document.getElementById('yearOne').innerHTML = '£' + oneYear.toFixed(2);
