@@ -512,7 +512,7 @@ a.btn:hover {
   color: #ffffff;
 }
 
-.btn-primary:hover {
+.btn-primary:hover, .btn-primary:focus {
   background: #ad1c1c;
   margin-bottom: 0;
   color: #ffffff !important;
