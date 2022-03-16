@@ -14,7 +14,7 @@
   }
 
   $(document).ready(function() {
-    document.getElementById("calculate").addEventListener("click", function() {
+    document.getElementById("calculate").on("click", function() {
       calculate();
       console.log('button was clicked')
     });
