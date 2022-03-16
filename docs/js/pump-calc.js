@@ -9,7 +9,7 @@
 
       document.getElementById('lipSealCost').innerHTML = '£' + costYear.toFixed(2);
       document.getElementById('yearOne').innerHTML = '£' + oneYear.toFixed(2);
-      document.getElementById('annualYear').innerHTML = '£' + costYear.toFixed(2);
+      document.getElementById('annualYear').innerHTML = '£' + costYear.toLocaleString(2);
       document.getElementById('fiveYear').innerHTML = '£' + fiveYear.toFixed(2);
   }
 
