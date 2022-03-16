@@ -982,13 +982,61 @@
                 </div>
               </div>
               <div class="col-sm-12">
-                <input type="number" id="pumps" placeholder="number of pumps"></input>
-                <button id ="calculate" class="btn-primary btn" type="button">Calculate savings</button>
-
-                <p id="lipSealCost">0</p>
-                <p id="yearOne">0</p>
-                <p id="annualYear">0</p>
-                <p id="fiveYear">0</p>
+                <div class="table-responsive">
+                  <table class="table-bordered table-striped">
+                    <tbody>
+                      <tr>
+                        <td class="col-sm-2">
+                          <p>no. of pumps</p>
+                        </td>
+                        <td class="col-sm-1">
+                          <p>Energy Cost KWh<sup>*</sup></p>
+                        </td>
+                        <td class="col-sm-1">
+                          <p>hrs/yr</p>
+                        </td>
+                        <td class="col-sm-2">
+                          <p>Cost to run lip seals per year</p>
+                        </td>
+                        <td class="col-sm-2">
+                          <p>Year 1 Saving with LabTecta**</p>
+                        </td>
+                        <td class="col-sm-2">
+                          <p>Annual savings post year 1</p>
+                        </td>
+                        <td class="col-sm-2">
+                          <p>5 Year Saving</p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="col-sm-2">
+                          <input type="number" id="pumps" placeholder="number of pumps"></input>
+                        </td>
+                        <td class="col-sm-1">
+                          <p>£0.1049</p>
+                        </td>
+                        <td class="col-sm-1">
+                          <p>8760</p>
+                        </td>
+                        <td class="col-sm-2">
+                          <p id="lipSealCost">0</p>
+                        </td>
+                        <td class="col-sm-2">
+                          <p id="yearOne">0</p>
+                        </td>
+                        <td class="col-sm-2">
+                          <p id="annualYear">0</p>
+                        </td>
+                        <td class="col-sm-2">
+                          <p id="fiveYear">0</p>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <button id ="calculate" class="btn-primary btn" type="button">Calculate savings</button>
+                </div>
+                <small>* Calcuated on the average price per KWh for a medium sized business in the UK - Source: BEIS survey of energy suppliers.</small>
+                <small>figure based on 1.750" LabTectaOP - £81.00</small>
               </div>
             </div>
           </section>
