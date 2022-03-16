@@ -16,6 +16,7 @@
   $(document).ready(function() {
     document.getElementById("calculate").addEventListener("click", function() {
       calculate();
+      console.log('button was clicked')
     });
   });
 });
