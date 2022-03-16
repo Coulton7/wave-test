@@ -1,6 +1,6 @@
 (function($) {
   function calculate() {
-    var pumps = parseInt(document.getElementById('pumps').value),
+    var pumps = document.getElementById('pumps').value,
         cost = 294.06,
         costYear = pumps * cost,
         labtectaOneYear = 132.06,
