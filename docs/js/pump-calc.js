@@ -7,9 +7,9 @@
         oneYear = pumps * labtectaOneYear,
         fiveYear = labtectaOneYear + (costYear * 4);
 
-      document.getElementById('lipSealCost').innerHTML = '£' + costYear;
-      document.getElementById('yearOne').innerHTML = '£' + oneYear;
-      document.getElementById('annualYear').innerHTML = '£' + costYear;
+      document.getElementById('lipSealCost').innerHTML = '£' + costYear.toFixed(2);
+      document.getElementById('yearOne').innerHTML = '£' + oneYear.toFixed(2);
+      document.getElementById('annualYear').innerHTML = '£' + costYear.toFixed(2);
       document.getElementById('fiveYear').innerHTML = '£' + fiveYear.toFixed(2);
   }
 
