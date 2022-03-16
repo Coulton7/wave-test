@@ -11,6 +11,10 @@
       document.getElementById('yearOne').innerHTML = oneYear;
       document.getElementById('annualYear').innerHTML = costYear;
       document.getElementById('fiveYear').innerHTML = fiveYear;
-
   }
+
+  $(document).ready(function() {
+    document.getElementById("calculate").addEventListener("click", function() {
+      calculate();
+    });
 });
