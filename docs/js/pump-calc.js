@@ -14,9 +14,9 @@
   }
 
   $(document).ready(function() {
-    document.getElementById("calculate").on("click", function() {
+    document.getElementById('calculate').addEventListener("click", function() {
+      console.log('button was clicked');
       calculate();
-      console.log('button was clicked')
     });
   });
-});
+})(jQuery);
