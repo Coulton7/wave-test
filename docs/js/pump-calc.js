@@ -3,7 +3,7 @@
     var pumps = document.getElementById('pumps').value,
         cost = 294.06,
         costYear = pumps * cost,
-        fiveYear = cost * 5,
+        fiveYear = costYear * 5,
         powerCon = 2803,
         powerConY= powerCon * pumps;
 
