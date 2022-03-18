@@ -1,4 +1,4 @@
-(f(function($) {
+(function($) {
   function calculate() {
     var pumps = document.getElementById('pumps').value,
         cost = 294.06,
