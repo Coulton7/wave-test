@@ -984,29 +984,31 @@
             </div>
           </section>
           <div class="col-sm-12 margin-top">
-            <div class="table-responsive">
-              <table class="table-bordered table-striped">
-                <tbody>
+            <div class="table-responsive margin-top-2em margin-bottom-2em">
+              <table class="green-table green-text">
+                <thead>
                   <tr>
-                    <td class="col-sm-1 text-center">
-                      <p>no. of pumps on site</p>
-                    </td>
-                    <td class="col-sm-2 text-center">
+                    <th class="col-sm-1 text-center">
+                      <p>No. of pumps on site</p>
+                    </th>
+                    <th class="col-sm-2 text-center">
                       <p>Cost to run lip seals per year</p>
-                    </td>
-                    <td class="col-sm-2 text-center">
+                    </th>
+                    <th class="col-sm-2 text-center">
                       <p>Savings each Year</p>
-                    </td>
-                    <td class="col-sm-2 text-center">
+                    </th>
+                    <th class="col-sm-2 text-center">
                       <p>Power Consumption Saved /yr (KWh)
-                    </td>
-                    <td class="col-sm-2 text-center">
+                    </th>
+                    <th class="col-sm-2 text-center">
                       <p>5 Year Saving</p>
-                    </td>
+                    </th>
                   </tr>
+                 </thead>
+                 <tbody>
                   <tr>
                     <td class="col-sm-1 text-center">
-                      <input type="number" id="pumps" placeholder="Enter Number of Pumps"></input>
+                      <input type="number" id="pumps" placeholder="Enter Number"></input>
                     </td>
                     <td class="col-sm-2 text-center">
                       <p id="lipSealCost">£0.00</p>
@@ -1023,10 +1025,7 @@
                   </tr>
                 </tbody>
               </table>
-              <button id ="calculate" class="btn-primary btn margin-top" type="button">Calculate savings</button>
             </div>
-            <p><small>* Calcuated on the average price per KWh for a medium sized business in the UK - Source: BEIS survey of energy suppliers.</small></p>
-            <p><small>**figure based on 1.750" LabTectaOP - £81.00</small></p>
           </div>
         </div>
       </div>
