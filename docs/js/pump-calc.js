@@ -19,7 +19,7 @@
   }
 
   $(document).ready(function() {
-    document.getElementById('calculate').addEventListener("click", function() {
+    document.getElementById('calculate').addEventListener("click touchstart", function() {
       calculate();
     });
   });
