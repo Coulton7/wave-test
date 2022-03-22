@@ -22,5 +22,9 @@
     document.getElementById('calculate').addEventListener("click", function() {
       calculate();
     });
+
+    document.getElementById('calculate').addEventListener("touchstart", function() {
+      calculate();
+    });
   });
 })(jQuery);
