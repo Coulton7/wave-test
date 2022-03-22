@@ -35,7 +35,7 @@
     });
   });
 
-  $window.resize(function(){
+  $(window).resize(function(){
     getPumpId();
   })
 })(jQuery);
