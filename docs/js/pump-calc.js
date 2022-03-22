@@ -23,7 +23,7 @@
       calculate();
     });
 
-    document.getElementById('calculate').addEventListener("touchstart", function() {
+    document.getElementById('mobcalculate').addEventListener("touchstart", function() {
       calculate();
     });
   });
