@@ -1,6 +1,13 @@
 (function($) {
+
+  function getPumpId() {
+    return (window.innerWidth < 768) ? document.getElementById('mobPumps').value:
+           (window.innerWidth > 768) ? document.getElementById('pumps').value: document.getElementById('pumps').value;
+  }
+
+
   function calculate() {
-    var pumps = document.getElementById('pumps').value,
+    var pumps = getPumpId(),
         cost = 294.06,
         costYear = pumps * cost,
         fiveYear = costYear * 5,
@@ -27,4 +34,8 @@
       calculate();
     });
   });
+
+  $window.resize(function(){
+    getPumpId();
+  })
 })(jQuery);
