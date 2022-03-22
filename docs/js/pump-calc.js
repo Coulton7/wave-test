@@ -22,8 +22,5 @@
     document.getElementById('calculate').addEventListener("click", function() {
       calculate();
     });
-    document.getElementById('mobcalculate').addEventListener("click", function() {
-      calculate();
-    });
   });
 })(jQuery);
