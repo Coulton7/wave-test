@@ -3255,6 +3255,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
 .region-preface-lower {
   background-color: #efefef;
+  overflow: auto;
 }
 
 .socialmedia {
