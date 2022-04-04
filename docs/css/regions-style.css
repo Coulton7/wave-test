@@ -260,7 +260,7 @@ html {
 }
 
 .section-shadow-menu {
-  background-image: url(https://coulton7.github.io/wave-test/docs/Images/section-shadow.png);
+  background-image: url("/docs/Images/section-shadow.png");
   height: 1em;
   list-style-type: none;
   background-repeat: no-repeat;
