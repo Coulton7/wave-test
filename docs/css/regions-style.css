@@ -17,7 +17,7 @@ body.navbar-is-fixed-top.navbar-administration.navbar-horizontal.navbar-tray-ope
 html {
   scroll-behavior: smooth;
   overflow-x: hidden;
-  overflow-y: scroll;
+
 }
 
 /*Added so the logo doesn't slide in front of adminimal menu*/
@@ -31,6 +31,51 @@ html {
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
   background-color: #e5e5e7;
+}
+
+#autocollapse.collapsed .navbar-header {
+  float: none;
+}
+
+#autocollapse.collapsed .navbar-toggle {
+  display: block;
+  margin-top: 0.65em;
+  margin-bottom: 0.65em;
+}
+
+#autocollapse.collapsed .navbar-collapse {
+  border-top: 1px solid transparent;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+
+#autocollapse.collapsed .navbar-collapse.collapse {
+  display: none !important;
+}
+
+#autocollapse.collapsed .navbar-collapse.collapse.in {
+  display: block !important;
+}
+
+#autocollapse.collapsed .navbar-nav {
+  float: none !important;
+}
+
+#autocollapse.collapsed .navbar-nav>li {
+  float: none;
+  text-align: center;
+}
+
+.half-col-padding {
+  padding: 0 7.5px;
+}
+
+#autocollapse.collapsed .navbar-nav>li>a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#autocollapse.collapsed .overlay-btn {
+  display: none;
 }
 
 .container-fluid {
@@ -215,7 +260,7 @@ html {
 }
 
 .section-shadow-menu {
-  background-image: url(/wave-test/Images/section-shadow.png);
+  background-image: url(/sites/all/themes/aesbs337/images/graphics/section-shadow.png);
   height: 1em;
   list-style-type: none;
   background-repeat: no-repeat;
@@ -606,6 +651,7 @@ html {
   .front__flex-margin {
     margin: -4.3em 0 0 0;
   }
+
   .footer-curve {
     margin-top: -6.2em;
     right: -1.7em;
