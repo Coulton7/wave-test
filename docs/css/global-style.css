@@ -2477,38 +2477,30 @@ a.menu-box:hover img {
 }
 
 #carousel-fade .carousel-inner .item:nth-child(1) {
-  background-image: url(https://static.aesseal.com/photo/sustainability/Wetlands-April09_5053-crop.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   padding-top: 9em;
-  background-position: bottom center;
   background-color: #002a5b;
 }
 
 #carousel-fade .carousel-inner .item:nth-child(2) {
-  background-image: url(https://static.aesseal.com/photo/technology/LDTR_2017_01_014213-31.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   padding-top: 9em;
-  background-position: bottom center;
   background-color: #002a5b;
 }
 
 #carousel-fade .carousel-inner .item:nth-child(3) {
-  background-image: url(https://static.aesseal.com/photo/service/Chem-Against-tanks7.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   padding-top: 9em;
-  background-position: bottom center;
   background-color: #002a5b;
 }
 
 #carousel-fade .carousel-inner .item:nth-child(4) {
-  background-image: url(https://static.aesseal.com/photo/alt/Product-info3.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   padding-top: 9em;
-  background-position: center center;
   background-color: #002a5b;
 }
 
