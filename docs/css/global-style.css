@@ -2716,7 +2716,7 @@ a.btn-transparent {
 }
 
 .carousel-title {
-  font-size: 3.5em;
+  font-size: 3em;
   line-height: 1em;
   font-weight: 700;
   text-shadow: 0 1px 2px rgb(0 0 0 / 60%)
@@ -3594,7 +3594,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   .carousel-title {
-    font-size: 2.4em;
+    font-size: 2em;
     line-height: 1em;
     font-weight: 700;
     text-shadow: 0 1px 2px rgb(0 0 0 / 60%)
@@ -3709,7 +3709,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   .carousel-title {
-    font-size: 2.5em;
+    font-size: 2em;
     line-height: 1em;
     font-weight: 700;
     text-shadow: 0 1px 2px rgb(0 0 0 / 60%)
@@ -3795,7 +3795,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   .carousel-title {
-    font-size: 2.5em;
+    font-size: 2em;
     line-height: 1em;
     font-weight: 700;
     text-shadow: 0 1px 2px rgb(0 0 0 / 60%)
@@ -4773,7 +4773,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   .mobile-carousel-caption {
     bottom: 0;
     position: relative;
-    transform: translateY(-75%);
+    transform: translateY(-110%);
   }
 
   .media-carousel-block .nav li a {
@@ -4806,7 +4806,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   .carousel-title {
-    font-size: 3.5em;
+    font-size: 3em;
     line-height: 1em;
     font-weight: 700;
     text-shadow: 0 1px 2px rgb(0 0 0 / 60%)
