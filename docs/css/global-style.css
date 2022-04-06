@@ -2479,32 +2479,24 @@ a.menu-box:hover img {
 #carousel-fade .carousel-inner .item:nth-child(1) {
   background-size: cover;
   background-repeat: no-repeat;
-  padding-top: 6em;
-  padding-bottom: 3em;
   background-color: #002a5b;
 }
 
 #carousel-fade .carousel-inner .item:nth-child(2) {
   background-size: cover;
   background-repeat: no-repeat;
-  padding-top: 6em;
-  padding-bottom: 3em;
   background-color: #002a5b;
 }
 
 #carousel-fade .carousel-inner .item:nth-child(3) {
   background-size: cover;
   background-repeat: no-repeat;
-  padding-top: 6em;
-  padding-bottom: 3em;
   background-color: #002a5b;
 }
 
 #carousel-fade .carousel-inner .item:nth-child(4) {
   background-size: cover;
   background-repeat: no-repeat;
-  padding-top: 6em;
-  padding-bottom: 3em;
   background-color: #002a5b;
 }
 
@@ -4789,7 +4781,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   .mobile-carousel-caption {
     bottom: 0;
     position: relative;
-    transform: translateY(0%);
+    transform: translateY(50%);
   }
 
   .media-carousel-block .nav li a {
