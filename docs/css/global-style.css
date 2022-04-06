@@ -5361,7 +5361,8 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   .slider-timer {
-    bottom: 1em;
+    bottom: 5%;
+    left: 34%;
   }
 
   .base-timer {
@@ -5584,7 +5585,8 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   .slider-timer {
-    bottom: 1em;
+    bottom: 7%;
+    left: 40%;
   }
 
   .base-timer {
