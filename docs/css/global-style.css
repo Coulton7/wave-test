@@ -5597,6 +5597,11 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   .front .caption-container {
     top: 21%;
   }
+
+  .find-out-more {
+    position: absolute;
+    transform: translateY(80%);
+  }
 }
 
 @media screen and (min-width: 1500px) {
