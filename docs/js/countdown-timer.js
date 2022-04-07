@@ -86,7 +86,7 @@ function setStartDisabled() {
 
 function removeStartDisabled() {
   for (var y = 0; y > startBtn.length; y++){
-    $(startBtn).removeAttr("disabled");
+    $(startBtn).removeAttr("disabled", "disabled");
   }
 }
 
@@ -98,7 +98,7 @@ function setStopDisabled() {
 
 function removeStopDisabled() {
   for (var y = 0; y > stopBtn.length; y++){
-    $(stopBtn).removeAttr("disabled");
+    $(stopBtn).removeAttr("disabled", "disabled");
   }
 }
 
