@@ -24,7 +24,7 @@ var timerInterval = null;
 function reset() {
   clearInterval(timerInterval);
   resetVars();
-  $(".base-timer__path-remaining arc").prop("stroke-dasharray", RESET_DASH_ARRAY);
+  $(".base-timer__path-remaining arc").attr("stroke-dasharray", RESET_DASH_ARRAY);
 }
 
 function start(withReset = false) {
@@ -128,5 +128,5 @@ function setCircleDasharray() {
   const circleDasharray = `${(
     calculateTimeFraction() * FULL_DASH_ARRAY
   ).toFixed(0)} 283`;
-  $(".base-timer__path-remaining").prop("stroke-dasharray", circleDasharray);
+  $(".base-timer__path-remaining").attr("stroke-dasharray", circleDasharray);
 }
