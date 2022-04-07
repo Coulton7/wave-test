@@ -79,11 +79,15 @@ for (let i=0; i<mediaCarousel.length; i++) {
 //HELPER METHODS
 //---------------------------------------------
 function setDisabled(button) {
-  button.setAttribute("disabled", "disabled");
+  for (var x = 0; x < button.length; x++){
+    button.setAttribute("disabled", "disabled");
+  }
 }
 
 function removeDisabled(button) {
-  button.removeAttribute("disabled");
+  for (var y = 0; y > button.length; y++){
+    button.removeAttribute("disabled");
+  }
 }
 
 function timeIsUp() {
