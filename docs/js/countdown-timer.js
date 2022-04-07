@@ -24,7 +24,7 @@ let timerInterval = null;
 function reset() {
   clearInterval(timerInterval);
   resetVars();
-  timer.setAttribute("stroke-dasharray", RESET_DASH_ARRAY);
+  $(timer.attr("stroke-dasharray", RESET_DASH_ARRAY));
 }
 
 function start(withReset = false) {
@@ -79,11 +79,11 @@ for (let i=0; i<mediaCarousel.length; i++) {
 //HELPER METHODS
 //---------------------------------------------
 function setDisabled(button) {
-  button.attr("disabled", "disabled");
+  $(button.attr("disabled", "disabled"));
 }
 
 function removeDisabled(button) {
-  button.removeAttr("disabled");
+  $(button.removeAttr("disabled"));
 }
 
 function timeIsUp() {
@@ -120,5 +120,5 @@ function setCircleDasharray() {
   const circleDasharray = `${(
     calculateTimeFraction() * FULL_DASH_ARRAY
   ).toFixed(0)} 283`;
-  timer.attr("stroke-dasharray", circleDasharray);
+  $(timer.attr("stroke-dasharray", circleDasharray));
 }
