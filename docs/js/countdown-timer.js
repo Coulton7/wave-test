@@ -28,8 +28,8 @@ function reset() {
 }
 
 function start(withReset = false) {
-  setDisabled(startBtn);
-  removeDisabled(stopBtn);
+  setStartDisabled(startBtn);
+  removeStopDisabled(stopBtn);
   if (withReset) {
     resetVars();
   }
@@ -37,8 +37,8 @@ function start(withReset = false) {
 }
 
 function stop() {
-  setDisabled(stopBtn);
-  removeDisabled(startBtn);
+  setStopDisabled(stopBtn);
+  removeStartDisabled(startBtn);
   clearInterval(timerInterval);
 }
 
@@ -55,20 +55,20 @@ function startTimer() {
 }
 
 window.addEventListener("DOMContentLoaded", () => {
-  setDisabled(startBtn);
+  setStartDisabled(startBtn);
   startTimer();
 });
 
 for (let i=0; i<mediaCarousel.length; i++) {
   mediaCarousel[i].addEventListener("mouseleave", function(){
-    setDisabled(startBtn);
-    removeDisabled(stopBtn);
+    setStartDisabled(startBtn);
+    removeStopDisabled(stopBtn);
     startTimer();
   });
 
   mediaCarousel[i].addEventListener("mouseenter", function(){
-    setDisabled(stopBtn);
-    removeDisabled(startBtn);
+    setStopDisabled(stopBtn);
+    removeStartDisabled(startBtn);
     clearInterval(timerInterval);
   });
 }
@@ -78,28 +78,40 @@ for (let i=0; i<mediaCarousel.length; i++) {
 //---------------------------------------------
 //HELPER METHODS
 //---------------------------------------------
-function setDisabled(button) {
-  for (var x = 0; x < button.length; x++){
-    button.setAttribute("disabled", "disabled");
+function setStartDisabled(startBtn) {
+  for (var x = 0; x < startBtn.length; x++){
+    startBtn.setAttribute("disabled", "disabled");
   }
 }
 
-function removeDisabled(button) {
-  for (var y = 0; y > button.length; y++){
-    button.removeAttribute("disabled");
+function removeStartDisabled(startBtn) {
+  for (var y = 0; y > startBtn.length; y++){
+    startBtn.removeAttribute("disabled");
+  }
+}
+
+function setStopDisabled(stopBtn) {
+  for (var x = 0; x < stopBtn.length; x++){
+    stopBtn.setAttribute("disabled", "disabled");
+  }
+}
+
+function removeStopDisabled(stopBtn) {
+  for (var y = 0; y > stopBtn.length; y++){
+    stopBtn.removeAttribute("disabled");
   }
 }
 
 function timeIsUp() {
-  setDisabled(startBtn);
-  removeDisabled(stopBtn);
+  setStartDisabled(startBtn);
+  removeStopDisabled(stopBtn);
   reset();
   startTimer();
   $('#carousel-fade').carousel('next');
 }
 
 function resetVars() {
-  setDisabled(startBtn);
+  setStartDisabled(startBtn);
   timePassed = -1;
   timeLeft = TIME_LIMIT;
 }
