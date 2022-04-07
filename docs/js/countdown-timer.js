@@ -79,11 +79,11 @@ for (let i=0; i<mediaCarousel.length; i++) {
 //HELPER METHODS
 //---------------------------------------------
 function setDisabled(button) {
-  $(".control-button").attr("disabled", "disabled");
+  button.setAttribute("disabled", "disabled");
 }
 
 function removeDisabled(button) {
-  $(".control-button").removeAttr("disabled");
+  button.removeAttribute("disabled");
 }
 
 function timeIsUp() {
