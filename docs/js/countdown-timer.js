@@ -11,8 +11,8 @@ const FULL_DASH_ARRAY = 283;
 const RESET_DASH_ARRAY = `-57 ${FULL_DASH_ARRAY}`;
 
 //All buttons
-var startBtn = document.querySelectorAll(".start");
-var stopBtn = document.querySelectorAll(".stop");
+var startBtn = document.querySelector(".start");
+var stopBtn = document.querySelector(".stop");
 const mediaCarousel = document.querySelectorAll(".media-carousel-block");
 var timer = document.querySelectorAll("#base-timer-path-remaining");
 
