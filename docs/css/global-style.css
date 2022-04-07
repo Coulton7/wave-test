@@ -3301,6 +3301,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   background-repeat: no-repeat;
   background-size: 100% auto;
   background-position: center center;
+  -webkit-animation: floatCircle 20s linear infinite;
   animation: floatCircle 20s linear infinite;
 }
 
