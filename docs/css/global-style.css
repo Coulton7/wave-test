@@ -3315,6 +3315,16 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     }
 }
 
+@-webkit-keyframes floatCircle {
+    0% {
+      background-position: 0% -350%
+  }
+
+  100% {
+      background-position: 0% 375%
+    }
+}
+
 @media all and (transform-3d), (-webkit-transform-3d) {
 
   .carousel-fade .carousel-inner>.item.next,
