@@ -28,8 +28,8 @@ function reset() {
 }
 
 function start(withReset = false) {
-  setStartDisabled(startBtn);
-  removeStopDisabled(stopBtn);
+  setStartDisabled();
+  removeStopDisabled();
   if (withReset) {
     resetVars();
   }
@@ -37,8 +37,8 @@ function start(withReset = false) {
 }
 
 function stop() {
-  setStopDisabled(stopBtn);
-  removeStartDisabled(startBtn);
+  setStopDisabled();
+  removeStartDisabled();
   clearInterval(timerInterval);
 }
 
@@ -61,14 +61,14 @@ window.addEventListener("DOMContentLoaded", () => {
 
 for (let i=0; i<mediaCarousel.length; i++) {
   mediaCarousel[i].addEventListener("mouseleave", function(){
-    setStartDisabled(startBtn);
-    removeStopDisabled(stopBtn);
+    setStartDisabled();
+    removeStopDisabled();
     startTimer();
   });
 
   mediaCarousel[i].addEventListener("mouseenter", function(){
-    setStopDisabled(stopBtn);
-    removeStartDisabled(startBtn);
+    setStopDisabled();
+    removeStartDisabled();
     clearInterval(timerInterval);
   });
 }
@@ -103,15 +103,15 @@ function removeStopDisabled(stopBtn) {
 }
 
 function timeIsUp() {
-  setStartDisabled(startBtn);
-  removeStopDisabled(stopBtn);
+  setStartDisabled();
+  removeStopDisabled();
   reset();
   startTimer();
   $('#carousel-fade').carousel('next');
 }
 
 function resetVars() {
-  setStartDisabled(startBtn);
+  setStartDisabled();
   timePassed = -1;
   timeLeft = TIME_LIMIT;
 }
