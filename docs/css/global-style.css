@@ -4932,7 +4932,9 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   .slider-timer {
-    bottom: 1em;
+    bottom: 0;
+    left: 40%;
+    transform: translateY(65%;);
   }
 
   .base-timer {
