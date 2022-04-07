@@ -11,10 +11,10 @@ const FULL_DASH_ARRAY = 283;
 const RESET_DASH_ARRAY = `-57 ${FULL_DASH_ARRAY}`;
 
 //All buttons
-let startBtn = document.querySelector(".start");
-let stopBtn = document.querySelector(".stop");
+let startBtn = document.querySelector(".item.active .start");
+let stopBtn = document.querySelector(".item.active .stop");
 const mediaCarousel = document.querySelectorAll(".media-carousel-block");
-let timer = document.querySelector("#base-timer-path-remaining");
+let timer = document.querySelector(".item.active #base-timer-path-remaining");
 
 const TIME_LIMIT = 10;
 let timePassed = -1;
