@@ -16,9 +16,9 @@ var stopBtn = document.querySelectorAll(".stop");
 const mediaCarousel = document.querySelectorAll(".media-carousel-block");
 var timer = document.querySelectorAll("#base-timer-path-remaining");
 
-var TIME_LIMIT = 10;
+var time_limit = 10;
 var timePassed = -1;
-var timeLeft = TIME_LIMIT;
+var timeLeft = time_limit;
 var timerInterval = null;
 
 function reset() {
@@ -45,7 +45,7 @@ function stop() {
 function startTimer() {
   timerInterval = setInterval(() => {
     timePassed = timePassed += 1;
-    timeLeft = TIME_LIMIT - timePassed;
+    timeLeft = time_limit - timePassed;
     setCircleDasharray();
 
     if (timeLeft === 0) {
@@ -105,7 +105,7 @@ function timeIsUp() {
 function resetVars() {
   setStartDisabled();
   timePassed = -1;
-  timeLeft = TIME_LIMIT;
+  timeLeft = time_limit;
 }
 
 function formatTime(time) {
@@ -120,8 +120,8 @@ function formatTime(time) {
 }
 
 function calculateTimeFraction() {
-  const rawTimeFraction = timeLeft / TIME_LIMIT;
-  return rawTimeFraction - (1 / TIME_LIMIT) * (1 - rawTimeFraction);
+  const rawTimeFraction = timeLeft / time_limit;
+  return rawTimeFraction - (1 / time_limit) * (1 - rawTimeFraction);
 }
 
 function setCircleDasharray() {
