@@ -17,9 +17,9 @@ const mediaCarousel = document.querySelectorAll(".media-carousel-block");
 var timer = document.querySelector("#base-timer-path-remaining");
 
 const TIME_LIMIT = 10;
-let timePassed = -1;
-let timeLeft = TIME_LIMIT;
-let timerInterval = null;
+var timePassed = -1;
+var timeLeft = TIME_LIMIT;
+var timerInterval = null;
 
 function reset() {
   clearInterval(timerInterval);
