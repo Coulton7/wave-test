@@ -79,19 +79,19 @@ for (let i=0; i<mediaCarousel.length; i++) {
 //HELPER METHODS
 //---------------------------------------------
 function setStartDisabled() {
-    $(startBtn).prop("disabled", true);
+  $(startBtn).prop("disabled", true);
 }
 
 function removeStartDisabled() {
-    $(startBtn).prop("disabled", false);
+  $(startBtn).prop("disabled", false);
 }
 
 function setStopDisabled() {
-    $(stopBtn).prop("disabled", true);
+  $(stopBtn).prop("disabled", true);
 }
 
 function removeStopDisabled() {
-    $(stopBtn).prop("disabled", false);
+  $(stopBtn).prop("disabled", false);
 }
 
 function timeIsUp() {
