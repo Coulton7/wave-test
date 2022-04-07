@@ -55,7 +55,7 @@ function startTimer() {
 }
 
 window.addEventListener("DOMContentLoaded", () => {
-  setStartDisabled(startBtn);
+  setStartDisabled();
   startTimer();
 });
 
@@ -79,27 +79,19 @@ for (let i=0; i<mediaCarousel.length; i++) {
 //HELPER METHODS
 //---------------------------------------------
 function setStartDisabled() {
-  for (var x = 0; x < startBtn.length; x++){
     $(startBtn).prop("disabled", true);
-  }
 }
 
 function removeStartDisabled() {
-  for (var y = 0; y > startBtn.length; y++){
     $(startBtn).prop("disabled", false);
-  }
 }
 
 function setStopDisabled() {
-  for (var x = 0; x < stopBtn.length; x++){
     $(stopBtn).prop("disabled", true);
-  }
 }
 
 function removeStopDisabled() {
-  for (var y = 0; y > stopBtn.length; y++){
     $(stopBtn).prop("disabled", false);
-  }
 }
 
 function timeIsUp() {
@@ -136,5 +128,5 @@ function setCircleDasharray() {
   const circleDasharray = `${(
     calculateTimeFraction() * FULL_DASH_ARRAY
   ).toFixed(0)} 283`;
-  $(".base-timer__path-remaining").attr("stroke-dasharray", circleDasharray);
+  $(".base-timer__path-remaining").prop("stroke-dasharray", circleDasharray);
 }
