@@ -24,7 +24,7 @@ var timerInterval = null;
 function reset() {
   clearInterval(timerInterval);
   resetVars();
-  $(".base-timer__path-remaining arc").attr("stroke-dasharray", RESET_DASH_ARRAY);
+  $(".base-timer__path-remaining arc").prop("stroke-dasharray", RESET_DASH_ARRAY);
 }
 
 function start(withReset = false) {
