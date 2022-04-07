@@ -3297,7 +3297,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 }
 
 #carousel-fade .carousel-inner .item {
-  background-image: url('/docs/Images/circleLight1.svg');
+  background-image: url('https://coulton7.github.io/wave-test/docs/Images/circleLight1.svg');
   background-repeat: no-repeat;
   background-size: 100% auto;
   background-position: center center;
