@@ -5,7 +5,6 @@
       var currentIndex = carouselData.getItemIndex(carouselData.$element.find('.item.active'));
       var total = carouselData.$items.length;
       var slide = (currentIndex + 1);
-      reset();
       if (slide === 1) {
         if ($('.sus-media-carousel').hasClass('display-none')) {
           $('.sus-media-carousel').removeClass('display-none');
