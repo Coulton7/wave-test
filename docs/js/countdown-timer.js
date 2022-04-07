@@ -16,7 +16,7 @@ var stopBtn = document.querySelectorAll(".stop");
 const mediaCarousel = document.querySelectorAll(".media-carousel-block");
 var timer = document.querySelector("#base-timer-path-remaining");
 
-const TIME_LIMIT = 10;
+var TIME_LIMIT = 10;
 var timePassed = -1;
 var timeLeft = TIME_LIMIT;
 var timerInterval = null;
