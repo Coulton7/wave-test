@@ -5355,6 +5355,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   .slider-timer {
     bottom: 0;
     transform: translateY(94%);
+    left: 35%;
   }
 
   .base-timer {
@@ -5579,6 +5580,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   .slider-timer {
     bottom: 0;
     transform: translateY(94%);
+    left: 35%;
   }
 
   .base-timer {
