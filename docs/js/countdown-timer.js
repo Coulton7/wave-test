@@ -78,25 +78,25 @@ for (let i=0; i<mediaCarousel.length; i++) {
 //---------------------------------------------
 //HELPER METHODS
 //---------------------------------------------
-function setStartDisabled(startBtn) {
+function setStartDisabled() {
   for (var x = 0; x < startBtn.length; x++){
     $(startBtn).attr("disabled", "disabled");
   }
 }
 
-function removeStartDisabled(startBtn) {
+function removeStartDisabled() {
   for (var y = 0; y > startBtn.length; y++){
     $(startBtn).removeAttr("disabled");
   }
 }
 
-function setStopDisabled(stopBtn) {
+function setStopDisabled() {
   for (var x = 0; x < stopBtn.length; x++){
     $(stopBtn).attr("disabled", "disabled");
   }
 }
 
-function removeStopDisabled(stopBtn) {
+function removeStopDisabled() {
   for (var y = 0; y > stopBtn.length; y++){
     $(stopBtn).removeAttr("disabled");
   }
