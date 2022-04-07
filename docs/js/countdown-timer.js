@@ -130,3 +130,9 @@ function setCircleDasharray() {
   ).toFixed(0)} 283`;
   $(".base-timer__path-remaining").attr("stroke-dasharray", circleDasharray);
 }
+
+$(document).ready(function() {
+  $('#carousel-fade').on('slid.bs.carousel', function() {
+    reset();
+  }
+}
