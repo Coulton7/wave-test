@@ -3303,21 +3303,21 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
 @keyframes floatCircle {
     0% {
-        background-position: 0% -350%
+        background-position: 0% 450%
     }
 
     100% {
-        background-position: 0% 375%
+        background-position: 0% -475%
     }
 }
 
 @-webkit-keyframes floatCircle {
     0% {
-      background-position: 0% -350%
+      background-position: 0% 450%
   }
 
   100% {
-      background-position: 0% 375%
+      background-position: 0% -475%
     }
 }
 
