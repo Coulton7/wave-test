@@ -80,7 +80,7 @@ for (let i=0; i<mediaCarousel.length; i++) {
 //---------------------------------------------
 function setStartDisabled() {
   for (var x = 0; x < startBtn.length; x++){
-    $(startBtn).attr("disabled", "disabled");
+    $(startBtn).prop("disabled", true);
   }
 }
 
@@ -92,7 +92,7 @@ function removeStartDisabled() {
 
 function setStopDisabled() {
   for (var x = 0; x < stopBtn.length; x++){
-    $(stopBtn).attr("disabled", "disabled");
+    $(stopBtn).prop("disabled", true);
   }
 }
 
