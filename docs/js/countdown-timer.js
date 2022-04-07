@@ -80,25 +80,25 @@ for (let i=0; i<mediaCarousel.length; i++) {
 //---------------------------------------------
 function setStartDisabled(startBtn) {
   for (var x = 0; x < startBtn.length; x++){
-    $(startBtn).setAttribute("disabled", "disabled");
+    $(startBtn).attr("disabled", "disabled");
   }
 }
 
 function removeStartDisabled(startBtn) {
   for (var y = 0; y > startBtn.length; y++){
-    $(startBtn).removeAttribute("disabled");
+    $(startBtn).removeAttr("disabled");
   }
 }
 
 function setStopDisabled(stopBtn) {
   for (var x = 0; x < stopBtn.length; x++){
-    $(stopBtn).setAttribute("disabled", "disabled");
+    $(stopBtn).attr("disabled", "disabled");
   }
 }
 
 function removeStopDisabled(stopBtn) {
   for (var y = 0; y > stopBtn.length; y++){
-    $(stopBtn).removeAttribute("disabled");
+    $(stopBtn).removeAttr("disabled");
   }
 }
 
