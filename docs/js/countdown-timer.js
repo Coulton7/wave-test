@@ -52,6 +52,8 @@ function startTimer() {
       timeIsUp();
     }
   }, 1000);
+
+  console.log(timeLeft)
 }
 
 window.addEventListener("DOMContentLoaded", () => {
