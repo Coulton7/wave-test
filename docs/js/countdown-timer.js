@@ -105,7 +105,7 @@ function timeIsUp() {
 function resetVars() {
   setStartDisabled();
   timePassed = -1;
-  timeLeft = time_limit;
+  timeLeft = 10;
 }
 
 function formatTime(time) {
