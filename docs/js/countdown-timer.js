@@ -7,8 +7,8 @@ Blog Link: https://bit.ly/3nH3AhO
 OG Pen Link : https://bit.ly/3fi7xXj
 */
 
-var FULL_DASH_ARRAY = 283;
-var RESET_DASH_ARRAY = `-57 ${FULL_DASH_ARRAY}`;
+const FULL_DASH_ARRAY = 283;
+const RESET_DASH_ARRAY = `-57 ${FULL_DASH_ARRAY}`;
 
 //All buttons
 var startBtn = document.querySelectorAll(".start");
@@ -53,7 +53,7 @@ function startTimer() {
     }
   }, 1000);
 
-  console.log(timeLeft);
+  console.log(timeLeft)
 }
 
 window.addEventListener("DOMContentLoaded", () => {
@@ -111,8 +111,8 @@ function resetVars() {
 }
 
 function formatTime(time) {
-  var minutes = Math.floor(time / 60);
-  var seconds = time % 60;
+  const minutes = Math.floor(time / 60);
+  let seconds = time % 60;
 
   if (seconds < 10) {
     seconds = `0${seconds}`;
@@ -122,7 +122,7 @@ function formatTime(time) {
 }
 
 function calculateTimeFraction() {
-  var rawTimeFraction = timeLeft / time_limit;
+  const rawTimeFraction = timeLeft / time_limit;
   return rawTimeFraction - (1 / time_limit) * (1 - rawTimeFraction);
 }
 
