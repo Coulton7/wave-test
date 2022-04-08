@@ -3303,22 +3303,22 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
 @keyframes floatCircle {
     0% {
-        background-position: 0% 1000%
+        background-position: 0% 1025%
     }
 
     100% {
-        background-position: 0% -950%
+        background-position: 0% -925%
     }
 }
 
 @-webkit-keyframes floatCircle {
-    0% {
-      background-position: 0% 975%
+  0% {
+      background-position: 0% 1025%
   }
 
   100% {
-      background-position: 0% -975%
-    }
+      background-position: 0% -925%
+  }
 }
 
 @media all and (transform-3d), (-webkit-transform-3d) {
