@@ -19,7 +19,7 @@ var timer = document.querySelectorAll("#base-timer-path-remaining");
 var time_limit = 10;
 var timePassed = -1;
 var timeLeft = time_limit;
-var timerInterval = 0;
+var timerInterval = null;
 
 function reset() {
   clearInterval(timerInterval);
