@@ -5513,7 +5513,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     top: 14%;
   }
 
-  #carousel-fade .carousel-inner .item {
+  #carousel-fade .carousel-inner .item:nth-child(1), #carousel-fade .carousel-inner .item:nth-child(2), #carousel-fade .carousel-inner .item:nth-child(3), #carousel-fade .carousel-inner .item:nth-child(4) {
     background-image: url('https://coulton7.github.io/wave-test/Images/circleLight1.svg');
     background-repeat: no-repeat;
     background-size: 100% auto;
