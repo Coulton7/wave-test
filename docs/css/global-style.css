@@ -4466,6 +4466,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     background-repeat: no-repeat;
     background-color: #002a5b;
     background-blend-mode: multiply;
+    animation: none;
   }
 
   #carousel-fade .carousel-inner .item:nth-child(2) {
@@ -4474,6 +4475,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     background-repeat: no-repeat;
     background-color: #002a5b;
     background-blend-mode: multiply;
+    animation: none;
   }
 
   #carousel-fade .carousel-inner .item:nth-child(3) {
@@ -4482,6 +4484,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     background-repeat: no-repeat;
     background-color: #002a5b;
     background-blend-mode: multiply;
+    animation: none;
   }
 
   #carousel-fade .carousel-inner .item:nth-child(4) {
@@ -4490,6 +4493,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     background-repeat: no-repeat;
     background-color: #002a5b;
     background-blend-mode: multiply;
+    animation: none;
   }
 
 }
@@ -5096,6 +5100,43 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     background-color: #efefef;
     padding: 1em
   }
+
+  #carousel-fade .carousel-inner .item:nth-child(1) {
+    background-image: url(https://via.placeholder.com/480/000000/FFFFFF/?text=ESG);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #002a5b;
+    background-blend-mode: multiply;
+    animation: none;
+  }
+
+  #carousel-fade .carousel-inner .item:nth-child(2) {
+    background-image: url(https://static.aesseal.com/photo/technology/SUPER_CELL_MCW_9280.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #002a5b;
+    background-blend-mode: multiply;
+    animation: none;
+  }
+
+  #carousel-fade .carousel-inner .item:nth-child(3) {
+    background-image: url(https://static.aesseal.com/photo/service/CHEMUK_08890-trans.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #002a5b;
+    background-blend-mode: multiply;
+    animation: none;
+  }
+
+  #carousel-fade .carousel-inner .item:nth-child(4) {
+    background-image: url(https://static.aesseal.com/photo/product/seal-and-cutout.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #002a5b;
+    background-blend-mode: multiply;
+    animation: none;
+  }
+
 }
 
 @media screen and (min-width: 992px) {
