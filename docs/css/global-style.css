@@ -5080,6 +5080,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     background-blend-mode: multiply;
     background-position: right;
     animation: none;
+    padding-top: 3em;
   }
 
   #carousel-fade .carousel-inner .item:nth-child(2) {
@@ -5090,6 +5091,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     background-blend-mode: multiply;
     background-position: right;
     animation: none;
+    padding-top: 3em;
   }
 
   #carousel-fade .carousel-inner .item:nth-child(3) {
@@ -5100,6 +5102,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     background-blend-mode: multiply;
     background-position: right;
     animation: none;
+    padding-top: 3em;
   }
 
   #carousel-fade .carousel-inner .item:nth-child(4) {
@@ -5110,6 +5113,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     background-blend-mode: multiply;
     background-position: right;
     animation: none;
+    padding-top: 3em;
   }
 
 }
@@ -5506,6 +5510,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     animation: floatCircle 16s linear infinite;
     background-blend-mode: normal;
     padding-bottom: 3em;
+    padding-top: 0;
   }
 }
 
