@@ -4459,6 +4459,39 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   .shadow-drop-menu{
     margin-top: -1em;
   }
+
+  #carousel-fade .carousel-inner .item:nth-child(1) {
+    background-image: url(https://via.placeholder.com/480/000000/FFFFFF/?text=ESG);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #002a5b;
+    background-blend-mode: multiply;
+  }
+
+  #carousel-fade .carousel-inner .item:nth-child(2) {
+    background-image: url(https://static.aesseal.com/photo/technology/SUPER_CELL_MCW_9280.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #002a5b;
+    background-blend-mode: multiply;
+  }
+
+  #carousel-fade .carousel-inner .item:nth-child(3) {
+    background-image: url(https://static.aesseal.com/photo/service/CHEMUK_08890-trans.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #002a5b;
+    background-blend-mode: multiply;
+  }
+
+  #carousel-fade .carousel-inner .item:nth-child(4) {
+    background-image: url(https://static.aesseal.com/photo/product/seal-and-cutout.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #002a5b;
+    background-blend-mode: multiply;
+  }
+
 }
 
 @media screen and (min-width: 768px) {
