@@ -5520,7 +5520,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     background-position: center center;
     -webkit-animation: floatCircle 16s linear infinite;
     animation: floatCircle 16s linear infinite;
-    background-blend-mode: none;
+    background-blend-mode: normal;
   }
 }
 
