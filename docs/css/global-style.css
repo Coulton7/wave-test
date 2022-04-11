@@ -5415,7 +5415,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   .indicators-container .carousel-indicators {
-    bottom: 0.5em
+    bottom: 0.55em
   }
 
   .media-carousel-block .carousel-indicators li {
