@@ -4438,7 +4438,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     background-color: #002a5b;
     background-blend-mode: multiply;
     animation: none;
-    background-position: right;
+    background-position: bottom right;
     padding-top: 3em;
   }
 
@@ -4449,7 +4449,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     background-color: #002a5b;
     background-blend-mode: multiply;
     animation: none;
-    background-position: right;
+    background-position: bottom right;
     padding-top: 3em;
   }
 
@@ -4460,7 +4460,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     background-color: #002a5b;
     background-blend-mode: multiply;
     animation: none;
-    background-position: right;
+    background-position: bottom right;
     padding-top: 3em;
   }
 
@@ -4471,7 +4471,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     background-color: #002a5b;
     background-blend-mode: multiply;
     animation: none;
-    background-position: right;
+    background-position: bottom right;
     padding-top: 3em;
   }
 
@@ -5086,7 +5086,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     background-repeat: no-repeat;
     background-color: #002a5b;
     background-blend-mode: multiply;
-    background-position: right;
+    background-position: bottom right;
     animation: none;
     padding-top: 3em;
   }
@@ -5097,7 +5097,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     background-repeat: no-repeat;
     background-color: #002a5b;
     background-blend-mode: multiply;
-    background-position: right;
+    background-position: bottom right;
     animation: none;
     padding-top: 3em;
   }
@@ -5108,7 +5108,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     background-repeat: no-repeat;
     background-color: #002a5b;
     background-blend-mode: multiply;
-    background-position: right;
+    background-position: bottom right;
     animation: none;
     padding-top: 3em;
   }
@@ -5119,7 +5119,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     background-repeat: no-repeat;
     background-color: #002a5b;
     background-blend-mode: multiply;
-    background-position: right;
+    background-position: bottom right;
     animation: none;
     padding-top: 3em;
   }
