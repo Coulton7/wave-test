@@ -4806,7 +4806,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   .mobile-carousel-caption {
     bottom: 0;
     position: relative;
-    transform: translateY(50%);
+    transform: translateY(20%);
   }
 
   .media-carousel-block .nav li a {
@@ -5412,6 +5412,12 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
   .shadow-container {
     background-color: #efefef;
+  }
+
+  .mobile-carousel-caption {
+    bottom: 0;
+    position: relative;
+    transform: translateY(50%);
   }
 
   .indicators-container .carousel-indicators {
