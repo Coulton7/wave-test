@@ -5944,21 +5944,21 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 }
 
 @keyframes floatCircle {
-    0% {
-        background-position: 0% 1025%;
-    }
+  0% {
+      background-position: 0% 2000%;
+  }
 
-    100% {
-        background-position: 0% -925%;
-    }
+  100% {
+      background-position: 0% -2000%;
+  }
 }
 
 @-webkit-keyframes floatCircle {
   0% {
-      background-position: 0% 1025%;
+      background-position: 0% 2000%;
   }
 
   100% {
-      background-position: 0% -925%;
+      background-position: 0% -2000%;
   }
 }
