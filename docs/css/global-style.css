@@ -3292,15 +3292,6 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   width: 100%;
 }
 
-#carousel-fade .carousel-inner .item {
-  background-image: url('https://coulton7.github.io/wave-test/Images/circleLight1.svg');
-  background-repeat: no-repeat;
-  background-size: 100% auto;
-  background-position: center center;
-  -webkit-animation: floatCircle 16s linear infinite;
-  animation: floatCircle 16s linear infinite;
-}
-
 @keyframes floatCircle {
     0% {
         background-position: 0% 1025%
@@ -5520,6 +5511,15 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
   .front .caption-container {
     top: 14%;
+  }
+
+  #carousel-fade .carousel-inner .item {
+    background-image: url('https://coulton7.github.io/wave-test/Images/circleLight1.svg');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center center;
+    -webkit-animation: floatCircle 16s linear infinite;
+    animation: floatCircle 16s linear infinite;
   }
 }
 
