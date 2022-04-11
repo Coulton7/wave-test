@@ -5078,6 +5078,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     background-repeat: no-repeat;
     background-color: #002a5b;
     background-blend-mode: multiply;
+    background-position: right;
     animation: none;
   }
 
@@ -5087,6 +5088,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     background-repeat: no-repeat;
     background-color: #002a5b;
     background-blend-mode: multiply;
+    background-position: right;
     animation: none;
   }
 
@@ -5096,6 +5098,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     background-repeat: no-repeat;
     background-color: #002a5b;
     background-blend-mode: multiply;
+    background-position: right;
     animation: none;
   }
 
@@ -5105,6 +5108,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     background-repeat: no-repeat;
     background-color: #002a5b;
     background-blend-mode: multiply;
+    background-position: right;
     animation: none;
   }
 
