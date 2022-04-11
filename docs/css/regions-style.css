@@ -968,25 +968,25 @@ html {
 }
 
 @media screen and (max-width: 767px) and (-ms-high-contrast: active) and (-ms-high-contrast: none) {
-  img[src$="/sites/all/themes/aesbs337/images/logos/textonlylogo.svg"] {
+  img[src$="https://coulton7.github.io/wave-test/Images/textonlylogo.svg"] {
     top: 0.5em;
   }
 }
 
 @media screen and (min-width: 768px) and (-ms-high-contrast: active) and (-ms-high-contrast: none) {
-  img[src$="/sites/all/themes/aesbs337/images/logos/textonlylogo.svg"] {
+  img[src$="https://coulton7.github.io/wave-test/Images/textonlylogo.svg"] {
     top: 0em;
   }
 }
 
 @media screen and (min-width: 992px) and (-ms-high-contrast: active) and (-ms-high-contrast: none) {
-  img[src$="/sites/all/themes/aesbs337/images/logos/textonlylogo.svg"] {
+  img[src$="https://coulton7.github.io/wave-test/Images/textonlylogo.svg"] {
     top: 0em;
   }
 }
 
 @media screen and (min-width: 1200px) and (-ms-high-contrast: active) and (-ms-high-contrast: none) {
-  img[src$="/sites/all/themes/aesbs337/images/logos/textonlylogo.svg"] {
+  img[src$="https://coulton7.github.io/wave-test/Images/textonlylogo.svg"] {
     top: -0.1em;
   }
 }
