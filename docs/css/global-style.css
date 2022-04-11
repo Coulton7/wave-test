@@ -5498,8 +5498,8 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     background-repeat: no-repeat;
     background-size: 100% auto;
     background-position: center center;
-    -webkit-animation: floatCircle 16s linear infinite;
-    animation: floatCircle 16s linear infinite;
+    -webkit-animation: floatCircle 8s linear infinite;
+    animation: floatCircle 8s linear infinite;
     background-blend-mode: normal;
   }
 }
