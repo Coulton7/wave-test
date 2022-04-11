@@ -4438,6 +4438,8 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     background-color: #002a5b;
     background-blend-mode: multiply;
     animation: none;
+    background-position: right;
+    padding-top: 3em;
   }
 
   #carousel-fade .carousel-inner .item:nth-child(2) {
@@ -4447,6 +4449,8 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     background-color: #002a5b;
     background-blend-mode: multiply;
     animation: none;
+    background-position: right;
+    padding-top: 3em;
   }
 
   #carousel-fade .carousel-inner .item:nth-child(3) {
@@ -4456,6 +4460,8 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     background-color: #002a5b;
     background-blend-mode: multiply;
     animation: none;
+    background-position: right;
+    padding-top: 3em;
   }
 
   #carousel-fade .carousel-inner .item:nth-child(4) {
@@ -4465,6 +4471,8 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     background-color: #002a5b;
     background-blend-mode: multiply;
     animation: none;
+    background-position: right;
+    padding-top: 3em;
   }
 
 }
