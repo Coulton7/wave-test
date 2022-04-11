@@ -5505,6 +5505,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     -webkit-animation: floatCircle 8s linear infinite;
     animation: floatCircle 8s linear infinite;
     background-blend-mode: normal;
+    padding-bottom: 3em;
   }
 }
 
