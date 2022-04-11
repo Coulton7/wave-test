@@ -5873,6 +5873,16 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     position: relative;
     margin-top: -1em;
   }
+
+  #carousel-fade .carousel-inner .item:nth-child(1), #carousel-fade .carousel-inner .item:nth-child(2), #carousel-fade .carousel-inner .item:nth-child(3), #carousel-fade .carousel-inner .item:nth-child(4) {
+    background-image: url('https://coulton7.github.io/wave-test/Images/circleLight1.svg');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center center;
+    -webkit-animation: bigScreenFloat 8s linear infinite;
+    animation: bigScreenFloat 8s linear infinite;
+    background-blend-mode: normal;
+  }
 }
 
 @media screen and (min-width: 2500px) {
@@ -5940,6 +5950,17 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 @media (aspect-ratio: 97/32) {
   .aspect-ratio-padding {
     padding-bottom: 32.99%
+  }
+}
+
+@keyframes bigScreenFloat {
+
+  0% {
+      background-position: 0% 2500%;
+  }
+
+  100% {
+      background-position: 0% -2500%;
   }
 }
 
