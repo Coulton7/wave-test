@@ -5996,11 +5996,11 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 @keyframes bigScreenFloat {
 
   0% {
-      background-position: 0% 1200%;
+      background-position: 0% 600%;
   }
 
   100% {
-      background-position: 0% -1200%;
+      background-position: 0% -600%;
   }
 }
 
