@@ -1530,6 +1530,10 @@ div.user-picture>img {
   position: relative;
 }
 
+.position-absolute{
+  position: absolute;
+}
+
 .isDisabled {
   pointer-events: none;
   cursor: not-allowed;
