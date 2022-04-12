@@ -3310,6 +3310,11 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   width: 100%;
 }
 
+.slider-img {
+  position: absolute;
+  bottom: 0;
+}
+
 @media all and (transform-3d), (-webkit-transform-3d) {
 
   .carousel-fade .carousel-inner>.item.next,
