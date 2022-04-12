@@ -707,7 +707,7 @@ a.language-link.active {
 .btn-lightblue {
   list-style-type: none;
   display: inline-block;
-  background: #338FBC;
+  background-color: #338FBC;
   color: #ffffff;
   border-radius: 30px;
   border: 2px solid transparent!important;
