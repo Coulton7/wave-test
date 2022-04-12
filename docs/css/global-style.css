@@ -379,7 +379,7 @@ a .btn-social:hover, a .btn-social:focus {
   background-color: #338FBC;
   color: #ffffff;
   border-radius: 30px;
-  border: 2px solid transparent!important;
+  border: 2px solid transparent;
   box-shadow: none;
 }
 
