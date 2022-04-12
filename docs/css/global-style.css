@@ -4231,7 +4231,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   .mob-envirologo-container {
-    bottom: 8em;
+    top: 16.5em;
     z-index: 10;
     position: relative;
     left: 1em;
@@ -4434,11 +4434,12 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
   .home-slider-height {
     min-height: 29em;
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
   }
 
   #carousel-fade {
-    display: block;
+    display: flex;
   }
 
   #carousel-fade .carousel-inner .item:nth-child(1) {
