@@ -18,7 +18,7 @@
     if(salesString=='ml'){
       $(document.getElementById('#sales-ml')).show();
     }
-    else if (salesString='li') {
+    else if (salesString=='li') {
       $(document.getElementById('#sales-li')).show();
     }
   });
