@@ -16,10 +16,10 @@
 
     var salesString = getUrlVars()["sc"];
     if(salesString=='ml'){
-      document.getElementById('sales-ml').show();
+      document.getElementById('sales-ml').style.display = 'block';
     }
     else if (salesString=='li') {
-      document.getElementById('sales-li').show();
+      document.getElementById('sales-li').style.display = 'block';
     }
   });
 })(jQuery);
