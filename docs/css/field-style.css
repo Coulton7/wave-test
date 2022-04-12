@@ -700,7 +700,7 @@ a.language-link.active {
   background: #004a8c;
   margin-bottom: 0;
   color: #ffffff;
-  border: 2px solid #ffffff;
+  border: 2px solid #ffffff!important;
   white-space: normal;
 }
 
@@ -710,7 +710,7 @@ a.language-link.active {
   background-color: #338FBC;
   color: #ffffff;
   border-radius: 30px;
-  border: 2px solid transparent;
+  border: 2px solid transparent!important;
   box-shadow: none;
 }
 
@@ -718,7 +718,7 @@ a.language-link.active {
   background-color: #2e80a8;
   margin-bottom: 0;
   color: #ffffff;
-  border: 2px solid #ffffff;
+  border: 2px solid #ffffff!important;
   white-space: normal;
 }
 
