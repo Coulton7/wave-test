@@ -4208,7 +4208,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     bottom: 0em;
     position: relative;
     transform: translateY(0);
-    padding: 0 3px;
+    padding: 0 15px;
   }
 
   .media-carousel-block .nav li a {
