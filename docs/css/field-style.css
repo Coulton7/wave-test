@@ -704,6 +704,24 @@ a.language-link.active {
   white-space: normal;
 }
 
+.btn-lightblue {
+  list-style-type: none;
+  display: inline-block;
+  background: #338FBC;
+  color: #ffffff;
+  border-radius: 30px;
+  border: 2px solid transparent!important;
+  box-shadow: none;
+}
+
+.btn-lightblue:hover, .btn-lightblue:focus {
+  background-color: #2e80a8;
+  margin-bottom: 0;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  white-space: normal;
+}
+
 .btn-red {
   list-style-type: none;
   display: inline-block;
