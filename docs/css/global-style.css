@@ -6006,20 +6006,20 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
 @keyframes floatCircle {
   0% {
-      background-position: 0% 900%;
+      background-position: 0% 500%;
   }
 
   100% {
-      background-position: 0% -900%;
+      background-position: 0% -500%;
   }
 }
 
 @-webkit-keyframes floatCircle {
   0% {
-      background-position: 0% 900%;
+      background-position: 0% 500%;
   }
 
   100% {
-      background-position: 0% -900%;
+      background-position: 0% -500%;
   }
 }
