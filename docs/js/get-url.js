@@ -15,11 +15,11 @@
     }
 
     var salesString = getUrlVars()["s"];
-    if(salesString=='ml'){
-      document.getElementById('m').style.display = 'block';
+    if(salesString=='m'){
+      document.getElementById('sales-ml').style.display = 'block';
     }
     else if (salesString=='l') {
-      document.getElementById('l').style.display = 'block';
+      document.getElementById('sales-li').style.display = 'block';
     }
   });
 })(jQuery);
