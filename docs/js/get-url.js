@@ -16,10 +16,10 @@
 
     var salesString = getUrlVars()["sc"];
     if(salesString=='ml'){
-      $('#sales-ml').show();
+      $(document.getElementById('#sales-ml')).show();
     }
-    else if (submitString='li') {
-      $('#sales-li').show();
+    else if (salesString='li') {
+      $(document.getElementById('#sales-li')).show();
     }
   });
 })(jQuery);
