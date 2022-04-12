@@ -4436,6 +4436,10 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     display: block;
   }
 
+  #carousel-fade {
+    display: block;
+  }
+
   #carousel-fade .carousel-inner .item:nth-child(1) {
     background-image: url(https://via.placeholder.com/480/000000/FFFFFF/?text=ESG);
     background-size: contain;
@@ -5083,6 +5087,10 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   .dropdown .shadow-drop-menu li.active a{
     background-color: #efefef;
     padding: 1em
+  }
+
+  #carousel-fade {
+    display: flex;
   }
 
   #carousel-fade .carousel-inner .item:nth-child(1) {
