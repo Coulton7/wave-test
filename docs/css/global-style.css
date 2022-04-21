@@ -2514,6 +2514,11 @@ a.menu-box:hover img {
   background-color: #002a5b;
 }
 
+#carousel-fade .carousel-inner .item:nth-child(5) {
+  background-repeat: no-repeat;
+  background-color: #002a5b;
+}
+
 #carousel-fade .carousel-inner .item {
   transition-duration: 1s !important
 }
@@ -4418,6 +4423,12 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     padding-top: 0;
   }
 
+  #carousel-fade .carousel-inner .item:nth-child(5) {
+    background-image: none;
+    background-color: #002a5b;
+    padding-top: 0;
+  }
+
   .fade_text {
     color: #535354;
   }
@@ -4466,7 +4477,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   #carousel-fade .carousel-inner .item:nth-child(1) {
-    background-image: url(https://via.placeholder.com/480/000000/FFFFFF/?text=ESG);
+    background-image: url(https://via.placeholder.com/480/000000/FFFFFF/?text=News);
     background-size: contain;
     background-repeat: no-repeat;
     background-color: #002a5b;
@@ -4477,7 +4488,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   #carousel-fade .carousel-inner .item:nth-child(2) {
-    background-image: url(https://static.aesseal.com/photo/technology/SUPER_CELL_MCW_9280.png);
+    background-image: url(https://via.placeholder.com/480/000000/FFFFFF/?text=ESG);
     background-size: contain;
     background-repeat: no-repeat;
     background-color: #002a5b;
@@ -4488,7 +4499,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   #carousel-fade .carousel-inner .item:nth-child(3) {
-    background-image: url(https://static.aesseal.com/photo/service/CHEMUK_08890-trans.png);
+    background-image: url(https://static.aesseal.com/photo/technology/SUPER_CELL_MCW_9280.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-color: #002a5b;
@@ -4499,6 +4510,17 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   #carousel-fade .carousel-inner .item:nth-child(4) {
+    background-image: url(https://static.aesseal.com/photo/service/CHEMUK_08890-trans.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #002a5b;
+    background-blend-mode: multiply;
+    animation: none;
+    background-position: bottom right;
+    padding-top: 3em;
+  }
+
+  #carousel-fade .carousel-inner .item:nth-child(5) {
     background-image: url(https://static.aesseal.com/photo/product/seal-and-cutout.png);
     background-size: contain;
     background-repeat: no-repeat;
@@ -5130,7 +5152,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   #carousel-fade .carousel-inner .item:nth-child(2) {
-    background-image: url(https://static.aesseal.com/photo/technology/SUPER_CELL_MCW_9280.png);
+    background-image: url(https://via.placeholder.com/480/000000/FFFFFF/?text=ESG);
     background-size: contain;
     background-repeat: no-repeat;
     background-color: #002a5b;
@@ -5141,7 +5163,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   #carousel-fade .carousel-inner .item:nth-child(3) {
-    background-image: url(https://static.aesseal.com/photo/service/CHEMUK_08890-trans.png);
+    background-image: url(https://static.aesseal.com/photo/technology/SUPER_CELL_MCW_9280.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-color: #002a5b;
@@ -5152,6 +5174,17 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   #carousel-fade .carousel-inner .item:nth-child(4) {
+    background-image: url(https://static.aesseal.com/photo/service/CHEMUK_08890-trans.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #002a5b;
+    background-blend-mode: multiply;
+    background-position: bottom right;
+    animation: none;
+    padding-top: 3em;
+  }
+
+  #carousel-fade .carousel-inner .item:nth-child(5) {
     background-image: url(https://static.aesseal.com/photo/product/seal-and-cutout.png);
     background-size: contain;
     background-repeat: no-repeat;
@@ -5552,7 +5585,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     top: 14%;
   }
 
-  #carousel-fade .carousel-inner .item:nth-child(1), #carousel-fade .carousel-inner .item:nth-child(2), #carousel-fade .carousel-inner .item:nth-child(3), #carousel-fade .carousel-inner .item:nth-child(4) {
+  #carousel-fade .carousel-inner .item:nth-child(1), #carousel-fade .carousel-inner .item:nth-child(2), #carousel-fade .carousel-inner .item:nth-child(3), #carousel-fade .carousel-inner .item:nth-child(4), #carousel-fade .carousel-inner .item:nth-child(5) {
     background-image: none;
     background-repeat: no-repeat;
     background-blend-mode: normal;
@@ -5946,7 +5979,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     bottom: 0;
   }
 
-  /*#carousel-fade .carousel-inner .item:nth-child(1), #carousel-fade .carousel-inner .item:nth-child(2), #carousel-fade .carousel-inner .item:nth-child(3), #carousel-fade .carousel-inner .item:nth-child(4) {
+  /*#carousel-fade .carousel-inner .item:nth-child(1), #carousel-fade .carousel-inner .item:nth-child(2), #carousel-fade .carousel-inner .item:nth-child(3), #carousel-fade .carousel-inner .item:nth-child(4), #carousel-fade .carousel-inner .item:nth-child(5) {
     background-image: url('https://coulton7.github.io/wave-test/Images/circleLight1.svg');
     background-repeat: no-repeat;
     background-size: 100% auto;
