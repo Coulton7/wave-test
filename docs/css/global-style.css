@@ -5552,16 +5552,13 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     top: 14%;
   }
 
-  /*#carousel-fade .carousel-inner .item:nth-child(1), #carousel-fade .carousel-inner .item:nth-child(2), #carousel-fade .carousel-inner .item:nth-child(3), #carousel-fade .carousel-inner .item:nth-child(4) {
-    background-image: url('https://coulton7.github.io/wave-test/Images/circleLight1.svg');
+  #carousel-fade .carousel-inner .item:nth-child(1), #carousel-fade .carousel-inner .item:nth-child(2), #carousel-fade .carousel-inner .item:nth-child(3), #carousel-fade .carousel-inner .item:nth-child(4) {
     background-repeat: no-repeat;
     background-size: 100% auto;
     background-position: center center;
-    -webkit-animation: floatCircle 16s linear infinite;
-    animation: floatCircle 16s linear infinite;
     background-blend-mode: normal;
     padding-top: 0;
-  }*/
+  }
 
   .home-slider-height {
     min-height: 32em;
