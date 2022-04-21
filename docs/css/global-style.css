@@ -5553,6 +5553,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   #carousel-fade .carousel-inner .item:nth-child(1), #carousel-fade .carousel-inner .item:nth-child(2), #carousel-fade .carousel-inner .item:nth-child(3), #carousel-fade .carousel-inner .item:nth-child(4) {
+    background-image: none;
     background-repeat: no-repeat;
     background-blend-mode: normal;
     padding-top: 0;
