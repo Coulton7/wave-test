@@ -17,7 +17,9 @@
     .find(".item:first")
     .find("[data-animation ^= 'animated']");
 
-  $myCarousel.carousel();
+  $myCarousel.carousel({
+    pause: true
+  });
 
   doAnimations($firstAnimatingElems);
 
