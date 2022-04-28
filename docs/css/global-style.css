@@ -3559,7 +3559,9 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
 .nav-help {
   margin-top: 1em;
-  display: none
+  display: none;
+  position: absolute;
+  transform: translateY(80%);
 }
 
 @keyframes bannerFadeOut {
