@@ -4258,7 +4258,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   .mob-envirologo-container {
-    top: 16.5em;
+    top: 16em;
     z-index: 10;
     position: relative;
     left: 1em;
@@ -4529,7 +4529,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     background-position: bottom right;
     padding-top: 3em;
   }
-  
+
   .nav-help {
     margin-top: 1em;
     display: block;
