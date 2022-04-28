@@ -3785,7 +3785,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   .nav-help {
-    margin-top: 2em;
+    margin-top: 1em;
     display: block;
   }
 }
@@ -4556,7 +4556,6 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   .nav-help {
-    margin-top: 3em;
     display: block;
   }
 }
