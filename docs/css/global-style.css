@@ -3771,6 +3771,15 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   .slider-timer {
     bottom: 5em;
   }
+
+  .mob-envirologo-container {
+    top: 15em;
+  }
+
+  .nav-help {
+    margin-top: 2em;
+    display: block;
+  }
 }
 
 @media screen and (max-width: 767px) and (min-width: 501px) {
@@ -3871,7 +3880,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   .mob-envirologo-container {
-    top: 15em;
+    top: 16em;
   }
 
   .nav-help {
@@ -4267,7 +4276,6 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   .mob-envirologo-container {
-    top: 16em;
     z-index: 10;
     position: relative;
     left: 1em;
