@@ -3557,6 +3557,10 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   filter: grayscale(100%);
 }
 
+.nav-help {
+  display: none
+}
+
 @keyframes bannerFadeOut {
   0% {
     opacity: 1;
