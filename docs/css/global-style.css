@@ -5199,6 +5199,11 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     display: flex;
   }
 
+  .nav-help {
+    margin-top: 1em;
+    display: block;
+  }
+
 }
 
 @media screen and (min-width: 992px) {
