@@ -3668,6 +3668,10 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   .slider-timer {
     bottom: 4.25em;
   }
+
+  .mob-envirologo-container {
+    top: 16em;
+  }
 }
 
 @media screen and (max-width:500px) and (min-width:371px) {
@@ -3697,6 +3701,10 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     right: 5%;
     top: 0.15em;
     position: relative;
+  }
+
+  .mob-envirologo-container {
+    top: 15.75em;
   }
 }
 
