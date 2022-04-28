@@ -213,11 +213,11 @@ var isOnDiv = false;
 
     for (let x=0; x<mediaCarousel.length; x++) {
       mediaCarousel[x].addEventListener("mouseleave", function(){
-        $(".nav-help").fadeIn(1800);
+        $(".nav-help").fadeOut(1800);
       });
 
       mediaCarousel[x].addEventListener("mouseenter", function(){
-        $(".nav-help").fadeOut(1800);
+        $(".nav-help").fadein(1800);
       });
     }
 
