@@ -209,19 +209,19 @@ var isOnDiv = false;
 
     });
 
-    for (let i=0; i<mediaCarousel.length; i++) {
-      mediaCarousel[i].addEventListener("mouseleave", function(){
-        $(".media-carousel-block").carousel({
+    for (let i=0; i<document.querySelectorAll(".media-carousel-block").length; i++) {
+      document.querySelectorAll(".media-carousel-block").addEventListener("mouseleave", function(){
+        (".media-carousel-block").carousel({
           pause:false
         });
-        $(".nav-help").hide();
+        (".nav-help").hide();
       });
 
-      mediaCarousel[i].addEventListener("mouseenter", function(){
-        $(".media-carousel-block").carousel({
+      document.querySelectorAll(".media-carousel-block").addEventListener("mouseenter", function(){
+        (".media-carousel-block").carousel({
           pause:true
         });
-        $(".nav-help").show();
+        (".nav-help").show();
       });
     }
 
