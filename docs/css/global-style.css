@@ -3557,13 +3557,6 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   filter: grayscale(100%);
 }
 
-.nav-help {
-  margin-top: 1em;
-  display: none;
-  position: absolute;
-  transform: translateY(280%);
-}
-
 @keyframes bannerFadeOut {
   0% {
     opacity: 1;
@@ -5791,6 +5784,13 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     position: absolute;
     transform: translateY(80%);
   }
+
+  .nav-help {
+    margin-top: 1em;
+    display: none;
+    position: absolute;
+    transform: translateY(250%);
+  }
 }
 
 @media screen and (min-width: 1500px) {
@@ -5899,8 +5899,11 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     top: -1.1em;
   }
 
-  .caption-container {
-
+  .nav-help {
+    margin-top: 1em;
+    display: none;
+    position: absolute;
+    transform: translateY(280%);
   }
 }
 
