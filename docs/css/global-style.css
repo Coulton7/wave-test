@@ -3869,6 +3869,15 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   .slider-timer {
     bottom: 4.25em;
   }
+
+  .mob-envirologo-container {
+    top: 15em;
+  }
+
+  .nav-help {
+    margin-top: 2em;
+    display: block;
+  }
 }
 
 @media screen and (max-width: 767px) {
