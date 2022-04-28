@@ -211,12 +211,12 @@ var isOnDiv = false;
 
     const mediaCarousel = document.querySelectorAll(".media-carousel-block");
 
-    for (let i=0; i<mediaCarousel.length; i++) {
-      mediaCarousel[i].addEventListener("mouseleave", function(){
+    for (let x=0; x<mediaCarousel.length; x++) {
+      mediaCarousel[x].addEventListener("mouseleave", function(){
         $(".nav-help").hide();
       });
 
-      mediaCarousel[i].addEventListener("mouseenter", function(){
+      mediaCarousel[x].addEventListener("mouseenter", function(){
         $(".nav-help").show();
       });
     }
