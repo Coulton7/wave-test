@@ -209,6 +209,8 @@ var isOnDiv = false;
 
     });
 
+    const mediaCarousel = document.querySelectorAll(".media-carousel-block");
+
     for (let i=0; i<mediaCarousel.length; i++) {
       mediaCarousel[i].addEventListener("mouseleave", function(){
         $(".media-carousel-block").carousel({
