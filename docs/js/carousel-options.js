@@ -217,7 +217,7 @@ var isOnDiv = false;
       });
 
       mediaCarousel[x].addEventListener("mouseenter", function(){
-        $(".nav-help").fadein(1800);
+        $(".nav-help").fadeIn(1800);
       });
     }
 
