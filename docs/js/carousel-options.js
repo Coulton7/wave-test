@@ -213,11 +213,11 @@ var isOnDiv = false;
     if ($(window).width() > 991) {
       for (let x=0; x<mediaCarousel.length; x++) {
         mediaCarousel[x].addEventListener("mouseleave", function(){
-          $(".nav-help").css('visibility', 'hidden');
+          $(".nav-help").fadeTo(1000, 0).css('visibility', 'hidden');
         });
 
         mediaCarousel[x].addEventListener("mouseenter", function(){
-          $(".nav-help").css('visibility', 'visible').fadeIn(1000);
+          $(".nav-help").fadeTo(1000, 1).css('visibility', 'visible');
         });
       }
     }
