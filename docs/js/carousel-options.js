@@ -209,15 +209,15 @@ var isOnDiv = false;
 
     });
 
-    const mediaCarousel = document.querySelectorAll(".media-carousel-block");
+    const mediaCarousel = document.querySelectorAll(".region-preface-lower");
     if ($(window).width() > 991) {
       for (let x=0; x<mediaCarousel.length; x++) {
         mediaCarousel[x].addEventListener("mouseleave", function(){
-          $(".region-preface-lower").css('visibility', 'hidden').fadeTo(1000, 0);
+          $(".nav-help").css('visibility', 'hidden').fadeTo(1000, 0);
         });
 
         mediaCarousel[x].addEventListener("mouseenter", function(){
-          $(".region-preface-lower").css('visibility', 'visible').fadeTo(1000, 1);
+          $(".nav-help").css('visibility', 'visible').fadeTo(1000, 1);
         });
       }
     }
