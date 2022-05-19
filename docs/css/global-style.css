@@ -5589,6 +5589,10 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     transform: translateY(28%);
   }
 
+  .nav-help {
+    position: absolute;
+  }
+
   .indicators-container .carousel-indicators {
     bottom: 0.525em
   }
