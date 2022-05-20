@@ -5591,6 +5591,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
   .nav-help {
     position: absolute;
+    color: #338FBC;
   }
 
   .indicators-container .carousel-indicators {
