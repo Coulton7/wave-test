@@ -5234,6 +5234,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   .nav-help {
     margin-top: 1em;
     display: block;
+    color: #338FBC;
   }
 
 }
@@ -5832,6 +5833,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     display: none;
     position: absolute;
     transform: translateY(250%);
+    color: #338FBC;
   }
 }
 
@@ -5946,6 +5948,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     display: none;
     position: absolute;
     transform: translateY(280%);
+    color: #338FBC;
   }
 }
 
