@@ -3269,6 +3269,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
 .row.wavelower {
   background-color: #efefef;
+  pointer-events: none;
 }
 
 .Article-link-adress {
@@ -3295,10 +3296,6 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
 .carousel-col-placement {
   bottom: 2.85em;
-}
-
-.row.wavelower {
-  background-color: #efefef;
 }
 
 .socialmedia {
