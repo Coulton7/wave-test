@@ -4216,7 +4216,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     box-shadow: none;
   }
 
-  .carousel-indicators li:nth-child(1), .carousel-indicators li:nth-child(2) {
+  .carousel-indicators li:nth-child(1), .carousel-indicators li:nth-child(2), .carousel-indicators li:nth-child(3), .carousel-indicators li:nth-child(4), .carousel-indicators li:nth-child(5) {
     margin-bottom: 0;
   }
 
@@ -4899,8 +4899,8 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     padding-right: 0;
   }
 
-  .carousel-indicators li:nth-child(1), .carousel-indicators li:nth-child(2) {
-    margin-bottom: 1px;
+  .carousel-indicators li:nth-child(1), .carousel-indicators li:nth-child(2), .carousel-indicators li:nth-child(3), .carousel-indicators li:nth-child(4), .carousel-indicators li:nth-child(5) {
+    margin-bottom: -1px;
   }
 
   .mobile-carousel-caption {
