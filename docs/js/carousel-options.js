@@ -65,7 +65,7 @@ var isOnDiv = false;
   }
 
   function horizontalNormalization() {
-    var items = $('.media-carousel .item'),
+    var items = $('.media-carousel .item').is(':visible'),
       heights = [],
       tallest;
 
@@ -82,7 +82,7 @@ var isOnDiv = false;
       horizontalHeights();
 
       $(window).on('resize orientationchange', function() {
-        if ($(window).width() > 991) {
+        if ($(window).width() > 767) {
           tallest = 0, heights.length = 0;
           items.each(function() {
             $(this).css('min-height', '0');
