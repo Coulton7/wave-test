@@ -3705,7 +3705,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     top: -10em;
   }
 
-  .net-zero {
+  .net-zero, .by29 {
     max-width: 100%;
   }
 }
@@ -3792,7 +3792,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     color: #338FBC;
   }
 
-  .net-zero {
+  .net-zero, .by29 {
     max-width: 100%;
   }
 }
@@ -3898,7 +3898,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     top: -13em;
   }
 
-  .net-zero {
+  .net-zero, .by29 {
     max-width: 80%;
   }
 
