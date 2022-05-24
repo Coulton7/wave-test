@@ -113,21 +113,25 @@ var isOnDiv = false;
       });
     });
 
-    $('.carousel .horizontal .item').each(function() {
-      var next = $(this).next();
-      if (!next.length) {
-        next = $(this).siblings(':first');
-      }
-      next.children(':first-child').clone().appendTo($(this));
-      for (var i = 1; i < 3; i++) {
-        next = next.next();
-        if (!next.length) {
-          next = $(this).siblings(':first');
-        }
+    $(window).on('resize orientationchange', function() {
+      if($(window).width() > 768) {
+        $('.carousel .horizontal .item').each(function() {
+          var next = $(this).next();
+          if (!next.length) {
+            next = $(this).siblings(':first');
+          }
+          next.children(':first-child').clone().appendTo($(this));
+          for (var i = 1; i < 3; i++) {
+            next = next.next();
+            if (!next.length) {
+              next = $(this).siblings(':first');
+            }
 
-        next.children(':first-child').clone().appendTo($(this));
-      }
+            next.children(':first-child').clone().appendTo($(this));
+          }
 
+        });
+      }
     });
 
     const mediaCarousel = document.querySelectorAll(".media-carousel-block");
