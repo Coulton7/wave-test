@@ -4463,6 +4463,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
   .social-id {
     position: relative;
+    z-index: 1029;
   }
 
   .indicators-container .carousel-indicators {
