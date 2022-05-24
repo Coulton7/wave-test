@@ -65,7 +65,7 @@ var isOnDiv = false;
   }
 
   function horizontalNormalization() {
-    var items = $('.media-carousel .item').is(':visible'),
+    var items = $('.media-carousel .item'),
       heights = [],
       tallest;
 
