@@ -3704,6 +3704,10 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   .mob-envirologo-container {
     top: -10em;
   }
+
+  .net-zero {
+    max-width: 100%;
+  }
 }
 
 @media screen and (max-width: 501px) and (min-width:371px) {
@@ -3787,6 +3791,10 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     display: block;
     color: #338FBC;
   }
+
+  .net-zero {
+    max-width: 100%;
+  }
 }
 
 @media screen and (max-width: 767px) and (min-width: 501px) {
@@ -3807,7 +3815,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     position: relative;
   }
 
-  ..lang-switch .language div {
+  .lang-switch .language div {
     float: left;
   }
 
@@ -3888,6 +3896,10 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
   .mob-envirologo-container {
     top: -10em;
+  }
+
+  .net-zero {
+    max-width: 80%;
   }
 
   .nav-help {
