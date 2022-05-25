@@ -5855,7 +5855,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     margin-top: 1em;
     display: none;
     position: absolute;
-    transform: translateY(280%);
+    transform: translateY(125%);
     color: #338FBC;
   }
 }
