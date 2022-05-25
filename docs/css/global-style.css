@@ -5844,14 +5844,14 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
   .find-out-more {
     position: absolute;
-    transform: translateY(80%);
+    transform: translateY(40%);
   }
 
   .nav-help {
     margin-top: 1em;
     display: none;
     position: absolute;
-    transform: translateY(125%);
+    transform: translateY(72%);
     color: #338FBC;
   }
 }
@@ -5960,6 +5960,11 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   blockquote.image-quote {
     left: -1.9em;
     top: -1.1em;
+  }
+
+  .find-out-more {
+    position: absolute;
+    transform: translateY(80%);
   }
 
   .nav-help {
