@@ -5610,7 +5610,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   .indicators-container .carousel-indicators {
-    bottom: 0.525em;
+    bottom: 0.45em;
     margin-bottom: -10px;
   }
 
@@ -5745,6 +5745,11 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     position: relative;
     bottom: -3.75em;
     z-index: 10;
+  }
+
+  .indicators-container .carousel-indicators {
+    bottom: 0.525em;
+    margin-bottom: -10px;
   }
 
   .media-carousel-block {
