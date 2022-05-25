@@ -3268,7 +3268,6 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
 .row.wavelower {
   background-color: #efefef;
-  pointer-events: none;
 }
 
 .Article-link-adress {
