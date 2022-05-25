@@ -5594,6 +5594,8 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
   .shadow-container {
     background-color: #efefef;
+    margin-left: 10%;
+    margin-top: 3px;
   }
 
   .mobile-carousel-caption {
@@ -5797,6 +5799,8 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
   .shadow-container {
     background-color: #efefef;
+    margin-left: 0;
+    margin-top: auto;
   }
 
   blockquote.image-quote {
