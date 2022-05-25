@@ -5601,7 +5601,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   .mobile-carousel-caption {
     bottom: 0;
     position: relative;
-    transform: translateY(28%);
+    transform: translateY(32%);
   }
 
   .nav-help {
@@ -5830,6 +5830,12 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
   .virtual-tour-logo {
     max-width: 33%;
+  }
+
+  .mobile-carousel-caption {
+    bottom: 0;
+    position: relative;
+    transform: translateY(28%);
   }
 
   .front .caption-container {
