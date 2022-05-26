@@ -134,7 +134,6 @@ var isOnDiv = false;
         next.children().not(':first-child').remove();
       }
     });
-  });
 
     $(window).on('load resize orientationchange', function() {
       const mediaCarousel = document.querySelectorAll(".media-carousel-block");
