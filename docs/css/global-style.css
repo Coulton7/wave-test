@@ -5852,14 +5852,14 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
   .find-out-more {
     position: absolute;
-    transform: translateY(40%);
+    transform: translateY(20%);
   }
 
   .nav-help {
     margin-top: 1em;
     display: none;
     position: absolute;
-    transform: translateY(125%);
+    transform: translateY(75%);
     color: #338FBC;
   }
 }
