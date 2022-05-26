@@ -5484,7 +5484,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   .envirologo-container {
     height: 100%;
     position: relative;
-    bottom: -2.75em;
+    bottom: -3.25em;
     z-index: 10;
   }
 
@@ -5912,7 +5912,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   .envirologo-container {
     height: 100%;
     position: relative;
-    bottom: -3.75em;
+    bottom: -3.25em;
     z-index: 10;
   }
 
