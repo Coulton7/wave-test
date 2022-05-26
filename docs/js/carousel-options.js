@@ -115,8 +115,8 @@ var isOnDiv = false;
 
     $(window).on('load resize orientationchange', function() {
 $('.carousel .horizontal .item').each(function() {
-  next.children().not(':first-child').remove();
   var next = $(this).next();
+  next.children().not(':first-child').remove();
   if (!next.length) {
     next = $(this).siblings(':first');
   }
