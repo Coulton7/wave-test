@@ -128,7 +128,7 @@ var isOnDiv = false;
         }
       });
 
-    $(".carousel-indicators").click(function(){
+    $(".carousel-control").click(function(){
       $('#carousel-fade').carousel('pause');
     })
 
