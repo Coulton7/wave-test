@@ -130,7 +130,7 @@ $('.carousel .horizontal .item').each(function() {
       next.children(':first-child').clone().appendTo($(this));
     }
   }
-  else if ($(window).width() > 767) {
+   if ($(window).width() > 767) {
     for (var i = 1; i < 2; i++) {
       next = next.next();
       next.children().not(':first-child').remove();
@@ -140,7 +140,7 @@ $('.carousel .horizontal .item').each(function() {
       next.children(':first-child').clone().appendTo($(this));
     }
   }
-  else ($(window).width() <= 767) {
+   if ($(window).width() <= 767) {
     for (var i = 1; i < 1; i++) {
       next = next.next();
       next.children().not(':first-child').remove();
