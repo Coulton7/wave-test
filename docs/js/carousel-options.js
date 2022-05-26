@@ -124,6 +124,7 @@ $('.carousel .horizontal .item').each(function() {
   if ($(window).width() > 991) {
     for (var i = 1; i < 3; i++) {
       next = next.next();
+      next.children().not(':first-child').remove();
       if (!next.length) {
         next = $(this).siblings(':first');
       }
@@ -133,6 +134,7 @@ $('.carousel .horizontal .item').each(function() {
   else if ($(window).width() > 767) {
     for (var i = 1; i < 2; i++) {
       next = next.next();
+      next.children().not(':first-child').remove();
       if (!next.length) {
         next = $(this).siblings(':first');
       }
@@ -142,6 +144,7 @@ $('.carousel .horizontal .item').each(function() {
   else if ($(window).width() <= 767) {
     for (var i = 1; i < 1; i++) {
       next = next.next();
+      next.children().not(':first-child').remove();
       if (!next.length) {
         next = $(this).siblings(':first');
       }
