@@ -5987,7 +5987,8 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 @media screen and (min-width: 1800px) {
 
   .envirologo-container {
-    width: 100%;
+    width: 90%;
+    margin: 0 auto;
   }
 }
 
@@ -6014,7 +6015,8 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     position: relative;
     bottom: -4em;
     z-index: 10;
-    width: 100%;
+    width: 90%;
+    margin: 0 auto;
   }
 
   .red-tile-text {
