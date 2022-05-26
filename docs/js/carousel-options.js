@@ -139,7 +139,7 @@ $('.carousel .horizontal .item').each(function() {
       next.children(':first-child').clone().appendTo($(this));
     }
   }
-  else ($(window).width() <= 767) {
+  else if ($(window).width() <= 767) {
     for (var i = 1; i < 1; i++) {
       next = next.next();
       if (!next.length) {
