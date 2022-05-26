@@ -128,6 +128,10 @@ var isOnDiv = false;
         }
       });
 
+    $(".carousel-relatedIndicators").click(function(){
+      $('#carousel-fade').carousel('pause');
+    })
+
     const mediaCarousel = document.querySelectorAll(".media-carousel-block");
     if ($(window).width() > 991) {
       for (let x=0; x<mediaCarousel.length; x++) {
