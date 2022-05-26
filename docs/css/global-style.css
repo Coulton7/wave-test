@@ -3905,6 +3905,10 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     display: block;
     color: #338FBC;
   }
+
+  .item .standard-text {
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 767px) {
