@@ -4497,7 +4497,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   .indicators-container .carousel-indicators {
-    bottom: 0.5em
+    bottom: 2em
   }
 
   .shadow-drop-menu{
