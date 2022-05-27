@@ -136,7 +136,7 @@ var isOnDiv = false;
     });
 
     if ($(window).width() > 767) {
-      $(window).one('resize orientationchange', function(){
+      $(window).on('resize orientationchange', function(){
         if ($(window).width() > 767) {
           return true;
         }
@@ -147,7 +147,7 @@ var isOnDiv = false;
       });
     }
     if ($(window).width() <= 767) {
-      $(window).one('resize orientationchange', function(){
+      $(window).on('resize orientationchange', function(){
         if ($(window).width() > 767) {
           $('.carousel .horizontal .item').each(function() {
             var next = $(this).next();
