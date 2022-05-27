@@ -146,7 +146,7 @@ var isOnDiv = false;
         }
       });
     }
-    if ($(window).width() <= 767) {
+    else if ($(window).width() <= 767) {
       $(window).on('resize orientationchange', function(){
         if ($(window).width() > 767) {
           $('.carousel .horizontal .item').each(function() {
