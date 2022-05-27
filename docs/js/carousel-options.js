@@ -114,59 +114,61 @@ var isOnDiv = false;
     });
 
     $(window).on('load', function() {
-if ($(window).width() > 767) {
-  $('.carousel .horizontal .item').each(function() {
-    var next = $(this).next();
-    if (!next.length) {
-      next = $(this).siblings(':first');
-    }
-    next.children(':first-child').clone().appendTo($(this));
-    for (var i = 1; i < 3; i++) {
-      next = next.next();
-      if (!next.length) {
-        next = $(this).siblings(':first');
+      if ($(window).width() > 767) {
+        $('.carousel .horizontal .item').each(function() {
+          var next = $(this).next();
+          if (!next.length) {
+            next = $(this).siblings(':first');
+          }
+          next.children(':first-child').clone().appendTo($(this));
+          for (var i = 1; i < 3; i++) {
+            next = next.next();
+            if (!next.length) {
+              next = $(this).siblings(':first');
+            }
+            next.children(':first-child').clone().appendTo($(this));
+          }
+        });
       }
-      next.children(':first-child').clone().appendTo($(this));
-    }
-  });
-}
-if ($(window).width() <= 767) {
-  return true;
-}
-});
-
-if ($(window).width() > 767) {
-$(window).on('resize orientationchange', function(){
-  if ($(window).width() > 767) {
-    return true;
-  }
-  if ($(window).width() <= 767) {
-      var next = $('.carousel .horizontal .item').next();
-      next.children().not(':first-child').remove();
-    }
-});
-} else if ($(window).width() <= 767) {
-$(window).on('resize orientationchange', function(){
-  if ($(window).width() > 767) {
-    $('.carousel .horizontal .item').each(function() {
-      var next = $(this).next();
-      if (!next.length) {
-        next = $(this).siblings(':first');
-      }
-      next.children(':first-child').clone().appendTo($(this));
-      for (var i = 1; i < 3; i++) {
-        next = next.next();
-        if (!next.length) {
-          next = $(this).siblings(':first');
-        }
-        next.children(':first-child').clone().appendTo($(this));
+      if ($(window).width() <= 767) {
+        return true;
       }
     });
-  } else if ($(window).width() <= 767) {
-    return true;
-  }
-});
-}
+
+    if ($(window).width() > 767) {
+      $(window).on('resize orientationchange', function(){
+        if ($(window).width() > 767) {
+          return true;
+        }
+        if ($(window).width() <= 767) {
+          var next = $('.carousel .horizontal .item').next();
+          next.children().not(':first-child').remove();
+        }
+      });
+    }
+    if ($(window).width() <= 767) {
+      $(window).on('resize orientationchange', function(){
+        if ($(window).width() > 767) {
+          $('.carousel .horizontal .item').each(function() {
+            var next = $(this).next();
+            if (!next.length) {
+              next = $(this).siblings(':first');
+            }
+            next.children(':first-child').clone().appendTo($(this));
+            for (var i = 1; i < 3; i++) {
+              next = next.next();
+              if (!next.length) {
+                next = $(this).siblings(':first');
+              }
+              next.children(':first-child').clone().appendTo($(this));
+            }
+          });
+        }
+        if ($(window).width() <= 767) {
+          return true;
+        }
+      });
+    }
 
     $(window).on('load resize orientationchange', function() {
       const mediaCarousel = document.querySelectorAll(".media-carousel-block");
