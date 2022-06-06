@@ -4573,6 +4573,10 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     display: block;
     color: #338FBC;
   }
+
+  .block-labtectaenquiry{
+    background-size: 100%;
+  }
 }
 
 @media screen and (min-width: 768px) {
