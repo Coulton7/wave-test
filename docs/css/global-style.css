@@ -6175,7 +6175,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 @keyframes bigScreenFloat {
 
   0% {
-    background-position: 50% -50%;
+    background-position: 50% -25%;
   }
 
   100% {
@@ -6186,7 +6186,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 @-webkit-keyframes bigScreenFloat {
 
   0% {
-    background-position: 50% -50%;
+    background-position: 50% -25%;
   }
 
   100% {
