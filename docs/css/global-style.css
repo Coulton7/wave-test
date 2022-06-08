@@ -6175,14 +6175,14 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 @keyframes bigScreenFloat {
 
   100% {
-      background-position: 50% 100%;
+      background-position: 50% 125%;
   }
 }
 
 @-webkit-keyframes bigScreenFloat {
 
   100% {
-      background-position: 50% 100%;
+      background-position: 50% 125%;
   }
 }
 
