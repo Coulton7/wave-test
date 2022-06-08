@@ -5653,9 +5653,8 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     background-repeat: no-repeat;
     background-size: 50%;
     background-position: center center;
-    /*-webkit-animation: bigScreenFloat 70s linear infinite;
-    animation: bigScreenFloat 70s linear infinite;*/
-    background-attachment: fixed;
+    -webkit-animation: bigScreenFloat 70s linear infinite;
+    animation: bigScreenFloat 70s linear infinite;
   }
 
   .home-slider-height {
@@ -5878,9 +5877,8 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     background-repeat: no-repeat;
     background-size: 50%;
     background-position: center center;
-    /*-webkit-animation: bigScreenFloat 70s linear infinite;
-    animation: bigScreenFloat 70s linear infinite;*/
-    background-attachment: fixed;
+    -webkit-animation: bigScreenFloat 70s linear infinite;
+    animation: bigScreenFloat 70s linear infinite;
   }
 }
 
@@ -6008,9 +6006,8 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     background-repeat: no-repeat;
     background-size: 50%;
     background-position: center center;
-    /*-webkit-animation: bigScreenFloat 70s linear infinite;
-    animation: bigScreenFloat 70s linear infinite;*/
-    background-attachment: fixed;
+    -webkit-animation: bigScreenFloat 70s linear infinite;
+    animation: bigScreenFloat 70s linear infinite;
   }
 }
 
@@ -6089,8 +6086,8 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     background-repeat: no-repeat;
     background-size: 50%;
     background-position: center center;
-    /*-webkit-animation: bigScreenFloat 80s linear infinite;
-    animation: bigScreenFloat 80s linear infinite;*/
+    -webkit-animation: bigScreenFloat 80s linear infinite;
+    animation: bigScreenFloat 80s linear infinite;
     background-attachment: fixed;
   }
 }
@@ -6111,9 +6108,8 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     background-repeat: no-repeat;
     background-size: 50%;
     background-position: center center;
-    /*-webkit-animation: bigScreenFloat 80s linear infinite;
-    animation: bigScreenFloat 80s linear infinite;*/
-    background-attachment: fixed;
+    -webkit-animation: bigScreenFloat 80s linear infinite;
+    animation: bigScreenFloat 80s linear infinite;
   }
 }
 
