@@ -5875,8 +5875,8 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     background-repeat: no-repeat;
     background-size: 50%;
     background-position: center center;
-    -webkit-animation: bigScreenFloat 20s linear infinite;
-    animation: bigScreenFloat 20s linear infinite;
+    -webkit-animation: bigScreenFloat 30s linear infinite;
+    animation: bigScreenFloat 30s linear infinite;
   }
 }
 
@@ -6004,8 +6004,8 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     background-repeat: no-repeat;
     background-size: 50%;
     background-position: center center;
-    -webkit-animation: bigScreenFloat 16s linear infinite;
-    animation: bigScreenFloat 16s linear infinite;
+    -webkit-animation: bigScreenFloat 30s linear infinite;
+    animation: bigScreenFloat 30s linear infinite;
     background-blend-mode: normal;
   }
 }
@@ -6085,8 +6085,8 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     background-repeat: no-repeat;
     background-size: 100% auto;
     background-position: center center;
-    -webkit-animation: bigScreenFloat 16s linear infinite;
-    animation: bigScreenFloat 16s linear infinite;
+    -webkit-animation: bigScreenFloat 30s linear infinite;
+    animation: bigScreenFloat 30s linear infinite;
     background-blend-mode: normal;
   }
 }
@@ -6106,8 +6106,8 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     background-image: url('/wave-test/Images/industrybadges.svg');
     background-repeat: no-repeat;
     background-position: center center;
-    -webkit-animation: bigScreenFloat 16s linear infinite;
-    animation: bigScreenFloat 16s linear infinite;
+    -webkit-animation: bigScreenFloat 30s linear infinite;
+    animation: bigScreenFloat 30s linear infinite;
     background-blend-mode: normal;
   }
 }
