@@ -6174,23 +6174,15 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
 @keyframes bigScreenFloat {
 
-  0% {
-      background-position: 50% 0%;
-  }
-
   100% {
-      background-position: 50% 90%;
+      background-position: 50% 100%;
   }
 }
 
 @-webkit-keyframes bigScreenFloat {
 
-  0% {
-      background-position: 50% 0%;
-  }
-
   100% {
-      background-position: 50% 90%;
+      background-position: 50% 100%;
   }
 }
 
