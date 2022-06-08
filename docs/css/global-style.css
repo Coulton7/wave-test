@@ -5876,7 +5876,6 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     background-position: center center;
     -webkit-animation: bigScreenFloat 16s linear infinite;
     animation: bigScreenFloat 16s linear infinite;
-    background-blend-mode: normal;
   }
 }
 
