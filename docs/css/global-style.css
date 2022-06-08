@@ -5649,10 +5649,13 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   #carousel-fade .carousel-inner .item:nth-child(1), #carousel-fade .carousel-inner .item:nth-child(2), #carousel-fade .carousel-inner .item:nth-child(3), #carousel-fade .carousel-inner .item:nth-child(4), #carousel-fade .carousel-inner .item:nth-child(5) {
-    background-image: none;
+    background-image: url('/wave-test/Images/industrybadges.svg');
     background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center center;
+    -webkit-animation: bigScreenFloat 60s linear infinite;
+    animation: bigScreenFloat 60s linear infinite;
     background-blend-mode: normal;
-    padding-top: 0;
   }
 
   .home-slider-height {
