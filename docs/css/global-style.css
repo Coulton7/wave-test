@@ -6183,6 +6183,17 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 }
 
+@-webkit-keyframes bigScreenFloat {
+
+  0% {
+      background-position: 50% -0%;
+  }
+
+  100% {
+      background-position: 50% 100%;
+  }
+}
+
 @keyframes floatCircle {
   0% {
       background-position: 0% 100%;
