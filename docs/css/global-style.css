@@ -5873,7 +5873,6 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   #carousel-fade .carousel-inner .item:nth-child(1), #carousel-fade .carousel-inner .item:nth-child(2), #carousel-fade .carousel-inner .item:nth-child(3), #carousel-fade .carousel-inner .item:nth-child(4), #carousel-fade .carousel-inner .item:nth-child(5) {
     background-image: url('/wave-test/Images/industrybadges.svg');
     background-repeat: no-repeat;
-    background-size: 100% auto;
     background-position: center center;
     -webkit-animation: bigScreenFloat 16s linear infinite;
     animation: bigScreenFloat 16s linear infinite;
@@ -6003,7 +6002,6 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   #carousel-fade .carousel-inner .item:nth-child(1), #carousel-fade .carousel-inner .item:nth-child(2), #carousel-fade .carousel-inner .item:nth-child(3), #carousel-fade .carousel-inner .item:nth-child(4), #carousel-fade .carousel-inner .item:nth-child(5) {
     background-image: url('/wave-test/Images/industrybadges.svg');
     background-repeat: no-repeat;
-    background-size: 100% auto;
     background-position: center center;
     -webkit-animation: bigScreenFloat 16s linear infinite;
     animation: bigScreenFloat 16s linear infinite;
@@ -6106,7 +6104,6 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   #carousel-fade .carousel-inner .item:nth-child(1), #carousel-fade .carousel-inner .item:nth-child(2), #carousel-fade .carousel-inner .item:nth-child(3), #carousel-fade .carousel-inner .item:nth-child(4), #carousel-fade .carousel-inner .item:nth-child(5) {
     background-image: url('/wave-test/Images/industrybadges.svg');
     background-repeat: no-repeat;
-    background-size: 100% auto;
     background-position: center center;
     -webkit-animation: bigScreenFloat 16s linear infinite;
     animation: bigScreenFloat 16s linear infinite;
@@ -6173,7 +6170,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 @keyframes bigScreenFloat {
 
   0% {
-      background-position: 0% 500%;
+      background-position: 0% 100%;
   }
 
   100% {
@@ -6183,7 +6180,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
 @keyframes floatCircle {
   0% {
-      background-position: 0% 500%;
+      background-position: 0% 100%;
   }
 
   100% {
