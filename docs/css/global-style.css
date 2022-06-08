@@ -6085,8 +6085,8 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     background-repeat: no-repeat;
     background-size: 50%;
     background-position: center center;
-    -webkit-animation: bigScreenFloat 60s linear infinite;
-    animation: bigScreenFloat 60s linear infinite;
+    -webkit-animation: bigScreenFloat 70s linear infinite;
+    animation: bigScreenFloat 70s linear infinite;
     background-blend-mode: normal;
   }
 }
@@ -6107,8 +6107,8 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     background-repeat: no-repeat;
     background-size: 50%;
     background-position: center center;
-    -webkit-animation: bigScreenFloat 60s linear infinite;
-    animation: bigScreenFloat 60s linear infinite;
+    -webkit-animation: bigScreenFloat 70s linear infinite;
+    animation: bigScreenFloat 70s linear infinite;
     background-blend-mode: normal;
   }
 }
