@@ -6173,30 +6173,30 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 @keyframes bigScreenFloat {
 
   0% {
-      background-position: 0% 2500%;
+      background-position: 0% 500%;
   }
 
   100% {
-      background-position: 0% -2100%;
+      background-position: 0% -100%;
   }
 }
 
 @keyframes floatCircle {
   0% {
-      background-position: 0% 2500%;
+      background-position: 0% 500%;
   }
 
   100% {
-      background-position: 0% -2100%;
+      background-position: 0% -100%;
   }
 }
 
 @-webkit-keyframes floatCircle {
   0% {
-      background-position: 0% 2500%;
+      background-position: 0% 100%;
   }
 
   100% {
-      background-position: 0% -2100%;
+      background-position: 0% -100%;
   }
 }
