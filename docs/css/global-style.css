@@ -5655,7 +5655,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     background-position: center center;
     /*-webkit-animation: bigScreenFloat 70s linear infinite;
     animation: bigScreenFloat 70s linear infinite;*/
-    background-attachment: fixed;
+    background-attachment: scroll;
   }
 
   .home-slider-height {
