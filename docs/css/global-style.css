@@ -5651,7 +5651,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   #carousel-fade .carousel-inner .item:nth-child(1), #carousel-fade .carousel-inner .item:nth-child(2), #carousel-fade .carousel-inner .item:nth-child(3), #carousel-fade .carousel-inner .item:nth-child(4), #carousel-fade .carousel-inner .item:nth-child(5) {
     background-image: url('/wave-test/Images/industrybadges.svg');
     background-repeat: repeat-y;
-    background-size: 50% 3500px;
+    background-size: 50% 2500px;
     background-position: center center;
     -webkit-animation: screenFloat 80s linear infinite;
     animation: screenFloat 80s linear infinite;
