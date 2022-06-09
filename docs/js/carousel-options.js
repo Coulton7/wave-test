@@ -126,7 +126,7 @@ var isOnDiv = false;
           }
           next.children(':first-child').clone().appendTo($(this));
         }
-        $(window).on('load resize orientationchange', function() {
+        $(window).on('load', function() {
           if ($(window).width() <= 767) {
             next.children().not(':first-child').remove();
           }
