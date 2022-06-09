@@ -6179,7 +6179,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   100% {
-      background-position: 50% 200%;
+      background-position: 50% 100%;
   }
 }
 
@@ -6190,7 +6190,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   100% {
-      background-position: 50% 200%;
+      background-position: 50% 100%;
   }
 }
 
