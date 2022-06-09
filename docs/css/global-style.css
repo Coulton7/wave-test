@@ -6175,22 +6175,22 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 @keyframes bigScreenFloat {
 
   0% {
-      background-position: 50% 0%;
+      background-position: 50% 0;
   }
 
   100% {
-      background-position: 50% 100%;
+      background-position: 50% 3000px;
   }
 }
 
 @-webkit-keyframes bigScreenFloat {
 
   0% {
-      background-position: 50% 0%;
+      background-position: 50% 0;
   }
 
   100% {
-      background-position: 50% 100%;
+      background-position: 50% 3000px;
   }
 }
 
