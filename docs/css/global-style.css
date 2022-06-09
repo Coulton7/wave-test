@@ -5653,8 +5653,8 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     background-repeat: repeat-y;
     background-size: 50% 3000px;
     background-position: center center;
-    -webkit-animation: bigScreenFloat 80s linear infinite;
-    animation: bigScreenFloat 80s linear infinite;
+    -webkit-animation: screenFloat 80s linear infinite;
+    animation: screenFloat 80s linear infinite;
     background-blend-mode: normal;
   }
 
@@ -5878,8 +5878,8 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     background-repeat: repeat-y;
     background-size: 50% 3000px;
     background-position: center center;
-    -webkit-animation: bigScreenFloat 80s linear infinite;
-    animation: bigScreenFloat 80s linear infinite;
+    -webkit-animation: screenFloat 80s linear infinite;
+    animation: screenFloat 80s linear infinite;
   }
 }
 
@@ -6007,8 +6007,8 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     background-repeat: repeat-y;
     background-size: 50% 3000px;
     background-position: center center;
-    -webkit-animation: bigScreenFloat 80s linear infinite;
-    animation: bigScreenFloat 80s linear infinite;
+    -webkit-animation: screenFloat 80s linear infinite;
+    animation: screenFloat 80s linear infinite;
     background-blend-mode: normal;
   }
 }
@@ -6172,7 +6172,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 }
 
-@keyframes bigScreenFloat {
+@keyframes screenFloat {
 
   0% {
       background-position: 50% 0;
@@ -6183,7 +6183,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 }
 
-@-webkit-keyframes bigScreenFloat {
+@-webkit-keyframes screenFloat {
 
   0% {
       background-position: 50% 0;
@@ -6191,6 +6191,28 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
   100% {
       background-position: 50% -3000px;
+  }
+}
+
+@keyframes bigScreenFloat {
+
+  0% {
+      background-position: 50% 0;
+  }
+
+  100% {
+      background-position: 50% -4000px;
+  }
+}
+
+@-webkit-keyframes bigScreenFloat {
+
+  0% {
+      background-position: 50% 0;
+  }
+
+  100% {
+      background-position: 50% -4000px;
   }
 }
 
