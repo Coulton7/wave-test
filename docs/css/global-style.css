@@ -5653,8 +5653,8 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     background-repeat: repeat-y;
     background-size: 50% 3000px;
     background-position: center center;
-    -webkit-animation: bigScreenFloat 70s linear infinite;
-    animation: bigScreenFloat 70s linear infinite;
+    -webkit-animation: bigScreenFloat 80s linear infinite;
+    animation: bigScreenFloat 80s linear infinite;
     background-blend-mode: normal;
   }
 
@@ -5878,8 +5878,8 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     background-repeat: repeat-y;
     background-size: 50% 3000px;
     background-position: center center;
-    -webkit-animation: bigScreenFloat 70s linear infinite;
-    animation: bigScreenFloat 70s linear infinite;
+    -webkit-animation: bigScreenFloat 80s linear infinite;
+    animation: bigScreenFloat 80s linear infinite;
   }
 }
 
@@ -6007,8 +6007,8 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     background-repeat: repeat-y;
     background-size: 50% 3000px;
     background-position: center center;
-    -webkit-animation: bigScreenFloat 70s linear infinite;
-    animation: bigScreenFloat 70s linear infinite;
+    -webkit-animation: bigScreenFloat 80s linear infinite;
+    animation: bigScreenFloat 80s linear infinite;
     background-blend-mode: normal;
   }
 }
@@ -6086,7 +6086,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   #carousel-fade .carousel-inner .item:nth-child(1), #carousel-fade .carousel-inner .item:nth-child(2), #carousel-fade .carousel-inner .item:nth-child(3), #carousel-fade .carousel-inner .item:nth-child(4), #carousel-fade .carousel-inner .item:nth-child(5) {
     background-image: url('/wave-test/Images/industrybadges.svg');
     background-repeat: repeat-y;
-    background-size: 50% 5000px;
+    background-size: 50% 4000px;
     background-position: center center;
     -webkit-animation: bigScreenFloat 80s linear infinite;
     animation: bigScreenFloat 80s linear infinite;
@@ -6108,7 +6108,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   #carousel-fade .carousel-inner .item:nth-child(1), #carousel-fade .carousel-inner .item:nth-child(2), #carousel-fade .carousel-inner .item:nth-child(3), #carousel-fade .carousel-inner .item:nth-child(4), #carousel-fade .carousel-inner .item:nth-child(5) {
     background-image: url('/wave-test/Images/industrybadges.svg');
     background-repeat: repeat-y;
-    background-size: 50% 5000px;
+    background-size: 50% 4000px;
     background-position: center center;
     -webkit-animation: bigScreenFloat 80s linear infinite;
     animation: bigScreenFloat 80s linear infinite;
