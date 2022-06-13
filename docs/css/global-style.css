@@ -5633,16 +5633,6 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     top: 14%;
   }
 
-  #carousel-fade .carousel-inner .item:nth-child(1), #carousel-fade .carousel-inner .item:nth-child(2), #carousel-fade .carousel-inner .item:nth-child(3), #carousel-fade .carousel-inner .item:nth-child(4), #carousel-fade .carousel-inner .item:nth-child(5) {
-    background-image: url('/wave-test/Images/industrybadges.svg');
-    background-repeat: repeat-y;
-    background-size: 50% 2000px;
-    background-position: center center;
-    -webkit-animation: screenFloat 80s linear infinite;
-    animation: screenFloat 80s linear infinite;
-    background-blend-mode: normal;
-  }
-
   .home-slider-height {
     min-height: 32em;
   }
@@ -5858,14 +5848,6 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     color: #338FBC;
   }
 
-  #carousel-fade .carousel-inner .item:nth-child(1), #carousel-fade .carousel-inner .item:nth-child(2), #carousel-fade .carousel-inner .item:nth-child(3), #carousel-fade .carousel-inner .item:nth-child(4), #carousel-fade .carousel-inner .item:nth-child(5) {
-    background-image: url('/wave-test/Images/industrybadges.svg');
-    background-repeat: repeat-y;
-    background-size: 50% 2500px;
-    background-position: center center;
-    -webkit-animation: screenFloat 80s linear infinite;
-    animation: screenFloat 80s linear infinite;
-  }
 }
 
 @media screen and (min-width: 1500px) {
@@ -5986,16 +5968,6 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     transform: translateY(280%);
     color: #338FBC;
   }
-
-  #carousel-fade .carousel-inner .item:nth-child(1), #carousel-fade .carousel-inner .item:nth-child(2), #carousel-fade .carousel-inner .item:nth-child(3), #carousel-fade .carousel-inner .item:nth-child(4), #carousel-fade .carousel-inner .item:nth-child(5) {
-    background-image: url('/wave-test/Images/industrybadges.svg');
-    background-repeat: repeat-y;
-    background-size: 50% 3000px;
-    background-position: center center;
-    -webkit-animation: screenFloat 80s linear infinite;
-    animation: screenFloat 80s linear infinite;
-    background-blend-mode: normal;
-  }
 }
 
 @media screen and (min-width: 1800px) {
@@ -6067,16 +6039,6 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     position: relative;
     margin-top: -1em;
   }
-
-  #carousel-fade .carousel-inner .item:nth-child(1), #carousel-fade .carousel-inner .item:nth-child(2), #carousel-fade .carousel-inner .item:nth-child(3), #carousel-fade .carousel-inner .item:nth-child(4), #carousel-fade .carousel-inner .item:nth-child(5) {
-    background-image: url('/wave-test/Images/industrybadges.svg');
-    background-repeat: repeat-y;
-    background-size: 50% 4000px;
-    background-position: center center;
-    -webkit-animation: bigScreenFloat 80s linear infinite;
-    animation: bigScreenFloat 80s linear infinite;
-    background-blend-mode: normal;
-  }
 }
 
 @media screen and (min-width: 2500px) {
@@ -6088,16 +6050,6 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   .media-carousel-block {
     position: relative;
     bottom: 0;
-  }
-
-  #carousel-fade .carousel-inner .item:nth-child(1), #carousel-fade .carousel-inner .item:nth-child(2), #carousel-fade .carousel-inner .item:nth-child(3), #carousel-fade .carousel-inner .item:nth-child(4), #carousel-fade .carousel-inner .item:nth-child(5) {
-    background-image: url('/wave-test/Images/industrybadges.svg');
-    background-repeat: repeat-y;
-    background-size: 50% 4000px;
-    background-position: center center;
-    -webkit-animation: bigScreenFloat 80s linear infinite;
-    animation: bigScreenFloat 80s linear infinite;
-    background-blend-mode: normal;
   }
 }
 
