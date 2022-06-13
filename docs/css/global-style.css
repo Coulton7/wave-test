@@ -4451,36 +4451,6 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     background-color: transparent;
   }
 
-  #carousel-fade .carousel-inner .item:nth-child(1) {
-    background-image: none;
-    background-color: #002a5b;
-    padding-top: 0;
-  }
-
-  #carousel-fade .carousel-inner .item:nth-child(2) {
-    background-image: none;
-    background-color: #002a5b;
-    padding-top: 0;
-  }
-
-  #carousel-fade .carousel-inner .item:nth-child(3) {
-    background-image: none;
-    background-color: #002a5b;
-    padding-top: 0;
-  }
-
-  #carousel-fade .carousel-inner .item:nth-child(4) {
-    background-image: none;
-    background-color: #002a5b;
-    padding-top: 0;
-  }
-
-  #carousel-fade .carousel-inner .item:nth-child(5) {
-    background-image: none;
-    background-color: #002a5b;
-    padding-top: 0;
-  }
-
   .fade_text {
     color: #535354;
   }
@@ -4563,7 +4533,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   #carousel-fade .carousel-inner .item:nth-child(4) {
-    background-image: url(https://static.aesseal.com/photo/service/CHEMUK_08890-trans-sm.png);
+    background-image: url(/wave-test/Images/CHEMUK_08890-trans-sm.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-color: #002a5b;
@@ -4574,7 +4544,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   #carousel-fade .carousel-inner .item:nth-child(5) {
-    background-image: url(https://static.aesseal.com/photo/product/seal-and-cutout-sm.png);
+    background-image: url(/wave-test/Images/seal-and-cutout-sm.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-color: #002a5b;
@@ -5235,7 +5205,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   #carousel-fade .carousel-inner .item:nth-child(4) {
-    background-image: url(https://static.aesseal.com/photo/service/CHEMUK_08890-trans.png);
+    background-image: url(/wave-test/Images//CHEMUK_08890-trans-sm.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-color: #002a5b;
@@ -5246,7 +5216,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   #carousel-fade .carousel-inner .item:nth-child(5) {
-    background-image: url(https://static.aesseal.com/photo/product/seal-and-cutout.png);
+    background-image: url(/wave-test/Images/seal-and-cutout-sm.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-color: #002a5b;
