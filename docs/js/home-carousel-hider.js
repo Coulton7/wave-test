@@ -34,7 +34,7 @@
       else if (slide === 2) {
         if ($('.sus-media-carousel').hasClass('display-none')) {
           $('.sus-media-carousel').removeClass('display-none');
-          $('.sus-media-carousel').addClass('carousel');
+          $('#esg').find('.transparent-background').addClass('flexslider');
         }
 
         if (!$('.news-media-carousel').hasClass('display-none')) {
