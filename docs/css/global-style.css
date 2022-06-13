@@ -5636,6 +5636,10 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   .home-slider-height {
     min-height: 32em;
   }
+
+  #carousel-fade .carousel-inner .item:nth-child(1), #carousel-fade .carousel-inner .item:nth-child(2), #carousel-fade .carousel-inner .item:nth-child(3), #carousel-fade .carousel-inner .item:nth-child(4), #carousel-fade .carousel-inner .item:nth-child(5) {
+    background-image: none;
+  }
 }
 
 @media screen and (min-width: 1200px) {
