@@ -5637,8 +5637,39 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     min-height: 32em;
   }
 
-  #carousel-fade .carousel-inner .item:nth-child(1), #carousel-fade .carousel-inner .item:nth-child(2), #carousel-fade .carousel-inner .item:nth-child(3), #carousel-fade .carousel-inner .item:nth-child(4), #carousel-fade .carousel-inner .item:nth-child(5) {
-    background-image: none;
+  #carousel-fade .carousel-inner .item:nth-child(1) {
+    background-image: url(/wave-test/Images/news-backfull.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #066b2e;
+  }
+
+  #carousel-fade .carousel-inner .item:nth-child(2) {
+    background-image: url(/wave-test/Images/sustainability-backfull.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #002a5b;
+  }
+
+  #carousel-fade .carousel-inner .item:nth-child(3) {
+    background-image: url(/wave-test/Images/technology-backfull.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #002a5b;
+  }
+
+  #carousel-fade .carousel-inner .item:nth-child(4) {
+    background-image: url(/wave-test/Images/service-backfull.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #002a5b;
+  }
+
+  #carousel-fade .carousel-inner .item:nth-child(5) {
+    background-image: url(/wave-test/Images/product-backfull.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #002a5b;
   }
 }
 
