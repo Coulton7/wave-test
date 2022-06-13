@@ -13,7 +13,7 @@
 
         if (!$('.sus-media-carousel').hasClass('display-none')) {
           $('.sus-media-carousel').addClass('display-none');
-          $('.sus-media-carousel').removeClass('carousel');
+          $('#esg').find('.transparent-background').removeClass('flexslider');
         }
 
         if (!$('.tech-media-carousel').hasClass('display-none')) {
