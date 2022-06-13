@@ -13,7 +13,7 @@
 
         if (!$('.sus-media-carousel').hasClass('display-none')) {
           $('.sus-media-carousel').addClass('display-none');
-          $('.sus-media-carousel').find('#sus-main').removeClass('active');
+          $('.sus-media-carousel').removeClass('carousel');
         }
 
         if (!$('.tech-media-carousel').hasClass('display-none')) {
@@ -34,7 +34,7 @@
       else if (slide === 2) {
         if ($('.sus-media-carousel').hasClass('display-none')) {
           $('.sus-media-carousel').removeClass('display-none');
-          $('.sus-media-carousel').find('#sus-main').addClass('active');
+          $('.sus-media-carousel').addClass('carousel');
         }
 
         if (!$('.news-media-carousel').hasClass('display-none')) {
