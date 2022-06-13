@@ -26,6 +26,7 @@
       "[data-animation ^= 'animated']"
     );
     doAnimations($animatingElems);
+    $("img.lazyload").lazyload();
   });
 
 var isOnDiv = false;
