@@ -5640,7 +5640,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   #carousel-fade .carousel-inner .item:nth-child(1) {
     background-image: url(/wave-test/Images/news-backfull.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-color: #066b2e;
     background-blend-mode: unset;
   }
@@ -5648,7 +5648,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   #carousel-fade .carousel-inner .item:nth-child(2) {
     background-image: url(/wave-test/Images/sustainability-backfull.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-color: #002a5b;
     background-blend-mode: unset;
   }
@@ -5656,7 +5656,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   #carousel-fade .carousel-inner .item:nth-child(3) {
     background-image: url(/wave-test/Images/technology-backfull.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-color: #002a5b;
     background-blend-mode: unset;
   }
@@ -5664,7 +5664,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   #carousel-fade .carousel-inner .item:nth-child(4) {
     background-image: url(/wave-test/Images/service-backfull.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-color: #002a5b;
     background-blend-mode: unset;
   }
@@ -5672,7 +5672,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   #carousel-fade .carousel-inner .item:nth-child(5) {
     background-image: url(/wave-test/Images/product-backfull.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-color: #002a5b;
     background-blend-mode: unset;
   }
