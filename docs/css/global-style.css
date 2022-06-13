@@ -4563,7 +4563,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   #carousel-fade .carousel-inner .item:nth-child(4) {
-    background-image: url(https://static.aesseal.com/photo/service/CHEMUK_08890-trans.png);
+    background-image: url(https://static.aesseal.com/photo/service/CHEMUK_08890-trans-sm.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-color: #002a5b;
@@ -4574,7 +4574,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   #carousel-fade .carousel-inner .item:nth-child(5) {
-    background-image: url(https://static.aesseal.com/photo/product/seal-and-cutout.png);
+    background-image: url(https://static.aesseal.com/photo/product/seal-and-cutout-sm.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-color: #002a5b;
