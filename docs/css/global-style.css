@@ -5642,6 +5642,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #066b2e;
+    background-blend-mode: none;
   }
 
   #carousel-fade .carousel-inner .item:nth-child(2) {
@@ -5649,6 +5650,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #002a5b;
+    background-blend-mode: none;
   }
 
   #carousel-fade .carousel-inner .item:nth-child(3) {
@@ -5656,6 +5658,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #002a5b;
+    background-blend-mode: none;
   }
 
   #carousel-fade .carousel-inner .item:nth-child(4) {
@@ -5663,6 +5666,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #002a5b;
+    background-blend-mode: none;
   }
 
   #carousel-fade .carousel-inner .item:nth-child(5) {
@@ -5670,6 +5674,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #002a5b;
+    background-blend-mode: none;
   }
 }
 
