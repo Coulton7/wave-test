@@ -101,6 +101,15 @@
       directionNav: false
     });
 
+    $('.text-slider').flexslider({
+      controlNav: false,
+      directionNav: false,
+      animation: "fade",
+      easing: "swing",
+      animationLoop: true,
+      slideshowSpeed: 7000
+    });
+
   });
 
   $window.resize(function(){
