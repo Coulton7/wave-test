@@ -9,7 +9,10 @@
         if ($('.news-media-carousel').hasClass('display-none')) {
           $('.news-media-carousel').removeClass('display-none');
           $('#news').find('.text-slider').flexslider({
-            slideToStart: 0
+            slideToStart: 0,
+            start: function(slider) {
+              slider.flexAnimate(0);
+            }
           });
         }
 
@@ -34,7 +37,10 @@
         if ($('.sus-media-carousel').hasClass('display-none')) {
           $('.sus-media-carousel').removeClass('display-none');
           $('#esg').find('.text-slider').flexslider({
-            slideToStart: 0
+            slideToStart: 0,
+            start: function(slider) {
+              slider.flexAnimate(0);
+            }
           });
         }
 
@@ -58,7 +64,10 @@
         if ($('.tech-media-carousel').hasClass('display-none')) {
           $('.tech-media-carousel').removeClass('display-none');
           $('#tech').find('.text-slider').flexslider({
-            slideToStart: 0
+            slideToStart: 0,
+            start: function(slider) {
+              slider.flexAnimate(0);
+            }
           });
         }
 
@@ -106,7 +115,10 @@
         if ($('.prod-media-carousel').hasClass('display-none')) {
           $('.prod-media-carousel').removeClass('display-none');
           $('#prod').find('.text-slider').flexslider({
-            slideToStart: 0
+            slideToStart: 0,
+            start: function(slider) {
+              slider.flexAnimate(0);
+            }
           });
         }
 
