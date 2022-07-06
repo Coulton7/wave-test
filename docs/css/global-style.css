@@ -5640,7 +5640,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   #carousel-fade .carousel-inner .item:nth-child(1) {
     background-image: url(/wave-test/Images/AESSEAL-in-the-BHAG.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-color: rgb(0,0,0);
     background-blend-mode: unset;
   }
