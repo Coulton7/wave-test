@@ -5643,7 +5643,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     background-size: cover;
     background-color: rgb(0,0,0);
     background-blend-mode: unset;
-    background-position: 75% 75%;
+    background-position: 0% 75%;
   }
 
   #carousel-fade .carousel-inner .item:nth-child(2) {
