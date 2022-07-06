@@ -4503,7 +4503,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     background-image: url(/wave-test/Images/Logo-Glass.png);
     background-size: contain;
     background-repeat: no-repeat;
-    background-color: rgb(8,14,34);
+    background-color: #012e58;
     background-blend-mode: multiply;
     animation: none;
     background-position: bottom right;
@@ -5175,7 +5175,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     background-image: url(/wave-test/Images/Logo-Glass.png);
     background-size: contain;
     background-repeat: no-repeat;
-    background-color: rgb(8,14,34);
+    background-color: #012e58;
     background-blend-mode: multiply;
     background-position: bottom right;
     animation: none;
