@@ -5596,7 +5596,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   .mobile-carousel-caption {
     bottom: 0;
     position: relative;
-    transform: translateY(32%);
+    transform: translateY(20%);
   }
 
   .nav-help {
