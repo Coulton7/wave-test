@@ -4508,6 +4508,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     animation: none;
     background-position: bottom right;
     padding-top: 3em;
+    filter: grayscale(1);
   }
 
   #carousel-fade .carousel-inner .item:nth-child(2) {
@@ -5180,6 +5181,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     background-position: bottom right;
     animation: none;
     padding-top: 3em;
+    filter: grayscale(1);
   }
 
   #carousel-fade .carousel-inner .item:nth-child(2) {
@@ -5644,6 +5646,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     background-color: rgb(8,14,34);
     background-blend-mode: unset;
     background-position: 0% 75%;
+    filter: grayscale(1);  
   }
 
   #carousel-fade .carousel-inner .item:nth-child(2) {
