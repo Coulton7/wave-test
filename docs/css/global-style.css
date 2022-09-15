@@ -4500,7 +4500,9 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   #carousel-fade .carousel-inner .item:nth-child(1) {
-    background-image: url(/wave-test/Images/Logo-Glass.png);
+    background: -moz-radial-gradient(center, ellipse cover, #888C8F 0%, #000000 80%);
+    background: -webkit-radial-gradient(center, ellipse cover, #888C8F 0%, #000000 80%);
+    background: radial-gradient(ellipse at center, #888C8F 0%, #000000 80%);
     background-size: contain;
     background-repeat: no-repeat;
     background-color: #012e58;
@@ -4508,7 +4510,6 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     animation: none;
     background-position: bottom right;
     padding-top: 3em;
-    filter: grayscale(1);
   }
 
   #carousel-fade .carousel-inner .item:nth-child(2) {
@@ -5173,7 +5174,9 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   #carousel-fade .carousel-inner .item:nth-child(1) {
-    background-image: url(/wave-test/Images/Logo-Glass.png);
+    background: -moz-radial-gradient(center, ellipse cover, #888C8F 0%, #000000 80%);
+    background: -webkit-radial-gradient(center, ellipse cover, #888C8F 0%, #000000 80%);
+    background: radial-gradient(ellipse at center, #888C8F 0%, #000000 80%);
     background-size: contain;
     background-repeat: no-repeat;
     background-color: #012e58;
@@ -5181,7 +5184,6 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     background-position: bottom right;
     animation: none;
     padding-top: 3em;
-    filter: grayscale(1);
   }
 
   #carousel-fade .carousel-inner .item:nth-child(2) {
@@ -5640,13 +5642,14 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   #carousel-fade .carousel-inner .item:nth-child(1) {
-    background-image: url(/wave-test/Images/AESSEAL-in-the-BHAG.jpg);
+    background: -moz-radial-gradient(center, ellipse cover, #888C8F 0%, #000000 80%);
+    background: -webkit-radial-gradient(center, ellipse cover, #888C8F 0%, #000000 80%);
+    background: radial-gradient(ellipse at center, #888C8F 0%, #000000 80%);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: rgb(8,14,34);
     background-blend-mode: unset;
     background-position: 0% 75%;
-    filter: grayscale(1);  
   }
 
   #carousel-fade .carousel-inner .item:nth-child(2) {
