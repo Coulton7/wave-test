@@ -1,6 +1,6 @@
 body{
-	font-size: :14px;
-	line-height: :1.618rem;
+	font-size: 14px;
+	line-height :1.618rem;
 	color: #535454;
 }/* sets the text color and base height and size*/
 
@@ -16,7 +16,6 @@ ul{
 }
 
 li{
-	float:left;
 	color:#535454;
 	display:inline-block;
 }
