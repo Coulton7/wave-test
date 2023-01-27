@@ -3316,6 +3316,17 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   max-height: 100%;
 }
 
+#video-background {
+  position: absolute;
+  height: auto;
+  min-height: 100%;
+  min-width: 100%;
+  background-position: bottom;
+  background-size: cover;
+  top: 0;
+  right: 0;
+}
+
 @media all and (transform-3d), (-webkit-transform-3d) {
 
   .carousel-fade .carousel-inner>.item.next,
