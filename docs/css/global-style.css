@@ -3316,6 +3316,10 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   max-height: 100%;
 }
 
+#video-background::before {
+  background: rgba(0, 0, 0, .5);
+}
+
 #video-background {
   position: absolute;
   height: auto;
