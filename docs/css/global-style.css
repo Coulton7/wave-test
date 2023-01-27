@@ -3317,7 +3317,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 }
 
 #video-background::before {
-  background: rgba(0, 0, 0, .5);
+  background: rgba(0, 0, 0, .15);
 }
 
 #video-background {
