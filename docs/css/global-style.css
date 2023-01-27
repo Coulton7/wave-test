@@ -3335,6 +3335,8 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   right: 0;
   left: 0;
   bottom: 0;
+  height: 100%;
+  width: 100%;
 }
 
 
