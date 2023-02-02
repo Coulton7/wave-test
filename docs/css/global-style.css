@@ -3267,6 +3267,10 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   background-color: #efefef;
 }
 
+.wavelogo {
+  background: transparent;
+}
+
 .row.wavelower {
   background-color: #efefef;
 }

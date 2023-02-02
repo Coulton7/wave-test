@@ -170,7 +170,7 @@ html {
   background-image: -moz-linear-gradient(-45deg, #002a5b 0%, #004a8c 41%, #002a5b 100%);
   background-image: -webkit-linear-gradient(-45deg, #002a5b 0%, #004a8c 41%, #002a5b 100%);
   background-image: linear-gradient(135deg, #002a5b 0%, #004a8c 41%, #002a5b 100%);
-  -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#002a5b', endColorstr='#004a8c', GradientType=1);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#002a5b', endColorstr='#004a8c', GradientType=1);
   background-attachment: fixed;
 }
 
@@ -248,8 +248,9 @@ html {
 /*alters the background for the navbar*/
 .fit-menu {
   float: right;
-  display: inline-block;
+  display: block;
   height: inherit;
+  position: relative;
 }
 
 .action-menu {
@@ -402,7 +403,7 @@ html {
   background: -moz-linear-gradient(-45deg, #cbd1d5 0%, #abb2b6 42%, #f5fbfe 100%);
   background: -webkit-linear-gradient(-45deg, #cbd1d5 0%, #abb2b6 42%, #f5fbfe 100%);
   background: linear-gradient(135deg, #cbd1d5 0%, #abb2b6 42%, #f5fbfe 100%);
-  -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cbd1d5', endColorstr='#f5fbfe', GradientType=1);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cbd1d5', endColorstr='#f5fbfe', GradientType=1);
 }
 
 .footer_lower {
