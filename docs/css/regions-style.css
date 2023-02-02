@@ -624,7 +624,7 @@ html {
   .navbar-nav {
     list-style-type: none;
     overflow: hidden;
-    background-color: transparent;
+    background-color: rgb(255, 255, 255, 0);
     padding-left: 12em;
   }
 
