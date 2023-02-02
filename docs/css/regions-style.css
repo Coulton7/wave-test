@@ -254,7 +254,7 @@ html {
 }
 
 .action-menu {
-  background: rgba(0, 0, 0, 0.5);
+  /*background: rgba(0, 0, 0, 0.5);*/
   color: #ffffff;
   height: 3em;
   width: 100%;
@@ -620,7 +620,6 @@ html {
     border: none;
   }
 
-  /*To stop a while backround appearing behind the action-menu in mobile*/
   .navbar-nav {
     list-style-type: none;
     overflow: hidden;
@@ -946,7 +945,6 @@ html {
     border: none;
   }
 
-  /*To stop a while backround appearing behind the action-menu*/
   .wavelogo img {
     display: none;
   }
