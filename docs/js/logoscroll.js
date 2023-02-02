@@ -43,7 +43,7 @@ $(window).width(function(e) {
       });
     }
 
-    $(window).scorll(function() {
+    $(window).scroll(function() {
       var s = $(window).scrollTop(),
       d = $(document).height(),
       c = $(window).height();
