@@ -55,6 +55,14 @@ body.navbar-is-fixed-top.navbar-administration .navbar, body.navbar-is-fixed-top
   position: relative;
 }
 
+.navbar-default .navbar-nav>li>a {
+  color: #ffffff;;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  color: #e5e5e7;;
+}
+
 a.no-underline {
   border-bottom: none;
 }
