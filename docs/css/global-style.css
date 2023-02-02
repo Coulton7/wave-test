@@ -2883,7 +2883,7 @@ a.btn-transparent-green-border:hover, a.btn-transparent-green-border:focus {
 .social-media {
   position: absolute;
   width: 100%;
-  top: 4em;
+  top: 20%;
   z-index: 10;
   background: transparent;
 }
