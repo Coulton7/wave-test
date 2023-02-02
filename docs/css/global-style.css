@@ -5139,18 +5139,18 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
   .social-id p.front-fade:nth-child(1) {
     position: relative;
-    right: auto;
+    right: 3%;
   }
 
   .social-id p.front-fade:nth-child(2) {
     position: relative;
-    right: 8%;
+    right: 12%;
     left: auto;
   }
 
   .social-id p.front-fade:nth-child(3) {
     position: relative;
-    right: 3%;
+    right: 6%;
   }
 
   .fade_text {
