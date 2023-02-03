@@ -190,6 +190,15 @@ a.no-underline :hover {
   border-bottom: none;
 }
 
+.overlay-btn {
+  float: none;
+  position: relative;
+  padding: 0;
+  cursor: pointer;
+  top: auto;
+  right: auto;
+}
+
 .front .flex-header {
   color: #ffffff;
   text-shadow: none;
