@@ -1163,7 +1163,7 @@ blockquote {
 .action-menu {
   position: absolute;
   top: 3em;
-  z-index: 103;
+  z-index: 10;
 }
 
 .view-api-plans .views-exposed-widgets .btn,
