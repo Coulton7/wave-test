@@ -1490,7 +1490,7 @@ label.resource-label {
   width: 25em;
   position: fixed;
   top: 0;
-  right: -1em;
+  right: -3em;
   z-index: 1038;
   height: auto;
 }
