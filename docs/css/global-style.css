@@ -1491,7 +1491,7 @@ label.resource-label {
   position: fixed;
   top: 0;
   right: -1em;
-  z-index: 103;
+  z-index: 1032;
   height: auto;
 }
 
@@ -3378,6 +3378,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 .navbar-nav {
   display: flex;
   justify-content: center;
+  padding-left: 0;
 }
 
 
@@ -4638,10 +4639,6 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
   .sustain-nav li a {
     padding: 0;
-  }
-
-  .navbar-nav {
-    display: block;
   }
 
   .flex-header {
