@@ -1490,7 +1490,8 @@ label.resource-label {
   width: 25em;
   position: fixed;
   top: 0;
-  right: 2em;
+  right: -1em;
+  z-index: 103;
 }
 
 .search-block .input-group-btn {
