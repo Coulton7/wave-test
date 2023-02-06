@@ -210,6 +210,10 @@ a.no-underline :hover {
   border-top: none;
 }
 
+.overlay-btn:hover {
+  border-top: none;
+}
+
 .front .flex-header {
   color: #ffffff;
   text-shadow: none;
