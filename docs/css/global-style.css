@@ -59,6 +59,14 @@ body.navbar-is-fixed-top.navbar-administration .navbar, body.navbar-is-fixed-top
   color: #ffffff;;
 }
 
+.navbar-nav>li>a.normText {
+  color: #777;
+}
+
+.navbar-nav>li>a.normText:hover {
+  color: #333;
+}
+
 .navbar-default .navbar-nav>li>a:hover {
   color: #e5e5e7;;
 }
