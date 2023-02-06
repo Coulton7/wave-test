@@ -56,7 +56,8 @@ body.navbar-is-fixed-top.navbar-administration .navbar, body.navbar-is-fixed-top
 }
 
 .navbar-default .navbar-nav>li>a {
-  color: #ffffff;;
+  color: #ffffff;
+  transition: all 1s;
 }
 
 .navbar-nav>li>a.normText {
