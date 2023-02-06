@@ -61,6 +61,7 @@ body.navbar-is-fixed-top.navbar-administration .navbar, body.navbar-is-fixed-top
 
 .navbar-nav>li>a.normText {
   color: #777;
+  transition: all 1s;
 }
 
 .navbar-nav>li>a.normText:hover {
