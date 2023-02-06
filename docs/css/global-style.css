@@ -65,12 +65,12 @@ body.navbar-is-fixed-top.navbar-administration .navbar, body.navbar-is-fixed-top
   transition: all 1s;
 }
 
-.navbar-nav>li>a.normText:hover {
-  color: #333;
-}
-
 .navbar-default .navbar-nav>li>a:hover {
   color: #e5e5e7;;
+}
+
+.navbar-nav>li>a.normText:hover {
+  color: #333;
 }
 
 a.no-underline {
