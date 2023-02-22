@@ -5204,6 +5204,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
   .shadow-container {
     background-color: rgba(0, 0, 0, .45);
+    border-radius: 35px;
   }
 
   :lang(en) .carousel-col-placement {
