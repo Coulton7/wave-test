@@ -2840,7 +2840,7 @@ a.btn-transparent-green-border:hover, a.btn-transparent-green-border:focus {
 
 .shadow-container {
   width: 100%;
-  background-color: #efefef;
+  background-color: rgba(0, 0, 0, .45);
   position: relative;
   padding: 2em;
 }
@@ -5203,7 +5203,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   .shadow-container {
-    background-color: #efefef;
+    background-color: rgba(0, 0, 0, .45);
   }
 
   :lang(en) .carousel-col-placement {
@@ -5673,7 +5673,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   .shadow-container {
-    background-color: #efefef;
+    background-color: rgba(0, 0, 0, .45);
     margin-left: 10%;
     margin-top: 3px;
   }
@@ -5919,7 +5919,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   .shadow-container {
-    background-color: #efefef;
+    background-color: rgba(0, 0, 0, .45);
     margin-left: 0;
     margin-top: auto;
   }
@@ -6070,7 +6070,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   .shadow-container {
-    background-color: #efefef;
+    background-color: rgba(0, 0, 0, .45);
   }
 
   .media-carousel-block {
@@ -6160,7 +6160,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   .shadow-container {
-    background-color: #efefef;
+    background-color: rgba(0, 0, 0, .45);
   }
 
   .media-carousel-block {
