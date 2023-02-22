@@ -3388,7 +3388,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 }
 
 .video-overlay {
-  background: rgba(0, 42, 91, .45);
+  background: rgba(0, 18, 40, .45);
   position: absolute;
   top: 0;
   right: 0;
