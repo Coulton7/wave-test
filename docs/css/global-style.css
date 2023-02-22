@@ -5216,7 +5216,8 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   .indicators-container .carousel-indicators {
-    justify-content: flex-start;
+    justify-content: center;
+    bottom: -1em
   }
 
   .social-id {
@@ -5227,10 +5228,6 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     width: 51%;
     background: transparent;
     box-shadow: none;
-  }
-
-  .indicators-container .carousel-indicators {
-    bottom: -1em
   }
 
   .media-carousel-block .carousel-indicators ul li {
