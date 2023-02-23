@@ -5720,7 +5720,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   .home-slider-height {
-    min-height: 80vh;
+    min-height: 95vh;
   }
 
   #carousel-fade .carousel-inner .item:nth-child(1) {
