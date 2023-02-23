@@ -2519,7 +2519,7 @@ a.menu-box:hover img {
 .home-slider-height {
   height: 100%;
   background-color: #002a5b;;
-  max-height: 48em;
+  max-height: 56em;
   position: relative;
 }
 
@@ -4581,7 +4581,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   .home-slider-height {
-    min-height: 29em;
+    min-height: 45em;
     display: flex;
     flex-wrap: wrap;
   }
@@ -5310,7 +5310,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   .home-slider-height {
-    min-height: 26em;
+    min-height: 42em;
     display: flex;
   }
 
@@ -5717,7 +5717,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   .home-slider-height {
-    min-height: 32em;
+    min-height: 48em;
   }
 
   #carousel-fade .carousel-inner .item:nth-child(1) {
