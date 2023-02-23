@@ -5551,9 +5551,8 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   .media-carousel-block {
-    position: relative;
-    bottom: 0.25em;
-    margin-top: -0.9em
+    position: absolute;
+    bottom: -30%;
   }
 
   .envirologo-container {
@@ -5867,9 +5866,8 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   .media-carousel-block {
-    bottom: 0;
-    position: relative;
-    margin-top: -1em;
+    bottom: -40%;
+    position: absolute;
   }
 
   .media-carousel-block .carousel-controls .carousel-control {
