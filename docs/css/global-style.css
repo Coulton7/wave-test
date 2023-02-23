@@ -6072,9 +6072,8 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   .media-carousel-block {
-    position: relative;
-    bottom: 0;
-    margin-top: -1em;
+    position: absolute;
+    bottom: -50%;
   }
 
   blockquote.image-quote {
