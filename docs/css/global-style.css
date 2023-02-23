@@ -2519,7 +2519,7 @@ a.menu-box:hover img {
 .home-slider-height {
   height: 100%;
   background-color: #002a5b;;
-  max-height: 56em;
+  max-height: 100vh;
   position: relative;
 }
 
@@ -5720,7 +5720,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   .home-slider-height {
-    min-height: 100vh;
+    min-height: 80vh;
   }
 
   #carousel-fade .carousel-inner .item:nth-child(1) {
