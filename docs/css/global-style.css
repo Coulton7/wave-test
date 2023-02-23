@@ -5555,6 +5555,10 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     bottom: -30%;
   }
 
+  .body-carousel-padding {
+    padding-top: 10%;
+  }
+
   .envirologo-container {
     height: 100%;
     position: relative;
@@ -5870,6 +5874,10 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     position: absolute;
   }
 
+  .body-carousel-padding {
+    padding-top: 15%;
+  }
+
   .media-carousel-block .carousel-controls .carousel-control {
     width: 3em;
     height: 3em;
@@ -6067,6 +6075,10 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
   .shadow-container {
     background-color: rgba(0, 0, 0, .45);
+  }
+
+  .body-carousel-padding {
+    padding-top: 20%;
   }
 
   .media-carousel-block {
