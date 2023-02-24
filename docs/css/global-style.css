@@ -2843,6 +2843,7 @@ a.btn-transparent-green-border:hover, a.btn-transparent-green-border:focus {
   background-color: transparent;
   position: relative;
   padding: 2em;
+  padding-top: 0;
 }
 
 .flex-text-overflow-container {
