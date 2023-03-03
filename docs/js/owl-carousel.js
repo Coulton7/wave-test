@@ -1,6 +1,6 @@
 $(function(){
     $('.owl-carousel').owlCarousel({
-        margin: 10,
+        margin: 20,
         loop: true,
         stagePadding: 50,
         items: 4,
