@@ -22,6 +22,21 @@ $(function(){
             1200: {
                 items: 4
             }
+        },
+        onIntialized: counter,
+        onTranslated: counter
+    });
+
+    function counter(event) {
+        var element = event.target;
+
+        var items = event.item.count;
+
+        var item = event.item.index + 1
+
+        if(item > items) {
+            item = item - items
         }
-    })
+        $('#counter').html(item+" of "+items)
+    }
 })
