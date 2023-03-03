@@ -1,5 +1,5 @@
 $(function(){
-    $('.thumb-carousel').owlCarousel({
+    $('.owl-carousel').owlCarousel({
         loop: true,
         stagePadding: 50,
         items: 4,
