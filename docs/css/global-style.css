@@ -5552,7 +5552,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   .media-carousel-block {
-    position: absolute;
+    position: relative;
     bottom: -30%;
   }
 
@@ -5872,7 +5872,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
   .media-carousel-block {
     bottom: -40%;
-    position: absolute;
+    position: relative;
   }
 
   .body-carousel-padding {
@@ -6083,7 +6083,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   .media-carousel-block {
-    position: absolute;
+    position: relative;
     bottom: -50%;
   }
 
