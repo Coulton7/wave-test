@@ -3413,10 +3413,12 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
 a.icon-link {
   color: #002a5b;
+  cursor: pointer;
 }
 
 a.icon-link:hover {
   color: #ffffff;
+  cursor: pointer;
 }
 
 .slider-links li {
