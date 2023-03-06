@@ -3,7 +3,7 @@ $(function(){
         if(!e.namespace) {
             return;
         }
-        $("#counter").text(e.relatedTarget.relative(e.item.index)+ 1 + "of" + e.item.count);
+        $("#counter").text(e.relatedTarget.relative(e.item.index)+ 1 + " of " + e.item.count);
     });
 
     $(".slider").owlCarousel({
