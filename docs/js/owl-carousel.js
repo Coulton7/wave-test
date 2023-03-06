@@ -2,7 +2,8 @@ $(function(){
     var owl = $('.owl-carousel');
     owl.owlCarousel({
         margin: 20,
-        loop: true,
+        rewind: true,
+        loop: false,
         stagePadding: 50,
         items: 4,
         nav: true,
