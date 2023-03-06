@@ -2,8 +2,7 @@ $(function(){
     var owl = $('.owl-carousel');
     owl.owlCarousel({
         margin: 20,
-        rewind: true,
-        loop: false,
+        loop: true,
         stagePadding: 50,
         items: 4,
         nav: true,
