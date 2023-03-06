@@ -1,6 +1,12 @@
 $(function(){
-    var owl = $('.owl-carousel');
-    owl.owlCarousel({
+    $(".slider").on("initialized.owl.carousel changed.owl.carousel", function(e) {
+        if(!e.namespace) {
+            return;
+        }
+        $("#counter").text(e.relatedTaregt.relative(e.item.index)+ 1 + "of" + e.item.count);
+    });
+
+    $(".slider").owlCarousel({
         margin: 20,
         loop: true,
         stagePadding: 50,
@@ -11,33 +17,18 @@ $(function(){
             767 : {
              items: 4   
             },
-
+    
             768: {
                 items: 3
             },
-
+    
             992: {
                 itmes: 4
             },
-
+    
             1200: {
                 items: 4
             }
         },
-        onIntialized: counter,
-        onTranslated: counter
     });
-
-    function counter(event) {
-        var element = event.target;
-
-        var items = event.item.count;
-
-        var item = event.item.index + 1
-
-        if(item > items) {
-            item = item - items
-        }
-        $('#counter').html(item+" of "+items)
-    }
-})
+});
