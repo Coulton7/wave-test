@@ -3419,6 +3419,10 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   color: #ffffff;
 }
 
+.slider-links li {
+  padding: 1em 0
+}
+
 
 @media all and (transform-3d), (-webkit-transform-3d) {
 
