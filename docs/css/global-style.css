@@ -3406,6 +3406,10 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   padding-left: 0;
 }
 
+.owl-nav {
+  float: right;
+}
+
 
 @media all and (transform-3d), (-webkit-transform-3d) {
 
