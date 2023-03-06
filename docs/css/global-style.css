@@ -3389,8 +3389,8 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 }
 
 .video-overlay {
-  background: rgb(0,42,91, 0.75);
-  background: linear-gradient(180deg, rgba(0,42,91,0.8) 35%, rgba(0,42,91,0.9) 56%, rgba(0,0,0,0.9) 100%);
+  background: rgb(0,42,91);
+  background: linear-gradient(180deg, rgba(0,42,91,0.8) 35%, rgba(0,42,91,0.9) 56%, rgba(0,0,0,0.9) 82%, rgba(0,0,0,1) 100%);
   position: absolute;
   top: 0;
   right: 0;
