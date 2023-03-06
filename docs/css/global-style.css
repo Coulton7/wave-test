@@ -3411,11 +3411,11 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   float: right;
 }
 
-.icon-link {
+a.icon-link {
   color: #002a5b;
 }
 
-.icon-link:hover {
+a.icon-link:hover {
   color: #ffffff;
 }
 
