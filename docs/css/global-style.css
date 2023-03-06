@@ -3410,6 +3410,14 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   float: right;
 }
 
+.icon-link {
+  color: #002a5b;
+}
+
+.icon-link:hover {
+  color: #ffffff;
+}
+
 
 @media all and (transform-3d), (-webkit-transform-3d) {
 
