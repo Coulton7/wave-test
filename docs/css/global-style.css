@@ -3354,7 +3354,13 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 }
 
 .carousel-col-placement {
-  bottom: 2.85em;
+  bottom: -32vh;
+  position: absolute;
+}
+
+.icons-col-placement {
+  bottom: -29vh;
+  position: absolute;
 }
 
 .socialmedia {
@@ -5228,7 +5234,14 @@ a.icon-link:hover {
   }
 
   :lang(en) .carousel-col-placement {
-    bottom: 2.9em;
+    bottom: -33vh;
+    left: 16.666667%;
+    position: absolute;
+  }
+
+  .icons-col-placement {
+    bottom: -30vh;
+    position: absolute;
   }
 
   .carousel-col-placement {
