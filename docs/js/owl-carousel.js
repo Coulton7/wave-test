@@ -1,4 +1,4 @@
-$(function(){
+$(function($){
     $(".slider").on("initialized.owl.carousel changed.owl.carousel", function(e) {
         if(!e.namespace) {
             return;
@@ -31,9 +31,12 @@ $(function(){
             }
         },
     });
-});
 
-$('#esg').on('click', function(){
-    console.log('clicked');
-    $(".slider").trigger('to.owl.carousel', 5)
+    $(document).ready(function () {
+        $('#esg').on('click', function(){
+            console.log('clicked');
+            $(".slider").trigger('to.owl.carousel', 5)
+        });
+    });
+    
 });
