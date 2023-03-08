@@ -32,7 +32,7 @@ $(function(){
         },
     });
 
-    $('#esg').click(function(){
+    $('#esg').on('click', function(){
         $(".slider").trigger('to.owl.carousel', 5)
     });
 });
