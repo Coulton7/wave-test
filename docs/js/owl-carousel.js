@@ -35,7 +35,7 @@ $(function($){
     $(document).ready(function () {
         $('#esg').on('click', function(){
             console.log('clicked');
-            $(".slider").trigger('to.owl.carousel', 5)
+            $(".slider").trigger('to.owl.carousel', [5, 100])
         });
     });
     
