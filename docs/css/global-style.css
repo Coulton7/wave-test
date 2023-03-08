@@ -3417,6 +3417,22 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   float: right;
 }
 
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev {
+  height: 3em;
+  width: 3em;
+  background: #002a5b;
+  border-radius: 50%;
+  color: #000000;
+}
+
+.owl-carousel .owl-nav button.owl-prev {
+  padding-left: 0.5em;
+}
+
+.owl-carousel .owl-nav button.owl-next {
+  padding-right: 0.5em;
+}
+
 a.icon-link {
   color: #002a5b;
   cursor: pointer;
