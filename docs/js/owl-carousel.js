@@ -33,8 +33,9 @@ $(function($){
     });
 
     $('#esg').on('click', function(){
+        $('#esg').addClass('active');
         console.log('clicked');
-        $('.slider').trigger('to.owl.carousel', [5, 100, true])
+        $('.slider').trigger('to.owl.carousel', [5, 100, true]);
     });
     
 });
