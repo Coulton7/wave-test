@@ -33,6 +33,7 @@ $(function(){
     });
 
     $('#esg').on('click', function(){
+        console.log('clicked');
         $(".slider").trigger('to.owl.carousel', 5)
     });
 });
