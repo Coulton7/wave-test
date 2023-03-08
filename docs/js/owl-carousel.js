@@ -32,10 +32,12 @@ $(function($){
         },
     });
 
+    var owl = $(".slider").data('owlCarousel');
+
     $(document).ready(function () {
         $('#esg').on('click', function(){
             console.log('clicked');
-            $(".slider").trigger('to.owl.carousel', [5, 100])
+            owl.trigger('to.owl.carousel', [5, 100])
         });
     });
     
