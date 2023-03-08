@@ -31,4 +31,8 @@ $(function(){
             }
         },
     });
+
+    $('#esg').click(function(){
+        $(".slider").trigger('to.owl.carousel', 5)
+    });
 });
