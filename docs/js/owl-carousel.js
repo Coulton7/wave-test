@@ -32,7 +32,7 @@ $(function($){
         },
     });
 
-    $(document).ready(function () {
+    $(document).ready(function (e) {
         $('#esg').click( function(){
             $('#esg').addClass('active');
             console.log('clicked');
