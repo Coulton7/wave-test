@@ -35,25 +35,21 @@ $(function($){
     $(document).ready(function () {
         $(document).on('click', '#esg', function() {
             $(this).addClass('active');
-            console.log('clicked');
             $('.slider').trigger('to.owl.carousel', [5, 100, true]);
         });
 
         $(document).on('click', '#tech', function() {
             $(this).addClass('active');
-            console.log('clicked');
             $('.slider').trigger('to.owl.carousel', [10, 100, true]);
         });
 
         $(document).on('click', '#cust', function() {
             $(this).addClass('active');
-            console.log('clicked');
             $('.slider').trigger('to.owl.carousel', [15, 100, true]);
         });
 
         $(document).on('click', '#news', function() {
             $(this).addClass('active');
-            console.log('clicked');
             $('.slider').trigger('to.owl.carousel', [0, 100, true]);
         });
     });
