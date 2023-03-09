@@ -38,6 +38,24 @@ $(function($){
             console.log('clicked');
             $('.slider').trigger('to.owl.carousel', [5, 100, true]);
         });
+
+        $(document).on('click', '#tech', function() {
+            $('#tech').addClass('active');
+            console.log('clicked');
+            $('.slider').trigger('to.owl.carousel', [10, 100, true]);
+        });
+
+        $(document).on('click', '#cust', function() {
+            $('#cust').addClass('active');
+            console.log('clicked');
+            $('.slider').trigger('to.owl.carousel', [15, 100, true]);
+        });
+
+        $(document).on('click', '#news', function() {
+            $('#news').addClass('active');
+            console.log('clicked');
+            $('.slider').trigger('to.owl.carousel', [0, 100, true]);
+        });
     });
     
 });
