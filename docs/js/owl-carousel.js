@@ -33,7 +33,7 @@ $(function($){
     });
 
     $(document).ready(function () {
-        $('#esg').click( function(w){
+        $('#esg').click( function(e){
             $('#esg').addClass('active');
             console.log('clicked');
             $('.slider').trigger('to.owl.carousel', [5, 100, true]);
