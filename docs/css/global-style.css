@@ -3453,6 +3453,10 @@ a.icon-link:hover {
   padding: 0.5em 0
 }
 
+.icon-link.active {
+  color: #ffffff;;
+}
+
 
 @media all and (transform-3d), (-webkit-transform-3d) {
 
