@@ -41,7 +41,7 @@ $(function($){
             $('#cust-icon').removeClass('active');
         });
 
-        $(document).on('click', '#tech-icon', function() {
+        $('#tech-icon').on('click', function() {
             $(this).addClass('active');
             $('.slider').trigger('to.owl.carousel', [10, 100, true]);
             $('#esg-icon').removeClass('active');
@@ -49,7 +49,7 @@ $(function($){
             $('#cust-icon').removeClass('active');
         });
 
-        $(document).on('click', '#cust-icon', function() {
+        $('#cust-icon').on('click', function() {
             $(this).addClass('active');
             $('.slider').trigger('to.owl.carousel', [15, 100, true]);
             $('#esg-icon').removeClass('active');
@@ -57,7 +57,7 @@ $(function($){
             $('#news-icon').removeClass('active');
         });
 
-        $(document).on('click', '#news-icon', function() {
+        $('#news-icon').on('click', function() {
             $(this).addClass('active');
             $('.slider').trigger('to.owl.carousel', [0, 100, true]);
             $('#esg-icon').removeClass('active');
