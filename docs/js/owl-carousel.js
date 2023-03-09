@@ -33,36 +33,36 @@ $(function($){
     });
 
     $(document).ready(function () {
-        $(document).on('click', '#esg', function() {
+        $(document).on('click', '#esg-icon', function() {
             $(this).addClass('active');
             $('.slider').trigger('to.owl.carousel', [5, 100, true]);
-            $('#news').removeClass('active');
-            $('#tech').removeClass('active');
-            $('#cust').removeClass('active');
+            $('#news-icon').removeClass('active');
+            $('#tech-icon').removeClass('active');
+            $('#cust-icon').removeClass('active');
         });
 
-        $(document).on('click', '#tech', function() {
+        $(document).on('click', '#tech-icon', function() {
             $(this).addClass('active');
             $('.slider').trigger('to.owl.carousel', [10, 100, true]);
-            $('#esg').removeClass('active');
-            $('#news').removeClass('active');
-            $('#cust').removeClass('active');
+            $('#esg-icon').removeClass('active');
+            $('#news-icon').removeClass('active');
+            $('#cust-icon').removeClass('active');
         });
 
-        $(document).on('click', '#cust', function() {
+        $(document).on('click', '#cust-icon', function() {
             $(this).addClass('active');
             $('.slider').trigger('to.owl.carousel', [15, 100, true]);
-            $('#esg').removeClass('active');
-            $('#tech').removeClass('active');
-            $('#news').removeClass('active');
+            $('#esg-icon').removeClass('active');
+            $('#tech-icon').removeClass('active');
+            $('#news-icon').removeClass('active');
         });
 
-        $(document).on('click', '#news', function() {
+        $(document).on('click', '#news-icon', function() {
             $(this).addClass('active');
             $('.slider').trigger('to.owl.carousel', [0, 100, true]);
-            $('#esg').removeClass('active');
-            $('#tech').removeClass('active');
-            $('#cust').removeClass('active');
+            $('#esg-icon').removeClass('active');
+            $('#tech-icon').removeClass('active');
+            $('#cust-icon').removeClass('active');
         });
     });
     
