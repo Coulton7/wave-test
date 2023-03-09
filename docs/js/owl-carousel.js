@@ -32,8 +32,8 @@ $(function($){
         },
     });
 
-    $(document).ready(function (e) {
-        $('#esg').click( function(){
+    $(document).ready(function () {
+        $('#esg').click( function(w){
             $('#esg').addClass('active');
             console.log('clicked');
             $('.slider').trigger('to.owl.carousel', [5, 100, true]);
