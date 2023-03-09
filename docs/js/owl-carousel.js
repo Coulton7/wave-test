@@ -33,7 +33,7 @@ $(function($){
     });
 
     $(document).ready(function () {
-        $(document).on('click', '#esg-icon', function() {
+        $('#esg-icon').on('click', function() {
             $(this).addClass('active');
             $('.slider').trigger('to.owl.carousel', [5, 100, true]);
             $('#news-icon').removeClass('active');
