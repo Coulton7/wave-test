@@ -36,21 +36,33 @@ $(function($){
         $(document).on('click', '#esg', function() {
             $(this).addClass('active');
             $('.slider').trigger('to.owl.carousel', [5, 100, true]);
+            $('#news').removeClass('active');
+            $('#tech').removeClass('active');
+            $('#cust').removeClass('active');
         });
 
         $(document).on('click', '#tech', function() {
             $(this).addClass('active');
             $('.slider').trigger('to.owl.carousel', [10, 100, true]);
+            $('#esg').removeClass('active');
+            $('#news').removeClass('active');
+            $('#cust').removeClass('active');
         });
 
         $(document).on('click', '#cust', function() {
             $(this).addClass('active');
             $('.slider').trigger('to.owl.carousel', [15, 100, true]);
+            $('#esg').removeClass('active');
+            $('#tech').removeClass('active');
+            $('#news').removeClass('active');
         });
 
         $(document).on('click', '#news', function() {
             $(this).addClass('active');
             $('.slider').trigger('to.owl.carousel', [0, 100, true]);
+            $('#esg').removeClass('active');
+            $('#tech').removeClass('active');
+            $('#cust').removeClass('active');
         });
     });
     
