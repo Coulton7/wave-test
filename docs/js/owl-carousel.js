@@ -32,7 +32,7 @@ $(function($){
         },
     });
 
-    $('#esg').on('click', function(){
+    $('#esg').onClick( function(){
         $('#esg').addClass('active');
         console.log('clicked');
         $('.slider').trigger('to.owl.carousel', [5, 100, true]);
