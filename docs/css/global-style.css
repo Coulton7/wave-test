@@ -5326,7 +5326,7 @@ a.icon-link:hover {
 
   #carousel-fade .carousel-inner .item:nth-child(2) {
     background-image: url(https://static.aesseal.com/photo/wavehead/sustainability-hero-sm.png);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-color: #012e58;
     background-blend-mode: multiply;
@@ -5337,7 +5337,7 @@ a.icon-link:hover {
 
   #carousel-fade .carousel-inner .item:nth-child(3) {
     background-image: url(https://static.aesseal.com/photo/wavehead/technology-hero-sm.png);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-color: #012e58;
     background-blend-mode: multiply;
@@ -5348,7 +5348,7 @@ a.icon-link:hover {
 
   #carousel-fade .carousel-inner .item:nth-child(4) {
     background-image: url(https://static.aesseal.com/photo/wavehead/serivce-hero-sm.png);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-color: #012e58;
     background-blend-mode: multiply;
@@ -5359,7 +5359,7 @@ a.icon-link:hover {
 
   #carousel-fade .carousel-inner .item:nth-child(5) {
     background-image: url(https://static.aesseal.com/photo/wavehead/product-hero-sm.png);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-color: #012e58;
     background-blend-mode: multiply;
@@ -5795,7 +5795,7 @@ a.icon-link:hover {
   #carousel-fade .carousel-inner .item:nth-child(2) {
     background-image: url(https://static.aesseal.com/photo/wavehead/sustainability-backfull.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-color: #012e58;
     background-blend-mode: unset;
   }
@@ -5803,7 +5803,7 @@ a.icon-link:hover {
   #carousel-fade .carousel-inner .item:nth-child(3) {
     background-image: url(https://static.aesseal.com/photo/wavehead/technology-backfull.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-color: #012e58;
     background-blend-mode: unset;
   }
@@ -5811,7 +5811,7 @@ a.icon-link:hover {
   #carousel-fade .carousel-inner .item:nth-child(4) {
     background-image: url(https://static.aesseal.com/photo/wavehead/service-backfull.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-color: #012e58;
     background-blend-mode: unset;
   }
@@ -5819,7 +5819,7 @@ a.icon-link:hover {
   #carousel-fade .carousel-inner .item:nth-child(5) {
     background-image: url(https://static.aesseal.com/photo/wavehead/product-backfull.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-color: #012e58;
     background-blend-mode: unset;
   }
