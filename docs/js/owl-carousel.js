@@ -31,9 +31,9 @@ $(function($){
             }
         },
     }).on('changed.owl.carousel', function(e){
-        console.log("current: ",e.relatedTarget.relative(e.item.index))
-        console.log("current: ",e.item.index) //same
-        console.log("total: ",e.item.count)   //total
+        if(e.relatedTarget.relative(e.item.index) == 5) {
+            $('#carousel-fade').carousel('#esg')
+        }
     })
 
     $(document).ready(function () {
