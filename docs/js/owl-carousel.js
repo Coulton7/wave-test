@@ -31,7 +31,7 @@ $(function($){
             }
         },
     }).on('changed.owl.carousel', function(e){
-        console.log("current: ",e.relatedTarget.current())
+        console.log("current: ",e.relatedTarget.relative(e.item.index))
         console.log("current: ",e.item.index) //same
         console.log("total: ",e.item.count)   //total
     })
