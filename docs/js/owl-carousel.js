@@ -30,7 +30,11 @@ $(function($){
                 items: 4
             }
         },
-    });
+    }).on('changed.owl.carousel', function(e){
+        if(e.item.index + 1 == 5) {
+            $('#carousel-fade').carousel('#esg')
+        }
+    })
 
     $(document).ready(function () {
         $('#esg-icon').on('click', function() {
