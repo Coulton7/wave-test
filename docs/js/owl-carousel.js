@@ -37,24 +37,28 @@ $(function($){
             $('#esg-icon').removeClass('active');
             $('#tech-icon').removeClass('active');
             $('#cust-icon').removeClass('active');
+            $('#carousel-fade').carousel(0);
         }
         else if (e.relatedTarget.relative(e.item.index) == 5){
             $('#esg-icon').addClass('active');
             $('#news-icon').removeClass('active');
             $('#tech-icon').removeClass('active');
             $('#cust-icon').removeClass('active');
+            $('#carousel-fade').carousel(1);
         }
         else if (e.relatedTarget.relative(e.item.index) == 10){
             $('#tech-icon').addClass('active');
             $('#esg-icon').removeClass('active');
             $('#news-icon').removeClass('active');
             $('#cust-icon').removeClass('active');
+            $('#carousel-fade').carousel(2);
         }
         else if (e.relatedTarget.relative(e.item.index) == 15){
             $('#cust-icon').addClass('active');
             $('#esg-icon').removeClass('active');
             $('#tech-icon').removeClass('active');
             $('#news-icon').removeClass('active');
+            $('#carousel-fade').carousel(3);
         }
     })
 
