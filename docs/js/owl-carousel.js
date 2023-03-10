@@ -32,7 +32,7 @@ $(function($){
         },
     }).on('changed.owl.carousel', function(e){
         if(e.relatedTarget.relative(e.item.index) == 5){
-            $('#carousel-fade').carousel('#esg')
+            $('#esg-icon').addClass('active')
             console.log('On ESG')
         }
     })
