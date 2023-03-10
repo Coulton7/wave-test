@@ -31,8 +31,9 @@ $(function($){
             }
         },
     }).on('changed.owl.carousel', function(e){
-        if(e.relatedTarget.relative(e.item.index) == 5)
-        console.log('On ESG!')
+        if(e.relatedTarget.relative(e.item.index) == 5){
+            console.log('On ESG!')
+        }
     })
 
     $(document).ready(function () {
