@@ -32,8 +32,22 @@ $(function($){
         },
     }).on('changed.owl.carousel', function(e){
         if(e.relatedTarget.relative(e.item.index) == 5){
-            $('#esg-icon').addClass('active')
-            console.log('On ESG')
+            $('#esg-icon').addClass('active');
+            $('#news-icon').removeClass('active');
+            $('#tech-icon').removeClass('active');
+            $('#cust-icon').removeClass('active');
+        }
+        else if(e.relatedTarget.relative(e.item.index) == 10){
+            $('#tech-icon').addClass('active');
+            $('#esg-icon').removeClass('active');
+            $('#news-icon').removeClass('active');
+            $('#cust-icon').removeClass('active');
+        }
+        else if(e.relatedTarget.relative(e.item.index) == 15){
+            $('#cust-icon').addClass('active');
+            $('#esg-icon').removeClass('active');
+            $('#tech-icon').removeClass('active');
+            $('#news-icon').removeClass('active');
         }
     })
 
