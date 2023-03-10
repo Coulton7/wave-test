@@ -31,7 +31,7 @@ $(function($){
             }
         },
     }).on('changed.owl.carousel', function(e){
-            console.log(e.relatedTarget.relative(e.item.index))
+            console.log(e.relatedTarget.current())
     })
 
     $(document).ready(function () {
