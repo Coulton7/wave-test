@@ -32,7 +32,8 @@ $(function($){
         },
     }).on('changed.owl.carousel', function(e){
         if(e.relatedTarget.relative(e.item.index) == 5){
-            console.log('On ESG!')
+            $('#carousel-fade').carousel('#esg')
+            console.log('On ESG')
         }
     })
 
