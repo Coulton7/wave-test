@@ -10,7 +10,6 @@ $(function($){
         margin: 20,
         loop: true,
         stagePadding: 50,
-        items: 4,
         nav: true,
         navText:["<i class='fas fa-caret-left fa-3x'></i>","<i class='fas fa-caret-right fa-3x'></i>"],
         responsive: {
