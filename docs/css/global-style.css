@@ -3440,6 +3440,10 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   margin-left: 0.5em;
 }
 
+.owl-item.active.last {
+  opacity: 0.25;
+}
+
 a.icon-link {
   color: #338FBC;
   cursor: pointer;
