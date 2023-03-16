@@ -9,24 +9,23 @@ $(function($){
     $(".slider").owlCarousel({
         margin: 20,
         loop: true,
-        stagePadding: 50,
         nav: true,
         navText:["<i class='fas fa-caret-left fa-3x'></i>","<i class='fas fa-caret-right fa-3x'></i>"],
         responsive: {
             767 : {
-             items: 2   
+             items: 2.5   
             },
     
             768: {
-                items: 3
+                items: 3.33
             },
     
             992: {
-                itmes: 4
+                itmes: 4.25
             },
     
             1200: {
-                items: 4
+                items: 4.25
             }
         },
     }).on('changed.owl.carousel', function(e){
