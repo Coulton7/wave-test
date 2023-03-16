@@ -2923,6 +2923,7 @@ a.btn-transparent-green-border:hover, a.btn-transparent-green-border:focus {
   width: 100%;
   padding: 0.95em 1.1em;
   z-index: 1036;
+  top: 0;
   background: transparent;
 }
 
