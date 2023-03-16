@@ -4430,7 +4430,7 @@ a.icon-link:hover {
   }
 
   .mobile-carousel-caption {
-    bottom: 0em;
+    top: 0em;
     position: relative;
     transform: translateY(0);
     padding: 0 15px;
@@ -5043,7 +5043,7 @@ a.icon-link:hover {
   }
 
   .mobile-carousel-caption {
-    bottom: 0;
+    top: 11vh;
     position: relative;
     transform: translateY(20%);
   }
@@ -5738,7 +5738,7 @@ a.icon-link:hover {
   }
 
   .mobile-carousel-caption {
-    bottom: 0;
+    top: 13vh;
     position: relative;
     transform: translateY(24%);
   }
@@ -6015,7 +6015,7 @@ a.icon-link:hover {
   }
 
   .mobile-carousel-caption {
-    bottom: 0;
+    top: 14vh;
     position: relative;
     transform: translateY(28%);
   }
