@@ -58,7 +58,23 @@ $(function($){
             $('#news-icon').removeClass('active');
             $('#carousel-fade').carousel(3);
         }
+    }).on('translated.owl.carousel', function (x) {
+        checkClasses();
     })
+
+    checkClasses();
+
+    function checkClasses() {
+        var total = $('.slider .owl-stage .owl-itme.active').length;
+
+        $('.slider .owl-stage .owl-itme.active').removeClass('last');
+
+        $('.slider .owl-stage .owl-itme.active').each(function(index) {
+            if (index === total - 1 && total > 1) {
+                $(this).addClass('last');
+            }
+        });
+    }
 
     $(document).ready(function () {
         $('#esg-icon').on('click', function() {
