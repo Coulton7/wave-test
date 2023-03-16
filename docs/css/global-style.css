@@ -3421,7 +3421,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev {
   height: 3em;
   width: 3em;
-  background: #002a5b;
+  background: #338FBC;
   border-radius: 50%;
   color: #000000;
 }
@@ -3441,7 +3441,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 }
 
 a.icon-link {
-  color: #002a5b;
+  color: #338FBC;
   cursor: pointer;
 }
 
