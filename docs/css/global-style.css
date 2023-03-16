@@ -3441,7 +3441,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 }
 
 .owl-item.active.last {
-  opacity: 0.25;
+  opacity: 0.5;
 }
 
 a.icon-link {
