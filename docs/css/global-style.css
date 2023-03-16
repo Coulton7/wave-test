@@ -60,7 +60,7 @@ body.navbar-is-fixed-top.navbar-administration .navbar, body.navbar-is-fixed-top
   transition: all 0.5s;
 }
 
-.navbar-nav>li>a.normText, .social-media>li>a.normText {
+.navbar-nav>li>a.normText, .social-media li a.normText {
   color: #777;
   transition: all 0.5s;
 }
