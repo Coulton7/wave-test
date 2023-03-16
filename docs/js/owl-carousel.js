@@ -65,7 +65,7 @@ $(function($){
     checkClasses();
 
     function checkClasses() {
-        var total = $('.slider .owl-stage .owl-itme.active').length;
+        var total = $('.slider .owl-stage .owl-item.active').length;
 
         $('.slider .owl-stage .owl-item.active').removeClass('last');
 
