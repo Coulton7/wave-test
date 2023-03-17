@@ -25,7 +25,7 @@ $(function($){
             },
     
             1200: {
-                items: 4.25
+                items: 4.75
             }
         },
     }).on('changed.owl.carousel', function(e){
