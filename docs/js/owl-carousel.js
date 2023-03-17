@@ -21,11 +21,11 @@ $(function($){
             },
     
             992: {
-                itmes: 4.75
+                itmes: 4.66
             },
     
             1200: {
-                items: 4.75
+                items: 4.66
             }
         },
     }).on('changed.owl.carousel', function(e){
