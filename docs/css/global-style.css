@@ -3462,7 +3462,7 @@ a.icon-link:hover {
   color: #ffffff;;
 }
 
-.transparent-text {
+.transparent-text, h1.transparent-text {
   color: transparent;
 }
 
