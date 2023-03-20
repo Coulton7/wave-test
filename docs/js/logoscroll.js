@@ -60,6 +60,16 @@ $(window).width(function(e) {
         $('.navbar-nav>li>a').removeClass('normText');
         $('.social-media li a').removeClass('normText');
       }
+
+      if(opacity >= 0.42) {
+        $('.carousel-caption h1').addClass('transparent-text');
+        $('.carousel-caption h4').addClass('transparent-text');
+      }
+
+      else if (opacity < 0.42) {
+        $('.carousel-caption h1').removeClass('transparent-text');
+        $('.carousel-caption h4').removeClass('transparent-text');
+      }
     })
   });
 });
