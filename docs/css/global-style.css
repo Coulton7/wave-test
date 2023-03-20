@@ -3464,6 +3464,7 @@ a.icon-link:hover {
 
 .transparent-text, h1.transparent-text {
   color: transparent;
+  text-shadow: none;
 }
 
 
