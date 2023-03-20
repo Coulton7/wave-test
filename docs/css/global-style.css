@@ -3463,7 +3463,7 @@ a.icon-link:hover {
 }
 
 .flex-header h1, .carousel-caption h4 {
-  transition: .5s all;
+  transition: .75s all;
 }
 
 .transparent-text, h1.transparent-text {
