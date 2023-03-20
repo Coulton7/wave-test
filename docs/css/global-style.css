@@ -3462,6 +3462,10 @@ a.icon-link:hover {
   color: #ffffff;;
 }
 
+.flex-header h1, .carousel-caption h4 {
+  transition: .5s all;
+}
+
 .transparent-text, h1.transparent-text {
   color: transparent;
   text-shadow: none;
