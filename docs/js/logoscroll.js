@@ -62,12 +62,12 @@ $(window).width(function(e) {
         $('.social-media li a').removeClass('normText');
       }
 
-      if ($(nav).scrollTop >= $('.carousel-caption').offset().top -10 ) {
+      if ($(nav).scrollTop >= $('.carousel-caption').offset().top -60 ) {
         $('.carousel-caption h1').addClass('transparent-text');
         $('.carousel-caption h4').addClass('transparent-text');
       }
 
-      else if ($(nav).scrollTop < $('.carousel-caption').offset().top -10) {
+      else if ($(nav).scrollTop < $('.carousel-caption').offset().top -60) {
         $('.carousel-caption h1').removeClass('transparent-text');
         $('.carousel-caption h4').removeClass('transparent-text');
       }
