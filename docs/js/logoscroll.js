@@ -47,7 +47,7 @@ $(window).width(function(e) {
       d = $(document).height(),
       c = $(window).height();
       
-      var nav = $('.navbar');
+      var nav = $('.navbar-nav');
 
       var scrollAmount = (s/(d-c)) * 100;
       var opacity = scrollAmount/100;
