@@ -30,7 +30,6 @@
 
 })(jQuery);
 
-//initialize
 $(window).width(function(e) {
 
   $(document).ready(function() {
