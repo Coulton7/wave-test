@@ -61,12 +61,12 @@ $(window).width(function(e) {
         $('.social-media li a').removeClass('normText');
       }
 
-      if (opacity >= 0.31) {
+      if (opacity >= 0.33) {
         $('.carousel-caption h1').addClass('transparent-text');
         $('.carousel-caption h4').addClass('transparent-text');
       }
 
-      else if (opacity < 0.31) {
+      else if (opacity < 0.33) {
         $('.carousel-caption h1').removeClass('transparent-text');
         $('.carousel-caption h4').removeClass('transparent-text');
       }
