@@ -47,6 +47,8 @@ $(window).width(function(e) {
       var s = $(window).scrollTop(),
       d = $(document).height(),
       c = $(window).height();
+      
+      var nav = $('.navbar');
 
       var scrollAmount = (s/(d-c)) * 100;
       var opacity = scrollAmount/100;
@@ -61,12 +63,12 @@ $(window).width(function(e) {
         $('.social-media li a').removeClass('normText');
       }
 
-      if (opacity >= 0.33) {
+      if (nav.scrollTop >= $('.carousel-caption').offset().top -10 ) {
         $('.carousel-caption h1').addClass('transparent-text');
         $('.carousel-caption h4').addClass('transparent-text');
       }
 
-      else if (opacity < 0.33) {
+      else if (nav.scrollTop < $('.carousel-caption').offset().top -10) {
         $('.carousel-caption h1').removeClass('transparent-text');
         $('.carousel-caption h4').removeClass('transparent-text');
       }
