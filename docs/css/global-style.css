@@ -3355,7 +3355,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 }
 
 :lang(en) .carousel-col-placement {
-  bottom: -32vh;
+  bottom: -26vh;
   position: absolute;
 }
 
@@ -4629,7 +4629,7 @@ a.icon-link:hover {
   }
 
   :lang(en) .carousel-col-placement {
-    bottom: -40vh;
+    bottom: -26vh;
     position: absolute;
   }
 
