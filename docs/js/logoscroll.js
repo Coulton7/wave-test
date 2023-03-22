@@ -63,13 +63,13 @@ $(window).width(function(e) {
         $('.social-media li a').removeClass('normText');
       }
 
-      if (text.top <= nav.top + nav.height) {
+      if (text.top >= nav.top + nav.height) {
         console.log('overlap')
         $('.carousel-caption h1').addClass('transparent-text');
         $('.carousel-caption h4').addClass('transparent-text');
       }
 
-      else if (text.top > nav.top + nav.height) {
+      else if (text.top < nav.top + nav.height) {
         console.log('no overlap')
         $('.carousel-caption h1').removeClass('transparent-text');
         $('.carousel-caption h4').removeClass('transparent-text');
