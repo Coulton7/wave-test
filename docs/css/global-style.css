@@ -4629,7 +4629,7 @@ a.icon-link:hover {
   }
 
   .carousel-col-placement {
-    bottom: 0;
+    bottom: -40vh;
   }
 
   .flex-gradient {
