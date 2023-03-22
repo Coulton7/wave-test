@@ -4725,6 +4725,10 @@ a.icon-link:hover {
     padding-top: 30vh;
   }
 
+  .body-carousel-padding {
+    padding-top: 30vh;
+  }
+
   .block-labtectaenquiry{
     background-size: 100%;
   }
@@ -5394,6 +5398,10 @@ a.icon-link:hover {
   .owl-nav {
     float: none;
     text-align: center;
+  }
+
+  .body-carousel-padding {
+    padding-top: 30vh;
   }
 
   .nav-help {
