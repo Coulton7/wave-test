@@ -4716,6 +4716,11 @@ a.icon-link:hover {
     color: #338FBC;
   }
 
+  .owl-nav {
+    text-align: center;
+    float: none;
+  }
+
   .block-labtectaenquiry{
     background-size: 100%;
   }
@@ -5382,6 +5387,11 @@ a.icon-link:hover {
     display: flex;
   }
 
+  .owl-nav {
+    float: none;
+    text-align: center;
+  }
+
   .nav-help {
     margin-top: 1em;
     display: block;
@@ -5827,6 +5837,11 @@ a.icon-link:hover {
     background-size: cover;
     background-color: #012e58;
     background-blend-mode: unset;
+  }
+
+  .owl-nav {
+    text-align: initial;
+    float: right;
   }
 }
 
