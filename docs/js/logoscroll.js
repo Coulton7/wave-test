@@ -47,8 +47,8 @@ $(window).width(function(e) {
       d = $(document).height(),
       c = $(window).height();
       
-      var nav = $('.navbar-nav');
-      var text =$('.carousel-caption');
+      var nav = $('.navbar-nav').getBoundingClientRect();
+      var text =$('.carousel-caption').getBoundingClientRect();
 
       var scrollAmount = (s/(d-c)) * 100;
       var opacity = scrollAmount/100;
