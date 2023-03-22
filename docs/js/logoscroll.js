@@ -47,7 +47,7 @@ $(window).width(function(e) {
       d = $(document).height(),
       c = $(window).height();
       
-      var nav = $('.navbar-nav').getBoundingClientRect();
+      var nav = $('.navbar-nav')[0].getBoundingClientRect();
       var text =$('.carousel-caption').getBoundingClientRect();
 
       var scrollAmount = (s/(d-c)) * 100;
