@@ -4721,6 +4721,10 @@ a.icon-link:hover {
     float: none;
   }
 
+  .body-carousel-padding {
+    padding-top: 30vh;
+  }
+
   .block-labtectaenquiry{
     background-size: 100%;
   }
