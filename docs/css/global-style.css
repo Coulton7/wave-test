@@ -3354,7 +3354,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   color: #ffffff;
 }
 
-.carousel-col-placement {
+:lang(en) .carousel-col-placement {
   bottom: -32vh;
   position: absolute;
 }
@@ -4628,8 +4628,9 @@ a.icon-link:hover {
     box-shadow: none;
   }
 
-  .carousel-col-placement {
+  :lang(en) .carousel-col-placement {
     bottom: -40vh;
+    position: absolute;
   }
 
   .flex-gradient {
