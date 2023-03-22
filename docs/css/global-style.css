@@ -3794,7 +3794,7 @@ a.icon-link:hover {
   }
 
   .media-carousel-block .item div {
-    min-height: 15.25em;
+    min-height: 100%;
   }
 
   .media-carousel .carousel-inner .item {
@@ -3931,7 +3931,7 @@ a.icon-link:hover {
   }
 
   .media-carousel-block .item div {
-    min-height: 15em;
+    min-height: 100%;
   }
 
   .media-carousel .carousel-inner .item {
