@@ -48,7 +48,7 @@ $(window).width(function(e) {
       c = $(window).height();
       
       var nav = $('.navbar-nav')[0].getBoundingClientRect();
-      var text =$('.mobile-carousel-caption')[0].getBoundingClientRect();
+      var text =$('.mobile-carousel-caption')[1].getBoundingClientRect();
 
       var scrollAmount = (s/(d-c)) * 100;
       var opacity = scrollAmount/100;
