@@ -4722,11 +4722,11 @@ a.icon-link:hover {
   }
 
   .body-carousel-padding {
-    padding-top: 30vh;
+    padding-top: 15vh;
   }
 
-  .body-carousel-padding {
-    padding-top: 30vh;
+  .owl-item.active.last {
+    opacity: 1;
   }
 
   .block-labtectaenquiry{
@@ -5402,6 +5402,10 @@ a.icon-link:hover {
 
   .body-carousel-padding {
     padding-top: 30vh;
+  }
+
+  .owl-item.active.last {
+    opacity: 0.5;
   }
 
   .nav-help {
