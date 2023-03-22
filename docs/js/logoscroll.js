@@ -46,9 +46,12 @@ $(window).width(function(e) {
       var s = $(window).scrollTop(),
       d = $(document).height(),
       c = $(window).height();
+
+      var currentSlide = parseInt($('.carousel-fade .active').index('.carousel-fade .item'));
+      var i = currentSlide;
       
       var nav = $('.navbar-nav')[0].getBoundingClientRect();
-      var text =$('.mobile-carousel-caption')[1].getBoundingClientRect();
+      var text =$('.mobile-carousel-caption')[i].getBoundingClientRect();
 
       var scrollAmount = (s/(d-c)) * 100;
       var opacity = scrollAmount/100;
