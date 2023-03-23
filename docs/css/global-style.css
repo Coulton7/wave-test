@@ -5282,12 +5282,6 @@ a.icon-link:hover {
     border-radius: 35px;
   }
 
-  :lang(en) .carousel-col-placement {
-    bottom: -33vh;
-    left: 16.666667%;
-    position: absolute;
-  }
-
   .icons-col-placement {
     bottom: -30vh;
     position: absolute;
@@ -5807,6 +5801,12 @@ a.icon-link:hover {
 
   .front .caption-container {
     top: 14%;
+  }
+
+  :lang(en) .carousel-col-placement {
+    bottom: -33vh;
+    left: 16.666667%;
+    position: absolute;
   }
 
   .home-slider-height {
