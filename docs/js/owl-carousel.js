@@ -31,28 +31,28 @@ $(function($){
         },
     }).on('changed.owl.carousel', function(e){
 
-        if (e.relatedTarget.relative(e.item.index) == 0 || e.relatedTarget.relative(e.item.index) == 4){
+        if (e.relatedTarget.relative(e.item.index) >= 0 && e.relatedTarget.relative(e.item.index) <= 4){
             $('#news-icon').addClass('active');
             $('#esg-icon').removeClass('active');
             $('#tech-icon').removeClass('active');
             $('#cust-icon').removeClass('active');
             $('#carousel-fade').carousel(0);
         }
-        else if (e.relatedTarget.relative(e.item.index) == 5 || e.relatedTarget.relative(e.item.index) == 9){
+        else if (e.relatedTarget.relative(e.item.index) >= 5 && e.relatedTarget.relative(e.item.index) <= 9){
             $('#esg-icon').addClass('active');
             $('#news-icon').removeClass('active');
             $('#tech-icon').removeClass('active');
             $('#cust-icon').removeClass('active');
             $('#carousel-fade').carousel(1);
         }
-        else if (e.relatedTarget.relative(e.item.index) == 10 || e.relatedTarget.relative(e.item.index) == 14){
+        else if (e.relatedTarget.relative(e.item.index) >= 10 && e.relatedTarget.relative(e.item.index) <= 14){
             $('#tech-icon').addClass('active');
             $('#esg-icon').removeClass('active');
             $('#news-icon').removeClass('active');
             $('#cust-icon').removeClass('active');
             $('#carousel-fade').carousel(2);
         }
-        else if (e.relatedTarget.relative(e.item.index) == 15 || e.relatedTarget.relative(e.item.index) == 19){
+        else if (e.relatedTarget.relative(e.item.index) >= 15 || e.relatedTarget.relative(e.item.index) <= 19){
             $('#cust-icon').addClass('active');
             $('#esg-icon').removeClass('active');
             $('#tech-icon').removeClass('active');
