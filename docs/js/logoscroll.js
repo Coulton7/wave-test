@@ -69,7 +69,7 @@ $(window).width(function(e) {
         }
       } else if ($(window).width() < 992) {
         $('.navbar-nav>li>a').addClass('normText');
-        $('.social-media li a').addClass('normText');
+        $('.social-media li a').addClass('display-none');
       };
 
       if (text.top <= nav.top + nav.height) {
