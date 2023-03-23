@@ -55,7 +55,10 @@ $(window).width(function(e) {
 
       var scrollAmount = (s/(d-c)) * 100;
       var opacity = scrollAmount/100;
-      $('.navbar-nav').css({"background-color": "rgba(255,255,255,"+opacity+")"});
+      
+      if($(window).width() > 992) {
+        $('.navbar-nav').css({"background-color": "rgba(255,255,255,"+opacity+")"});
+      };
 
       if (opacity >= 0.55) {
         $('.navbar-nav>li>a').addClass('normText');
