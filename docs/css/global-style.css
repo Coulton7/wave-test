@@ -5064,9 +5064,9 @@ a.icon-link:hover {
   }
 
   .mobile-carousel-caption {
-    top: 11vh;
+    top: 8vh;
     position: relative;
-    transform: translateY(20%);
+    transform: translateY(0%);
   }
 
   .media-carousel-block .nav li a {
