@@ -11,6 +11,7 @@ $(function($){
         loop: true,
         nav: true,
         dots: false,
+        lazyLoad: true,
         responsiveClass: true,
         navText:["<i class='fas fa-caret-left fa-3x'></i>","<i class='fas fa-caret-right fa-3x'></i>"],
         responsive: {
