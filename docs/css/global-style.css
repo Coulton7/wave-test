@@ -3355,8 +3355,8 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 }
 
 :lang(en) .carousel-col-placement {
-  bottom: -26vh;
-  position: absolute;
+  bottom: 0;
+  position: relative;
 }
 
 .icons-col-placement {
