@@ -3408,12 +3408,6 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   z-index: 4;
 }
 
-.navbar-nav {
-  display: flex;
-  justify-content: center;
-  padding-left: 0;
-}
-
 .owl-nav {
   float: right;
 }
@@ -5854,6 +5848,12 @@ a.icon-link:hover {
     background-size: cover;
     background-color: #012e58;
     background-blend-mode: unset;
+  }
+
+  .navbar-nav {
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
   }
 
   .owl-nav {
