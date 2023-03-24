@@ -4717,7 +4717,7 @@ a.icon-link:hover {
   }
 
   .body-carousel-padding {
-    padding-top: 15vh;
+    padding-top: 5vh;
   }
 
   .owl-item.active.last {
@@ -4726,6 +4726,10 @@ a.icon-link:hover {
 
   .block-labtectaenquiry{
     background-size: 100%;
+  }
+
+  :lang(en) .bottom-gap {
+    display: none;
   }
 }
 
