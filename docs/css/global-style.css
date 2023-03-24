@@ -4667,7 +4667,7 @@ a.icon-link:hover {
     background-size: contain;
     background-repeat: no-repeat;
     background-color: #012e58;
-    background-blend-mode: none;
+    background-blend-mode: unset;
     animation: none;
     background-position: bottom right;
     padding-top: 3em;
@@ -4678,7 +4678,7 @@ a.icon-link:hover {
     background-size: contain;
     background-repeat: no-repeat;
     background-color: #012e58;
-    background-blend-mode: none;
+    background-blend-mode: unset;
     animation: none;
     background-position: bottom right;
     padding-top: 3em;
@@ -4689,7 +4689,7 @@ a.icon-link:hover {
     background-size: contain;
     background-repeat: no-repeat;
     background-color: #012e58;
-    background-blend-mode: none;
+    background-blend-mode: unset;
     animation: none;
     background-position: bottom right;
     padding-top: 3em;
@@ -5340,7 +5340,7 @@ a.icon-link:hover {
     background-size: cover;
     background-repeat: no-repeat;
     background-color: #012e58;
-    background-blend-mode: none;
+    background-blend-mode: unset;
     background-position: bottom right;
     animation: none;
     padding-top: 3em;
@@ -5351,7 +5351,7 @@ a.icon-link:hover {
     background-size: cover;
     background-repeat: no-repeat;
     background-color: #012e58;
-    background-blend-mode: none;
+    background-blend-mode: unset;
     background-position: bottom right;
     animation: none;
     padding-top: 3em;
@@ -5362,7 +5362,7 @@ a.icon-link:hover {
     background-size: cover;
     background-repeat: no-repeat;
     background-color: #012e58;
-    background-blend-mode: none;
+    background-blend-mode: unset;
     background-position: bottom right;
     animation: none;
     padding-top: 3em;
