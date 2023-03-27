@@ -4716,8 +4716,8 @@ a.icon-link:hover {
     float: none;
   }
 
-  .body-carousel-padding {
-    padding-top: 5vh;
+  :lang(en) .body-carousel-padding {
+    padding-top: 20vh;
   }
 
   .owl-item.active.last {
