@@ -4696,7 +4696,7 @@ a.icon-link:hover {
     background-color: #012e58;
     background-blend-mode: unset;
     animation: none;
-    background-position: bottom right;
+    background-position: 40%;
     padding-top: 3em;
   }
 
