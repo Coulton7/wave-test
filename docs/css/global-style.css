@@ -4079,6 +4079,11 @@ a.icon-link:hover {
 }
 
 @media screen and (max-width: 767px) {
+
+  :lang(en) .row.bannerimage {
+    overflow: visible;
+  }
+
   .flex-header {
     top: 0;
     text-align: left;
