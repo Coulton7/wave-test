@@ -4623,8 +4623,8 @@ a.icon-link:hover {
   }
 
   :lang(en) .carousel-col-placement {
-    bottom: 0;
-    position: relative;
+    bottom: -26vh;
+    position: absolute;
   }
 
   .flex-gradient {
