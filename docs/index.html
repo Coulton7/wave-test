@@ -101,6 +101,43 @@
         </div>
         <div class="col-md-10 col-md-offset-2 col-sm-11 col-sm-offset-1 col-xs-12 no-padding">
           <div class="region region-navigation-col fit-menu">
+            <section id="block-lang-dropdown-language" class="block block-lang-dropdown lang-switch visibile-xs clearfix">
+              <form class="lang_dropdown_form language" id="lang_dropdown_form_language" action="/en" method="post" accept-charset="UTF-8">
+                <div>
+                  <div class="form-item form-item-lang-dropdown-select form-type-select form-group">
+                    <select class="lang-dropdown-select-element form-control form-select" id="lang-dropdown-select-language" style="width:110px" name="lang_dropdown_select">
+                      <option value="en" selected="selected">English</option>
+                      <option value="zh-hans">简体中文</option>
+                      <option value="fr">Français</option>
+                      <option value="de">Deutsch</option>
+                      <option value="it">Italiano</option>
+                      <option value="pl">Polski</option>
+                      <option value="ru">Русский</option>
+                      <option value="es">Español</option>
+                      <option value="tr">Türkçe</option>
+                    </select>
+                  </div>
+                  <input type="hidden" name="en" value="/en">
+                  <input type="hidden" name="zh-hans" value="/zh-hans">
+                  <input type="hidden" name="fr" value="/fr">
+                  <input type="hidden" name="de" value="/de">
+                  <input type="hidden" name="it" value="/it">
+                  <input type="hidden" name="pl" value="/pl">
+                  <input type="hidden" name="ru" value="/ru">
+                  <input type="hidden" name="es" value="/es">
+                  <input type="hidden" name="tr" value="/tr">
+                  <noscript>
+                    <div>
+                      <button type="submit" id="edit-submit" name="op" value="Go" class="btn btn-default form-submit">Go</button>
+                    </div>
+                  </noscript>
+                  <input type="hidden" name="form_build_id" value="form-fVwJC8uCHkfQGxttL6LJlWCnIdsaqy5pul-BUy-3ufQ">
+                  <input type="hidden" name="form_token" value="BSQ_rXnJSQTG0opU8xADUykcPiHHEvuFGw9iZzia4wM">
+                  <input type="hidden" name="form_id" value="lang_dropdown_form">
+                </div>
+              </form>
+            </section>
+
             <!--<section id="block-search-api-page-node-taxonomy-search" class="block block-search-api-page visible-xs search-block clearfix">
 
                     <form action="/en" method="post" id="search-api-page-search-form-node-taxonomy-search" accept-charset="UTF-8">
