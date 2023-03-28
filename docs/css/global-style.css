@@ -4814,8 +4814,11 @@ a.icon-link:hover {
   }
 
   .action-menu {
-    background: transparent;
     top: 3.4em
+  }
+
+  :lang(en) .action-menu {
+    background: transparent;
   }
 
   .container-inline div {
