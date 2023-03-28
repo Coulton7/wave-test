@@ -2938,7 +2938,7 @@ a.btn-transparent-green-border:hover, a.btn-transparent-green-border:focus {
   flex-wrap: wrap;
   position: relative;
   width: 100%;
-  right: 1em;
+  right: -1em;
 }
 
 .social-media ul li a {
