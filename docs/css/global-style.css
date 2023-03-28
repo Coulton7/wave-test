@@ -4201,6 +4201,12 @@ a.icon-link:hover {
     top: 3em
   }
 
+  :lang(en) .lang-switch {
+    position: relative;
+    left: 25%;
+    top: 0.25em;
+  }
+
   .view-about-us-resources .view-content {
     display: block;
     flex-wrap: initial;
