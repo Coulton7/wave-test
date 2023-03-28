@@ -5844,7 +5844,7 @@ a.icon-link:hover {
   }
 
   .home-slider-height {
-    min-height: 95vh;
+    min-height: 55em;
   }
 
   #carousel-fade .carousel-inner .item:nth-child(1) {
