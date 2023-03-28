@@ -5793,7 +5793,7 @@ a.icon-link:hover {
 
   .shadow-container {
     background-color: transparent;
-    margin-left: 10%;
+    margin-left: 0;
     margin-top: 3px;
   }
 
