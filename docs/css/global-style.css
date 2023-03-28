@@ -3397,7 +3397,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
 .video-overlay {
   background: rgb(0,42,91);
-  background: linear-gradient(180deg, rgba(0,42,91,0.65) 35%, rgba(0,42,91,0.65) 56%, rgba(0,0,0,0.85) 82%, rgba(0,0,0,0.9) 100%);
+  background: linear-gradient(180deg, rgba(0,42,91,0.25) 33%, rgba(0,42,91,0.5) 50%, rgba(0,0,0,0.75) 66%, rgba(0,0,0,0.9) 100%);
   position: absolute;
   top: 0;
   right: 0;
@@ -4729,7 +4729,7 @@ a.icon-link:hover {
   }
 
   :lang(en) .body-carousel-padding {
-    padding-top: 30vh;
+    padding-top: 18em;
   }
 
   .owl-item.active.last {
@@ -5419,8 +5419,8 @@ a.icon-link:hover {
     text-align: center;
   }
 
-  .body-carousel-padding {
-    padding-top: 30vh;
+  :lang(en) .body-carousel-padding {
+    padding-top: 18em;
   }
 
   .owl-item.active.last {
@@ -5677,8 +5677,8 @@ a.icon-link:hover {
     position: relative;
   }
 
-  .body-carousel-padding {
-    padding-top: 30vh;
+  :lang(en) .body-carousel-padding {
+    padding-top: 20em;
   }
 
   .envirologo-container {
@@ -6008,8 +6008,8 @@ a.icon-link:hover {
     position: relative;
   }
 
-  .body-carousel-padding {
-    padding-top: 30vh;
+  :lang(en) .body-carousel-padding {
+    padding-top: 20em;
   }
 
   .media-carousel-block .carousel-controls .carousel-control {
@@ -6211,8 +6211,8 @@ a.icon-link:hover {
     background-color: transparent;
   }
 
-  .body-carousel-padding {
-    padding-top: 30vh;
+  :lang(en) .body-carousel-padding {
+    padding-top: 20em;
   }
 
   .media-carousel-block {
