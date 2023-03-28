@@ -4197,6 +4197,7 @@ a.icon-link:hover {
   }
 
   .action-menu {
+    background: rgba(0, 0,0, 0.5);
     top: 3em
   }
 
@@ -4813,6 +4814,7 @@ a.icon-link:hover {
   }
 
   .action-menu {
+    background: transparent;
     top: 3.4em
   }
 
