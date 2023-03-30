@@ -72,12 +72,19 @@ $(function($){
         var total = $('.slider .owl-stage .owl-item.active').length;
 
         $('.slider .owl-stage .owl-item.active').removeClass('last');
+        $('.slider .owl-stage .owl-item.active').removeClass('first');
 
         $('.slider .owl-stage .owl-item.active').each(function(index) {
             if (index === total - 1 && total > 1) {
                 $(this).addClass('last');
             }
         });
+
+        $('.slider .owl-stage .owl-item-active').each(function(index){
+            if (index === total - 1 && total < 1) {
+                $(this).addClass('first');
+            }
+        })
     }
 
     $(document).ready(function () {
