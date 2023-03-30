@@ -81,7 +81,7 @@ $(function($){
         });
 
         $('.slider .owl-stage .owl-item-active').each(function(index){
-            if (index === total - 3  && total > 3) {
+            if (index === 0) {
                 $(this).addClass('first');
             }
         })
