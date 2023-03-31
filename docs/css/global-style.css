@@ -3486,6 +3486,7 @@ a.icon-link:hover {
   color: #ffffff;
   background-color: #5f5d5c;
   border: 1px solid #ccc;
+  font-size: 1em;
 }
 
 .social-media .dropdown ul li:hover {
