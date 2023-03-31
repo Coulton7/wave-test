@@ -5938,6 +5938,16 @@ a.icon-link:hover {
     text-align: initial;
     float: right;
   }
+
+  .social-media .dropdown-menu {
+    left: 1em;
+  }
+}
+
+@media screen and (max-width: 1012px) {
+  .social-media .dropdown-menu {
+    left: -1em;
+  }
 }
 
 @media screen and (min-width: 1200px) {
