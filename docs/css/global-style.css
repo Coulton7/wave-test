@@ -3504,6 +3504,11 @@ a.icon-link:hover {
   background-color: #ffffff;
 }
 
+.black-top-blue-bottom-gackground {
+  background: linear-gradient(to bottom, #000000, #000000 50%, #002A5B 50%);
+  color: #ffffff;;
+}
+
 @media all and (transform-3d), (-webkit-transform-3d) {
 
   .carousel-fade .carousel-inner>.item.next,
