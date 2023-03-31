@@ -58,7 +58,8 @@ $(window).width(function(e) {
         var i = currentSlide;
         
         var nav = $('.navbar-nav')[0].getBoundingClientRect();
-        var text =$('.mobile-carousel-caption')[i].getBoundingClientRect();
+        var text = $('.mobile-carousel-caption')[i].getBoundingClientRect();
+        var header = $('.big-title')[i].getBoundingClientRect();
 
         var scrollAmount = (s/(d-c)) * 100;
         var opacity = scrollAmount/100;
@@ -66,11 +67,11 @@ $(window).width(function(e) {
         if($(window).width() > 992) {
           $('.navbar-nav').css({"background-color": "rgba(255,255,255,"+opacity+")"});
 
-          if (opacity >= 0.55) {
+          if (header.top <= nav.top + nav.height) {
             $('.navbar-nav>li>a').addClass('normText');
             $('.social-media>ul>li>a').addClass('normText');
           }
-          else if (opacity < 0.55) {
+          else if (header.top > nav.top + nav.height) {
             $('.navbar-nav>li>a').removeClass('normText');
             $('.social-media>ul>li>a').removeClass('normText');
           }
