@@ -3465,6 +3465,12 @@ a.icon-link:hover {
   text-shadow: none;
 }
 
+.lang-change {
+  border: none;
+  background: none;
+  font-size: 2em;
+}
+
 
 @media all and (transform-3d), (-webkit-transform-3d) {
 
