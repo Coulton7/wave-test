@@ -2985,6 +2985,7 @@ a.btn-transparent-green-border:hover, a.btn-transparent-green-border:focus {
 .social-media ul li:nth-child(5) a {
   margin-right: 0.4em;
   font-size: 2em;
+  cursor: pointer;
 }
 
 .social-media ul li:nth-child(5) a:hover {
