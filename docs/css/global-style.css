@@ -3491,9 +3491,10 @@ a.icon-link:hover {
 
 .social-media ul li:nth-child(5)  .dropdown-menu li a {
   font-size: 1em;
+  text-align: center;
 }
 
-.social-media .dropdown-menu li a:hover {
+.social-media ul li:nth-child(5) .dropdown-menu li a:hover {
   color: #535354;
   background-color: #ffffff;
 }
