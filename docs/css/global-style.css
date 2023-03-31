@@ -3492,6 +3492,8 @@ a.icon-link:hover {
 .social-media ul li:nth-child(5)  .dropdown-menu li a {
   font-size: 1em;
   text-align: center;
+  margin-left: 0.4em;
+  margin-right: 0.4em;
 }
 
 .social-media ul li:nth-child(5) .dropdown-menu li a:hover {
