@@ -3482,18 +3482,18 @@ a.icon-link:hover {
   display: block;
 }
 
-.social-media .dropdown ul {
+.social-media .dropdown-menu {
   color: #ffffff;
   background-color: #5f5d5c;
   border: 1px solid #ccc;
   font-size: 1em;
 }
 
-.social-media .dropdown ul li a {
+.social-media .dropdown-menu li a {
   font-size: 1em;
 }
 
-.social-media .dropdown ul li a:hover {
+.social-media .dropdown-menu li a:hover {
   color: #535354;
   background-color: #ffffff;
 }
