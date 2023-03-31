@@ -68,11 +68,11 @@ $(window).width(function(e) {
 
           if (opacity >= 0.55) {
             $('.navbar-nav>li>a').addClass('normText');
-            $('.social-media li a').addClass('normText');
+            $('.social-media>li>a').addClass('normText');
           }
           else if (opacity < 0.55) {
             $('.navbar-nav>li>a').removeClass('normText');
-            $('.social-media li a').removeClass('normText');
+            $('.social-media>li>a').removeClass('normText');
           }
         }
 
