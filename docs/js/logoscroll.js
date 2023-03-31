@@ -62,7 +62,7 @@ $(window).width(function(e) {
         var header = $('.big-title')[i].getBoundingClientRect();
 
         var scrollAmount = (s/(d-c)) * 100;
-        var opacity = scrollAmount/100 * 3;
+        var opacity = scrollAmount/100 * 2.5;
         
         if($(window).width() > 992) {
           $('.navbar-nav').css({"background-color": "rgba(255,255,255,"+opacity+")"});
