@@ -3480,6 +3480,7 @@ a.icon-link:hover {
 
 .social-media .open .dropdown-menu {
   display: block;
+  width: 80%;
 }
 
 .social-media .dropdown-menu {
@@ -3487,6 +3488,7 @@ a.icon-link:hover {
   background-color: #5f5d5c;
   border: 1px solid #ccc;
   font-size: 1em;
+  left: 1em;;
 }
 
 .social-media ul li:nth-child(5)  .dropdown-menu li a {
