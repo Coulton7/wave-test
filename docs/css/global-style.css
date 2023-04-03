@@ -3541,6 +3541,10 @@ a.icon-link:hover {
   color: transparent;
 }
 
+.social-media ul li:nth-child(1) .change:hover {
+  color: transparent;
+}
+
 @media all and (transform-3d), (-webkit-transform-3d) {
 
   .carousel-fade .carousel-inner>.item.next,
