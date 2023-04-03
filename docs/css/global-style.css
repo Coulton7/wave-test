@@ -3521,7 +3521,8 @@ a.icon-link:hover {
 
 .mid-to-dark-grey-background {
   background: rgb(181,182,185);
-  background: linear-gradient(90deg, rgba(181,182,185,1) 66%, rgba(136,140,143,1) 66%, rgba(136,140,143,1) 100%);
+  background: linear-gradient(90deg, rgba(181,182,185,1) 80%, rgba(136,140,143,1) 80%, rgba(136,140,143,1) 100%);
+  color: #535354;
 }
 
 @media all and (transform-3d), (-webkit-transform-3d) {
