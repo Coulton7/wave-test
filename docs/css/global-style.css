@@ -3509,6 +3509,16 @@ a.icon-link:hover {
   color: #ffffff;;
 }
 
+.customer-service-background {
+  background: url("https://static.aesseal.com/photo/wavehead/CHEMUK_0889.jpg");
+  background-size: cover;
+}
+
+.technology-background {
+  background: url("https://static.aesseal.com/photo/wavehead/Big-Machines-Pro-Jul11-040.jpg");
+  background-size: cover;
+}
+
 @media all and (transform-3d), (-webkit-transform-3d) {
 
   .carousel-fade .carousel-inner>.item.next,
