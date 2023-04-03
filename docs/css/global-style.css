@@ -3510,7 +3510,7 @@ a.icon-link:hover {
 }
 
 .customer-service-background {
-  background: url("https://static.aesseal.com/photo/wavehead/CHEMUK_0889.jpg");
+  background: url("https://static.aesseal.com/photo/wavehead/CHEMUK_0889.jpg"), linear-gradient(90deg, transparent 80%, rgba(136,140,143,1) 82%);
   background-size: cover;
 }
 
