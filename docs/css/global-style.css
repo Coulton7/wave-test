@@ -747,9 +747,9 @@ a.btn-default:hover, a.btn-default:focus {
   border-top: 1px solid #ddd
 }
 
-.blue-background {
+/**.blue-background {
   outline: 1px solid #002a5b;
-}
+}**/
 
 .darkgrey-background {
   outline: 2px solid #888c8f;
