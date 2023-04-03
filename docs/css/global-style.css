@@ -3529,6 +3529,10 @@ a.icon-link:hover {
   font-size: 2em;
 }
 
+.overlay-main {
+  z-index: 1035;
+}
+
 @media all and (transform-3d), (-webkit-transform-3d) {
 
   .carousel-fade .carousel-inner>.item.next,
