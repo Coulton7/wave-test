@@ -1512,11 +1512,10 @@ label.resource-label {
   padding-left: 1.1em;
   padding-right: 1.1em;
   width: 25em;
-  position: fixed;
-  top: 0;
-  right: -3em;
+  position: relative;
   z-index: 1038;
   height: auto;
+  display: none;
 }
 
 .search-block .input-group-btn {
@@ -3547,6 +3546,14 @@ a.icon-link:hover {
 
 .overlay-hddien {
   display: none;
+}
+
+.overlay-search {
+  position: relative;
+  z-index: 1038;
+  width: 65%;
+  transition: 0.5s;
+  transition-delay: 0.5s
 }
 
 @media all and (transform-3d), (-webkit-transform-3d) {
