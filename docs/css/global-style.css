@@ -3533,6 +3533,14 @@ a.icon-link:hover {
   z-index: 1035;
 }
 
+.social-media li .change {
+  color: transparent;
+}
+
+.social-media li .change:hover {
+  color: transparent;
+}
+
 @media all and (transform-3d), (-webkit-transform-3d) {
 
   .carousel-fade .carousel-inner>.item.next,
