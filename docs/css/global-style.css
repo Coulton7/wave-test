@@ -5488,7 +5488,7 @@ a.icon-link:hover {
     background-repeat: no-repeat;
     background-color: #012e58;
     background-blend-mode: unset;
-    background-position: bottom right;
+    background-position: center;
     animation: none;
     padding-top: 3em;
   }
