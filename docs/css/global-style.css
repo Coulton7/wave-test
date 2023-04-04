@@ -3508,16 +3508,6 @@ a.icon-link:hover {
   color: #ffffff;;
 }
 
-.customer-service-background {
-  background: linear-gradient(90deg, transparent 67%, rgba(136,140,143,1) 94%), url("https://static.aesseal.com/photo/wavehead/CHEMUK_0889.jpg");
-  background-size: cover;
-}
-
-.technology-background {
-  background: linear-gradient(90deg, transparent 67%, rgba(136,140,143,1) 94%), url("https://static.aesseal.com/photo/wavehead/Big-Machines-Pro-Jul11-040.jpg");
-  background-size: cover;
-}
-
 .mid-to-dark-grey-background {
   background: rgb(181,182,185);
   background: linear-gradient(90deg, rgba(181,182,185,1) 80%, rgba(136,140,143,1) 80%, rgba(136,140,143,1) 100%);
@@ -4848,6 +4838,16 @@ a.icon-link:hover {
     padding-right: 0.5em!important;
     margin-right: 1em;
   }
+
+  .customer-service-background {
+    background: linear-gradient(90deg, transparent 67%, rgba(136,140,143,1) 94%), url("https://static.aesseal.com/photo/wavehead/wideformatmobile/pillar-customer-service.jpg");
+    background-size: cover;
+  }
+  
+  .technology-background {
+    background: linear-gradient(90deg, transparent 67%, rgba(136,140,143,1) 94%), url("https://static.aesseal.com/photo/wavehead/wideformatmobile/pillar-adv-techhnology.jpg");
+    background-size: cover;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -5541,6 +5541,16 @@ a.icon-link:hover {
     padding-right: 0.5em!important;
     margin-right: 0.5em;
   }
+
+  .customer-service-background {
+    background: linear-gradient(90deg, transparent 67%, rgba(136,140,143,1) 94%), url("https://static.aesseal.com/photo/wavehead/wideformattablet/pillar-customer-service.jpg");
+    background-size: cover;
+  }
+  
+  .technology-background {
+    background: linear-gradient(90deg, transparent 67%, rgba(136,140,143,1) 94%), url("https://static.aesseal.com/photo/wavehead/wideformattablet/pillar-adv-techhnology.jpg");
+    background-size: cover;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -5999,6 +6009,16 @@ a.icon-link:hover {
   .social-media .dropdown-menu {
     left: 1em;
   }
+
+  .customer-service-background {
+    background: linear-gradient(90deg, transparent 67%, rgba(136,140,143,1) 94%), url("https://static.aesseal.com/photo/wavehead/wideformatfull/pillar-customer-service.jpg");
+    background-size: cover;
+  }
+  
+  .technology-background {
+    background: linear-gradient(90deg, transparent 67%, rgba(136,140,143,1) 94%), url("https://static.aesseal.com/photo/wavehead/wideformatfull/pillar-adv-techhnology.jpg");
+    background-size: cover;
+  }
 }
 
 @media screen and (max-width: 1012px) {
@@ -6217,6 +6237,16 @@ a.icon-link:hover {
     position: absolute;
     transform: translateY(75%);
     color: #338FBC;
+  }
+
+  .customer-service-background {
+    background: linear-gradient(90deg, transparent 67%, rgba(136,140,143,1) 94%), url("https://static.aesseal.com/photo/wavehead/wideformatfull/pillar-customer-service.jpg");
+    background-size: cover;
+  }
+  
+  .technology-background {
+    background: linear-gradient(90deg, transparent 67%, rgba(136,140,143,1) 94%), url("https://static.aesseal.com/photo/wavehead/wideformatfull/pillar-adv-techhnology.jpg");
+    background-size: cover;
   }
 
 }
