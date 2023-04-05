@@ -3559,7 +3559,8 @@ a.icon-link:hover {
   position: absolute;
   bottom: 0;
   right: 4%;
-
+  display: flex;
+  list-style: none;
 }
 
 @media all and (transform-3d), (-webkit-transform-3d) {
