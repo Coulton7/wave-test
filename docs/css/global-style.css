@@ -3491,14 +3491,14 @@ a.icon-link:hover {
   left: 2em;;
 }
 
-.social-media ul li:nth-child(5)  .dropdown-menu li a {
+.social-media ul li:nth-child(4)  .dropdown-menu li a {
   font-size: 1em;
   text-align: center;
   margin-left: 0.4em;
   margin-right: 0.4em;
 }
 
-.social-media ul li:nth-child(5) .dropdown-menu li a:hover {
+.social-media ul li:nth-child(4) .dropdown-menu li a:hover {
   color: #535354;
   background-color: #ffffff;
 }
