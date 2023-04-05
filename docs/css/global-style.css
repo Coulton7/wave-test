@@ -5941,7 +5941,7 @@ a.icon-link:hover {
 
   :lang(en) .carousel-col-placement {
     bottom: 0;
-    position: absolute;
+    position: relative;
   }
 
   :lang(en) .row.wavelower {
