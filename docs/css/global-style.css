@@ -3551,6 +3551,10 @@ a.icon-link:hover {
   z-index: 1029;
 }
 
+:lang(en) .front-background {
+  color: #000000;
+}
+
 @media all and (transform-3d), (-webkit-transform-3d) {
 
   .carousel-fade .carousel-inner>.item.next,
