@@ -3360,8 +3360,8 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 }
 
 .icons-col-placement {
-  bottom: -29vh;
-  position: absolute;
+  bottom: 0;
+  position: relative;
 }
 
 .socialmedia {
@@ -4720,8 +4720,12 @@ a.icon-link:hover {
   }
 
   :lang(en) .carousel-col-placement {
-    bottom: -26vh;
-    position: absolute;
+    bottom: 0;
+    position: relative;
+  }
+
+  :lang(en) .row.wavelower {
+    display: none;
   }
 
   .flex-gradient {
@@ -5393,8 +5397,8 @@ a.icon-link:hover {
   }
 
   .icons-col-placement {
-    bottom: -30vh;
-    position: absolute;
+    bottom: 0;
+    position: relative;
   }
 
   .carousel-col-placement {
@@ -5936,9 +5940,12 @@ a.icon-link:hover {
   }
 
   :lang(en) .carousel-col-placement {
-    bottom: -33vh;
-    left: 16.666667%;
+    bottom: 0;
     position: absolute;
+  }
+
+  :lang(en) .row.wavelower {
+    display: none;
   }
 
   .home-slider-height {
