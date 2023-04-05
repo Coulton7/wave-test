@@ -6013,11 +6013,13 @@ a.icon-link:hover {
   .customer-service-background {
     background: linear-gradient(90deg, transparent 67%, rgba(136,140,143,1) 94%), url("https://static.aesseal.com/photo/wavehead/wideformatfull/pillar-customer-service.jpg");
     background-size: cover;
+    aspect-ratio: 4/3;
   }
   
   .technology-background {
     background: linear-gradient(90deg, transparent 67%, rgba(136,140,143,1) 94%), url("https://static.aesseal.com/photo/wavehead/wideformatfull/pillar-adv-techhnology.jpg");
     background-size: cover;
+    aspect-ratio: 4/3;
   }
 }
 
@@ -6242,11 +6244,13 @@ a.icon-link:hover {
   .customer-service-background {
     background: linear-gradient(90deg, transparent 67%, rgba(136,140,143,1) 94%), url("https://static.aesseal.com/photo/wavehead/wideformatfull/pillar-customer-service.jpg");
     background-size: cover;
+    aspect-ratio: 4/3;
   }
   
   .technology-background {
     background: linear-gradient(90deg, transparent 67%, rgba(136,140,143,1) 94%), url("https://static.aesseal.com/photo/wavehead/wideformatfull/pillar-adv-techhnology.jpg");
     background-size: cover;
+    aspect-ratio: 4/3;
   }
 
 }
