@@ -3355,12 +3355,12 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 }
 
 :lang(en) .carousel-col-placement {
-  bottom: -26vh;
-  position: absolute;
+  bottom: 8em;
+  position: relative;
 }
 
 .icons-col-placement {
-  bottom: 0;
+  bottom: 8em;
   position: relative;
 }
 
@@ -4724,7 +4724,7 @@ a.icon-link:hover {
   }
 
   :lang(en) .carousel-col-placement {
-    bottom: 0;
+    bottom: 8em;
     position: relative;
   }
 
@@ -5401,7 +5401,7 @@ a.icon-link:hover {
   }
 
   .icons-col-placement {
-    bottom: 0;
+    bottom: 8em;
     position: relative;
   }
 
@@ -5944,7 +5944,7 @@ a.icon-link:hover {
   }
 
   :lang(en) .carousel-col-placement {
-    bottom: 0;
+    bottom: 8em;
     position: relative;
   }
 
