@@ -16,6 +16,9 @@
     let overlayBtnLeft = overlayBtn.left;
     let overlayBtnRight = overlayBtn.right;
 
+    let tabletBtn = document.querySelector('.tablet-overlay-btn').getBoundingClientRect();
+    let tabletBtnLeft = tabletBtn.left;
+
     let menuItem = document.querySelector('.desktop-last').getBoundingClientRect();
     let menuItemLeft = menuItem.left;
     let menuItemRight = menuItem.right;
@@ -25,6 +28,13 @@
     }
     else {
       $('#overlay-btn').removeClass('display-none-important');
+    }
+
+    if ((menuItemRight > tabletBtnLeft)) {
+      $('.tablet-overlay-btn').addClass('display-none-important');
+    }
+    else {
+      $('.tablet-overlay-btn').removeClass('display-none-important');
     }
   }
 
