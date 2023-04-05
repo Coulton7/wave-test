@@ -3555,6 +3555,13 @@ a.icon-link:hover {
   background-color: #000000;
 }
 
+.overlay-menu-icons {
+  position: absolute;
+  bottom: 0;
+  right: 4%;
+
+}
+
 @media all and (transform-3d), (-webkit-transform-3d) {
 
   .carousel-fade .carousel-inner>.item.next,
