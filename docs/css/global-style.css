@@ -5568,6 +5568,10 @@ a.icon-link:hover {
     border-bottom: none;
     cursor: pointer;
   }
+
+  .change::after {
+    top: 3em;
+  }
 }
 
 @media screen and (min-width: 992px) {
