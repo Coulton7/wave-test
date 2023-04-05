@@ -6044,7 +6044,7 @@ a.icon-link:hover {
   }
 
   .social-media .dropdown-menu {
-    left: 1em;
+    left: -1em;
   }
 
   .customer-service-background {
