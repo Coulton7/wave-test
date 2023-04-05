@@ -3563,8 +3563,9 @@ a.icon-link:hover {
   list-style: none;
 }
 
-.sitemap-overlay-icon, .twitter-overlay-icon, .youtube.overlay-icon {
+.sitemap-overlay-icon, .twitter-overlay-icon, .youtube.overlay-icon, .linkedin-overlay-icon {
   margin-left: 0.5em;
+  margin-right: 0.5em;
 }
 
 @media all and (transform-3d), (-webkit-transform-3d) {
