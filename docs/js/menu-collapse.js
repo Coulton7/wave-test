@@ -15,33 +15,31 @@
 
     if($(window).width() > 992) {
       let overlayBtn = document.querySelector('.overlay-btn').getBoundingClientRect();
-    }
+      let overlayBtnLeft = overlayBtn.left;
+      let menuItem = document.querySelector('.desktop-last').getBoundingClientRect();
+      let menuItemRight = menuItem.right;
 
-    let overlayBtnLeft = overlayBtn.left;
-    let overlayBtnRight = overlayBtn.right;
+      if ((menuItemRight > overlayBtnLeft)) {
+        $('#overlay-btn').addClass('display-none-important');
+      }
+      else {
+        $('#overlay-btn').removeClass('display-none-important');
+      }
+    }
 
     if($(window).width() >= 768 && $(window).width <= 991) {
       let tabletBtn = document.querySelector('.tablet-overlay-btn').getBoundingClientRect();
-    }
+      let tabletBtnLeft = tabletBtn.left;
+      let menuItem = document.querySelector('.desktop-last').getBoundingClientRect();
+      let menuItemRight = menuItem.right;
 
-    let tabletBtnLeft = tabletBtn.left;
+      if ((menuItemRight > tabletBtnLeft)) {
+        $('.tablet-overlay-btn').addClass('display-none-important');
+      }
+      else {
+        $('.tablet-overlay-btn').removeClass('display-none-important');
+      }
 
-    let menuItem = document.querySelector('.desktop-last').getBoundingClientRect();
-    let menuItemLeft = menuItem.left;
-    let menuItemRight = menuItem.right;
-
-    if ((menuItemRight > overlayBtnLeft)) {
-      $('#overlay-btn').addClass('display-none-important');
-    }
-    else {
-      $('#overlay-btn').removeClass('display-none-important');
-    }
-
-    if ((menuItemRight > tabletBtnLeft)) {
-      $('.tablet-overlay-btn').addClass('display-none-important');
-    }
-    else {
-      $('.tablet-overlay-btn').removeClass('display-none-important');
     }
   }
 
