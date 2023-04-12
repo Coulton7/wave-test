@@ -12,11 +12,18 @@
   }
 
   function menuItemOverlay() {
-    let overlayBtn = document.querySelector('.overlay-btn').getBoundingClientRect();
+
+    if($(window).width() > 992) {
+      let overlayBtn = document.querySelector('.overlay-btn').getBoundingClientRect();
+    }
+
     let overlayBtnLeft = overlayBtn.left;
     let overlayBtnRight = overlayBtn.right;
 
-    let tabletBtn = document.querySelector('.tablet-overlay-btn').getBoundingClientRect();
+    if($(window).width() >= 768 && $(window).width <= 991) {
+      let tabletBtn = document.querySelector('.tablet-overlay-btn').getBoundingClientRect();
+    }
+
     let tabletBtnLeft = tabletBtn.left;
 
     let menuItem = document.querySelector('.desktop-last').getBoundingClientRect();
