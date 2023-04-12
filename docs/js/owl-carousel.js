@@ -1,4 +1,5 @@
 $(function($){
+    $(document).ready(function() {
         $(".slider").on("initialized.owl.carousel changed.owl.carousel", function(e) {
             if(!e.namespace) {
                 return;
@@ -122,4 +123,5 @@ $(function($){
                 $('#cust-icon').removeClass('active');
             });
         });
+    });
 });
