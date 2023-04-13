@@ -4848,9 +4848,9 @@ a.icon-link:hover {
   }
 
   #video-background {
-    top: auto;
+    top: 0;
     right: auto;
-    min-width: auto;
+    min-width: max-content;
   }
 
   .owl-carousel .owl-nav button.owl-next {
