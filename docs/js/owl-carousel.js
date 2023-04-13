@@ -13,12 +13,16 @@ $(function($){
             nav: true,
             dots: false,
             lazyLoad: true,
-            checkVisible: false,
+            checkVisible: true,
             responsiveClass: true,
             navText:["<i class='fas fa-caret-left fa-3x'></i>","<i class='fas fa-caret-right fa-3x'></i>"],
             responsive: {
                 1 : {
                 items: 2 
+                },
+
+                600 : {
+                items: 3
                 },
 
                 768: {
