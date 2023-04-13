@@ -5536,6 +5536,9 @@ a.icon-link:hover {
   .owl-nav {
     float: none;
     text-align: center;
+    display: inline-flex;
+    left: 1.5%;
+    position: relative;
   }
 
   :lang(en) .body-carousel-padding {
