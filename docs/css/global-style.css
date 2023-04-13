@@ -4858,12 +4858,12 @@ a.icon-link:hover {
 
   .owl-carousel .owl-nav button.owl-next {
     padding-left: 0.5em!important;
-    margin-left: 1em;
+    margin-left: 1.5em;
   }
 
   .owl-carousel .owl-nav button.owl-prev {
     padding-right: 0.5em!important;
-    margin-right: 1em;
+    margin-right: 1.5em;
   }
 
   .owl-item {
