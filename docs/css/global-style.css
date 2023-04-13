@@ -4863,6 +4863,14 @@ a.icon-link:hover {
     margin-right: 1em;
   }
 
+  .owl-item {
+    opacity: 0;
+  }
+
+  .owl-item.active {
+    opacity: 1;
+  }
+
 }
 
 @media screen and (min-width: 768px) {
