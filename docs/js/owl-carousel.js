@@ -21,10 +21,6 @@ $(function($){
                 items: 2 
                 },
 
-                600 : {
-                items: 3
-                },
-
                 768: {
                     items: 3.66
                 },
