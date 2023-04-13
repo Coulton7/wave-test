@@ -4847,6 +4847,12 @@ a.icon-link:hover {
     display: none;
   }
 
+  #video-background {
+    top: auto;
+    right: auto;
+    min-width: auto;
+  }
+
   .owl-carousel .owl-nav button.owl-next {
     padding-left: 0.5em!important;
     margin-left: 1em;
