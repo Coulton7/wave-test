@@ -4865,7 +4865,7 @@ a.icon-link:hover {
 
   .owl-item {
     opacity: 0;
-    transition: all .5s;
+    transition: all .2s;
   }
 
   .owl-item.active {
