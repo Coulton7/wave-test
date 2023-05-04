@@ -29,6 +29,6 @@ function frontFadeText(){
 };
 
 document.addEventListener("DOMContentLoaded", function(){
-  document.querySelector('.preface').fadeText();
-  document.querySelector('.wavelower').frontFadeText();
+  document.querySelector('.preface', fadeText);
+  document.querySelector('.wavelower', frontFadeText);
 });

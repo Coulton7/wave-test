@@ -45,9 +45,9 @@ document.addEventListener("DOMContentLoaded",function() {
   var socialMedia = document.querySelector('.social-media').offsetLeft;
 
   if (socialmedia > 0) {
-    document.querySelector('.socialmedia').contactIcon();
+    document.querySelector('.socialmedia', contactIcon);
   }
   if (socialMedia > 0) {
-    document.querySelector('.social-media').frontIcon();
+    document.querySelector('.social-media', frontIcon);
   }
 });
