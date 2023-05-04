@@ -1,4 +1,4 @@
-(function($){
+
   function autocollapse() {
     var navbar = document.querySelector('#autocollapse');
     navbar.classList.remove('collapsed');
@@ -59,4 +59,3 @@
       menuItemOverlay();
     }
   });
-})(jQuery);
