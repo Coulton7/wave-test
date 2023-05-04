@@ -13,15 +13,15 @@ function doAnimations(elems) {
 
 var $myCarousel = document.getElementById('carousel-fade');
   $firstAnimatingElems = $myCarousel
-    .find('.item:first')
-    .find('[data-animation ^= "animated"]');
+    .querySelector('.item:first')
+    .querySelector('[data-animation ^= "animated"]');
 
 $myCarousel.carousel();
 
 doAnimations($firstAnimatingElems);
 
 $myCarousel.on('slide.bs.carousel', function (e) {
-  var $animatingElems = document.querySelector(e.relatedTarget).find(
+  var $animatingElems = document.querySelector(e.relatedTarget).querySelector(
     '[data-animation ^= "animated"]'
   );
   doAnimations($animatingElems);
@@ -111,8 +111,8 @@ document.addEventListener('DOMContentLoaded', function () {
     var relatedIndicators = document.querySelector('li[data-target=#' + id + ']');
     $carousel.on('slid.bs.carousel', function (e) {
       var index = $carousel
-        .find('.carousel-inner .item')
-        .index($carousel.find('.carousel-inner .active'));
+        .querySelector('.carousel-inner .item')
+        .index($carousel.querySelector('.carousel-inner .active'));
       relatedIndicators.classList.remove('active');
       relatedIndicators
         .filter('[data-slide-to=' + index + ']')
