@@ -1,10 +1,9 @@
-(function($){
-  $(document).ready(function() {
-    $('[data-toggle="tooltip"]').tooltip({
-      trigger: 'hover'
-    });
+document.addEventListener("DOMContentLoaded", function() {
+  document.querySelector('[data-toggle="tooltip"]').tooltip({
+    trigger: 'hover'
   });
-})(jQuery);
+});
+
 
 document.addEventListener("DOMContentLoaded", function() {
     var lazyloadImages;

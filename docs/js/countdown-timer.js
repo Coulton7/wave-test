@@ -11,10 +11,10 @@ const FULL_DASH_ARRAY = 283;
 const RESET_DASH_ARRAY = `-57 ${FULL_DASH_ARRAY}`;
 
 //All buttons
-var startBtn = document.querySelectorAll(".start");
-var stopBtn = document.querySelectorAll(".stop");
-const mediaCarousel = document.querySelectorAll(".media-carousel-block");
-var timer = document.querySelectorAll("#base-timer-path-remaining");
+var startBtn = document.querySelectorAll('.start');
+var stopBtn = document.querySelectorAll('.stop');
+const mediaCarousel = document.querySelectorAll('.media-carousel-block');
+var timer = document.querySelectorAll('#base-timer-path-remaining');
 
 var time_limit = 10;
 var timePassed = -1;
@@ -24,7 +24,7 @@ var timerInterval = null;
 function reset() {
   clearInterval(timerInterval);
   resetVars();
-  $(".base-timer__path-remaining arc").attr("stroke-dasharray", RESET_DASH_ARRAY);
+  document.querySelector('.base-timer__path-remaining arc').getAttribute('stroke-dasharray', RESET_DASH_ARRAY);
 }
 
 function start(withReset = false) {
@@ -55,19 +55,19 @@ function startTimer() {
 
 }
 
-window.addEventListener("DOMContentLoaded", () => {
+window.addEventListener('DOMContentLoaded', () => {
   setStartDisabled();
   startTimer();
 });
 
 for (let i=0; i<mediaCarousel.length; i++) {
-  mediaCarousel[i].addEventListener("mouseleave", function(){
+  mediaCarousel[i].addEventListener('mouseleave', function(){
     setStartDisabled();
     removeStopDisabled();
     startTimer();
   });
 
-  mediaCarousel[i].addEventListener("mouseenter", function(){
+  mediaCarousel[i].addEventListener('mouseenter', function(){
     setStopDisabled();
     removeStartDisabled();
     clearInterval(timerInterval);
@@ -80,19 +80,19 @@ for (let i=0; i<mediaCarousel.length; i++) {
 //HELPER METHODS
 //---------------------------------------------
 function setStartDisabled() {
-  $(startBtn).prop("disabled", true);
+  document.querySelector(startBtn).getAttribute('disabled', true);
 }
 
 function removeStartDisabled() {
-  $(startBtn).prop("disabled", false);
+  document.querySelector(startBtn).getAttribute('disabled', false);
 }
 
 function setStopDisabled() {
-  $(stopBtn).prop("disabled", true);
+  document.querySelector(stopBtn).getAttribute('disabled', true);
 }
 
 function removeStopDisabled() {
-  $(stopBtn).prop("disabled", false);
+  document.querySelector(stopBtn).getAttribute('disabled', false);
 }
 
 function timeIsUp() {
@@ -100,7 +100,7 @@ function timeIsUp() {
   removeStopDisabled();
   reset();
   startTimer();
-  $('#carousel-fade').carousel('next');
+  document.querySelector('#carousel-fade').carousel('next');
 }
 
 function resetVars() {
@@ -129,5 +129,5 @@ function setCircleDasharray() {
   const circleDasharray = `${(
     calculateTimeFraction() * FULL_DASH_ARRAY
   ).toFixed(0)} 283`;
-  $(".base-timer__path-remaining").attr("stroke-dasharray", circleDasharray);
+  document.querySelector('.base-timer__path-remaining').getAttribute('stroke-dasharray', circleDasharray);
 }

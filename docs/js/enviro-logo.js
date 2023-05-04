@@ -1,8 +1,6 @@
-(function($) {
+  function enviroLogo() {
 
-  $.fn.enviroLogo = function() {
-
-    var enviro_logo = jQuery(".enviro_logo");
+    var enviro_logo = document.querySelector(".enviro_logo");
     var enviroLogo = -1;
     var runCount = 0;
 
@@ -22,8 +20,8 @@
     showNextLogo();
   };
 
-  $.fn.mobEnviroLogo = function() {
-    var mob_enviro_Logo = $(".mob-enviro-logo");
+  function mobEnviroLogo() {
+    var mob_enviro_Logo = document.querySelector(".mob-enviro-logo");
     var mobEnviroLogo = -1;
     var mobRunCount = 0;
 
@@ -44,13 +42,12 @@
   };
 
 
-  $(document).ready(function() {
-    if($('.envirologo-container').is(':visible')) {
-      $('.envirologo-container').enviroLogo();
+  document.addEventListener("DOMContentLoaded", function() {
+    if(document.querySelector('.envirologo-container').is(':visible')) {
+      document.querySelector('.envirologo-container').enviroLogo();
     }
 
-    if($('.mob-envirologo-container').is(':visible')) {
-      $('.mob-envirologo-container').mobEnviroLogo();
+    if(document.querySelector('.mob-envirologo-container').is(':visible')) {
+      document.querySelector('.mob-envirologo-container').mobEnviroLogo();
     }
   });
-})(jQuery);

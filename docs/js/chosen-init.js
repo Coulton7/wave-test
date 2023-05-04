@@ -1,16 +1,14 @@
-(function($){
-  $( document ).ready(function() {
-    $(".form-select").chosen({
-      disable_search_threshold: 10,
-      no_results_text: "Sorry, no results found."
-    });
-  });
-})(jQuery);
 
-(function($) {
-  $(document).ready(function() {
-    $('#productEnquiry').on('shown.bs.modal', function() {
-      $('.chosen-select', this).chosen();
-    });
+document.addEventListener("DOMContentLoaded", function() {
+  document.querySelector(".form-select").chosen({
+    disable_search_threshold: 10,
+    no_results_text: "Sorry, no results found."
   });
-})(jQuery);
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+  document.querySelector('#productEnquiry').on('shown.bs.modal', function() {
+    document.querySelector('.chosen-select', this).chosen();
+  });
+});
+

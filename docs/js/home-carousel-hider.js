@@ -1,144 +1,121 @@
-(function($) {
-  $(document).ready(function() {
-    $('#carousel-fade').on('slid.bs.carousel', function() {
-      var carouselData = $(this).data('bs.carousel');
-      var currentIndex = carouselData.getItemIndex(carouselData.$element.find('.item.active'));
-      var total = carouselData.$items.length;
-      var slide = (currentIndex + 1);
-      if (slide === 1) {
-        if ($('.news-media-carousel').hasClass('display-none')) {
-          $('.news-media-carousel').removeClass('display-none');
-          $('#news').find('.text-slider').flexslider({
-            slideToStart: 0,
-            start: function(slider) {
-              slider.flexAnimate(0);
-            }
-          });
-        }
 
-        if (!$('.sus-media-carousel').hasClass('display-none')) {
-          $('.sus-media-carousel').addClass('display-none');
-        }
-
-        if (!$('.tech-media-carousel').hasClass('display-none')) {
-          $('.tech-media-carousel').addClass('display-none');
-        }
-
-        if (!$('.cust-media-carousel').hasClass('display-none')) {
-          $('.cust-media-carousel').addClass('display-none');
-        }
-
-        if (!$('.prod-media-carousel').hasClass('display-none')) {
-          $('.prod-media-carousel').addClass('display-none');
-        }
-
+document,addEventListener("DOMContentLoaded", function() {
+  document.getElementById('#carousel-fade').addEventListener('slid.bs.carousel', function() {
+    var carouselData = document.querySelector(this).data('bs.carousel');
+    var currentIndex = carouselData.getItemIndex(carouselData.$element.find('.item.active'));
+    var slide = (currentIndex + 1);
+    if (slide === 1) {
+      if (document.querySelector('.news-media-carousel').classList.contains('display-none')) {
+        document.querySelector('.news-media-carousel').classList.remove('display-none');
+        document.querySelector('#news').find('.text-slider').carousel(0);
       }
-      else if (slide === 2) {
-        if ($('.sus-media-carousel').hasClass('display-none')) {
-          $('.sus-media-carousel').removeClass('display-none');
-          $('#esg').find('.text-slider').flexslider({
-            slideToStart: 0,
-            start: function(slider) {
-              slider.flexAnimate(0);
-            }
-          });
-        }
 
-        if (!$('.news-media-carousel').hasClass('display-none')) {
-          $('.news-media-carousel').addClass('display-none');
-        }
-
-        if (!$('.tech-media-carousel').hasClass('display-none')) {
-          $('.tech-media-carousel').addClass('display-none');
-        }
-
-        if (!$('.cust-media-carousel').hasClass('display-none')) {
-          $('.cust-media-carousel').addClass('display-none');
-        }
-
-        if (!$('.prod-media-carousel').hasClass('display-none')) {
-          $('.prod-media-carousel').addClass('display-none');
-        }
-
-      } else if (slide === 3) {
-        if ($('.tech-media-carousel').hasClass('display-none')) {
-          $('.tech-media-carousel').removeClass('display-none');
-          $('#tech').find('.text-slider').flexslider({
-            slideToStart: 0,
-            start: function(slider) {
-              slider.flexAnimate(0);
-            }
-          });
-        }
-
-        if (!$('.news-media-carousel').hasClass('display-none')) {
-          $('.news-media-carousel').addClass('display-none');
-        }
-
-        if (!$('.sus-media-carousel').hasClass('display-none')) {
-          $('.sus-media-carousel').addClass('display-none');
-        }
-
-        if (!$('.cust-media-carousel').hasClass('display-none')) {
-          $('.cust-media-carousel').addClass('display-none');
-        }
-
-        if (!$('.prod-media-carousel').hasClass('display-none')) {
-          $('.prod-media-carousel').addClass('display-none');
-        }
-
-      } else if (slide === 4) {
-        if ($('.cust-media-carousel').hasClass('display-none')) {
-          $('.cust-media-carousel').removeClass('display-none');
-          $('#cust-service').find('.text-slider').flexslider({
-            slideToStart: 0
-          });
-        }
-
-        if (!$('.news-media-carousel').hasClass('display-none')) {
-          $('.news-media-carousel').addClass('display-none');
-        }
-
-        if (!$('.sus-media-carousel').hasClass('display-none')) {
-          $('.sus-media-carousel').addClass('display-none');
-        }
-
-        if (!$('.tech-media-carousel').hasClass('display-none')) {
-          $('.tech-media-carousel').addClass('display-none');
-        }
-
-        if (!$('.prod-media-carousel').hasClass('display-none')) {
-          $('.prod-media-carousel').addClass('display-none');
-        }
-
-      } else if (slide === 5) {
-        if ($('.prod-media-carousel').hasClass('display-none')) {
-          $('.prod-media-carousel').removeClass('display-none');
-          $('#prod').find('.text-slider').flexslider({
-            slideToStart: 0,
-            start: function(slider) {
-              slider.flexAnimate(0);
-            }
-          });
-        }
-
-        if (!$('.news-media-carousel').hasClass('display-none')) {
-          $('.news-media-carousel').addClass('display-none');
-        }
-
-        if (!$('.sus-media-carousel').hasClass('display-none')) {
-          $('.sus-media-carousel').addClass('display-none');
-        }
-
-        if (!$('.tech-media-carousel').hasClass('display-none')) {
-          $('.tech-media-carousel').addClass('display-none');
-        }
-
-        if (!$('.cust-media-carousel').hasClass('display-none')) {
-          $('.cust-media-carousel').addClass('display-none');
-        }
-
+      if (!document.querySelector('.sus-media-carousel').classList.contains('display-none')) {
+        document.querySelector('.sus-media-carousel').classList.add('display-none');
       }
-    });
+
+      if (!document.querySelector('.tech-media-carousel').classList.contains('display-none')) {
+        document.querySelector('.tech-media-carousel').classList.add('display-none');
+      }
+
+      if (!document.querySelector('.cust-media-carousel').classList.contains('display-none')) {
+        document.querySelector('.cust-media-carousel').classList.add('display-none');
+      }
+
+      if (!document.querySelector('.prod-media-carousel').classList.contains('display-none')) {
+        document.querySelector('.prod-media-carousel').classList.add('display-none');
+      }
+
+    }
+    else if (slide === 2) {
+      if (document.querySelector('.sus-media-carousel').classList.contains('display-none')) {
+        document.querySelector('.sus-media-carousel').classList.remove('display-none');
+        document.querySelector('#esg').find('.text-slider').carousel(0);
+      }
+
+      if (!document.querySelector('.news-media-carousel').classList.contains('display-none')) {
+        document.querySelector('.news-media-carousel').classList.add('display-none');
+      }
+
+      if (!document.querySelector('.tech-media-carousel').classList.contains('display-none')) {
+        document.querySelector('.tech-media-carousel').classList.add('display-none');
+      }
+
+      if (!document.querySelector('.cust-media-carousel').classList.contains('display-none')) {
+        document.querySelector('.cust-media-carousel').classList.add('display-none');
+      }
+
+      if (!document.querySelector('.prod-media-carousel').classList.contains('display-none')) {
+        document.querySelector('.prod-media-carousel').classList.add('display-none');
+      }
+
+    } else if (slide === 3) {
+      if (document.querySelector('.tech-media-carousel').classList.contains('display-none')) {
+        document.querySelector('.tech-media-carousel').classList.remove('display-none');
+        document.querySelector('#tech').find('.text-slider').carousel(0);
+      }
+
+      if (!document.querySelector('.news-media-carousel').classList.contains('display-none')) {
+        document.querySelector('.news-media-carousel').classList.add('display-none');
+      }
+
+      if (!document.querySelector('.sus-media-carousel').classList.contains('display-none')) {
+        document.querySelector('.sus-media-carousel').classList.add('display-none');
+      }
+
+      if (!document.querySelector('.cust-media-carousel').classList.contains('display-none')) {
+        document.querySelector('.cust-media-carousel').classList.add('display-none');
+      }
+
+      if (!document.querySelector('.prod-media-carousel').classList.contains('display-none')) {
+        document.querySelector('.prod-media-carousel').classList.add('display-none');
+      }
+
+    } else if (slide === 4) {
+      if (document.querySelector('.cust-media-carousel').classList.contains('display-none')) {
+        document.querySelector('.cust-media-carousel').classList.remove('display-none');
+        document.querySelector('#cust-service').find('.text-slider').carousel(0);
+      }
+
+      if (!document.querySelector('.news-media-carousel').classList.contains('display-none')) {
+        document.querySelector('.news-media-carousel').classList.add('display-none');
+      }
+
+      if (!document.querySelector('.sus-media-carousel').classList.contains('display-none')) {
+        document.querySelector('.sus-media-carousel').classList.add('display-none');
+      }
+
+      if (!document.querySelector('.tech-media-carousel').classList.contains('display-none')) {
+        document.querySelector('.tech-media-carousel').classList.add('display-none');
+      }
+
+      if (!document.querySelector('.prod-media-carousel').classList.contains('display-none')) {
+        document.querySelector('.prod-media-carousel').classList.add('display-none');
+      }
+
+    } else if (slide === 5) {
+      if (document.querySelector('.prod-media-carousel').classList.contains('display-none')) {
+        document.querySelector('.prod-media-carousel').classList.remove('display-none');
+        document.querySelector('#prod').find('.text-slider').carousel(0);
+      }
+
+      if (!document.querySelector('.news-media-carousel').classList.contains('display-none')) {
+        document.querySelector('.news-media-carousel').classList.add('display-none');
+      }
+
+      if (!document.querySelector('.sus-media-carousel').classList.contains('display-none')) {
+        document.querySelector('.sus-media-carousel').classList.add('display-none');
+      }
+
+      if (!document.querySelector('.tech-media-carousel').classList.contains('display-none')) {
+        document.querySelector('.tech-media-carousel').classList.add('display-none');
+      }
+
+      if (!document.querySelector('.cust-media-carousel').classList.contains('display-none')) {
+        document.querySelector('.cust-media-carousel').classList.add('display-none');
+      }
+
+    }
   });
-})(jQuery);
+});
+
