@@ -13,7 +13,7 @@ function doAnimations(elems) {
 
 var $myCarousel = document.getElementById('carousel-fade');
   $firstAnimatingElems = $myCarousel
-    .querySelector('.item')
+    .querySelector('.item.active')
     .querySelectorAll('[data-animation ^= "animated"]');
 
 $myCarousel.carousel();
