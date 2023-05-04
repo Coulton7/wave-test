@@ -93,7 +93,7 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 document.addEventListener("DOMContentLoaded", function() {
-  document.querySelector('#prev').on('click', function() {
+  document.querySelector('#prev').addEventListener('click', function() {
     document.querySelector('.sustain-nav').animate({
       scrollLeft: '-=200'
     }, 300, 'swing');
