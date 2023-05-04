@@ -75,7 +75,7 @@ window.onload = function () {
 };
 
 document.addEventListener('DOMContentLoaded', function () {
-  document.querySelector('[data-bs-ride="carousel"]').forEach(function () {
+  document.querySelector('.carousel').forEach(function () {
     var $carousel = document.querySelector(this);
     var id = this.id;
     var relatedIndicators = document.querySelector('li[data-target=#' + id + ']');
