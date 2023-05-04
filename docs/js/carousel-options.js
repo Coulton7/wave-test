@@ -112,7 +112,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   window.addEventListener('load resize orientationchange', function () {
     const mediaCarousel = document.querySelectorAll('.media-carousel-block');
-    if (window.innerWidth() > 991) {
+    if (window.innerWidth > 991) {
       for (let x = 0; x < mediaCarousel.length; x++) {
         mediaCarousel[x].addEventListener('mouseleave', function () {
           document.querySelector('.nav-help').style.display = 'none';
