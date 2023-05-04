@@ -1,7 +1,7 @@
 document,addEventListener("DOMContentLoaded", function() {
   const homeCarousel = document.getElementById('carousel-fade')
   homeCarousel.addEventListener('slid.bs.carousel', event => {
-    var carouselData = homeCarousel.data('bs.carousel');
+    var carouselData = homeCarousel.dataset('bs.carousel');
     var currentIndex = carouselData.getItemIndex(carouselData.$element.querySelector('.item.active'));
     var slide = (currentIndex + 1);
     if (slide === 1) {
