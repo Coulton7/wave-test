@@ -23,7 +23,7 @@ function waveFade() {
     return self;
   };
 
-window.innerWidth(function(e) {
+window.addEventListener("resize", function(e) {
 
   document.addEventListener("DOMContentLoaded", function() {
     if (window.innerWidth() > 992) {
