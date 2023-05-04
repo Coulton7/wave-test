@@ -41,10 +41,13 @@ function frontIcon() {
 };
 
 document.addEventListener("DOMContentLoaded",function() {
-  if (document.querySelector('.socialmedia').is(':visible')) {
+  var socialmedia = document.querySelector('.socialmedia').offsetLeft;
+  var socialMedia = document.querySelector('.social-media').offsetLeft;
+
+  if (socialmedia > 0) {
     document.querySelector('.socialmedia').contactIcon();
   }
-  if (document.querySelector('.social-media').is(':visible')) {
+  if (socialMedia > 0) {
     document.querySelector('.social-media').frontIcon();
   }
 });
