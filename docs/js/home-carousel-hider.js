@@ -1,8 +1,7 @@
 document,addEventListener("DOMContentLoaded", function() {
   const homeCarousel = document.getElementById('carousel-fade')
   homeCarousel.addEventListener('slid.bs.carousel', event => {
-    var carouselData = homeCarousel.dataset('bs.carousel');
-    var currentIndex = carouselData.getItemIndex(carouselData.$element.querySelector('.item.active'));
+    var currentIndex = document.querySelector('#carousel-fade .active').index('#carousel-fade .item');
     var slide = (currentIndex + 1);
     if (slide === 1) {
       if (document.querySelector('.news-media-carousel').classList.contains('display-none')) {
