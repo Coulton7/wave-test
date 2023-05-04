@@ -1,45 +1,4 @@
-//Function to animate slider captions
-function doAnimations(elems) {
-  var animEndEv = 'webkitAnimationEnd animationend';
 
-  elems.forEach(function () {
-    var $this = document.querySelector(this),
-      $animationType = $this.data('animation');
-    $this.classList.add($animationType).one(animEndEv, function () {
-      $this.classList.remove($animationType);
-    });
-  });
-}
-
-var $myCarousel = document.getElementById('carousel-fade');
-  $firstAnimatingElems = $myCarousel
-    .querySelector('.item')
-    .querySelectorAll('[data-animation ^= "animated"]');
-
-$myCarousel.carousel();
-
-doAnimations($firstAnimatingElems);
-
-$myCarousel.on('slide.bs.carousel', function (e) {
-  var $animatingElems = document.querySelector(e.relatedTarget).querySelector(
-    '[data-animation ^= "animated"]'
-  );
-  doAnimations($animatingElems);
-  document.querySelector('img.lazyload').lazyload();
-});
-
-var isOnDiv = false;
-document.querySelectorAll('.media-carousel-block').forEach((i) => {
-  i.addEventListener('mouseover', function () {
-    isOnDiv = true;
-  });
-});
-
-document.querySelectorAll('.media-carousel-block').forEach((i) => {
-  i.addEventListener('mouseout', function () {
-    isOnDiv = false;
-  });
-});
 
 function carouselNormalization() {
   var items = document.querySelectorAll('#carousel-fade .item'),
