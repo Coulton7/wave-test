@@ -11,7 +11,7 @@ function doAnimations(elems) {
   });
 }
 
-var $myCarousel = document.querySelector('#carousel-fade'),
+var $myCarousel = document.getElementById('carousel-fade');
   $firstAnimatingElems = $myCarousel
     .find('.item:first')
     .find('[data-animation ^= "animated"]');
