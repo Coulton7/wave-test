@@ -16,7 +16,7 @@ function carouselNormalization() {
     window.tallest;
 
     function normalizeHeights() {
-      document.querySelectorAll('#carousel-fade .carousel-inner .item').forEach(function () {
+      document.querySelectorAll('#carousel-fade .carousel-inner .carousel-item').forEach(function () {
         window.heights.push(document.querySelector(this).outerHeight());
       });
       window.tallest = Math.max.apply(null, heights);
@@ -28,7 +28,7 @@ function carouselNormalization() {
 
     window.addEventListener('resize orientationchange', function () {
       window.tallest = 0, widnow.heights.length = 0;
-      document.querySelectorAll('#carousel-fade .carousel-inner .item').forEach(function () {
+      document.querySelectorAll('#carousel-fade .carousel-inner .carousel-item').forEach(function () {
         document.querySelector(this).css('min-height', '0');
       });
       normalizeHeights();
