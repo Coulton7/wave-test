@@ -12,30 +12,27 @@ document.querySelectorAll('.media-carousel-block').forEach((i) => {
 });
 
 function carouselNormalization() {
-  var items = document.querySelectorAll('#carousel-fade .item'),
-    heights = [],
-    tallest;
+    window.heights = [],
+    window.tallest;
 
-  if (items.length) {
     function normalizeHeights() {
-      items.forEach(function () {
-        heights.push(document.querySelector(this).getBoundingClientRect().height);
+      document.querySelectorAll('#carousel-fade .carousel-inner .item').forEach(function () {
+        window.heights.push(document.querySelector(this).outerHeight());
       });
-      tallest = Math.max.apply(null, heights);
-      items.forEach(function () {
+      window.tallest = Math.max.apply(null, heights);
+      document.querySelectorAll('#carousel-fade .carousel-inner .item').forEach(function () {
         document.querySelector(this).css('min-height', tallest + 'px');
       });
     }
     normalizeHeights();
 
     window.addEventListener('resize orientationchange', function () {
-      (tallest = 0), (heights.length = 0);
-      items.forEach(function () {
+      window.tallest = 0, widnow.heights.length = 0;
+      document.querySelectorAll('#carousel-fade .carousel-inner .item').forEach(function () {
         document.querySelector(this).css('min-height', '0');
       });
       normalizeHeights();
     });
-  }
 }
 
 function horizontalNormalization() {
