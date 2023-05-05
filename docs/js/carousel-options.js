@@ -12,7 +12,7 @@ document.querySelectorAll('.media-carousel-block').forEach((i) => {
 });
 
 function carouselNormalization() {
-  var items = document.querySelector('#carousel-fade .item'),
+  var items = document.querySelectorAll('#carousel-fade .item'),
     heights = [],
     tallest;
 
