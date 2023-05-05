@@ -21,7 +21,7 @@ function carouselNormalization() {
       });
       window.tallest = Math.max.apply(null, heights);
       document.querySelectorAll('#carousel-fade .carousel-inner .carousel-item').forEach(function () {
-        document.querySelector('#carousel-fade .carousel-inner .carousel-item').css('min-height', tallest + 'px');
+        document.querySelector('.carousel-item').css('min-height', tallest + 'px');
       });
     }
     normalizeHeights();
