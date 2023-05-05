@@ -12,8 +12,8 @@ document.querySelectorAll('.media-carousel-block').forEach((i) => {
 });
 
 function sameHeights() {
-  var slider = document.getElementById('#carousel-fade'),
-  var items = [].slice.call(slider)
+  var slider = document.getElementById('#carousel-fade');
+  var items = [].slice.call(slider);
   var tallest = Math.max.apply(Math, items.map(function(item, index){
     item.style.minHeight = '';
     return item.offsetHeight;
