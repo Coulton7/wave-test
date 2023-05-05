@@ -11,32 +11,33 @@ document.querySelectorAll('.media-carousel-block').forEach((i) => {
   });
 });
 
-function carouselNormalization() {
-  var items = document.querySelector('#carousel-fade .item'),
-    heights = [],
-    tallest;
+function sameHeights() {
+  var slider = document.getElementById('#carousel-fade'),
+  var items = [].slice.call(slider)
+  var tallest = Math.max.apply(Math, items.map(function(item, index){
+    item.style.minHeight = '';
+    return item.offsetHeight;
+  }));
 
-  if (items.length) {
-    function normalizeHeights() {
-      items.forEach(function () {
-        heights.push(document.querySelector(this).getBoundingClientRect().height);
-      });
-      tallest = Math.max.apply(null, heights);
-      items.forEach(function () {
-        document.querySelector(this).css('min-height', tallest + 'px');
-      });
-    }
-    normalizeHeights();
-
-    window.addEventListener('resize orientationchange', function () {
-      (tallest = 0), (heights.length = 0);
-      items.forEach(function () {
-        document.querySelector(this).css('min-height', '0');
-      });
-      normalizeHeights();
-    });
-  }
+  items.forEach(function(item, index, arr){
+    item.style.minHeight = tallest + 'px'
+  })
 }
+var resized = true;
+var timeout = null;
+var refresh = function() {
+  if(resized) {
+    requestAnimationFrame(sameHeights);
+  }
+  clearTimeout(timeout);
+  timeout = setTimeout(refresh, 100);
+  resized = false;
+};
+
+window.addEventListener('resize', function(){
+  resized = true;
+});
+refresh();
 
 function horizontalNormalization() {
   var items = document.querySelectorAll('.media-carousel .item'),
@@ -68,7 +69,6 @@ function horizontalNormalization() {
 }
 
 window.onload = function () {
-  carouselNormalization();
   if (window.innerWidth > 991) {
     horizontalNormalization();
   }
