@@ -90,7 +90,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   });
 
-  Array.from(document.querySelector('.carousel .horizontal .item')).forEach(function () {
+  Array.from(document.querySelectorAll('.carousel .horizontal .item')).forEach(function () {
     var next = document.querySelector(this).nextElementSibling;
     if (!next.length) {
       next = document.querySelector(this).siblings(':first');
