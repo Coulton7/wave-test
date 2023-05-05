@@ -26,7 +26,7 @@ function carouselNormalization() {
     }
     normalizeHeights();
 
-    window.addEventListener('resize orientationchange', function () {
+    window.addEventListener('resize', function () {
       window.tallest = 0, widnow.heights.length = 0;
       document.querySelectorAll('#carousel-fade .carousel-inner .carousel-item').forEach(function () {
         document.querySelector('#carousel-fade .carousel-inner .carousel-item').style.minHeight = '0';
