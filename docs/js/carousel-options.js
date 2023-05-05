@@ -17,11 +17,11 @@ function carouselNormalization() {
 
     function normalizeHeights() {
       document.querySelectorAll('#carousel-fade .carousel-inner .carousel-item').forEach(function () {
-        window.heights.push(document.querySelector(this).getBoundingClientRect().height);
+        window.heights.push(document.querySelector('#carousel-fade .carousel-inner .carousel-item').getBoundingClientRect().height);
       });
       window.tallest = Math.max.apply(null, heights);
-      document.querySelectorAll('#carousel-fade .carousel-inner .item').forEach(function () {
-        document.querySelector(this).css('min-height', tallest + 'px');
+      document.querySelectorAll('#carousel-fade .carousel-inner .carousel-item').forEach(function () {
+        document.querySelector('#carousel-fade .carousel-inner .carousel-item').css('min-height', tallest + 'px');
       });
     }
     normalizeHeights();
@@ -29,7 +29,7 @@ function carouselNormalization() {
     window.addEventListener('resize orientationchange', function () {
       window.tallest = 0, widnow.heights.length = 0;
       document.querySelectorAll('#carousel-fade .carousel-inner .carousel-item').forEach(function () {
-        document.querySelector(this).css('min-height', '0');
+        document.querySelector('#carousel-fade .carousel-inner .carousel-item').css('min-height', '0');
       });
       normalizeHeights();
     });
