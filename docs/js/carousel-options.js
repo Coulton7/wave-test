@@ -21,7 +21,7 @@ function carouselNormalization() {
       });
       window.tallest = Math.max.apply(null, heights);
       document.querySelectorAll('#carousel-fade .carousel-inner .carousel-item').forEach(function () {
-        document.querySelectorAll('#carousel-fade .carousel-inner .carousel-item').style.minHeight = tallest + 'px';
+        document.querySelector(this).style.minHeight = tallest + 'px';
       });
     }
     normalizeHeights();
@@ -29,7 +29,7 @@ function carouselNormalization() {
     window.addEventListener('resize orientationchange', function () {
       window.tallest = 0, widnow.heights.length = 0;
       document.querySelectorAll('#carousel-fade .carousel-inner .carousel-item').forEach(function () {
-        document.querySelectorAll('#carousel-fade .carousel-inner .carousel-item').style.minHeight = '0';
+        document.querySelector(this).style.minHeight = '0';
       });
       normalizeHeights();
     });
