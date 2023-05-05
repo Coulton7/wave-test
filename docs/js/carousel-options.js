@@ -29,7 +29,7 @@ function carouselNormalization() {
     window.addEventListener('resize orientationchange', function () {
       window.tallest = 0, widnow.heights.length = 0;
       document.querySelectorAll('#carousel-fade .carousel-inner .carousel-item').forEach(function () {
-        document.querySelector('#carousel-fade .carousel-inner .carousel-item').css('min-height', '0');
+        document.querySelector('.carousel-item').css('min-height', '0');
       });
       normalizeHeights();
     });
