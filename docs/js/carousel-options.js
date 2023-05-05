@@ -17,7 +17,7 @@ function carouselNormalization() {
 
     function normalizeHeights() {
       document.querySelectorAll('#carousel-fade .carousel-inner .carousel-item').forEach(function () {
-        window.heights.push(document.querySelector(this).outerHeight());
+        window.heights.push(document.querySelector(this).getBoundingClientRect().height);
       });
       window.tallest = Math.max.apply(null, heights);
       document.querySelectorAll('#carousel-fade .carousel-inner .item').forEach(function () {
