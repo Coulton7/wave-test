@@ -3551,6 +3551,10 @@ a.icon-link:hover {
   z-index: 1029;
 }
 
+.navbar-toggler {
+  float: right;
+}
+
 :lang(en) .front-background {
   background-color: #000000;
   color:#ffffff;
