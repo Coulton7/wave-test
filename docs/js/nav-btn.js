@@ -62,46 +62,4 @@ document.addEventListener("DOMContentLoaded", function() {
             document.querySelector(y).classList.remove('fixed-top');
           }
       });
-
-      document.querySelector("#footer-overlay-btn").addEventListener('click',
-      function footerNavbtn(){
-        document.getElementById('footer-overlay-btn').classList.toggle("change");
-        if (x.style.height === "100%"){
-        x.style.height = "0%";
-        document.querySelector('.main').classList.remove('active');
-        document.querySelector("body").classList.remove('noscroll');
-        document.querySelector('#overlay-btn').classList.add('overlay-btn');
-        document.querySelector('.search-block').classList.remove('overlay-search');
-        document.querySelector('.navigation_col').classList.remove('overlay-menu');
-        document.querySelector(y).classList.add('fixed-top');
-      } else {
-        x.style.height = "100%";
-        if(document.querySelector('#prodForm').classList.contains('in')) {
-          document.querySelector('#prodForm').modal('hide');
-        }
-        if(document.querySelector('#location-details').dialog('isOpen') === true) {
-          document.querySelector('#location-details').dialog('close');
-        }
-        document.querySelector('.main').classList.add('active');
-        document.querySelector("body").classList.add('noscroll');
-        document.querySelector('#overlay-btn').classList.remove('overlay-btn');
-        document.querySelector('.search-block').classList.add('overlay-search');
-        document.querySelector('.navigation_col').classList.add('overlay-menu');
-        document.querySelector(y).classList.remove('fixed-top');
-      }
-    });
-});
-
-document.addEventListener("DOMContentLoaded", function() {
-  document.querySelector('#prev').addEventListener('click', function() {
-    document.querySelector('.sustain-nav').animate({
-      scrollLeft: '-=200'
-    }, 300, 'swing');
-  });
-
-  document.querySelector('#next').on('click', function() {
-    document.querySelector('.sustain-nav').animate({
-      scrollLeft: '+=200'
-    }, 300, 'swing');
-  });
 });
