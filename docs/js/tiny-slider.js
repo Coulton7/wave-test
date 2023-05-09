@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function() {
     })
     
     slider.events.on("translationEnd", data => {
-        let {controlsContainer, displayIndex, slideCount} = data;
+        let {displayIndex, slideCount} = data;
         document.getElementById("counter").textContent('${displayIndex} of {$slideCount}')
     })
 })
