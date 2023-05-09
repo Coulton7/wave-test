@@ -6,7 +6,7 @@ function waveFade() {
     return self.each(function() {
       if (windowScrollTop <= windowHeight) {
         var scrollPercent = windowScrollTop / windowHeight;
-        self.querySelector('.textlogo, .section-shadow-menu, .enquiry-icon').style.opacity = -1.03 + scrollPercent * 4
+        self.querySelector('.textlogo').style.opacity = -1.03 + scrollPercent * 4
       }
     });
   };
@@ -25,7 +25,7 @@ window.addEventListener("resize", function(e) {
     if (window.matchMedia() > 992) {
       waveFade();
     } else {
-      document.querySelector('.textlogo, .section-shadow-menu, .enquiry-icon').style.opacity = 1;
+      document.querySelector('.textlogo').style.opacity = 1;
       }
     });
 
