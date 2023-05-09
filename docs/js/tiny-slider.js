@@ -5,7 +5,6 @@ document.addEventListener("DOMContentLoaded", function() {
         loop: true,
         nav: false,
         controls: true,
-        controlsContainer: true,
         controlsPosition: "bottom",
         responsive: {
             1 : {
