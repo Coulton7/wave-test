@@ -3471,6 +3471,11 @@ a.icon-link:hover {
   font-size: 2em;
 }
 
+.social-media .show .dropdown-menu {
+  display: block;
+  width: 80%;
+}
+
 .social-media .dropdown-menu {
   color: #ffffff;
   background-color: #5f5d5c;
