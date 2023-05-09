@@ -3472,18 +3472,6 @@ a.icon-link:hover {
 }
 
 .social-media .dropdown-menu {
-  position: absolute;
-  display: none;
-  right: 0;
-
-}
-
-.social-media .open .dropdown-menu {
-  display: block;
-  width: 80%;
-}
-
-.social-media .dropdown-menu {
   color: #ffffff;
   background-color: #5f5d5c;
   border: 1px solid #ccc;
