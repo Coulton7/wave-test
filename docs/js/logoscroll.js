@@ -2,11 +2,12 @@ function waveFade() {
   var self = this;
   var windowHeight = window.innerHeight;
   var windowScrollTop = document.documentElement.scrollTop;
+  var textLogo = document.querySelector(".textlogo");
   var waveFadeFunction = function() {
     return self.each(function() {
       if (windowScrollTop <= windowHeight) {
         var scrollPercent = windowScrollTop / windowHeight;
-        self.querySelector('.textlogo').style.opacity = -1.03 + scrollPercent * 4
+        textLogo.style.opacity = -1.03 + scrollPercent * 4
       }
     });
   };
@@ -25,7 +26,7 @@ window.addEventListener("resize", function(e) {
     if (window.matchMedia() > 992) {
       waveFade();
     } else {
-      document.querySelector('.textlogo').style.opacity = 1;
+      textLogo.style.opacity = 1;
       }
     });
 
