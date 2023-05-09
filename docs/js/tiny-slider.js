@@ -6,6 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
         nav: false,
         controls: true,
         controlsPosition: "bottom",
+        gutter: 20,
         responsive: {
             1 : {
             items: 2 
