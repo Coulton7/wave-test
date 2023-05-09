@@ -7,6 +7,7 @@ document.addEventListener("DOMContentLoaded", function() {
         controls: true,
         controlsPosition: "bottom",
         gutter: 20,
+        lazyload: true,
         responsive: {
             1 : {
             items: 2 
