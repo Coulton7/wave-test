@@ -14,8 +14,6 @@ function waveFade() {
   };
 
     window.addEventListener('scroll', function() {
-      windowHeight = window.innerHeight;
-      windowScrollTop = document.documentElement.scrollTop();
       waveFadeFunction();
     });
 
