@@ -1,7 +1,7 @@
 function waveFade() {
   var self = this;
   var windowHeight = window.innerHeight;
-  var windowScrollTop = document.documentElement.scrollTop();
+  var windowScrollTop = document.documentElement.scrollTop;
   var waveFadeFunction = function() {
     return self.each(function() {
       if (windowScrollTop <= windowHeight) {
