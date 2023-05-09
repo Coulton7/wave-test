@@ -2926,7 +2926,7 @@ a.btn-transparent-green-border:hover, a.btn-transparent-green-border:focus {
   background: transparent;
 }
 
-.social-media ul {
+.social-media>ul {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
