@@ -7,7 +7,6 @@ document.addEventListener("DOMContentLoaded", function() {
         controls: true,
         controlsPosition: "bottom",
         gutter: 20,
-        lazyload: true,
         responsive: {
             1 : {
             items: 2 
@@ -32,8 +31,5 @@ document.addEventListener("DOMContentLoaded", function() {
         lazyload: true,
     })
     
-    slider.events.on("translationEnd", data => {
-        let {displayIndex, slideCount} = data;
-        document.getElementById("counter").textContent('${displayIndex} of {$slideCount}')
-    })
+
 })
