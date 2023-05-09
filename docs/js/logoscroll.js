@@ -37,6 +37,7 @@ window.addEventListener("resize", function(e) {
       if (window.matchMedia() < 992) {
         document.querySelector('.navbar-nav>li>a').classList.add('normText');
         document.querySelector('.social-media').classList.add('display-none');
+        waveFade();
       };
 
       window.addEventListener('scroll', function() {
