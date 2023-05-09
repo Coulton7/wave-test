@@ -24,7 +24,7 @@ function waveFade() {
 window.addEventListener("resize", function(e) {
 
   document.addEventListener("DOMContentLoaded", function() {
-    if (window.innerWidth() > 992) {
+    if (window.matchMedia() > 992) {
 
       document.querySelector('body').waveFade();
     } else {
@@ -35,7 +35,7 @@ window.addEventListener("resize", function(e) {
 
     document.addEventListener("DOMContentLoaded", function() {
 
-      if (window.innerWidth() < 992) {
+      if (window.matchMedia() < 992) {
         document.querySelector('.navbar-nav>li>a').classList.add('normText');
         document.querySelector('.social-media').classList.add('display-none');
       };
@@ -54,7 +54,7 @@ window.addEventListener("resize", function(e) {
         var scrollAmount = (s/(d-c)) * 100;
         var opacity = scrollAmount/100 * 3;
         
-        if(window.innerWidth() > 992) {
+        if(window.matchMedia() > 992) {
           document.querySelector('.navbar-nav').css({"background-color": "rgba(255,255,255,"+opacity+")"});
 
           if (opacity >= 0.55) {
