@@ -25,8 +25,7 @@ window.addEventListener("resize", function(e) {
 
   document.addEventListener("DOMContentLoaded", function() {
     if (window.matchMedia() > 992) {
-
-      document.querySelector('body').waveFade();
+      waveFade();
     } else {
       document.querySelector('.textlogo, .section-shadow-menu, .enquiry-icon').css({
         "opacity": "1"
