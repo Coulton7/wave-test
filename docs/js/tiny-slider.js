@@ -4,7 +4,8 @@ document.addEventListener("DOMContentLoaded", function() {
         loop: true,
         nav: false,
         controls: true,
-        controlsContainer: true,
+        prevButton: '.prev',
+        nextButton: '.next',
         controlsPosition: "bottom",
         gutter: 20,
         responsive: {
@@ -28,7 +29,6 @@ document.addEventListener("DOMContentLoaded", function() {
                 items: 4.33
             }
         },
-        lazyload: true,
     })
     slider.events.on("translationEnd", data => {
         let {controlsContainer, displayIndex, slideCount} = data;
