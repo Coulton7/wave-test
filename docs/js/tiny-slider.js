@@ -16,15 +16,15 @@ document.addEventListener("DOMContentLoaded", function() {
             },
     
             768: {
-                items: 3
+                items: 3.66
             },
     
             992: {
-                itmes: 4
+                itmes: 4.33
             },
     
             1200: {
-                items: 4
+                items: 4.33
             }
         },
         lazyload: true,
