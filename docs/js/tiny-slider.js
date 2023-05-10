@@ -29,6 +29,8 @@ document.addEventListener("DOMContentLoaded", function() {
         },
         lazyload: true,
     })
-    
-
+    slider.events.on("translationEnd", data => {
+        let {controlsContainer, displayIndex, slideCount} = data;
+        document.getElementById("counter").textContent('${displayIndex} of {$slideCount}')
+    })
 })
