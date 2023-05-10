@@ -1,7 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
     var slider = tns({
         container: ".slider",
-        slideBy: 1,
         loop: true,
         nav: false,
         controls: true,
@@ -17,15 +16,15 @@ document.addEventListener("DOMContentLoaded", function() {
             },
     
             768: {
-                items: 3.66
+                items: 3
             },
     
             992: {
-                itmes: 4.33
+                itmes: 4
             },
     
             1200: {
-                items: 4.33
+                items: 4
             }
         },
         lazyload: true,
