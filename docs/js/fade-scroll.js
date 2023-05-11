@@ -17,6 +17,11 @@ document.addEventListener("DOMContentLoaded", function() {
         enquiry.style.opacity = Math.max(0, Math.min(1, +scroll / 500));
         navbar.style.backgroundColor = "rgba(255,255,255,"+ Math.max(0, Math.min(1, +scroll / 500)); +")"
         console.log(scroll/500);
+
+        if(scroll/500 >= 0.75) {
+            document.querySelector('.navbar-nav>li>a').classList.add('normText');
+            document.querySelector('.social-media>ul>li>a').classList.add('normText');
+        }
     });
     } else {
         sectionShadow.style.opacity = 1;
