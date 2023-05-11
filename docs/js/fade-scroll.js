@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function() {
         textLogo.style.opacity = Math.max(0, Math.min(1, +scroll / 500));
         enquiry.style.opacity = Math.max(0, Math.min(1, +scroll / 500));
         navbar.style.backgroundColor = "rgba(255,255,255,"+ Math.max(0, Math.min(1, +scroll / 500)); +")"
-        console.log(scroll);
+        console.log(scroll/500);
     });
     } else {
         sectionShadow.style.opacity = 1;
