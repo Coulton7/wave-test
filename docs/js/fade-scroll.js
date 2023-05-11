@@ -19,8 +19,8 @@ document.addEventListener("DOMContentLoaded", function() {
         console.log(scroll/500);
 
         if(scroll/500 >= 0.75) {
-            document.querySelector('.navbar-nav>li>a').classList.add('normText');
-            document.querySelector('.social-media>ul>li>a').classList.add('normText');
+            document.querySelectorAll('.navbar-nav>li>a').classList.add('normText');
+            document.querySelectorAll('.social-media>ul>li>a').classList.add('normText');
         }
     });
     } else {
