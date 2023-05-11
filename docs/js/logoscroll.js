@@ -1,6 +1,6 @@
 function waveFade() {
   var self = this;
-  var windowHeight = window.innerHeight;
+  var windowHeight = window.pageYOffset;
   var windowScrollTop = document.documentElement.scrollTop;
   var textLogo = document.querySelector(".textlogo");
   var waveFadeFunction = function() {
