@@ -7,7 +7,7 @@ function waveFade() {
     return that.each(function() {
       if (windowScrollTop <= windowHeight) {
         var scrollPercent = windowScrollTop / windowHeight;
-        textLogo.style.opacity = -1.03, + scrollPercent * 4;
+        textLogo.style.opacity = -1.03 + scrollPercent * 4;
       }
     });
   };
