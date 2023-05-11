@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
-    var fadeScroll = document.querySelectorAll('.fade-scroll')
+    const fadeScroll = document.querySelectorAll('.fade-scroll')
 
     if(window.innerWidth > 992) {
     fadeScroll.style.opacity = -1.03;
