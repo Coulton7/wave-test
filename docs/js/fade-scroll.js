@@ -24,4 +24,5 @@ document.addEventListener("DOMContentLoaded", function() {
             fadeScroll.forEach.style.opacity = 1;
         }
     });
+    
 });
