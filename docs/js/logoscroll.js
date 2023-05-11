@@ -3,39 +3,31 @@ function waveFade() {
   var windowHeight = window.pageYOffset;
   var windowScrollTop = document.documentElement.scrollTop;
   var textLogo = document.querySelector(".textlogo");
-  var waveFadeFunction = function() {
     return that.each(function() {
-      if (windowScrollTop <= windowHeight) {
-        var scrollPercent = windowScrollTop / windowHeight;
-        textLogo.style.opacity = -1.03 + scrollPercent * 4;
-      }
-    });
-  };
-
-    window.addEventListener('scroll', function() {
-      waveFadeFunction();
-    });
-
-    waveFadeFunction();
-    return that;
-  };
+    if (windowScrollTop <= windowHeight) {
+      var scrollPercent = windowScrollTop / windowHeight;
+      textLogo.style.opacity = -1.03 + scrollPercent * 4;
+    }
+  });
+};
 
 window.addEventListener("resize", function(e) {
 
   document.addEventListener("DOMContentLoaded", function() {
     if (window.matchMedia() > 992) {
-      waveFade();
+      window.addEventListener('scroll', function() {
+        waveFade();
+      });
     } else {
       textLogo.style.opacity = 1;
-      }
-    });
+    }
+  });
 
     document.addEventListener("DOMContentLoaded", function() {
 
       if (window.matchMedia() < 992) {
         document.querySelector('.navbar-nav>li>a').classList.add('normText');
         document.querySelector('.social-media').classList.add('display-none');
-        waveFade();
       };
 
       window.addEventListener('scroll', function() {
