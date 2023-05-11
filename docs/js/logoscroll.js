@@ -40,7 +40,7 @@ window.addEventListener("resize", function(e) {
 
       window.addEventListener('scroll', function() {
         var s = document.documentElement.scrollTop(),
-        d = document.innerHheight(),
+        d = document.innerHeight(),
         c = window.innerHeight();
 
         var currentSlide = parseInt(document.querySelector('.carousel-fade .active').index('.carousel-fade .item'));
