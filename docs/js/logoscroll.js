@@ -1,10 +1,10 @@
 function waveFade() {
-  var self = this;
+  var that = this;
   var windowHeight = window.pageYOffset;
   var windowScrollTop = document.documentElement.scrollTop;
   var textLogo = document.querySelector(".textlogo");
   var waveFadeFunction = function() {
-    return self.each(function() {
+    return that.each(function() {
       if (windowScrollTop <= windowHeight) {
         var scrollPercent = windowScrollTop / windowHeight;
         textLogo.style.opacity = -1.03, + scrollPercent * 4;
@@ -17,7 +17,7 @@ function waveFade() {
     });
 
     waveFadeFunction();
-    return self;
+    return that;
   };
 
 window.addEventListener("resize", function(e) {
