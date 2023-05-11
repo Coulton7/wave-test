@@ -1,28 +1,35 @@
 document.addEventListener("DOMContentLoaded", function() {
-    const fadeScroll = document.querySelectorAll('.fade-scroll')
+    const textLogo = document.getElementById('textlogo');
+    const sectionShadow = document.getElementById('section-shadow');
 
     if(window.innerWidth > 992) {
-    fadeScroll.forEach.style.opacity = -1.03;
+        sectionShadow.style.opacity = -1.03;
+        textLogo.style.opacity = -1.03;
 
     window.addEventListener('scroll', function(e) {
         var scroll = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
-        fadeScroll.forEach.style.opacity = Math.max(0, Math.min(1, +scroll / 500));
+        sectionShadow.style.opacity = Math.max(0, Math.min(1, +scroll / 500));
+        textLogo.style.opacity = Math.max(0, Math.min(1, +scroll / 500));
     });
     } else {
-        fadeScroll.forEach.style.opacity = 1;
+        sectionShadow.style.opacity = 1;
+        textLogo.style.opacity = 1;
     }
 
     window.addEventListener('resize', function(){
         if(window.innerWidth > 992) {
-            fadeScroll.forEach.style.opacity = -1.03;
+            sectionShadow.style.opacity = -1.03;
+            textLogo.style.opacity = -1.03;
         
             window.addEventListener('scroll', function(e) {
                 var scroll = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
-                fadeScroll.forEach.style.opacity = Math.max(0, Math.min(1, +scroll / 500));
+                sectionShadow.style.opacity = Math.max(0, Math.min(1, +scroll / 500));
+                textLogo.style.opacity = Math.max(0, Math.min(1, +scroll / 500));
             });
         } else {
-            fadeScroll.forEach.style.opacity = 1;
+            sectionShadow.style.opacity = 1;
+            textLogo.style.opacity = 1;
         }
     });
-    
+
 });
