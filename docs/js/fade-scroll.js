@@ -1,4 +1,4 @@
-var textLogo = document.querySelector('.textlogo')
+var textLogo = document.getElementById('textlogo')
 
 document.addEventListener("DOMContentLoaded", function() {
     textLogo.style.opacity = -1.03;
