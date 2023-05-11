@@ -12,13 +12,13 @@ document.addEventListener("DOMContentLoaded", function() {
 
     window.addEventListener('scroll', function(e) {
         var scroll = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
-        sectionShadow.style.opacity = Math.max(0, Math.min(1, +scroll / 500));
-        textLogo.style.opacity = Math.max(0, Math.min(1, +scroll / 500));
-        enquiry.style.opacity = Math.max(0, Math.min(1, +scroll / 500));
-        navbar.style.backgroundColor = "rgba(255,255,255,"+ Math.max(0, Math.min(1, +scroll / 500)); +")"
+        sectionShadow.style.opacity = Math.max(0, Math.min(1, +scroll / 600));
+        textLogo.style.opacity = Math.max(0, Math.min(1, +scroll / 600));
+        enquiry.style.opacity = Math.max(0, Math.min(1, +scroll / 600));
+        navbar.style.backgroundColor = "rgba(255,255,255,"+ Math.max(0, Math.min(1, +scroll / 600)); +")"
         console.log(scroll/500);
 
-        if(scroll/500 >= 0.75) {
+        if(scroll/600 >= 0.75) {
             document.querySelectorAll('.navbar-nav>li>a').classList.add('normText');
             document.querySelectorAll('.social-media>ul>li>a').classList.add('normText');
         }
