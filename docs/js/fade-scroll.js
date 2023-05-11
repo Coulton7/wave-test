@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function() {
     var fadeScroll = document.querySelectorAll('.fade-scroll')
 
     if(window.innerWidth > 992) {
-    fadeScroll.style.opacity = -1.03;
+    fadeScroll[i].style.opacity = -1.03;
 
     window.addEventListener('scroll', function(e) {
         var scroll = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
