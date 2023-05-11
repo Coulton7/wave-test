@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
-    var textLogo = document.getElementById('#textlogo')
+    var textLogo = document.getElementById('textlogo')
     textLogo.style.opacity = -1.03;
 
     window.addEventListener('scroll', function(e) {
