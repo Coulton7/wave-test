@@ -3542,6 +3542,10 @@ a.icon-link:hover {
   z-index: 1029;
 }
 
+.navbar {
+  padding: 0;
+}
+
 .navbar-toggler {
   float: right;
 }
