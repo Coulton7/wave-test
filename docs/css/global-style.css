@@ -3466,6 +3466,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 a.icon-link {
   color: #338FBC;
   cursor: pointer;
+  width: 100%;
 }
 
 a.icon-link:hover {
