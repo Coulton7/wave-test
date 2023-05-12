@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const enquiry = document.getElementById('enq-icon');
     const navbar = document.querySelector('.navbar-nav');
     var navLinks = document.querySelectorAll('.navbar-nav a');
-    var socialLinks = document.querySelectorAll('.social-media li');
+    var socialLinks = document.querySelectorAll('.social-media>li>a');
 
     if(window.innerWidth > 992) {
         sectionShadow.style.opacity = -1.03;
