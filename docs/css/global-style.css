@@ -5307,7 +5307,7 @@ a.icon-link:hover {
     bottom: auto;
   }
 
-  .media-carousel-block .carousel-controls .carousel-control, .i8ln-media-carousel .carousel-controls .carousel-control  {
+  .media-carousel-block .carousel-controls .carousel-control, .i8ln-media-carousel .carousel-controls .carousel-control, .controls li  {
     width: 3em;
     height: 3em;
     box-shadow: 0 0 0 1px rgb(0 0 0 / 4%), 0 4px 8px 0 rgb(0 0 0 / 30%);
