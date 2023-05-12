@@ -3020,7 +3020,7 @@ a.btn-transparent-green-border:hover, a.btn-transparent-green-border:focus {
   margin-bottom: auto;
 }
 
-.media-carousel-block .carousel-controls .carousel-control, .i8ln-media-carousel .carousel-controls .carousel-control {
+.media-carousel-block .carousel-controls .carousel-control, .i8ln-media-carousel .carousel-controls .carousel-control, .controls li {
   color: rgba(0, 0, 0, 0.3);
   border: 1px solid #e5e5e7;
   border-radius: 50%;
@@ -3029,6 +3029,10 @@ a.btn-transparent-green-border:hover, a.btn-transparent-green-border:focus {
   background-color: #ffffff;
   width: 4.5%;
   height: 11.5%;
+}
+
+.controls {
+  list-style: none;
 }
 
 .media-carousel-block .carousel-controls .carousel-control:hover {
