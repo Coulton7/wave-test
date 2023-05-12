@@ -2,7 +2,9 @@ document.addEventListener("DOMContentLoaded", function() {
     const textLogo = document.getElementById('textlogo');
     const sectionShadow = document.getElementById('section-shadow');
     const enquiry = document.getElementById('enq-icon');
-    const navbar = document.querySelector('.navbar-nav')
+    const navbar = document.querySelector('.navbar-nav');
+    var navLinks = document.querySelectorAll('.navbar-nav a');
+    var socialLinks = document.querySelectorAll('.social-media a');
 
     if(window.innerWidth > 992) {
         sectionShadow.style.opacity = -1.03;
@@ -18,13 +20,21 @@ document.addEventListener("DOMContentLoaded", function() {
         navbar.style.backgroundColor = "rgba(255,255,255,"+ Math.max(0, Math.min(1, +scroll / 600)); +")"
 
         if(scroll/600 >= 0.75) {
-            document.querySelector('.navbar-nav a').classList.add('normText');
-            document.querySelector('.social-media a').classList.add('normText');
+            for (var i = 0; i < navLinks.length; i++) {
+                navLinks[i].classList.add('normText');
+            }
+            for (var y =0; y < socialLinks.length; y++) {
+                socialLinks.classList.add('normText');
+            }
         }
 
         if(scroll/600 < 0.75) {
-            document.querySelector('.navbar-nav a').classList.remove('normText');
-            document.querySelector('.social-media a').classList.remove('normText');
+            for (var i = 0; i < navLinks.length; i++) {
+                navLinks[i].classList.remove('normText');
+            }
+            for (var y =0; y < socialLinks.length; y++) {
+                socialLinks[y].classList.remove('normText');
+            }
         }
     });
     } else {
