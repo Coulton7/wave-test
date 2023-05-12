@@ -16,7 +16,6 @@ document.addEventListener("DOMContentLoaded", function() {
         textLogo.style.opacity = Math.max(0, Math.min(1, +scroll / 600));
         enquiry.style.opacity = Math.max(0, Math.min(1, +scroll / 600));
         navbar.style.backgroundColor = "rgba(255,255,255,"+ Math.max(0, Math.min(1, +scroll / 600)); +")"
-        console.log(scroll/500);
 
         if(scroll/600 >= 0.75) {
             document.querySelector('.navbar-nav a').classList.add('normText');
@@ -44,10 +43,20 @@ document.addEventListener("DOMContentLoaded", function() {
         
             window.addEventListener('scroll', function(e) {
                 var scroll = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
-                sectionShadow.style.opacity = Math.max(0, Math.min(1, +scroll / 500));
-                textLogo.style.opacity = Math.max(0, Math.min(1, +scroll / 500));
+                sectionShadow.style.opacity = Math.max(0, Math.min(1, +scroll / 600));
+                textLogo.style.opacity = Math.max(0, Math.min(1, +scroll / 600));
                 enquiry.style.opacity = Math.max(0, Math.min(1, +scroll / 500));
-                navbar.style.backgroundColor = "rgba(255,255,255,"+ Math.max(0, Math.min(1, +scroll / 500)); +")"
+                navbar.style.backgroundColor = "rgba(255,255,255,"+ Math.max(0, Math.min(1, +scroll / 600)); +")"
+
+                if(scroll/600 >= 0.75) {
+                    document.querySelector('.navbar-nav a').classList.add('normText');
+                    document.querySelector('.social-media a').classList.add('normText');
+                }
+        
+                if(scroll/600 < 0.75) {
+                    document.querySelector('.navbar-nav a').classList.remove('normText');
+                    document.querySelector('.social-media a').classList.remove('normText');
+                }
             });
         } else {
             sectionShadow.style.opacity = 1;
