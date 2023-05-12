@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function() {
             for (var i = 0; i < navLinks.length; i++) {
                 navLinks[i].classList.remove('normText');
             }
-            for (var y =0; y < socialLinks.length; y++) {
+            for (var y = 0; y < socialLinks.length; y++) {
                 socialLinks[y].classList.remove('normText');
             }
         }
