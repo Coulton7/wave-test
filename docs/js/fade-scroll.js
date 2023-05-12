@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const enquiry = document.getElementById('enq-icon');
     const navbar = document.querySelector('.navbar-nav');
     var navLinks = document.querySelectorAll('.navbar-nav a');
-    var socialLinks = document.querySelectorAll('.social-links a');
+    var socialLinks = document.querySelectorAll('.social-media a');
 
     if(window.innerWidth > 992) {
         sectionShadow.style.opacity = -1.03;
@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 navLinks[i].classList.add('normText');
             }
             for (var y = 0; y < socialLinks.length; y++) {
-                socialLinks.classList.add('normText');
+                socialLinks[y].classList.add('normText');
             }
         }
 
