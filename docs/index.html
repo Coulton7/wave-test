@@ -404,12 +404,15 @@
                   </div>
                   <div class="col-lg-10 col-md-10 col-sm-12 col-12 mobile-col-padding carousel-col-placement">
                     <div class="shadow-container">
-                      
                       <div id="counter" class="text-right padding-bottom"></div>
-                      <!--<div id="arrow-controls" class="tns-controls">
-                        <div id="next" class="next-arrow"><i class="bi bi-caret-right-fill"></i></div>
-                        <div id="prev" class="prev-arrow"><i class="bi bi-caret-left-fill"></i></div>
-                      </div>-->
+                      <ul class="controls" id="arrow-controls" aria-label="Carousel Navigation" tabindex="0">
+                        <li class="prev" data-controls="prev" aria-controls="arrows" tabindex="-1">
+                          <i class="bi bi-caret-right-fill display-4"></i>
+                        </li>
+                        <li class="next" data-controls="next" aria-controls="arrows" tabindex="-1">
+                          <i class="bi bi-caret-left-fill display-4"></i>
+                        </li>
+                      </ul>
                       <div class="slider ">
             
                         <div class="item" id="slide-1">

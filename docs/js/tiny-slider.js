@@ -3,8 +3,7 @@ document.addEventListener("DOMContentLoaded", function() {
         container: ".slider",
         loop: true,
         nav: false,
-        controls: true,
-        controlsPosition: "bottom",
+        controlsContainer: "#arrow-controls",
         gutter: 20,
         lazyload: true,
         responsive: {
