@@ -3035,6 +3035,10 @@ a.btn-transparent-green-border:hover, a.btn-transparent-green-border:focus {
   list-style: none;
 }
 
+.prev i, .next i {
+  font-size: 3em;
+}
+
 .media-carousel-block .carousel-controls .carousel-control:hover {
   color: rgba(0, 0, 0, 0.5);
   opacity: 1;
