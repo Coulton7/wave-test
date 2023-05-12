@@ -22,6 +22,11 @@ document.addEventListener("DOMContentLoaded", function() {
             document.querySelector('.navbar-nav a').classList.add('normText');
             document.querySelector('.social-media a').classList.add('normText');
         }
+
+        if(scroll/600 < 0.75) {
+            document.querySelector('.navbar-nav a').classList.remove('normText');
+            document.querySelector('.social-media a').classList.remove('normText');
+        }
     });
     } else {
         sectionShadow.style.opacity = 1;
