@@ -3033,6 +3033,23 @@ a.btn-transparent-green-border:hover, a.btn-transparent-green-border:focus {
 
 .controls {
   list-style: none;
+  margin: 0;
+}
+
+.prev {
+  left: 0;
+  right: auto;
+  position: absolute;
+  top: 35%;
+  z-index: 10;
+}
+
+.next {
+  right: 0;
+  left: auto;
+  position: absolute;
+  top: 35%;
+  z-index: 10;
 }
 
 .prev i, .next i {
