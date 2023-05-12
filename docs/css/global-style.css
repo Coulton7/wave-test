@@ -5314,6 +5314,10 @@ a.icon-link:hover {
     border: 1px solid #e5e5e7;
   }
 
+  .controls {
+    list-style: none;
+  }
+
   .shadow-box-tabs ul {
     margin-bottom: 0.5em;
   }
