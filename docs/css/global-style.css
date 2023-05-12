@@ -3036,7 +3036,7 @@ a.btn-transparent-green-border:hover, a.btn-transparent-green-border:focus {
   margin: 0;
 }
 
-.prev {
+.next {
   left: 0;
   right: auto;
   position: absolute;
@@ -3044,7 +3044,7 @@ a.btn-transparent-green-border:hover, a.btn-transparent-green-border:focus {
   z-index: 10;
 }
 
-.next {
+.prev {
   right: 0;
   left: auto;
   position: absolute;
