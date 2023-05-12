@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function() {
             for (var i = 0; i < navLinks.length; i++) {
                 navLinks[i].classList.add('normText');
             }
-            for (var y =0; y < socialLinks.length; y++) {
+            for (var y = 0; y < socialLinks.length; y++) {
                 socialLinks.classList.add('normText');
             }
         }
