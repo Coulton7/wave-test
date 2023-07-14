@@ -6,7 +6,6 @@ document.addEventListener("DOMContentLoaded", function() {
         controlsContainer: "#arrow-controls",
         gutter: 20,
         lazyload: true,
-        autoWidth: true,
         responsive: {
             1 : {
             items: 2 
