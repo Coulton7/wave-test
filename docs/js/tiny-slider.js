@@ -1,6 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
     var slider = tns({
         container: ".slider",
+        center: true,
         loop: true,
         nav: false,
         controlsContainer: "#arrow-controls",
