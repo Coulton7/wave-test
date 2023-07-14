@@ -1,7 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
     var slider = tns({
         container: ".slider",
-        center: true,
         loop: true,
         nav: false,
         controlsContainer: "#arrow-controls",
@@ -9,28 +8,23 @@ document.addEventListener("DOMContentLoaded", function() {
         lazyload: true,
         responsive: {
             1 : {
-                edgePadding: 20,
-                items: 2 
+            items: 2 
             },
     
             600 : {
-                edgePadding: 20,
-                items: 3
+            items: 3
             },
     
             768: {
-                edgePadding: 20,
-                items: 3
+                items: 3.66
             },
     
             992: {
-                edgePadding: 30,
-                itmes: 4
+                itmes: 4.33
             },
     
             1200: {
-                edgePadding: 30,
-                items: 4
+                items: 4.33
             }
         },
     })
