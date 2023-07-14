@@ -5,6 +5,7 @@ document.addEventListener("DOMContentLoaded", function() {
         nav: false,
         controlsContainer: "#arrow-controls",
         gutter: 20,
+        lazyload: true,
         responsive: {
             1 : {
             items: 2 
