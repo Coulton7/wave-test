@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function() {
             },
     
             1200: {
-                items: 4.33
+                items: 4.66
             }
         },
     })
