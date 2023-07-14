@@ -8,23 +8,28 @@ document.addEventListener("DOMContentLoaded", function() {
         lazyload: true,
         responsive: {
             1 : {
-            items: 2 
+                edgePadding: 20,
+                items: 2 
             },
     
             600 : {
-            items: 3
+                edgePadding: 20,
+                items: 3
             },
     
             768: {
-                items: 3.66
+                edgePadding: 20,
+                items: 3
             },
     
             992: {
-                itmes: 4.33
+                edgePadding: 30,
+                itmes: 4
             },
     
             1200: {
-                items: 4.33
+                edgePadding: 30,
+                items: 4
             }
         },
     })
