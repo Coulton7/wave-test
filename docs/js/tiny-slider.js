@@ -29,7 +29,8 @@ document.addEventListener("DOMContentLoaded", function() {
         },
     })
     slider.events.on("translationEnd", data => {
-        let {controlsContainer, displayIndex, slideCount} = data;
-        document.getElementById("counter").textContent('${displayIndex} of {$slideCount}')
-    })
-})
+        let { controlsContainer, displayIndex, slideCount } = data;
+        console.log('${displayIndex} / ${slideCount}');
+        // Create an element and inject this into the controlsContainer (or update it thereafter)
+      })
+});
