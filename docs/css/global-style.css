@@ -3053,17 +3053,19 @@ a.btn-transparent-green-border:hover, a.btn-transparent-green-border:focus {
 }
 
 .prev i, .next i {
-  font-size: 3em;
+  font-size: 2em;
 }
 
 .next i {
-  left: 20%;
+  left: 18%;
   position: relative;
+  top: 8%;
 }
 
 .prev i {
   position: relative;
-  right: -33%;
+  right: -28%;
+  top: 8%
 }
 
 .media-carousel-block .carousel-controls .carousel-control:hover, .controls li:hover {
