@@ -3068,6 +3068,11 @@ a.btn-transparent-green-border:hover, a.btn-transparent-green-border:focus {
   top: 8%
 }
 
+.tns-visually-hidden {
+  position: relative;
+  left: 0;
+}
+
 .media-carousel-block .carousel-controls .carousel-control:hover, .controls li:hover {
   color: rgba(0, 0, 0, 0.5);
   opacity: 1;
