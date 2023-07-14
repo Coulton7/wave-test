@@ -3056,6 +3056,16 @@ a.btn-transparent-green-border:hover, a.btn-transparent-green-border:focus {
   font-size: 3em;
 }
 
+.next i {
+  left: 20%;
+  position: relative;
+}
+
+.prev i {
+  position: relative;
+  right: -33%;
+}
+
 .media-carousel-block .carousel-controls .carousel-control:hover, .controls li:hover {
   color: rgba(0, 0, 0, 0.5);
   opacity: 1;
