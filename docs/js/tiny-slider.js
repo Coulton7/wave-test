@@ -31,11 +31,20 @@ document.addEventListener("DOMContentLoaded", function() {
     var info = slider.getInfo(),
         current = document.querySelector('.current'),
         total = document.querySelector('.total');
+        activeSlide = info.displayIndex;
         
         total.textContent = info.slideCount;
         current.textContent = info.displayIndex;
 
         slider.events.on('transitionEnd', function(info) {
             current.textContent = info.displayIndex;
+
+            if (activeSlide >= 1 && activeSlide <= 5) {
+                document.getElementById('news-icon').classList.add('active');
+                document.getElementById('esg-icon').classList.remove('acive');
+                document.getElementById('tech-icon').classList.remove('active');
+                document.getElementById('cust-icon').classList.remove('activce');
+                document.getElementById('carousel-fade').carousel(0);
+            }
         });
 });
