@@ -41,14 +41,14 @@ document.addEventListener("DOMContentLoaded", function() {
 
             if (activeSlide >= 1 && activeSlide <= 5) {
                 document.querySelector('#news-icon').classList.add('active');
-                document.querySelector('#esg-icon').classList.remove('acive');
+                document.querySelector('#esg-icon').classList.remove('active');
                 document.querySelector('#tech-icon').classList.remove('active');
                 document.querySelector('#cust-icon').classList.remove('active');
             }
 
             else if (activeSlide >= 6 && activeSlide <= 10) {
                 document.querySelector('#esg-icon').classList.add('active');
-                document.querySelector('#news-icon').classList.remove('acive');
+                document.querySelector('#news-icon').classList.remove('active');
                 document.querySelector('#tech-icon').classList.remove('active');
                 document.querySelector('#cust-icon').classList.remove('active');
             }
