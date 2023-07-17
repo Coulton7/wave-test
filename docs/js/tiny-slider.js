@@ -35,6 +35,6 @@ document.addEventListener("DOMContentLoaded", function() {
         total.textContent = info.slideCount;
 
         slider.events.on('transitionEnd', function(info) {
-            current.textContent = info.navCurrent;
+            current.textContent = info.displayIndex;;
         });
 });
