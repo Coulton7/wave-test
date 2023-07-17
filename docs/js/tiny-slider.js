@@ -28,9 +28,13 @@ document.addEventListener("DOMContentLoaded", function() {
             }
         },
     })
-    slider.events.on("translationEnd", data => {
-        let { controlsContainer, displayIndex, slideCount } = data;
-        console.log('${displayIndex} / ${slideCount}');
-        // Create an element and inject this into the controlsContainer (or update it thereafter)
-      })
+    var info = slider.getInfo(),
+        current = document.querySelector('.current'),
+        total = document.querySelector('.total');
+        
+        total.textContent = info.slideCount;
+
+        slider.events.on('transitionEnd', function(info) {
+            current.textContent = info.navCurrent;
+        });
 });
