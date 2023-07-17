@@ -44,7 +44,6 @@ document.addEventListener("DOMContentLoaded", function() {
                 document.getElementById('esg-icon').classList.remove('acive');
                 document.getElementById('tech-icon').classList.remove('active');
                 document.getElementById('cust-icon').classList.remove('activce');
-                document.getElementById('carousel-fade').carousel(0);
             }
 
             else if (activeSlide >= 6 && activeSlide <= 10) {
@@ -52,7 +51,6 @@ document.addEventListener("DOMContentLoaded", function() {
                 document.getElementById('news-icon').classList.remove('acive');
                 document.getElementById('tech-icon').classList.remove('active');
                 document.getElementById('cust-icon').classList.remove('activce');
-                document.getElementById('carousel-fade').carousel(1);
             }
         });
 });
