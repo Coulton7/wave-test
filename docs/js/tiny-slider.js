@@ -31,13 +31,14 @@ document.addEventListener("DOMContentLoaded", function() {
     var info = slider.getInfo(),
         current = document.querySelector('.current'),
         total = document.querySelector('.total'),
-        activeSlide = info.index;
+        activeSlide = info.displayIndex;
         
         total.textContent = info.slideCount;
         current.textContent = info.displayIndex;
 
         slider.events.on('transitionEnd', function(info) {
             current.textContent = info.displayIndex;
+            console.log(activeSlide)
         });
 
     document.getElementById('news-icon').addEventListener('click', function() {
