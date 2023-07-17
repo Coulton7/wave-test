@@ -33,8 +33,9 @@ document.addEventListener("DOMContentLoaded", function() {
         total = document.querySelector('.total');
         
         total.textContent = info.slideCount;
+        current.textContent = info.displayIndex;
 
         slider.events.on('transitionEnd', function(info) {
-            current.textContent = info.displayIndex;;
+            current.textContent = info.displayIndex;
         });
 });
