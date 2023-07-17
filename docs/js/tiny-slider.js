@@ -39,7 +39,20 @@ document.addEventListener("DOMContentLoaded", function() {
         slider.events.on('transitionEnd', function(info) {
             activeSlide = info.displayIndex;
             current.textContent = info.displayIndex;
-            console.log(activeSlide)
+
+            if (activeSlide >= 1 && activeSlide <= 5) {
+                document.getElementById('news-icon').classList.add('active');
+                document.getElementById('esg-icon').classList.remove('active');
+                document.getElementById('tech-icon').classList.remove('active');
+                document.getElementById('cust-icon').classList.remove('active');
+            }
+
+            else if (activeSlide >= 6 && activeSlide <= 10) {
+                document.getElementById('esg-icon').classList.add('active');
+                document.getElementById('news-icon').classList.remove('active');
+                document.getElementById('tech-icon').classList.remove('active');
+                document.getElementById('cust-icon').classList.remove('active');
+            }
         });
 
     document.getElementById('news-icon').addEventListener('click', function() {
