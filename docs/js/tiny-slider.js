@@ -53,38 +53,36 @@ document.addEventListener("DOMContentLoaded", function() {
                 document.querySelector('#cust-icon').classList.remove('active');
             }
         });
-});
 
-document.addEventListener("DOMContentLoaded", function(){
-    document.getElementById('news-icon').addEventListener('click', function(){
+    document.getElementById('news-icon').addEventListener('click', function() {
         document.getElementById('news-icon').classList.add('active');
         slider.goTo(1);
         document.getElementById('esg-icon').classList.remove('active');
         document.getElementById('tech-icon').classList.remove('active');
         document.getElementById('cust-icon').classList.remove('active');
-    })
+    });
 
-    document.getElementById('esg-icon').addEventListener('click', function(){
+    document.getElementById('esg-icon').addEventListener('click', function() {
         document.getElementById('esg-icon').classList.add('active');
         slider.goTo(6);
         document.getElementById('news-icon').classList.remove('active');
         document.getElementById('tech-icon').classList.remove('active');
         document.getElementById('cust-icon').classList.remove('active');
-    })
+    });
 
-    document.getElementById('tech-icon').addEventListener('click', function(){
+    document.getElementById('tech-icon').addEventListener('click', function() {
         document.getElementById('tech-icon').classList.add('active');
         slider.goTo(11);
         document.getElementById('esg-icon').classList.remove('active');
         document.getElementById('news-icon').classList.remove('active');
         document.getElementById('cust-icon').classList.remove('active');
-    })
+    });
 
-    document.getElementById('cust-icon').addEventListener('click', function(){
+    document.getElementById('cust-icon').addEventListener('click', function() {
         document.getElementById('cust-icon').classList.add('active');
         slider.goTo(16);
         document.getElementById('esg-icon').classList.remove('active');
         document.getElementById('tech-icon').classList.remove('active');
         document.getElementById('news-icon').classList.remove('active');
-    })
-})
+    });
+});
