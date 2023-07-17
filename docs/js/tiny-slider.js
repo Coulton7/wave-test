@@ -40,17 +40,17 @@ document.addEventListener("DOMContentLoaded", function() {
             current.textContent = info.displayIndex;
 
             if (activeSlide >= 1 && activeSlide <= 5) {
-                document.getElementById('news-icon').classList.add('active');
-                document.getElementById('esg-icon').classList.remove('acive');
-                document.getElementById('tech-icon').classList.remove('active');
-                document.getElementById('cust-icon').classList.remove('active');
+                document.querySelector('#news-icon').classList.add('active');
+                document.querySelector('#esg-icon').classList.remove('acive');
+                document.querySelector('#tech-icon').classList.remove('active');
+                document.querySelector('#cust-icon').classList.remove('active');
             }
 
             else if (activeSlide >= 6 && activeSlide <= 10) {
-                document.getElementById('esg-icon').classList.add('active');
-                document.getElementById('news-icon').classList.remove('acive');
-                document.getElementById('tech-icon').classList.remove('active');
-                document.getElementById('cust-icon').classList.remove('active');
+                document.querySelector('#esg-icon').classList.add('active');
+                document.querySelector('#news-icon').classList.remove('acive');
+                document.querySelector('#tech-icon').classList.remove('active');
+                document.querySelector('#cust-icon').classList.remove('active');
             }
         });
 });
