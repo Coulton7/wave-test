@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", function() {
     })
     var info = slider.getInfo(),
         current = document.querySelector('.current'),
-        total = document.querySelector('.total');
+        total = document.querySelector('.total'),
         activeSlide = info.index;
         
         total.textContent = info.slideCount;
