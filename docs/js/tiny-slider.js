@@ -37,6 +37,7 @@ document.addEventListener("DOMContentLoaded", function() {
         current.textContent = info.displayIndex;
 
         slider.events.on('transitionEnd', function(info) {
+            activeSlide = info.slideCount;
             current.textContent = info.displayIndex;
             console.log(activeSlide)
         });
