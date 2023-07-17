@@ -56,7 +56,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     document.getElementById('news-icon').addEventListener('click', function() {
         document.getElementById('news-icon').classList.add('active');
-        slider.goTo(1);
+        slider.goTo(0);
         document.getElementById('esg-icon').classList.remove('active');
         document.getElementById('tech-icon').classList.remove('active');
         document.getElementById('cust-icon').classList.remove('active');
@@ -64,7 +64,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     document.getElementById('esg-icon').addEventListener('click', function() {
         document.getElementById('esg-icon').classList.add('active');
-        slider.goTo(6);
+        slider.goTo(5);
         document.getElementById('news-icon').classList.remove('active');
         document.getElementById('tech-icon').classList.remove('active');
         document.getElementById('cust-icon').classList.remove('active');
@@ -72,7 +72,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     document.getElementById('tech-icon').addEventListener('click', function() {
         document.getElementById('tech-icon').classList.add('active');
-        slider.goTo(11);
+        slider.goTo(10);
         document.getElementById('esg-icon').classList.remove('active');
         document.getElementById('news-icon').classList.remove('active');
         document.getElementById('cust-icon').classList.remove('active');
@@ -80,7 +80,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     document.getElementById('cust-icon').addEventListener('click', function() {
         document.getElementById('cust-icon').classList.add('active');
-        slider.goTo(16);
+        slider.goTo(15);
         document.getElementById('esg-icon').classList.remove('active');
         document.getElementById('tech-icon').classList.remove('active');
         document.getElementById('news-icon').classList.remove('active');
