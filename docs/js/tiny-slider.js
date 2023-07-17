@@ -53,6 +53,20 @@ document.addEventListener("DOMContentLoaded", function() {
                 document.getElementById('tech-icon').classList.remove('active');
                 document.getElementById('cust-icon').classList.remove('active');
             }
+
+            else if (activeSlide >= 11 && activeSlide <= 15) {
+                document.getElementById('tech-icon').classList.add('active');
+                document.getElementById('news-icon').classList.remove('active');
+                document.getElementById('esg-icon').classList.remove('active');
+                document.getElementById('cust-icon').classList.remove('active');
+            }
+
+            else if (activeSlide >= 16 && activeSlide <= 20) {
+                document.getElementById('cust-icon').classList.add('active');
+                document.getElementById('news-icon').classList.remove('active');
+                document.getElementById('tech-icon').classList.remove('active');
+                document.getElementById('esg-icon').classList.remove('active');
+            }
         });
 
     document.getElementById('news-icon').addEventListener('click', function() {
