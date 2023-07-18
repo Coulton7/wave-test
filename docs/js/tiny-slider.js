@@ -46,6 +46,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 document.getElementById('esg-icon').classList.remove('active');
                 document.getElementById('tech-icon').classList.remove('active');
                 document.getElementById('cust-icon').classList.remove('active');
+                carousel.to(1);
             }
 
             else if (activeSlide >= 6 && activeSlide <= 10) {
@@ -53,6 +54,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 document.getElementById('news-icon').classList.remove('active');
                 document.getElementById('tech-icon').classList.remove('active');
                 document.getElementById('cust-icon').classList.remove('active');
+                carousel.to(2);
             }
 
             else if (activeSlide >= 11 && activeSlide <= 15) {
