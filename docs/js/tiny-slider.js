@@ -106,5 +106,12 @@ document.addEventListener("DOMContentLoaded", function() {
         document.getElementById('news-icon').classList.remove('active');
     });
 
+    var text_slider = tns({
+        container: ".text-slider",
+        loop: true,
+        nav: false,
+        controls: false,
+        autoplay: true
+    })
     
 });
