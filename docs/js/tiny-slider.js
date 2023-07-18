@@ -111,7 +111,8 @@ document.addEventListener("DOMContentLoaded", function() {
         loop: true,
         nav: false,
         controls: false,
-        autoplay: true
+        autoplay: true,
+        autoplayButton: false
     })
     
 });
