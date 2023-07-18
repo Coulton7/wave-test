@@ -4596,6 +4596,7 @@ a.icon-link:hover {
     position: relative;
     transform: translateY(0);
     padding: 0 15px;
+    z-index: 4;
   }
 
   .media-carousel-block .nav li a {
@@ -5262,6 +5263,7 @@ a.icon-link:hover {
     top: 8vh;
     position: relative;
     transform: translateY(0%);
+    z-index: 4;
   }
 
   .media-carousel-block .nav li a {
@@ -6002,6 +6004,7 @@ a.icon-link:hover {
     top: 13vh;
     position: relative;
     transform: translateY(24%);
+    z-index: 4;
   }
 
   .nav-help {
@@ -6321,6 +6324,7 @@ a.icon-link:hover {
     top: 14vh;
     position: relative;
     transform: translateY(28%);
+    z-index: 4;
   }
 
   .front .caption-container {
