@@ -105,4 +105,13 @@ document.addEventListener("DOMContentLoaded", function() {
         document.getElementById('tech-icon').classList.remove('active');
         document.getElementById('news-icon').classList.remove('active');
     });
+
+    var textSlider = tns({
+        container: '.text-slider',
+        loop: true,
+        nav: false,
+        items: 1,
+        autoplay: true,
+        touch: false
+    }); 
 });
