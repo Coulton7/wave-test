@@ -112,7 +112,8 @@ document.addEventListener("DOMContentLoaded", function() {
         nav: false,
         controls: false,
         autoplay: true,
-        autoplayButton: false
+        autoplayButton: false,
+        autoplayButtonOutput: false
     })
     
 });
