@@ -120,6 +120,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     var esg_slider = tns({
         container: ".esg-slider",
+        speed: 0,
         loop: true,
         nav: false,
         controls: false,
@@ -131,6 +132,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     var tech_slider = tns({
         container: ".tech-slider",
+        speed: 0,
         loop: true,
         nav: false,
         controls: false,
@@ -142,8 +144,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     var cust_slider = tns({
         container: ".cust-slider",
-        mode: "gallery",
-        autoHeight: true,
+        speed: "0",
         loop: true,
         nav: false,
         controls: false,
