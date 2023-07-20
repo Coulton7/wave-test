@@ -108,6 +108,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
     var focus_slider = tns({
         container: ".focus-slider",
+        mode: "gallery",
+        autoHeight: true,
         loop: true,
         nav: false,
         controls: false,
