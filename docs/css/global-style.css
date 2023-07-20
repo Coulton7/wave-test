@@ -3591,7 +3591,7 @@ a.icon-link:hover {
 
 .focus-slider .tns-item {
   opacity: 0;
-  transition: 0.3s opacity;
+  transition: 3s opacity;
 }
 
 .focus-slider .tns-slide-active {
