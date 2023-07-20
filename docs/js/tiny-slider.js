@@ -144,7 +144,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     var cust_slider = tns({
         container: ".cust-slider",
-        speed: "0",
+        speed: 0,
         loop: true,
         nav: false,
         controls: false,
