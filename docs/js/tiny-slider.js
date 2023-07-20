@@ -141,6 +141,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
     var cust_slider = tns({
         container: ".cust-slider",
+        mode: "gallery",
+        autoHeight: true,
         loop: true,
         nav: false,
         controls: false,
