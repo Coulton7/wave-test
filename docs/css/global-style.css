@@ -3589,6 +3589,15 @@ a.icon-link:hover {
   padding: 0;
 }
 
+.focus-slider .tns-item {
+  opacity: 0;
+  transition: 0.3s opacity;
+}
+
+.focus-slider .tns-slide-active {
+  opacity: 1;
+}
+
 .navbar-toggler {
   float: right;
 }
@@ -6325,15 +6334,6 @@ a.icon-link:hover {
     position: relative;
     transform: translateY(28%);
     z-index: 4;
-  }
-
-  .focus-slider .tns-item {
-    opacity: 0;
-    transition: 0.3s opacity;
-  }
-
-  .focus-slider .tns-slide-active {
-    opacity: 1;
   }
 
   .front .caption-container {
