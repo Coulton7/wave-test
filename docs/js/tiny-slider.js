@@ -106,8 +106,41 @@ document.addEventListener("DOMContentLoaded", function() {
         document.getElementById('news-icon').classList.remove('active');
     });
 
-    var text_slider = tns({
-        container: ".text-slider",
+    var focus_slider = tns({
+        container: ".focus-slider",
+        loop: true,
+        nav: false,
+        controls: false,
+        autoplay: true,
+        autoplayButton: false,
+        autoplayButtonOutput: false,
+        autoplayTimeout: 7000
+    })
+
+    var esg_slider = tns({
+        container: ".esg-slider",
+        loop: true,
+        nav: false,
+        controls: false,
+        autoplay: true,
+        autoplayButton: false,
+        autoplayButtonOutput: false,
+        autoplayTimeout: 7000
+    })
+
+    var tech_slider = tns({
+        container: ".tech-slider",
+        loop: true,
+        nav: false,
+        controls: false,
+        autoplay: true,
+        autoplayButton: false,
+        autoplayButtonOutput: false,
+        autoplayTimeout: 7000
+    })
+
+    var cust_slider = tns({
+        container: ".cust-slider",
         loop: true,
         nav: false,
         controls: false,
