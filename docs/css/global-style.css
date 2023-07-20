@@ -3591,7 +3591,7 @@ a.icon-link:hover {
 
 .focus-slider .tns-item, .esg-slider .tns-item, .tech-slider .tns-item, .cust-slider .tns-item {
   opacity: 0;
-  transition: 1.5s opacity;
+  transition: 2.5s opacity;
 }
 
 .focus-slider .tns-slide-active, .esg-slider .tns-slide-active, .tech-slider .tns-slide-active, .cust-slider .tns-slide-active {
