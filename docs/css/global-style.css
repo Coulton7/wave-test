@@ -6327,6 +6327,15 @@ a.icon-link:hover {
     z-index: 4;
   }
 
+  .focus-slider .tns-item {
+    opacity: 0;
+    transition: 0.3s opacity;
+  }
+
+  .focus-slider .tns-slide-active {
+    opacity: 1;
+  }
+
   .front .caption-container {
     top: 21%;
   }
