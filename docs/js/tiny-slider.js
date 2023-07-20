@@ -43,7 +43,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
             if (activeSlide >= 1 && activeSlide <= 5) {
                 carousel.to(0);
-                carousel.interval(0);
                 document.getElementById('news-icon').classList.add('active');
                 document.getElementById('esg-icon').classList.remove('active');
                 document.getElementById('tech-icon').classList.remove('active');
@@ -52,7 +51,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
             else if (activeSlide >= 6 && activeSlide <= 10) {
                 carousel.to(1);
-                carousel.interval(0);
                 document.getElementById('esg-icon').classList.add('active');
                 document.getElementById('news-icon').classList.remove('active');
                 document.getElementById('tech-icon').classList.remove('active');
@@ -61,7 +59,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
             else if (activeSlide >= 11 && activeSlide <= 15) {
                 carousel.to(2);
-                carousel.interval(0);
                 document.getElementById('tech-icon').classList.add('active');
                 document.getElementById('news-icon').classList.remove('active');
                 document.getElementById('esg-icon').classList.remove('active');
@@ -70,7 +67,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
             else if (activeSlide >= 16 && activeSlide <= 20) {
                 carousel.to(3);
-                carousel.interval(0);
                 document.getElementById('cust-icon').classList.add('active');
                 document.getElementById('news-icon').classList.remove('active');
                 document.getElementById('tech-icon').classList.remove('active');
