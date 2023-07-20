@@ -108,12 +108,14 @@ document.addEventListener("DOMContentLoaded", function() {
 
     var text_slider = tns({
         container: ".text-slider",
+        mode: "gallery",
         loop: true,
         nav: false,
         controls: false,
         autoplay: true,
         autoplayButton: false,
-        autoplayButtonOutput: false
+        autoplayButtonOutput: false,
+        autoplayTimeout: 7000
     })
     
 });
