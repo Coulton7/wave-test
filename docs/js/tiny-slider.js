@@ -108,7 +108,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
     var text_slider = tns({
         container: ".text-slider",
-        mode: "gallery",
         loop: true,
         nav: false,
         controls: false,
