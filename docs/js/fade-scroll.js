@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function() {
         navbar.style.backgroundColor = "rgba(255,255,255,0)";
 
     window.addEventListener('scroll', function(e) {
-        var scroll = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+        var scroll = window.scrollY || document.documentElement.scrollTop || document.body.scrollTop || 0;
         sectionShadow.style.opacity = Math.max(0, Math.min(1, +scroll / 600));
         textLogo.style.opacity = Math.max(0, Math.min(1, +scroll / 600));
         enquiry.style.opacity = Math.max(0, Math.min(1, +scroll / 600));
@@ -52,7 +52,7 @@ document.addEventListener("DOMContentLoaded", function() {
             navbar.style.backgroundColor = "rgba(255,255,255,0)";
         
             window.addEventListener('scroll', function(e) {
-                var scroll = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+                var scroll = window.scrollY || document.documentElement.scrollTop || document.body.scrollTop || 0;
                 sectionShadow.style.opacity = Math.max(0, Math.min(1, +scroll / 600));
                 textLogo.style.opacity = Math.max(0, Math.min(1, +scroll / 600));
                 enquiry.style.opacity = Math.max(0, Math.min(1, +scroll / 500));
