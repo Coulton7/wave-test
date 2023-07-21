@@ -3039,7 +3039,7 @@ a.btn-transparent-green-border:hover, a.btn-transparent-green-border:focus {
 }
 
 .next {
-  left: 0;
+  left: 1em;
   right: auto;
   position: absolute;
   top: 35%;
