@@ -2841,7 +2841,9 @@ a.btn-transparent-green-border:hover, a.btn-transparent-green-border:focus {
   width: 100%;
   background-color: transparent;
   position: relative;
-  padding: 4em;
+  padding-left: 3em;
+  padding-right: 2em;
+  padding-bottom: 0;
   padding-top: 0;
 }
 
