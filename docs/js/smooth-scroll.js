@@ -5,11 +5,11 @@ for (const link of links) {
 }
 
 function clickHandler(e) {
-  e.preventDefault();
-  const offsetTop = document.querySelector(links).offsetTop;
-}
+    e.preventDefault();
+    const offsetTop = document.querySelector(links).offsetTop;
 
-scroll({
-  top:offsetTop,
-  behavior: "smooth"
-});
+    scroll({
+        top:offsetTop,
+        behavior: "smooth"
+    })
+};
