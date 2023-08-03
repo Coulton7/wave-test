@@ -1,9 +1,9 @@
 document.addEventListener("DOMContentLoaded", function () {
-    var ids = []
+    var ids = [];
 
     function initArray() {
         document.querySelectorAll(".img-bank img").forEach(function () {
-            ids.push(document.querySelectorAll(".img-bank img")).setAttribute("src");            
+            ids.push(this.attr("src"));            
         });
     }
 
