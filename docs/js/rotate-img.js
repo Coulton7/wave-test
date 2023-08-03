@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function () {
         var result = randomArray();
         var cells = document.querySelectorAll(".gallery .col-2");
         var randomId = (Math.floor(Math.random() * cells.length));
-        var cell = cells.querySelectorAll(randomId);
+        var cell = cells.querySelector(randomId);
 
         cell.find("img:hidden").forEach(function(index){
             this.attr("src", result[index]);
