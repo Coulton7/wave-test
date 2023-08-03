@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function () {
         var cell = cells.item(randomId);
 
         cell.querySelectorAll("img:hidden").forEach(function(index){
-            this.attr("src", result[index]);
+            this.getAttribute("src", result[index]);
         });
         cells.find("img").fadeToggle(1500);
     }
