@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
     function initArray() {
         var img = document.querySelectorAll(".img-bank img");
         img.forEach(function () {
-            ids.setAttribute("src");            
+            console.log(img.getAttribute("src"))            
         });
     }
 
