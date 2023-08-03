@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
     var ids = []
 
     function initArray() {
-        document.querySelector(".img-bank img").forEach(function () {
+        document.querySelectorAll(".img-bank img").forEach(function () {
             ids.push(this.attr("src"));            
         });
     }
