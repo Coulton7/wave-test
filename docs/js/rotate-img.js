@@ -5,27 +5,25 @@ document.addEventListener("DOMContentLoaded", function () {
         document.querySelector(".img-bank img").forEach(function () {
             ids.push(this.attr("src"));            
         });
-
-        function randomArray() {
-            var tempIds = ids.slice();
-
-            var myIds = [];
-
-            for( var i = 0; i < 12; i++) {
-                var randomId = (Math.floor(Math.random() * tempIds.length) + 1);
-
-                var myId = tempIds[randomId - 1];
-
-                myIds.push(myId);
-
-                var pos = tempIds.indexOf(myId);
-
-                tempIds.splice(pos, 1);
-            }
-            return myIds;
-        }
-        initArray();
     }
+
+    function randomArray() {
+        var tempIds = ids.slice();
+        var myIds = [];
+        for( var i = 0; i < 12; i++) {
+            var randomId = (Math.floor(Math.random() * tempIds.length) + 1);
+
+            var myId = tempIds[randomId - 1];
+
+            myIds.push(myId);
+
+            var pos = tempIds.indexOf(myId);
+
+            tempIds.splice(pos, 1);
+        }
+        return myIds;
+    }
+    initArray();
 
     function changeSrc() {
         var result = randomArray();
