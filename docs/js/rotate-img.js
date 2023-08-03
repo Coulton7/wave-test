@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     function initArray() {
         document.querySelectorAll(".img-bank img").forEach(function () {
-            ids.push(this).setAttribute("src");            
+            ids.push(document.querySelectorAll(".img-bank img")).setAttribute("src");            
         });
     }
 
