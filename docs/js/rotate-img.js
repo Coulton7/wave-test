@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function () {
         var randomId = (Math.floor(Math.random() * cells.length));
         var cell = cells.item(randomId);
 
-        cell.querySelectorAll("img:hidden").forEach(function(index){
+        cell.querySelectorAll("img".display === none).forEach(function(index){
             this.getAttribute("src", result[index]);
         });
         cells.querySelectorAll("img").fadeToggle(1500);
