@@ -164,12 +164,12 @@ document.addEventListener("DOMContentLoaded", function () {
           break;
         case link == "Land-Iowa":
           state = "Iowa";
-          document.querySelector(".Marion").classList.add("show");
+          document.querySelector(".Cedar").classList.add("show");
           document.querySelector(".IA").classList.add("show");
           break;
         case link == "Land-Missouri":
           state = "Missouri";
-          document.querySelector(".Marion").classList.add("show");
+          document.querySelector(".Cedar").classList.add("show");
           document.querySelector(".MO").classList.add("show");
           break;
         case link == "Land-Arkansas":
@@ -195,22 +195,22 @@ document.addEventListener("DOMContentLoaded", function () {
           break;
         case link == "Land-Kansas":
           state = "Kansas";
-          document.querySelector(".Marion").classList.add("show");
+          document.querySelector(".Cedar").classList.add("show");
           document.querySelector(".KS").classList.add("show");
           break;
         case link == "Land-Nebraska":
           state = "Nebraska";
-          document.querySelector(".Marion").classList.add("show");
+          document.querySelector(".Cedar").classList.add("show");
           document.querySelector(".NE").classList.add("show");
           break;
         case link == "Land-SouthDakota":
           state = "South Dakota";
-          document.querySelector(".Marion").classList.add("show");
+          document.querySelector(".Cedar").classList.add("show");
           document.querySelector(".SD").classList.add("show");
           break;
         case link == "Land-NorthDakota":
           state = "North Dakota";
-          document.querySelector(".Marion").classList.add("show");
+          document.querySelector(".Cedar").classList.add("show");
           document.querySelector(".ND").classList.add("show");
           break;
         case link == "Land-Montana":
@@ -452,12 +452,12 @@ document.addEventListener("DOMContentLoaded", function () {
               break;
             case link == "Land-Iowa":
               state = "Iowa";
-              document.querySelector(".Marion").classList.remove("show");
+              document.querySelector(".Cedar").classList.remove("show");
               document.querySelector(".IA").classList.remove("show");
               break;
             case link == "Land-Missouri":
               state = "Missouri";
-              document.querySelector(".Marion").classList.remove("show");
+              document.querySelector(".Cedar").classList.remove("show");
               document.querySelector(".MO").classList.remove("show");
               break;
             case link == "Land-Arkansas":
@@ -483,22 +483,22 @@ document.addEventListener("DOMContentLoaded", function () {
               break;
             case link == "Land-Kansas":
               state = "Kansas";
-              document.querySelector(".Marion").classList.remove("show");
+              document.querySelector(".Cedar").classList.remove("show");
               document.querySelector(".KS").classList.remove("show");
               break;
             case link == "Land-Nebraska":
               state = "Nebraska";
-              document.querySelector(".Marion").classList.remove("show");
+              document.querySelector(".Cedar").classList.remove("show");
               document.querySelector(".NE").classList.remove("show");
               break;
             case link == "Land-SouthDakota":
               state = "South Dakota";
-              document.querySelector(".Marion").classList.remove("show");
+              document.querySelector(".Cedar").classList.remove("show");
               document.querySelector(".SD").classList.remove("show");
               break;
             case link == "Land-NorthDakota":
               state = "North Dakota";
-              document.querySelector(".Marion").classList.remove("show");
+              document.querySelector(".Cedar").classList.remove("show");
               document.querySelector(".ND").classList.remove("show");
               break;
             case link == "Land-Montana":
