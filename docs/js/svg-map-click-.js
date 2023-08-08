@@ -4,7 +4,6 @@ document.addEventListener("DOMContentLoaded", function () {
   allRegions.forEach(function (el) {
     el.addEventListener("click", function () {
       var link = this.getAttribute('id');
-      console.log(link);
       var state;
       switch (true) {
         case link == "Land-Maine":
@@ -286,12 +285,12 @@ document.addEventListener("DOMContentLoaded", function () {
           break;
       }
 
-      allRegions[0].classList.remove("on");
+      link.classList.remove("on");
       locModal.show();
-      allRegions[0].classList.add("on");
+      link.classList.add("on");
       document.querySelector("body").classList.add("noscroll");
       document.querySelector(".location-pop-up").addEventListener("hidden.bs.modal", (event) => {
-        allRegions[0].classList.remove("on");
+        link.classList.remove("on");
           document.querySelector("body").classList.remove("noscroll");
 
           switch (true) {
