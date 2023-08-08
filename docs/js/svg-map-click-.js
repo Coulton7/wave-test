@@ -284,12 +284,12 @@ document.addEventListener("DOMContentLoaded", function () {
           break;
       }
   
-      allRegions.classList.remove("on");
+      this.classList.remove("on");
       locModal.show();
-      allRegions.classList.add("on");
+      this.classList.add("on");
       document.querySelector("body").classList.add("noscroll");
       document.querySelector(".location-pop-up").addEventListener("hidden.bs.modal", event => {
-          allRegions.classList.remove("on");
+          this.classList.remove("on");
           document.querySelector("body").classList.remove("noscroll");
   
           switch (true) {
