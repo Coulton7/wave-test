@@ -1,15 +1,16 @@
 document.addEventListener("DOMContentLoaded", function () {
     var allRegions = document.querySelectorAll("#Lands > *");
     const locModal = new bootstrap.Modal(document.querySelector('.loc-modal'));
-    allRegions.addEventListener("click", function () {
-      var link = this.id;
-      var state;
-      switch (true) {
-        case link == "Land-Maine":
-          state = "Maine";
-          document.querySelector(".Fairfield").classList.add("show");
-          document.querySelector(".ME").classList.add("show");
-          break;
+    for (var i = 0; i < allRegions.length; i++) {
+        allRegions[i].addEventListener("click", function () {
+        var link = this.id;
+        var state;
+        switch (true) {
+            case link == "Land-Maine":
+            state = "Maine";
+            document.querySelector(".Fairfield").classList.add("show");
+            document.querySelector(".ME").classList.add("show");
+            break;
         case link == "Land-NH":
           state = "New Hampshire";
           document.querySelector(".Fairfield").classList.add("show");
@@ -573,5 +574,6 @@ document.addEventListener("DOMContentLoaded", function () {
           }
         });
     });
+    }
   });
   
