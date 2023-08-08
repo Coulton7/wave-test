@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", function () {
   var allRegions = document.querySelectorAll("#Lands > *");
   const locModal = new bootstrap.Modal(document.querySelector(".loc-modal"));
-  for (var i = 0; i < allRegions.length; i++) {
-    allRegions[i].addEventListener("click", function () {
+  allRegions.forEach(function (el) {
+    el.addEventListener("click", function () {
       var link = this.id;
       var state;
       switch (true) {
@@ -289,10 +289,8 @@ document.addEventListener("DOMContentLoaded", function () {
       locModal.show();
       allRegions[0].classList.add("on");
       document.querySelector("body").classList.add("noscroll");
-      document
-        .querySelector(".location-pop-up")
-        .addEventListener("hidden.bs.modal", (event) => {
-          allRegions[0].classList.remove("on");
+      document.querySelector(".location-pop-up").addEventListener("hidden.bs.modal", (event) => {
+        allRegions[0].classList.remove("on");
           document.querySelector("body").classList.remove("noscroll");
 
           switch (true) {
@@ -576,5 +574,5 @@ document.addEventListener("DOMContentLoaded", function () {
           }
         });
     });
-  }
+  });
 });
