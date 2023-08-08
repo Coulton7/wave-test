@@ -4,6 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
   allRegions.forEach(function (el) {
     el.addEventListener("click", function () {
       var link = this.getAttribute('id');
+      console.log(link);
       var state;
       switch (true) {
         case link == "Land-Maine":
