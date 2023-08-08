@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
     var allRegions = document.querySelectorAll("#Lands > *");
     const locModal = new bootstrap.Modal(document.querySelector('.loc-modal'));
     this.addEventListener("click", function () {
-      var link = this.id;
+      var link = allRegions.id;
       var state;
       switch (true) {
         case link == "Land-Maine":
