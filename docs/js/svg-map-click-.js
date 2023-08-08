@@ -1,16 +1,16 @@
 document.addEventListener("DOMContentLoaded", function () {
-    var allRegions = document.querySelectorAll("#Lands > *");
-    const locModal = new bootstrap.Modal(document.querySelector('.loc-modal'));
-    for (var i = 0; i < allRegions.length; i++) {
-        allRegions[i].addEventListener("click", function () {
-        var link = this.id;
-        var state;
-        switch (true) {
-            case link == "Land-Maine":
-            state = "Maine";
-            document.querySelector(".Fairfield").classList.add("show");
-            document.querySelector(".ME").classList.add("show");
-            break;
+  var allRegions = document.querySelectorAll("#Lands > *");
+  const locModal = new bootstrap.Modal(document.querySelector(".loc-modal"));
+  for (var i = 0; i < allRegions.length; i++) {
+    allRegions[i].addEventListener("click", function () {
+      var link = allRegions.id;
+      var state;
+      switch (true) {
+        case link == "Land-Maine":
+          state = "Maine";
+          document.querySelector(".Fairfield").classList.add("show");
+          document.querySelector(".ME").classList.add("show");
+          break;
         case link == "Land-NH":
           state = "New Hampshire";
           document.querySelector(".Fairfield").classList.add("show");
@@ -284,15 +284,17 @@ document.addEventListener("DOMContentLoaded", function () {
           document.querySelector(".Rockford").classList.add("show");
           break;
       }
-  
+
       allRegions[0].classList.remove("on");
       locModal.show();
       allRegions[0].classList.add("on");
       document.querySelector("body").classList.add("noscroll");
-      document.querySelector(".location-pop-up").addEventListener("hidden.bs.modal", event => {
+      document
+        .querySelector(".location-pop-up")
+        .addEventListener("hidden.bs.modal", (event) => {
           allRegions[0].classList.remove("on");
           document.querySelector("body").classList.remove("noscroll");
-  
+
           switch (true) {
             case link == "Land-Maine":
               state = "Maine";
@@ -574,6 +576,5 @@ document.addEventListener("DOMContentLoaded", function () {
           }
         });
     });
-    }
-  });
-  
+  }
+});
