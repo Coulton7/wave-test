@@ -285,12 +285,9 @@ document.addEventListener("DOMContentLoaded", function () {
           break;
       }
 
-      link.classList.remove("on");
       locModal.show();
-      link.classList.add("on");
       document.querySelector("body").classList.add("noscroll");
       document.querySelector(".location-pop-up").addEventListener("hidden.bs.modal", (event) => {
-        link.classList.remove("on");
           document.querySelector("body").classList.remove("noscroll");
 
           switch (true) {
