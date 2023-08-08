@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
   var allRegions = document.querySelectorAll("#Lands > *");
-  const locModal = new bootstrap.Modal(document.getElementById("locModal"));
+  const locModal = new bootstrap.Modal(document.getElementById("loc-modal"));
   allRegions.forEach(function (el) {
     el.addEventListener("click", function () {
       var link = this.getAttribute('id');
