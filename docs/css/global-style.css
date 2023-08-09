@@ -3665,6 +3665,8 @@ a.icon-link:hover {
   text-align: left;
   height: 60vh;
   top: 30%;
+  position: fixed;
+  overflow-y: scroll;
 }
 
 @media all and (transform-3d), (-webkit-transform-3d) {
