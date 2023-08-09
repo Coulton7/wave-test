@@ -570,6 +570,7 @@ document.addEventListener("DOMContentLoaded", function () {
       }
 
       x.style.height = "100%";
+      document.querySelector("location-overlay").classList.toggle('change');
       document.querySelector("body").classList.add("noscroll");
       document.querySelector(".location-pop-up").addEventListener("hidden.bs.modal", (event) => {
           document.querySelector("body").classList.remove("noscroll");
