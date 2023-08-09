@@ -571,7 +571,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
       x.style.height = "100%";
       document.querySelector(".location-overlay").classList.add('change');
-      document.querySelector("html").classList.add("noscroll");
+      document.querySelector("body").classList.add("noscroll");
       document.querySelector(".change").addEventListener("click", function () {
           document.querySelector("body").classList.remove("noscroll");
           x.style.height = "0%";
