@@ -284,7 +284,7 @@ document.addEventListener("DOMContentLoaded", function () {
           break;
       }
 
-      const locModal = new bootstrap.Modal(document.getElementById("loc-modal"))
+      const locModal = new bootstrap.Modal(document.querySelector(".loc-modal"))
       locModal.show();
       document.querySelector("body").classList.add("noscroll");
       document.querySelector(".location-pop-up").addEventListener("hidden.bs.modal", (event) => {
