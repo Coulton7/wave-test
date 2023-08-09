@@ -3674,7 +3674,7 @@ a.icon-link:hover {
   text-align: left;
   height: 60vh;
   top: 30%;
-  position: relative;
+  position: fixed;
   overflow-y: scroll;
   right: 0;
   left: 0;
