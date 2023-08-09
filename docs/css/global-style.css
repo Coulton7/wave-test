@@ -3668,17 +3668,17 @@ a.icon-link:hover {
 
 .location-overlay {
   z-index: 1029;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  overflow-y: scroll;
 }
 
 .location-overlay-content {
   text-align: left;
   height: 60vh;
   top: 30%;
-  position: fixed;
-  overflow-y: scroll;
-  right: 0;
-  left: 0;
-  bottom: 0;
 }
 
 @media all and (transform-3d), (-webkit-transform-3d) {
