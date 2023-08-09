@@ -3661,6 +3661,12 @@ a.icon-link:hover {
   display: block!important;
 }
 
+.location-overlay-content {
+  text-align: left;
+  height: 60vh;
+  top: 30%;
+}
+
 @media all and (transform-3d), (-webkit-transform-3d) {
 
   .carousel-fade .carousel-inner>.item.next,
