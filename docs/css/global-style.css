@@ -3673,6 +3673,7 @@ a.icon-link:hover {
 .location-overlay-content {
   text-align: left;
   height: 60vh;
+  position: relative;
   top: 30%;
 }
 
