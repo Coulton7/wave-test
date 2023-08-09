@@ -292,6 +292,7 @@ ul.resource-cats a, ul.about-us-cats a {
 .noscroll {
   overflow: hidden;
   height: 100%;
+  margin: 0;
 }
 
 .noscroll .action-menu {
