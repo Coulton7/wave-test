@@ -3671,6 +3671,7 @@ a.icon-link:hover {
   bottom: 0;
   inset: 0;
   overflow-y: scroll;
+  overscroll-behavior: contain;
 }
 
 .location-overlay-content {
