@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
   var allRegions = document.querySelectorAll("#Lands > *");
-  var x = docuemnt.querySelector('.location-overlay');
+  var x = document.querySelector('.location-overlay');
   allRegions.forEach(function (el) {
     el.addEventListener("click", function () {
       var link = this.getAttribute('id');
