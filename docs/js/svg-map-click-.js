@@ -1,6 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
   var allRegions = document.querySelectorAll("#Lands > *");
-  const locModal = new bootstrap.Modal(document.getElementById("loc-modal"));
   allRegions.forEach(function (el) {
     el.addEventListener("click", function () {
       var link = this.getAttribute('id');
@@ -285,6 +284,7 @@ document.addEventListener("DOMContentLoaded", function () {
           break;
       }
 
+      const locModal = new bootstrap.Modal(document.getElementById("loc-modal"))
       locModal.show();
       document.querySelector("body").classList.add("noscroll");
       document.querySelector(".location-pop-up").addEventListener("hidden.bs.modal", (event) => {
