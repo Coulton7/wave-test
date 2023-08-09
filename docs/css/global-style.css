@@ -3554,7 +3554,7 @@ a.icon-link:hover {
   font-size: 2em;
 }
 
-.overlay-main {
+.overlay-main, .location-overlay {
   z-index: 1035;
 }
 
@@ -3570,7 +3570,7 @@ a.icon-link:hover {
   color: transparent;
 }
 
-.overlay-hddien {
+.overlay-hidden {
   display: none;
 }
 
