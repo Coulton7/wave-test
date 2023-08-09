@@ -3670,7 +3670,7 @@ a.icon-link:hover {
   right: 0;
   bottom: 0;
   inset: 0;
-  overflow-y: scroll;
+  overflow: scroll;
   overscroll-behavior: contain;
 }
 
