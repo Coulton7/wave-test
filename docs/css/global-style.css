@@ -3630,7 +3630,7 @@ a.icon-link:hover {
   cursor: pointer;
 }
 
-.location-pop-up, .Rockford, .Fairfield, .Longview, .Cedar, .Lombard, .Corpus, .Odessa, .connect-text {
+.Rockford, .Fairfield, .Longview, .Cedar, .Lombard, .Corpus, .Odessa, .connect-text {
   display: none;
   height: 100%;
   width: 100%;
