@@ -3661,6 +3661,11 @@ a.icon-link:hover {
   display: block!important;
 }
 
+.noscroll {
+  position: fixed;
+  width: 100%;
+}
+
 .location-overlay {
   z-index: 1029;
 }
