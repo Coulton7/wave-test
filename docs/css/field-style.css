@@ -42,7 +42,7 @@
   border: 1px solid #66afe9;
 }
 
-.blue-background a.chosen-single:hover, , .contact-form a.chosen-single:hover {
+.blue-background a.chosen-single:hover, .contact-form a.chosen-single:hover {
   color: #535454;
   border: 1px solid #66afe9;
   outline: 0;
