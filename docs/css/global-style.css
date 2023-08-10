@@ -3681,6 +3681,10 @@ a.icon-link:hover {
   top: 30%;
 }
 
+.min-h-100 {
+  min-height: 100%;
+}
+
 @media all and (transform-3d), (-webkit-transform-3d) {
 
   .carousel-fade .carousel-inner>.item.next,
