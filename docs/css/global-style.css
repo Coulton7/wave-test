@@ -3478,10 +3478,16 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 }
 
 a.icon-link {
-  color: #338FBC;
+  background-color: transparent;
   cursor: pointer;
   width: 100%;
   --bs-btn-padding-y: 0.3rem;
+  border: 3px solid #002A5B;
+}
+
+.icon-link.active {
+  color: #ffffff;
+  border: 3px solid #338FBC;
 }
 
 a.icon-link i {
