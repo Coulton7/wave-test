@@ -3496,6 +3496,7 @@ a.icon-link:hover {
 
 .slider-tab-btn {
   display: flex;
+  border-radius: 0;
   border-top-left-radius: 30px;
   border-bottom-left-radius: 30px;
 }
