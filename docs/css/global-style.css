@@ -3490,6 +3490,14 @@ a.icon-link {
   border: 3px solid #338FBC;
 }
 
+.icon-link i {
+  color: #002A5B;
+}
+
+.icon-link.active i {
+  color: #338FBC;
+}
+
 a.icon-link i {
   font-size: 2em;
   line-height: normal;
