@@ -435,6 +435,7 @@ a .btn-social:hover, a .btn-social:focus {
 
 .slider-tab-btn {
   display: block;
+  border-radius: 0;
 }
 
 .svg-inline--fa.fa-lg {
