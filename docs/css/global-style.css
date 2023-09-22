@@ -607,11 +607,6 @@ a.btn:hover {
   color: #ffffff !important;
 }
 
-.slider-tab-btn {
-  display: flex;
-  border-radius: 0;
-}
-
 .btn-default {
   border: 1px solid transparent;
   color: #535354;
@@ -3497,6 +3492,12 @@ a.icon-link i {
 a.icon-link:hover {
   color: #ffffff;
   cursor: pointer;
+}
+
+.slider-tab-btn {
+  display: flex;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
 }
 
 .slider-links {
