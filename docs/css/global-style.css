@@ -3486,6 +3486,7 @@ a.icon-link {
   color: #338FBC;
   cursor: pointer;
   width: 100%;
+  --bs-btn-padding-y: 0.3rem;
 }
 
 a.icon-link i {
