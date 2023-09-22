@@ -433,11 +433,6 @@ a .btn-social:hover, a .btn-social:focus {
   white-space: normal;
 }
 
-.slider-tab-btn {
-  display: block;
-  border-radius: 0;
-}
-
 .svg-inline--fa.fa-lg {
   vertical-align: text-bottom;
 }
@@ -610,6 +605,11 @@ a.btn:hover {
   background: #004a8c;
   margin-bottom: 0;
   color: #ffffff !important;
+}
+
+.slider-tab-btn {
+  display: flex;
+  border-radius: 0;
 }
 
 .btn-default {
