@@ -4883,6 +4883,7 @@ a.icon-link:hover {
   }
 
   #carousel-fade .carousel-inner .carousel-item:nth-child(1) {
+    background-image: url(https://static.aesseal.com/photo/wavehead/Environment-photo-grid-sm.jpg);
     background: -moz-radial-gradient(center, ellipse cover, #000000 0%, #4c4e4f 80%);
     background: -webkit-radial-gradient(center, ellipse cover, #000000 0%, #4c4e4f 80%);
     background: radial-gradient(ellipse at center, #000000 0%, #4c4e4f 80%);
@@ -5598,6 +5599,7 @@ a.icon-link:hover {
   }
 
   #carousel-fade .carousel-inner .carousel-item:nth-child(1) {
+    background-image: url(https://static.aesseal.com/photo/wavehead/Environment-photo-grid.jpg);
     background: -moz-radial-gradient(center, ellipse cover, #000000 0%, #4c4e4f 80%);
     background: -webkit-radial-gradient(center, ellipse cover, #000000 0%, #4c4e4f 80%);
     background: radial-gradient(ellipse at center, #000000 0%, #4c4e4f 80%);
@@ -6128,6 +6130,7 @@ a.icon-link:hover {
   }
 
   #carousel-fade .carousel-inner .carousel-item:nth-child(1) {
+    background-image: url(https://static.aesseal.com/photo/wavehead/Environment-photo-grid.jpg);
     background: -moz-radial-gradient(center, ellipse cover, #000000 0%, #4c4e4f 80%);
     background: -webkit-radial-gradient(center, ellipse cover, #000000 0%, #4c4e4f 80%);
     background: radial-gradient(ellipse at center, #000000 0%, #4c4e4f 80%);
