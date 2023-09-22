@@ -3499,6 +3499,10 @@ a.icon-link:hover {
   cursor: pointer;
 }
 
+.slider-links {
+  padding-top: 2.5em
+}
+
 .slider-links li {
   padding: 0.25em 0
 }
