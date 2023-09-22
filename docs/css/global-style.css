@@ -4884,11 +4884,8 @@ a.icon-link:hover {
 
   #carousel-fade .carousel-inner .carousel-item:nth-child(1) {
     background-image: url(https://static.aesseal.com/photo/wavehead/Environment-photo-grid-sm.jpg);
-    background: -moz-radial-gradient(center, ellipse cover, #000000 0%, #4c4e4f 80%);
-    background: -webkit-radial-gradient(center, ellipse cover, #000000 0%, #4c4e4f 80%);
-    background: radial-gradient(ellipse at center, #000000 0%, #4c4e4f 80%);
-    background-size: contain;
-    background-repeat: no-repeat;
+    background-size: auto;
+    background-repeat: repeat;
     background-color: #012e58;
     animation: none;
     background-position: bottom right;
@@ -5600,11 +5597,8 @@ a.icon-link:hover {
 
   #carousel-fade .carousel-inner .carousel-item:nth-child(1) {
     background-image: url(https://static.aesseal.com/photo/wavehead/Environment-photo-grid.jpg);
-    background: -moz-radial-gradient(center, ellipse cover, #000000 0%, #4c4e4f 80%);
-    background: -webkit-radial-gradient(center, ellipse cover, #000000 0%, #4c4e4f 80%);
-    background: radial-gradient(ellipse at center, #000000 0%, #4c4e4f 80%);
-    background-size: contain;
-    background-repeat: no-repeat;
+    background-size: auto;
+    background-repeat: repeat;
     background-color: #012e58;
     background-position: bottom right;
     animation: none;
@@ -6131,10 +6125,7 @@ a.icon-link:hover {
 
   #carousel-fade .carousel-inner .carousel-item:nth-child(1) {
     background-image: url(https://static.aesseal.com/photo/wavehead/Environment-photo-grid.jpg);
-    background: -moz-radial-gradient(center, ellipse cover, #000000 0%, #4c4e4f 80%);
-    background: -webkit-radial-gradient(center, ellipse cover, #000000 0%, #4c4e4f 80%);
-    background: radial-gradient(ellipse at center, #000000 0%, #4c4e4f 80%);
-    background-repeat: no-repeat;
+    background-repeat: auto;
     background-size: cover;
     background-color: rgb(8,14,34);
     background-blend-mode: unset;
