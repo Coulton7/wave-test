@@ -433,6 +433,10 @@ a .btn-social:hover, a .btn-social:focus {
   white-space: normal;
 }
 
+.slider-tab-btn {
+  display: block;
+}
+
 .svg-inline--fa.fa-lg {
   vertical-align: text-bottom;
 }
