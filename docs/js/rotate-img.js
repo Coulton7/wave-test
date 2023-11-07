@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function () {
         var result = randomArray();
         var cells = document.querySelectorAll(".gallery .col-2");
         var randomId = (Math.floor(Math.random() * cells.length));
-        var cell = cells.item(randomId);
+        var cell = cells.querySelectorAll(randomId);
 
         cell.querySelectorAll("img:not([style*='display:none'])").forEach(index => {
             index.getAttribute("src", result[index]);
