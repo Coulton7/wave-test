@@ -30,14 +30,13 @@ document.addEventListener("DOMContentLoaded", function () {
     function changeSrc() {
         var result = randomArray();
         var cells = document.querySelectorAll(".gallery .col-2");
-        console.log(cells);
         var randomId = (Math.floor(Math.random() * cells.length));
         var cell = cells.item(randomId);
 
         cell.querySelectorAll("img:not([style*='display:none'])").forEach(index => {
             index.getAttribute("src", result[index]);
         });
-        cells.querySelectorAll("img").fadeToggle(1500);
+        cells.querySelector("img").fadeToggle(1500);
     }
 
     setInterval(function() {
