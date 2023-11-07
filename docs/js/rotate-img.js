@@ -30,6 +30,7 @@ document.addEventListener("DOMContentLoaded", function () {
     function changeSrc() {
         var result = randomArray();
         var cells = document.querySelectorAll(".gallery .col-2");
+        console.log(cells);
         var randomId = (Math.floor(Math.random() * cells.length));
         var cell = cells.item(randomId);
 
