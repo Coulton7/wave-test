@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function () {
         cell.querySelectorAll("img:not([style*='display:none'])").forEach(index => {
             index.getAttribute("src", result[index]);
         });
-        cells.querySelector("img").fadeToggle(1500);
+        cells.getElementsByTagName("img").fadeToggle(1500);
     }
 
     setInterval(function() {
