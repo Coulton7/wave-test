@@ -3816,12 +3816,6 @@ a.icon-link:hover {
     visibility: visible;
   }
 
-  3% {
-    opacity: 1;
-    z-index: 3;
-    visibility: visible;
-  }
-
   31% {
     opacity: 1;
     z-index: 3;
