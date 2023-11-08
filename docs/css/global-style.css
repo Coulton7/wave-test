@@ -3721,6 +3721,10 @@ a.icon-link:hover {
   position: relative;
 }
 
+.social-items a {
+  border-bottom: none;
+}
+
 .social-items .item-1, .social-items .item-2, .social-items .item-3 {
   display: block;
   height: 100%;
