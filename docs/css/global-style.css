@@ -3731,14 +3731,14 @@ a.icon-link:hover {
   width: 100%;
 }
 
-.social-items .item-1 {
+.grid-1 .item-1, .grid-3 .item-1, .grid-5 .item-1, .grid-7 .item-1, .grid-9 .item-1, .grid-11 .item-1 {
   z-index: 3;
   position: relative;
   animation: fade 20s linear infinite forwards;
   opacity: 0;
 }
 
-.social-items .item-2 {
+.grid-1 .item-2, .grid-3 .item-2, .grid-5 .item-2, .grid-7 .item-2, .grid-9 .item-2, .grid-11 .item-2 {
   z-index: 2;
   position: absolute;
   inset: 0;
@@ -3747,7 +3747,7 @@ a.icon-link:hover {
   animation-delay: 6.666s;
 }
 
-.social-items .item-3 {
+.grid-1 .item-3, .grid-3 .item-3, .grid-5 .item-3, .grid-7 .item-3, .grid-9 .item-3, .grid-11 .item-3 {
   z-index: 1;
   position: absolute;
   inset: 0;
