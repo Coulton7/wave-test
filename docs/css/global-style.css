@@ -3717,8 +3717,14 @@ a.icon-link:hover {
   min-height: 100%;
 }
 
-.social-items .item-1, .social-items .item-2, .social-items .item-3 {
+.social-items {
   position: relative;
+}
+
+.social-items .item-1, .social-items .item-2, .social-items .item-3 {
+  display: block;
+  height: 100%;
+  width: 100%;
 }
 
 .social-items .item-1 {
@@ -3729,11 +3735,13 @@ a.icon-link:hover {
 .social-items .item-2 {
   z-index: 2;
   position: absolute;
+  inset: 0;
 }
 
 .social-items .item-3 {
   z-index: 1;
   position: absolute;
+  inset: 0;
 }
 
 @media all and (transform-3d), (-webkit-transform-3d) {
