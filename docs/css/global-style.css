@@ -3759,8 +3759,8 @@ a.icon-link:hover {
 .grid-2 .item-1, .grid-4 .item-1, .grid-6 .item-1, .grid-7 .item-1, .grid-9 .item-1, .grid-11 .item-1 {
   z-index: 3;
   position: relative;
-  animation: fade 20s linear infinite forwards;
-  opacity: 0;
+  animation: fade2 20s linear infinite forwards;
+  opacity: 1;
   animation-delay: 10s;
 }
 
@@ -3768,7 +3768,7 @@ a.icon-link:hover {
   z-index: 2;
   position: absolute;
   inset: 0;
-  animation: fade 20s linear infinite forwards;
+  animation: fade2 20s linear infinite forwards;
   opacity: 0;
   animation-delay: 16.666s;
 }
@@ -3777,7 +3777,7 @@ a.icon-link:hover {
   z-index: 1;
   position: absolute;
   inset: 0;
-  animation: fade 20s linear infinite forwards;
+  animation: fade2 20s linear infinite forwards;
   opacity: 0;
   animation-delay: 23.66s;
 }
@@ -3810,10 +3810,10 @@ a.icon-link:hover {
 }
 
 @keyframes fade2 {
-  0%{
-    opacity: 0;
-    z-index: 1;
-    visibility: hidden;
+  0% {
+    opacity: 1;
+    z-index: 3;
+    visibility: visible;
   }
 
   3% {
