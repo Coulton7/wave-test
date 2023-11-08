@@ -3748,6 +3748,10 @@ a.icon-link:hover {
   inset: 0;
 }
 
+.gallery-box:hover {
+  transform: none;
+}
+
 @media all and (transform-3d), (-webkit-transform-3d) {
 
   .carousel-fade .carousel-inner>.item.next,
