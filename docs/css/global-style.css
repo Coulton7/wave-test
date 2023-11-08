@@ -3734,18 +3734,53 @@ a.icon-link:hover {
 .social-items .item-1 {
   z-index: 3;
   position: relative;
+  animation: fade 20s linear infinite forwards;
+  opacity: 0;
 }
 
 .social-items .item-2 {
   z-index: 2;
   position: absolute;
   inset: 0;
+  animation: fade 20s linear infinite forwards;
+  opacity: 0;
+  animation-delay: 6.666s;
 }
 
 .social-items .item-3 {
   z-index: 1;
   position: absolute;
   inset: 0;
+  animation: fade 20s linear infinite forwards;
+  opacity: 0;
+  animation-delay: 13.333s;
+}
+
+@keyframes fade {
+  0%{
+    opacity: 0;
+    z-index: 1;
+    visibility: hidden;
+  }
+
+  3% {
+    opacity: 1;
+    z-index: 3;
+    visibility: visible;
+  }
+
+  31% {
+    opacity: 1;
+    z-index: 3;
+    visibility: visible;
+  }
+
+  35% {
+    opacity: 0;
+    z-index: 1;
+    visibility: hidden;
+  }
+
 }
 
 .gallery-box:hover img{
