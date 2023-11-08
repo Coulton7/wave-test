@@ -3760,7 +3760,7 @@ a.icon-link:hover {
   z-index: 3;
   position: relative;
   animation: fade 20s linear infinite forwards;
-  opacity: 1;
+  opacity: 0;
   animation-delay: 10s;
 }
 
