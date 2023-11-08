@@ -3748,7 +3748,7 @@ a.icon-link:hover {
   inset: 0;
 }
 
-.gallery-box:hover {
+.gallery-box:hover img{
   transform: none;
 }
 
