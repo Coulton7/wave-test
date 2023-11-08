@@ -3770,7 +3770,7 @@ a.icon-link:hover {
   inset: 0;
   animation: fade 20s linear infinite forwards;
   opacity: 0;
-  animation-delay: 15s;
+  animation-delay: 16.666s;
 }
 
 .grid-2 .item-3, .grid-4 .item-3, .grid-6 .item-3, .grid-8 .item-3, .grid-10 .item-3, .grid-12 .item-3 {
@@ -3779,7 +3779,7 @@ a.icon-link:hover {
   inset: 0;
   animation: fade 20s linear infinite forwards;
   opacity: 0;
-  animation-delay: 20s;
+  animation-delay: 23.66s;
 }
 
 @keyframes fade {
