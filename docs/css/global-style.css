@@ -3734,7 +3734,7 @@ a.icon-link:hover {
 .grid-1 .item-1, .grid-3 .item-1, .grid-5 .item-1, .grid-8 .item-1, .grid-10 .item-1, .grid-12 .item-1 {
   z-index: 3;
   position: relative;
-  animation: fade 20s ease-in-out infinite forwards;
+  animation: fade 20s linear infinite forwards;
   opacity: 0;
 }
 
@@ -3742,7 +3742,7 @@ a.icon-link:hover {
   z-index: 2;
   position: absolute;
   inset: 0;
-  animation: fade 20s ease-in-out infinite forwards;
+  animation: fade 20s linear infinite forwards;
   opacity: 0;
   animation-delay: 6.666s;
 }
@@ -3751,7 +3751,7 @@ a.icon-link:hover {
   z-index: 1;
   position: absolute;
   inset: 0;
-  animation: fade 20s ease-in-out infinite forwards;
+  animation: fade 20s linear infinite forwards;
   opacity: 0;
   animation-delay: 13.333s;
 }
@@ -3759,7 +3759,7 @@ a.icon-link:hover {
 .grid-2 .item-1, .grid-4 .item-1, .grid-6 .item-1, .grid-7 .item-1, .grid-9 .item-1, .grid-11 .item-1 {
   z-index: 3;
   position: relative;
-  animation: fade2 20s ease-in-out infinite forwards;
+  animation: fade2 20s linear infinite forwards;
   opacity: 1;
   animation-delay: 10s;
 }
@@ -3768,7 +3768,7 @@ a.icon-link:hover {
   z-index: 2;
   position: absolute;
   inset: 0;
-  animation: fade2 20s ease-in-out infinite forwards;
+  animation: fade2 20s linear infinite forwards;
   opacity: 0;
   animation-delay: 16.666s;
 }
@@ -3777,7 +3777,7 @@ a.icon-link:hover {
   z-index: 1;
   position: absolute;
   inset: 0;
-  animation: fade2 20s ease-in-out infinite forwards;
+  animation: fade2 20s linear infinite forwards;
   opacity: 0;
   animation-delay: 23.66s;
 }
