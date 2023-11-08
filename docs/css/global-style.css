@@ -3761,7 +3761,7 @@ a.icon-link:hover {
   position: relative;
   animation: fade 20s linear infinite forwards;
   opacity: 1;
-  animation-delay: 8.666s;
+  animation-delay: 10s;
 }
 
 .grid-2 .item-2, .grid-4 .item-2, .grid-6 .item-2, .grid-8 .item-2, .grid-10 .item-2, .grid-12 .item-2 {
@@ -3770,7 +3770,7 @@ a.icon-link:hover {
   inset: 0;
   animation: fade 20s linear infinite forwards;
   opacity: 0;
-  animation-delay: 14.666s;
+  animation-delay: 15s;
 }
 
 .grid-2 .item-3, .grid-4 .item-3, .grid-6 .item-3, .grid-8 .item-3, .grid-10 .item-3, .grid-12 .item-3 {
@@ -3779,7 +3779,7 @@ a.icon-link:hover {
   inset: 0;
   animation: fade 20s linear infinite forwards;
   opacity: 0;
-  animation-delay: 19.666s;
+  animation-delay: 20s;
 }
 
 @keyframes fade {
