@@ -3756,6 +3756,26 @@ a.icon-link:hover {
   animation-delay: 13.333s;
 }
 
+.grid-2 .item-1, .grid-4 .item-1, .grid-6 .item-1, .grid-8 .item-1, .grid-10 .item-1, .grid-12 .item-1 {
+  z-index: 3;
+  position: relative;
+  opacity: 1;
+}
+
+.grid-2 .item-2, .grid-4 .item-2, .grid-6 .item-2, .grid-8 .item-2, .grid-10 .item-2, .grid-12 .item-2 {
+  z-index: 2;
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+}
+
+.grid-2 .item-3, .grid-4 .item-3, .grid-6 .item-3, .grid-8 .item-3, .grid-10 .item-3, .grid-12 .item-3 {
+  z-index: 1;
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+}
+
 @keyframes fade {
   0%{
     opacity: 0;
