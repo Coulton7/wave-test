@@ -3717,19 +3717,19 @@ a.icon-link:hover {
   min-height: 100%;
 }
 
-.social-items .grid-1, .social-items .grid-2, .social-items .grid-3 {
+.social-items .item-1, .social-items .item-2, .social-items .item-3 {
   position: relative;
 }
 
-.social-items .grid-1 {
+.social-items .item-1 {
   z-index: 3;
 }
 
-.social-items .grid-2 {
+.social-items .item-2 {
   z-index: 2;
 }
 
-.social-items .grid-3 {
+.social-items .item-3 {
   z-index: 1;
 }
 
