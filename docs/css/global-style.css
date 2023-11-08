@@ -3779,7 +3779,7 @@ a.icon-link:hover {
   inset: 0;
   animation: fade2 30s linear infinite forwards;
   opacity: 0;
-  animation-delay: 23.66s;
+  animation-delay: 23.333s;
 }
 
 @keyframes fade {
