@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function() {
             document.querySelector('#overlay-share').classList.remove('change');
           } else if(y.style.height == "100%") {
             y.style.height = "0%";
-            document.querySelector('#overlay-btn').classList.remove('change');
+            document.querySelector('#search-overlay').classList.remove('change');
           }
           document.querySelector("body").classList.add('noscroll');
           document.querySelector('#overlay-btn').classList.remove('overlay-btn');
@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", function() {
             document.querySelector('#overlay-btn').classList.remove('change');
           } else if(y.style.height == "100%") {
             y.style.height = "0%";
-            document.querySelector('#overlay-btn').classList.remove('change');
+            document.querySelector('#search-overlay').classList.remove('change');
           }
           document.querySelector("body").classList.add('noscroll');
           document.querySelector('#share-overlay').classList.remove('share-btn');
