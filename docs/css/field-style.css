@@ -198,7 +198,7 @@ ul.resource-cats, ul.product-cats, ul.about-us-cats {
   margin-top: -480px;
 }
 
-.overlay-main, .location-overlay {
+.overlay-main, .location-overlay, .share-overlay {
   height: 0%;
   background-color: rgba(0, 0, 0, .85);
   width: 100%;
