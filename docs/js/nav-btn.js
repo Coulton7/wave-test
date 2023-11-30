@@ -17,6 +17,7 @@ document.addEventListener("DOMContentLoaded", function() {
           x.style.height = "100%";
           if(s.style.height == "100%") {
             s.style.height = "0%"
+            document.querySelector('#overlay-share').classList.remove('change');
           }
           document.querySelector('.main').classList.add('active');
           document.querySelector("body").classList.add('noscroll');
@@ -42,6 +43,7 @@ document.addEventListener("DOMContentLoaded", function() {
           s.style.height = "100%";
           if(x.style.height == "100%") {
             x.style.height = "0%";
+            document.querySelector('#overlay-btn').classList.remove('change');
           }
           document.querySelector('.main').classList.add('active');
           document.querySelector("body").classList.add('noscroll');
