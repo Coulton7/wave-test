@@ -7,7 +7,6 @@ document.addEventListener("DOMContentLoaded", function() {
       document.getElementById('overlay-btn').classList.toggle("change");
       if (x.style.height === "100%") {
         x.style.height = "0%";
-        document.querySelector('.main').classList.remove('active');
         document.querySelector("body").classList.remove('noscroll');
         document.querySelector('#overlay-btn').classList.add('overlay-btn');
         document.querySelector('.search-block').classList.remove('overlay-search');
@@ -19,7 +18,6 @@ document.addEventListener("DOMContentLoaded", function() {
             s.style.height = "0%"
             document.querySelector('#overlay-share').classList.remove('change');
           }
-          document.querySelector('.main').classList.add('active');
           document.querySelector("body").classList.add('noscroll');
           document.querySelector('#overlay-btn').classList.remove('overlay-btn');
           document.querySelector('.search-block').classList.add('overlay-search');
@@ -33,7 +31,6 @@ document.addEventListener("DOMContentLoaded", function() {
       document.getElementById('overlay-share').classList.toggle("change");
       if (s.style.height === "100%") {
         s.style.height = "0%";
-        document.querySelector('.main').classList.remove('active');
         document.querySelector("body").classList.remove('noscroll');
         document.querySelector('#share-overlay').classList.add('overlay-btn');
         document.querySelector('.search-block').classList.remove('overlay-search');
@@ -45,7 +42,6 @@ document.addEventListener("DOMContentLoaded", function() {
             x.style.height = "0%";
             document.querySelector('#overlay-btn').classList.remove('change');
           }
-          document.querySelector('.main').classList.add('active');
           document.querySelector("body").classList.add('noscroll');
           document.querySelector('#share-overlay').classList.remove('overlay-btn');
           document.querySelector('.search-block').classList.add('overlay-search');
