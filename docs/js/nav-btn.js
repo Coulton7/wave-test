@@ -53,7 +53,7 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 
     document.querySelector("#overlay-search").addEventListener('click', 
-    function shareBtn() {
+    function searchBtn() {
       document.getElementById('overlay-search').classList.toggle("change");
       if (y.style.height === "100%") {
         y.style.height = "0%";
