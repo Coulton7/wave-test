@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", function() {
             document.querySelector('#search-overlay').classList.remove('change');
           }
           document.querySelector("body").classList.add('noscroll');
-          document.querySelector('#share-overlay').classList.remove('share-btn');
+          document.querySelector('#overlay-share').classList.remove('share-btn');
           document.querySelector('.search-block').classList.add('overlay-search');
           document.querySelector('.navigation_col').classList.add('overlay-menu');
         }
