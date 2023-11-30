@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
   var x = document.getElementById('myNav');
-  var y = document.getElementById('main-nav');
+  var y = document.getElementById('searchOverlay');
   var s = document.getElementById('shareOverlay')
   document.querySelector("#overlay-btn").addEventListener('click', 
     function navBtn() {
@@ -16,6 +16,9 @@ document.addEventListener("DOMContentLoaded", function() {
           if(s.style.height == "100%") {
             s.style.height = "0%"
             document.querySelector('#overlay-share').classList.remove('change');
+          } else if(y.style.height == "100%") {
+            y.style.height = "0%";
+            document.querySelector('#overlay-btn').classList.remove('change');
           }
           document.querySelector("body").classList.add('noscroll');
           document.querySelector('#overlay-btn').classList.remove('overlay-btn');
@@ -38,6 +41,34 @@ document.addEventListener("DOMContentLoaded", function() {
           if(x.style.height == "100%") {
             x.style.height = "0%";
             document.querySelector('#overlay-btn').classList.remove('change');
+          } else if(y.style.height == "100%") {
+            y.style.height = "0%";
+            document.querySelector('#overlay-btn').classList.remove('change');
+          }
+          document.querySelector("body").classList.add('noscroll');
+          document.querySelector('#share-overlay').classList.remove('share-btn');
+          document.querySelector('.search-block').classList.add('overlay-search');
+          document.querySelector('.navigation_col').classList.add('overlay-menu');
+        }
+    });
+
+    document.querySelector("#overlay-search").addEventListener('click', 
+    function shareBtn() {
+      document.getElementById('overlay-search').classList.toggle("change");
+      if (y.style.height === "100%") {
+        y.style.height = "0%";
+        document.querySelector("body").classList.remove('noscroll');
+        document.querySelector('#share-overlay').classList.add('share-btn');
+        document.querySelector('.search-block').classList.remove('overlay-search');
+        document.querySelector('.navigation_col').classList.remove('overlay-menu');
+        } else {
+          y.style.height = "100%";
+          if(x.style.height == "100%") {
+            x.style.height = "0%";
+            document.querySelector('#overlay-btn').classList.remove('change');
+          } else if(s.style.height == "100%"){
+            s.style.height = "0%"
+            document.querySelector('#overlay-share').classList.remove('change')
           }
           document.querySelector("body").classList.add('noscroll');
           document.querySelector('#share-overlay').classList.remove('share-btn');
