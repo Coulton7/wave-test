@@ -15,12 +15,6 @@ document.addEventListener("DOMContentLoaded", function() {
         document.querySelector(y).classList.add('fixed-top');
         } else {
           x.style.height = "100%";
-          if(document.querySelector('#prodForm').classList.contains('in')) {
-            document.querySelector('#prodForm').modal('hide')
-          }
-          if(document.querySelector('#resForm').classList.contains('in')) {
-            document.querySelector('#resForm').modal('hide')
-          }
           if(s.style.height == "100%") {
             s.style.height = "0%"
           }
@@ -46,12 +40,6 @@ document.addEventListener("DOMContentLoaded", function() {
         document.querySelector(y).classList.add('fixed-top');
         } else {
           s.style.height = "100%";
-          if(document.querySelector('#prodForm').classList.contains('in')) {
-            document.querySelector('#prodForm').modal('hide')
-          }
-          if(document.querySelector('#resForm').classList.contains('in')) {
-            document.querySelector('#resForm').modal('hide')
-          }
           if(x.style.height == "100%") {
             x.style.height = "0%";
           }
