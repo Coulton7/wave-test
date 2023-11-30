@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function() {
       if (s.style.height === "100%") {
         s.style.height = "0%";
         document.querySelector("body").classList.remove('noscroll');
-        document.querySelector('#share-overlay').classList.add('share-btn');
+        document.querySelector('#overlay-share').classList.add('share-btn');
         document.querySelector('.search-block').classList.remove('overlay-search');
         document.querySelector('.navigation_col').classList.remove('overlay-menu');
         } else {
