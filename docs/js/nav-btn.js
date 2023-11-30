@@ -1,6 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
   var x = document.getElementById('myNav');
   var y = document.getElementById('main-nav');
+  var s = document.getElementById('shareOverlay')
   document.querySelector("#overlay-btn").addEventListener('click', 
     function navBtn() {
       document.getElementById('overlay-btn').classList.toggle("change");
@@ -20,9 +21,43 @@ document.addEventListener("DOMContentLoaded", function() {
           if(document.querySelector('#resForm').classList.contains('in')) {
             document.querySelector('#resForm').modal('hide')
           }
+          if(s.style.height == "100%") {
+            s.style.height = "0%"
+          }
           document.querySelector('.main').classList.add('active');
           document.querySelector("body").classList.add('noscroll');
           document.querySelector('#overlay-btn').classList.remove('overlay-btn');
+          document.querySelector('.search-block').classList.add('overlay-search');
+          document.querySelector('.navigation_col').classList.add('overlay-menu');
+          document.querySelector(y).classList.remove('fixed-top');
+        }
+    });
+
+    document.querySelector("#overlay-share").addEventListener('click', 
+    function shareBtn() {
+      document.getElementById('overlay-share').classList.toggle("change");
+      if (s.style.height === "100%") {
+        s.style.height = "0%";
+        document.querySelector('.main').classList.remove('active');
+        document.querySelector("body").classList.remove('noscroll');
+        document.querySelector('#share-overlay').classList.add('overlay-btn');
+        document.querySelector('.search-block').classList.remove('overlay-search');
+        document.querySelector('.navigation_col').classList.remove('overlay-menu');
+        document.querySelector(y).classList.add('fixed-top');
+        } else {
+          s.style.height = "100%";
+          if(document.querySelector('#prodForm').classList.contains('in')) {
+            document.querySelector('#prodForm').modal('hide')
+          }
+          if(document.querySelector('#resForm').classList.contains('in')) {
+            document.querySelector('#resForm').modal('hide')
+          }
+          if(x.style.height == "100%") {
+            x.style.height = "0%";
+          }
+          document.querySelector('.main').classList.add('active');
+          document.querySelector("body").classList.add('noscroll');
+          document.querySelector('#share-overlay').classList.remove('overlay-btn');
           document.querySelector('.search-block').classList.add('overlay-search');
           document.querySelector('.navigation_col').classList.add('overlay-menu');
           document.querySelector(y).classList.remove('fixed-top');
