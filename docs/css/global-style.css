@@ -22,11 +22,11 @@ body.navbar-is-fixed-top.navbar-administration.navbar-horizontal.navbar-tray-ope
   top: 4.1em;
 }
 
-body.navbar-is-fixed-top.navbar-administration.navbar-horizontal.navbar-tray-open .navbar, body.navbar-is-fixed-top.navbar-administration.navbar-horizontal.navbar-tray-open .overlay-btn, body.navbar-is-fixed-top.navbar-administration.navbar-horizontal.navbar-tray-open .change:after {
+body.navbar-is-fixed-top.navbar-administration.navbar-horizontal.navbar-tray-open .navbar, body.navbar-is-fixed-top.navbar-administration.navbar-horizontal.navbar-tray-open .overlay-btn, body.navbar-is-fixed-top.navbar-administration .navbar, body.navbar-is-fixed-top.navbar-administration .share-btn, body.navbar-is-fixed-top.navbar-administration.navbar-horizontal.navbar-tray-open .change:after {
   top: 4.2em;
 }
 
-body.navbar-is-fixed-top.navbar-administration .navbar, body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixed-top.navbar-administration .change:after {
+body.navbar-is-fixed-top.navbar-administration .navbar, body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixed-top.navbar-administration .navbar, body.navbar-is-fixed-top.navbar-administration .share-btn, body.navbar-is-fixed-top.navbar-administration .change:after {
   top: 2em;
 }
 
@@ -200,7 +200,7 @@ a.no-underline :hover {
   border-bottom: none;
 }
 
-.overlay-btn {
+.overlay-btn, .share-btn {
   float: none;
   position: relative;
   padding: 0;
@@ -210,7 +210,7 @@ a.no-underline :hover {
   border-top: none;
 }
 
-.overlay-btn:hover {
+.overlay-btn:hover, .share-btn:hover {
   border-top: none;
 }
 

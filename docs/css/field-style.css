@@ -144,7 +144,7 @@
   z-index: 1029;
 }
 
-.overlay-btn {
+.overlay-btn, .share-btn {
   float: right;
   margin-right: 1.5em;
   position: fixed;
@@ -166,14 +166,14 @@
   border-bottom: 1px dashed #888c8f;
 }
 
-.overlay-btn:hover, .overlay-btn:focus {
+.overlay-btn:hover, .overlay-btn:focus, .share-btn:hover, .share-btn:focus {
   border-top: 4px solid #dd1e25;
   border-bottom: none;
   color: #333;
   text-decoration: none;
 }
 
-.overlay-btn:focus {
+.overlay-btn:focus, .share-btn:focus {
   border-bottom: none;
   color: #535454;
   text-decoration: none;
@@ -2122,7 +2122,7 @@ div.user-picture>img {
     top: 3.4em;
   }
 
-  .overlay-btn {
+  .overlay-btn, .share-btn {
     margin-right: 0;
   }
 
@@ -2197,7 +2197,7 @@ div.user-picture>img {
     line-height: 2em;
   }
 
-  .overlay-btn {
+  .overlay-btn, .share-btn {
     margin-right: 1.5em;
   }
 
