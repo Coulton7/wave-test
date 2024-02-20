@@ -43,10 +43,10 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     
     var pillarslider = tns({
-          container: ".slider",
+          container: ".pillar-slider",
           loop: true,
           nav: false,
-          controlsContainer: "#arrow-controls",
+          controlsContainer: "#pillar-controls",
           gutter: 20,
           lazyload: true,
           responsive: {
