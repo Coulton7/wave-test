@@ -30,8 +30,8 @@ document.addEventListener("DOMContentLoaded", function() {
         },
     })
     var info = newsslider.getInfo(),
-        current = document.querySelector('.current'),
-        total = document.querySelector('.total');
+        current = document.querySelector('.news-current'),
+        total = document.querySelector('.news-total');
         activeSlide = info.displayIndex;
         
         total.textContent = info.slideCount;
@@ -72,8 +72,8 @@ document.addEventListener("DOMContentLoaded", function() {
           },
       })
       var info = pillarslider.getInfo(),
-          current = document.querySelector('.current'),
-          total = document.querySelector('.total');
+          current = document.querySelector('.pillar-current'),
+          total = document.querySelector('.pillar-total');
           activeSlide = info.displayIndex;
           
           total.textContent = info.slideCount;
