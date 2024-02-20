@@ -107,21 +107,21 @@ document.addEventListener("DOMContentLoaded", function() {
     
       document.getElementById('esg-icon').addEventListener('click', function() {
           document.getElementById('esg-icon').classList.add('active');
-          slider.goTo(0);
+          pillarslider.goTo(0);
           document.getElementById('tech-icon').classList.remove('active');
           document.getElementById('cust-icon').classList.remove('active');
       });
     
       document.getElementById('tech-icon').addEventListener('click', function() {
           document.getElementById('tech-icon').classList.add('active');
-          slider.goTo(5);
+          pillarslider.goTo(5);
           document.getElementById('esg-icon').classList.remove('active');
           document.getElementById('cust-icon').classList.remove('active');
       });
     
       document.getElementById('cust-icon').addEventListener('click', function() {
           document.getElementById('cust-icon').classList.add('active');
-          slider.goTo(10);
+          pillarslider.goTo(10);
           document.getElementById('esg-icon').classList.remove('active');
           document.getElementById('tech-icon').classList.remove('active');
       });
