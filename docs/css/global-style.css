@@ -3490,6 +3490,12 @@ a.btn-tab:hover {
   border-bottom: 3px solid #338FBC;;
 }
 
+.btn-tab {
+  border: 3px solid #002a5b;
+  color: #ffffff;
+  background-color: transparent;
+}
+
 .btn-tab.active {
   color: #ffffff;
   border: 3px solid #338FBC;
