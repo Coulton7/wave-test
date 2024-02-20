@@ -3477,39 +3477,38 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   opacity: 0.5;
 }
 
-a.icon-link {
+a.btn-tab {
   background-color: transparent;
   cursor: pointer;
-  
   --bs-btn-padding-y: 0.3rem;
   border: 3px solid #002A5B;
 }
 
-a.icon-link:hover {
+a.btn-tab:hover {
   border: 3px solid #338FBC;;
   border-bottom: 3px solid #338FBC;;
 }
 
-.icon-link.active {
+.btn-tab.active {
   color: #ffffff;
   border: 3px solid #338FBC;
   background-color: transparent;
 }
 
-.icon-link i {
+.btn-tab i {
   color: #002A5B;
 }
 
-.icon-link.active i {
+.btn-tab.active i {
   color: #338FBC;
 }
 
-a.icon-link i {
+a.btn-tab i {
   font-size: 2em;
   line-height: normal;
 }
 
-a.icon-link:hover {
+a.btn-tab:hover {
   color: #ffffff;
   cursor: pointer;
 }
@@ -3529,7 +3528,7 @@ a.icon-link:hover {
   padding: 0.25em 0
 }
 
-.icon-link.active {
+.btn-tab.active {
   color: #ffffff;;
 }
 
