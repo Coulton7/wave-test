@@ -3480,6 +3480,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 a.btn-tab {
   background-color: transparent;
   cursor: pointer;
+  gap: 0.375rem;
   --bs-btn-padding-y: 0.3rem;
   border: 3px solid #002A5B;
 }
