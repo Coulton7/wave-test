@@ -125,5 +125,9 @@ document.addEventListener("DOMContentLoaded", function() {
           document.getElementById('esg-icon').classList.remove('active');
           document.getElementById('tech-icon').classList.remove('active');
       });
+
+      document.getElementById('newsBtn').addEventListener('click', function() {
+        carousel.to(0);
+      })
     
   });
