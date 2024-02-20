@@ -9,6 +9,10 @@ document.addEventListener("DOMContentLoaded", function() {
         }
         document.querySelector("#newsSlider").classList.add('d-none');
         document.querySelector("#pillarSlider").classList.remove('d-none');
+        document.querySelector("#pillarCounter").classList.remove('d-none');
+        document.querySelector("#pillar-controls").classList.remove('d-none');
+        document.querySelector("#newsCounter").classList.add('d-none');
+        document.querySelector("#news-controls").classList.add('d-none');
     })
 
     document.querySelector("#newsBtn").addEventListener("click",
@@ -19,5 +23,9 @@ document.addEventListener("DOMContentLoaded", function() {
         document.querySelector("#newsBtn").classList.add('d-none');
         document.querySelector("#pillarSlider").classList.add('d-none');
         document.querySelector("#newsSlider").classList.remove('d-none');
+        document.querySelector("#pillarCounter").classList.add('d-none');
+        document.querySelector("#pillar-controls").classList.add('d-none');
+        document.querySelector("#newsCounter").classList.remove('d-none');
+        document.querySelector("#news-controls").classList.remove('d-none');
     })
 });
