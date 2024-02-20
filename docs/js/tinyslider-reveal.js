@@ -7,8 +7,8 @@ document.addEventListener("DOMContentLoaded", function() {
         if(document.querySelector("#newsBtn").classList.contains('d-none')){
             document.querySelector("#newsBtn").classList.remove('d-none');
         }
-        document.querySelector("#newsSlider").classList.add('d-none');
-        document.querySelector("#pillarSlider").classList.remove('d-none');
+        document.querySelector(".news-slider").classList.add('d-none');
+        document.querySelector(".pillar-slider").classList.remove('d-none');
         document.querySelector("#pillarCounter").classList.remove('d-none');
         document.querySelector("#pillar-controls").classList.remove('d-none');
         document.querySelector("#newsCounter").classList.add('d-none');
@@ -21,8 +21,8 @@ document.addEventListener("DOMContentLoaded", function() {
         document.querySelector("#newsTab").classList.remove('d-none');
         document.querySelector("#newsTab").classList.add('d-block');
         document.querySelector("#newsBtn").classList.add('d-none');
-        document.querySelector("#pillarSlider").classList.add('d-none');
-        document.querySelector("#newsSlider").classList.remove('d-none');
+        document.querySelector(".pillar-slider").classList.add('d-none');
+        document.querySelector(".news-slider").classList.remove('d-none');
         document.querySelector("#pillarCounter").classList.add('d-none');
         document.querySelector("#pillar-controls").classList.add('d-none');
         document.querySelector("#newsCounter").classList.remove('d-none');
