@@ -3639,8 +3639,8 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 }
 
 :lang(en) .front-background {
-  background-color: #000000;
-  color:#ffffff;
+  background-color: #ffffff;
+  color:#535354;
   height: 100%;
 }
 
