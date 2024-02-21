@@ -3446,7 +3446,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   bottom: 0;
   height: 45%;
   width: 100%;
-  z-index: 4;
+  z-index: 2;
 }
 
 .owl-nav {
