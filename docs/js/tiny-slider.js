@@ -132,9 +132,11 @@ document.addEventListener("DOMContentLoaded", function() {
                     }
                     if(!document.querySelector('.esg-text').classList.contains('d-none')){
                         document.querySelector('.esg-text').classList.add('d-none');
+                        document.querySelector('.esg-text').classList.remove('d-block')
                     }
                     if(!document.querySelector('.tech-text').classList.contains('d-none')){
                         document.querySelector('.tech-text').classList.add('d-none');
+                        document.querySelector('.tech-text').classList.remove('d-block')
                     }
               }
           });
