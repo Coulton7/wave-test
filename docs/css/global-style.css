@@ -3439,6 +3439,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   background: linear-gradient(180deg, rgba(0,42,91,0.25) 33%, rgba(0,42,91,0.5) 50%, rgba(255,255,255,0.75) 66%, rgba(255,255,255,0.9) 100%);
   background: url(https://coulton7.github.io/wave-test/Images/lowerwave-white-glass-v2.svg);
   position: absolute;
+  background-size: cover;
   top: 40%;
   right: 0;
   left: 0;
