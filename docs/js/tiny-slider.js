@@ -92,7 +92,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     if(!document.querySelector('.tech-text').classList.contains('d-none')){
                         document.querySelector('.tech-text').classList.add('d-none');
                     }
-                    if(!document.querySelector('tech-text').classList.contains('d-none')){
+                    if(!document.querySelector('.cust-text').classList.contains('d-none')){
                         document.querySelector('.cust-text').classList.add('d-none');
                     }
               }
@@ -103,10 +103,10 @@ document.addEventListener("DOMContentLoaded", function() {
                   document.getElementById('tech-icon').classList.add('active');
                   document.getElementById('cust-icon').classList.remove('active');
                   document.querySelector('.tech-text').classList.add('d-block');
-                    if(!document.querySelector('esg-text').classList.contains('d-none')){
+                    if(!document.querySelector('.esg-text').classList.contains('d-none')){
                         document.querySelector('.esg-text').classList.add('d-none');
                     }
-                    if(!document.querySelector('cust-text').classList.contains('d-none')){
+                    if(!document.querySelector('.cust-text').classList.contains('d-none')){
                         document.querySelector('.cust-text').classList.add('d-none');
                     }
               }
@@ -117,10 +117,10 @@ document.addEventListener("DOMContentLoaded", function() {
                   document.getElementById('esg-icon').classList.remove('active');
                   document.getElementById('cust-icon').classList.add('active');
                   document.querySelector('.cust-text').classList.add('d-block');
-                    if(!document.querySelector('esg-text').classList.contains('d-none')){
+                    if(!document.querySelector('.esg-text').classList.contains('d-none')){
                         document.querySelector('.esg-text').classList.add('d-none');
                     }
-                    if(!document.querySelector('tech-text').classList.contains('d-none')){
+                    if(!document.querySelector('.tech-text').classList.contains('d-none')){
                         document.querySelector('.tech-text').classList.add('d-none');
                     }
               }
