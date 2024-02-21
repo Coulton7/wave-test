@@ -63,11 +63,11 @@ document.addEventListener("DOMContentLoaded", function() {
               },
       
               992: {
-                  itmes: 4
+                  itmes: 3
               },
       
               1200: {
-                  items: 4
+                  items: 3
               }
           },
       })
