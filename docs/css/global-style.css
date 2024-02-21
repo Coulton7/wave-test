@@ -3491,12 +3491,6 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   background-color: #002A5B;
 }
 
-.btn-tab {
-  border: 3px solid #002a5b;
-  color: #ffffff;
-  background-color: transparent;
-}
-
 .active .btn-tab {
   color: #ffffff;
   border: 3px solid #002A5B;
