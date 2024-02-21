@@ -89,7 +89,7 @@ document.addEventListener("DOMContentLoaded", function() {
                   document.getElementById('tech-icon').classList.remove('active');
                   document.getElementById('cust-icon').classList.remove('active');
                   document.querySelector('.esg-text').classList.add('d-block');
-                    if(!document.querySelector('tech-text').classList.contains('d-none')){
+                    if(!document.querySelector('.tech-text').classList.contains('d-none')){
                         document.querySelector('.tech-text').classList.add('d-none');
                     }
                     if(!document.querySelector('tech-text').classList.contains('d-none')){
