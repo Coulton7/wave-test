@@ -16,6 +16,8 @@ document.addEventListener("DOMContentLoaded", function() {
         document.querySelector("#news-controls").classList.add('d-none');
         document.querySelector('.pillar-text').classList.add('visible');
         document.querySelector('.pillar-text').classList.remove('invisible');
+        document.querySelector('.pillar-btns').classList.add('invisible');
+        document.querySelector('.pillar-btns').classList.remove('visible');
     })
 
     document.querySelector("#newsBtn").addEventListener("click",
@@ -33,5 +35,7 @@ document.addEventListener("DOMContentLoaded", function() {
         document.querySelector("#news-controls").classList.remove('d-none');
         document.querySelector('.pillar-text').classList.add('invisible');
         document.querySelector('.pillar-text').classList.remove('visible');
+        document.querySelector('.pillar-btns').classList.add('invisible');
+        document.querySelector('.pillar-btns').classList.remove('visible');
     })
 });
