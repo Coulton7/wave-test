@@ -91,20 +91,20 @@ document.addEventListener("DOMContentLoaded", function() {
                     if(!document.querySelector('.esg-text').classList.contains('d-block')){
                         document.querySelector('.esg-text').classList.add('d-block');
                         document.querySelector('.esg-text').classList.remove('d-none');
-                        document.querySelector('.esg-btn').classList.add('d-block');
+                        document.querySelector('.esg-btn').classList.add('d-inline-flex');
                         document.querySelector('.esg-btn').classList.remove('d-none');
                     }
                     if(!document.querySelector('.tech-text').classList.contains('d-none')){
                         document.querySelector('.tech-text').classList.add('d-none');
                         document.querySelector('.tech-text').classList.remove('d-block');
                         document.querySelector('.tech-btn').classList.add('d-none');
-                        document.querySelector('.tech-btn').classList.remove('d-block');
+                        document.querySelector('.tech-btn').classList.remove('d-inline-flex');
                     }
                     if(!document.querySelector('.cust-text').classList.contains('d-none')){
                         document.querySelector('.cust-text').classList.add('d-none');
                         document.querySelector('.cust-text').classList.remove('d-block');
                         document.querySelector('.cust-btn').classList.add('d-none');
-                        document.querySelector('.cust-btn').classList.remove('d-block');
+                        document.querySelector('.cust-btn').classList.remove('d-inline-flex');
                     }
                 }
     
@@ -116,20 +116,20 @@ document.addEventListener("DOMContentLoaded", function() {
                     if(!document.querySelector('.tech-text').classList.contains('d-block')){
                         document.querySelector('.tech-text').classList.add('d-block');
                         document.querySelector('.tech-text').classList.remove('d-none');
-                        document.querySelector('.tech-btn').classList.add('d-block');
+                        document.querySelector('.tech-btn').classList.add('d-inline-flex');
                         document.querySelector('.tech-btn').classList.remove('d-none');
                     }
                     if(!document.querySelector('.esg-text').classList.contains('d-none')){
                         document.querySelector('.esg-text').classList.add('d-none');
                         document.querySelector('.esg-text').classList.remove('d-block');
                         document.querySelector('.esg-btn').classList.add('d-none');
-                        document.querySelector('.esg-btn').classList.remove('d-block');
+                        document.querySelector('.esg-btn').classList.remove('d-inline-flex');
                     }
                     if(!document.querySelector('.cust-text').classList.contains('d-none')){
                         document.querySelector('.cust-text').classList.add('d-none');
                         document.querySelector('.cust-text').classList.remove('d-block');
                         document.querySelector('.cust-btn').classList.add('d-none');
-                        document.querySelector('.cust-btn').classList.remove('d-block');
+                        document.querySelector('.cust-btn').classList.remove('d-inline-flex');
                     }
                 }
     
@@ -141,20 +141,20 @@ document.addEventListener("DOMContentLoaded", function() {
                     if(!document.querySelector('.cust-text').classList.contains('d-block')){
                         document.querySelector('.cust-text').classList.add('d-block');
                         document.querySelector('.cust-text').classList.remove('d-none');
-                        document.querySelector('.cust-btn').classList.add('d-block');
+                        document.querySelector('.cust-btn').classList.add('d-inline-flex');
                         document.querySelector('.cust-btn').classList.remove('d-none');
                     }
                     if(!document.querySelector('.esg-text').classList.contains('d-none')){
                         document.querySelector('.esg-text').classList.add('d-none');
                         document.querySelector('.esg-text').classList.remove('d-block')
                         document.querySelector('.esg-btn').classList.add('d-none');
-                        document.querySelector('.esg-btn').classList.remove('d-block');
+                        document.querySelector('.esg-btn').classList.remove('d-inline-flex');
                     }
                     if(!document.querySelector('.tech-text').classList.contains('d-none')){
                         document.querySelector('.tech-text').classList.add('d-none');
                         document.querySelector('.tech-text').classList.remove('d-block');
                         document.querySelector('.tech-btn').classList.add('d-none');
-                        document.querySelector('.tech-btn').classList.remove('d-block');
+                        document.querySelector('.tech-btn').classList.remove('d-inline-flex');
                     }
               }
           });
