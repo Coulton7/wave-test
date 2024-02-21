@@ -3527,7 +3527,8 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 }
 
 .slider-links li {
-  padding: 0.25em 0
+  padding: 0.25em 0;
+  display: flex;
 }
 
 .btn-tab.active {
