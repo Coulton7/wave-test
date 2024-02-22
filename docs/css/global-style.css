@@ -3508,6 +3508,10 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   cursor: pointer;
 }
 
+.tns-slider {
+  display: flex;
+}
+
 .slider-tab-btn {
   display: flex;
   border-radius: 0;
