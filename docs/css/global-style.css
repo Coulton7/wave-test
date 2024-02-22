@@ -3503,11 +3503,6 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   color: #FFFFFF;
 }
 
-.btn-tab i {
-  font-size: 2em;
-  line-height: normal;
-}
-
 .btn-tab:hover {
   color: #ffffff;
   cursor: pointer;
