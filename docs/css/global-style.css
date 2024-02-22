@@ -3499,11 +3499,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   background-color: #002a5b;
 }
 
-.btn-tab i {
-  color: #002A5B;
-}
-
-.active .btn-tab i, .btn-tab i:hover {
+.active .btn-tab i {
   color: #FFFFFF;
 }
 
