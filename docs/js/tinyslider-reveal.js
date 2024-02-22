@@ -4,10 +4,8 @@ document.addEventListener("DOMContentLoaded", function() {
         document.querySelector("#newsTab").classList.add('d-none');
         document.querySelector("#pillarTab").classList.remove('d-none');
         document.querySelector("#pillarTab").classList.add('d-block');
-        if(document.querySelector("#newsBtn").classList.contains('invisible')){
-            document.querySelector("#newsBtn").classList.remove('invisible');
-            document.querySelector("#newsBtn").classList.add('visible')
-        }
+        document.querySelector("#newsBtn").classList.remove('invisible');
+        document.querySelector("#newsBtn").classList.add('visible')
         document.querySelector(".news-slider").classList.add('d-none');
         document.querySelector(".pillar-slider").classList.remove('d-none');
         document.querySelector("#pillarCounter").classList.remove('d-none');
