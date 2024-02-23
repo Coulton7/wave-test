@@ -3795,6 +3795,10 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   margin-bottom: 0;
 }
 
+.card-footer {
+  border-top: none;
+}
+
 @keyframes fade {
   0%{
     opacity: 0;
