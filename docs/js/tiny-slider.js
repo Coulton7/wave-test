@@ -1,5 +1,4 @@
 document.addEventListener("DOMContentLoaded", function() {
-    const carousel = new bootstrap.Carousel('#carousel-fade');
     var newsslider = tns({
         container: ".news-slider",
         loop: true,
@@ -84,7 +83,6 @@ document.addEventListener("DOMContentLoaded", function() {
               pillarCurrent.textContent = info.displayIndex;
     
                 if (activeSlide >= 1 && activeSlide <= 5) {
-                    carousel.to(1);
                     document.getElementById('esg-icon').classList.add('active');
                     document.getElementById('tech-icon').classList.remove('active');
                     document.getElementById('cust-icon').classList.remove('active');
@@ -109,7 +107,6 @@ document.addEventListener("DOMContentLoaded", function() {
                 }
     
                 else if (activeSlide >= 6 && activeSlide <= 10) {
-                    carousel.to(2);
                     document.getElementById('esg-icon').classList.remove('active');
                     document.getElementById('tech-icon').classList.add('active');
                     document.getElementById('cust-icon').classList.remove('active');
@@ -134,7 +131,6 @@ document.addEventListener("DOMContentLoaded", function() {
                 }
     
                 else if (activeSlide >= 11 && activeSlide <= 15) {
-                    carousel.to(3);
                     document.getElementById('tech-icon').classList.remove('active');
                     document.getElementById('esg-icon').classList.remove('active');
                     document.getElementById('cust-icon').classList.add('active');
@@ -180,9 +176,5 @@ document.addEventListener("DOMContentLoaded", function() {
           document.getElementById('esg-icon').classList.remove('active');
           document.getElementById('tech-icon').classList.remove('active');
       });
-
-      document.getElementById('newsBtn').addEventListener('click', function() {
-        carousel.to(0);
-      })
     
   });
