@@ -3781,6 +3781,10 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   animation-delay: 21.333s;
 }
 
+.slider-info {
+  text-align: right;
+}
+
 @keyframes fade {
   0%{
     opacity: 0;
