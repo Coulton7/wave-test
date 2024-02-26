@@ -3042,7 +3042,7 @@ a.btn-transparent-green-border:hover, a.btn-transparent-green-border:focus {
   left: 1em;
   right: auto;
   position: absolute;
-  top: 35%;
+  top: 50%;
   z-index: 10;
 }
 
@@ -3050,7 +3050,7 @@ a.btn-transparent-green-border:hover, a.btn-transparent-green-border:focus {
   right: 0;
   left: auto;
   position: absolute;
-  top: 35%;
+  top: 50%;
   z-index: 10;
 }
 
