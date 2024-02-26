@@ -4425,7 +4425,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   .media-carousel-block .item div {
-    min-height: 22em;
+    min-height: auto;
   }
 
   .media-carousel .carousel-inner .carousel-item {
