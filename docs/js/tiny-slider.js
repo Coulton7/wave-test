@@ -8,11 +8,11 @@ document.addEventListener("DOMContentLoaded", function() {
         lazyload: true,
         responsive: {
             1 : {
-            items: 2 
+            items: 1
             },
     
             600 : {
-            items: 2
+            items: 1
             },
     
             768: {
