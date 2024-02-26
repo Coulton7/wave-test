@@ -3029,8 +3029,8 @@ a.btn-transparent-green-border:hover, a.btn-transparent-green-border:focus {
   box-shadow: 0 0 0 1px rgb(0 0 0 / 4%), 0 4px 8px 0 rgb(0 0 0 / 30%);
   opacity: 0.7;
   background-color: #ffffff;
-  width: 4.5%;
-  height: 11.5%;
+  width: 3em;
+  height: 3em;
 }
 
 .controls {
