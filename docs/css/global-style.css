@@ -5897,6 +5897,10 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   .change::after {
     top: 3em;
   }
+
+  .navbar {
+    background: #fff!important;
+  }
 }
 
 @media screen and (min-width: 992px) {
