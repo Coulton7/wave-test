@@ -1,35 +1,34 @@
 document.addEventListener("DOMContentLoaded", function() {
-    const textLogo = document.getElementById('textlogo');
-    const sectionShadow = document.getElementById('section-shadow');
-    const enquiry = document.getElementById('enq-icon');
-    const navbar = document.querySelector('.navbar-nav');
-    var navLinks = document.querySelectorAll('.navbar-nav a');
-    var socialLinks = document.querySelectorAll('.social-media a');
-
+    const textLogo = document.querySelector('.textlogo');
+    const sectionShadow = document.querySelector('.section-shadow');
+    const enquiry = document.querySelector('.enq-icon');
+    const navbar = document.querySelector('.bg-transparent .navbar-collapse');
+    var navLinks = document.querySelectorAll('.navbar-nav a.nav-link');
+    var overlayLink = document.querySelector('.overlay-btn');
+    var scrollNav = document.querySelector('.scroll-nav');
+    
     function fadeScroll() {
         window.addEventListener('scroll', function(e) {
-            var scroll = window.scrollY || document.documentElement.scrollTop || document.body.scrollTop || 0;
-            sectionShadow.style.opacity = Math.max(0, Math.min(1, +scroll / 600));
-            textLogo.style.opacity = Math.max(0, Math.min(1, +scroll / 600));
-            enquiry.style.opacity = Math.max(0, Math.min(1, +scroll / 600));
-            navbar.style.backgroundColor = "rgba(255,255,255,"+ Math.max(0, Math.min(1, +scroll / 600)); +")"
+            var scrollPos = window.scrollY || document.documentElement.scrollTop || document.body.scrollTop || 0;
+            sectionShadow.style.opacity = Math.max(0, Math.min(1, +scrollPos / 600));
+            textLogo.style.opacity = Math.max(0, Math.min(1, +scrollPos / 600));
+            enquiry.style.opacity = Math.max(0, Math.min(1, +scrollPos / 600));
+            navbar.style.backgroundColor = "rgba(255,255,255,"+ Math.max(0, Math.min(1, +scrollPos / 600)); +")";
     
-            if(scroll/600 >= 0.75) {
+            if(scrollPos/600 >= 0.75) {
                 for (var i = 0; i < navLinks.length; i++) {
                     navLinks[i].classList.add('normText');
+                    overlayLink.classList.add('normText');
                 }
-                for (var y = 0; y < socialLinks.length; y++) {
-                    socialLinks[y].classList.add('normText');
-                }
+                scrollNav.classList.add('shadow-back');
             }
     
-            if(scroll/600 < 0.75) {
-                for (var i = 0; i < navLinks.length; i++) {
-                    navLinks[i].classList.remove('normText');
+            if(scrollPos/600 < 0.75) {
+                for (var x = 0; x < navLinks.length; x++) {
+                    navLinks[x].classList.remove('normText');
+                    overlayLink.classList.remove('normText');
                 }
-                for (var y = 0; y < socialLinks.length; y++) {
-                    socialLinks[y].classList.remove('normText');
-                }
+                scrollNav.classList.remove('shadow-back');
             }
         });
     };
@@ -46,6 +45,7 @@ document.addEventListener("DOMContentLoaded", function() {
         textLogo.style.opacity = 1;
         enquiry.style.opacity = 1;
         navbar.style.backgroundColor = "rgba(255,255,255,1)";
+        scrollNav.classList.add('shadow-back')
     }
 
     window.addEventListener('resize', function(){
@@ -61,6 +61,7 @@ document.addEventListener("DOMContentLoaded", function() {
             textLogo.style.opacity = 1;
             enquiry.style.opacity = 1;
             navbar.style.backgroundColor = "rgba(255,255,255,1)";
+            scrollNav.classList.add('shadow-back')
         }
     });
 
