@@ -208,16 +208,6 @@ a.no-underline :hover {
   border-bottom: none;
 }
 
-.share-btn, .search-btn {
-  float: none;
-  position: relative;
-  padding: 0;
-  cursor: pointer;
-  top: auto;
-  right: auto;
-  border-top: none;
-}
-
 .overlay-btn {
   float: right;
   margin-right: 1.5em;
