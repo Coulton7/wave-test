@@ -5031,6 +5031,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   :lang(en) .carousel-col-placement {
+    bottom: 7rem;
     position: relative;
   }
 
