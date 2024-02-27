@@ -6460,6 +6460,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 @media screen and (max-width: 992px) {
   .navbar {
     background: #fff!important;
+    width: inherit;
   }
 }
 
