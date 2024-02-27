@@ -210,68 +210,30 @@
     </div>
     
 
-    <div class="navigation_col">
-      <div class="action-menu text-center">
-        <div class="col-md-2 col-sm-1 col-0 fullscreen">
-        </div>
-        <div class="col-md-10 col-md-offset-2 col-sm-11 offset-sm-1 col-12 no-padding">
-          <div class="region region-navigation-col fit-menu">
-            <section id="block-lang-dropdown-language" class="block block-lang-dropdown lang-switch d-none clearfix">
-              <form class="lang_dropdown_form language" id="lang_dropdown_form_language" action="/en" method="post" accept-charset="UTF-8">
-                <div>
-                  <div class="form-item form-item-lang-dropdown-select form-type-select form-group">
-                    <select class="lang-dropdown-select-element form-control form-select" id="lang-dropdown-select-language" style="width:110px" name="lang_dropdown_select">
-                      <option value="en" selected="selected">English</option>
-                      <option value="zh-hans">简体中文</option>
-                      <option value="fr">Français</option>
-                      <option value="de">Deutsch</option>
-                      <option value="it">Italiano</option>
-                      <option value="pl">Polski</option>
-                      <option value="ru">Русский</option>
-                      <option value="es">Español</option>
-                      <option value="tr">Türkçe</option>
-                    </select>
+    <div class="row g-0">
+      <div class="scroll-nav">
+        <div>
+          <div id="block-navplaceholder" class="contextual-region">
+            <div>
+              <div class="field--items">
+                <div class="field--item">
+                  <div class="link-light my-3">
+                    <a class="link-light no-underline d-none d-lg-inline-block" rel="no-follow" href="/"><i class="fas fa-home ms-4"></i> Home</a>
+                    <a id="overlay-search" class="link-light ms-4 no-underline search-btn" rel="no-follow"><i class="fas fa-search"></i> Search
+                    </a>
+                    <a class="link-light ms-4 no-underline" rel="no-follow" href="#primary" data-bs-toggle="offcanvas" aria-controls="offcanvasprimary"><i class="fas fa-language"></i> Language</a>
+                    <a id="overlay-share" class="link-light ms-4 no-underline share-btn" rel="no-follow"><i class="fas fa-share-alt"></i> Share</a>
+                    <a class="link-light ms-4 no-underline" rel="no-follow" href="/en/contact-us" ><i class="fas fa-question-circle"></i> Contact Us</a>
+                    <a class="link-light ms-4 no-underline d-none d-lg-inline-block" rel="no-follow" href="/en/services/customer-portal"><i class="fas fa-sign-in-alt"></i> Log In</a>
                   </div>
-                  <input type="hidden" name="en" value="/en">
-                  <input type="hidden" name="zh-hans" value="/zh-hans">
-                  <input type="hidden" name="fr" value="/fr">
-                  <input type="hidden" name="de" value="/de">
-                  <input type="hidden" name="it" value="/it">
-                  <input type="hidden" name="pl" value="/pl">
-                  <input type="hidden" name="ru" value="/ru">
-                  <input type="hidden" name="es" value="/es">
-                  <input type="hidden" name="tr" value="/tr">
-                  <noscript>
-                    <div>
-                      <button type="submit" id="edit-submit" name="op" value="Go" class="btn btn-default form-submit">Go</button>
-                    </div>
-                  </noscript>
-                  <input type="hidden" name="form_build_id" value="form-fVwJC8uCHkfQGxttL6LJlWCnIdsaqy5pul-BUy-3ufQ">
-                  <input type="hidden" name="form_token" value="BSQ_rXnJSQTG0opU8xADUykcPiHHEvuFGw9iZzia4wM">
-                  <input type="hidden" name="form_id" value="lang_dropdown_form">
                 </div>
-              </form>
-            </section>
-
-            <section id="block-search-api-page-node-taxonomy-search" class="block block-search-api-page search-block clearfix">
-              <form action="/en" method="post" id="search-api-page-search-form-node-taxonomy-search" accept-charset="UTF-8">
-                <div>
-                  <div class="form-item form-item-keys-5 form-type-textfield form-group"><input placeholder="Enter your keywords" class="form-control form-text" type="text" id="edit-keys-5" name="keys_5" value="" size="15" maxlength="128"></div>
-                  <input type="hidden" name="id" value="5">
-                  <button type="submit" id="edit-submit-5" name="op" value="Search" class="btn btn-primary form-submit">Search</button>
-                  <input type="hidden" name="form_build_id" value="form-SHuvAtCSxMTy8X3FGmBV3ybzFkSO0CAfeWB-X4T4uwI">
-                  <input type="hidden" name="form_id" value="search_api_page_search_form_node_taxonomy_search">
-                </div>
-              </form>
-            </section>
-            <!--<section id="block-block-138" class="block block-block cust-portal hidden-sm d-none d-sm-block clearfix">
-
-              <a href="https://www.aesseal.com/en/customer-portal" rel="nofollow"><span class="hidden-md">Customer</span> Portal <i class="bi bi-box-arrow-in-right cust-portal-text" aria-hidden="true"></i></a>
-            </section>-->
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
+    
 
     <section class="preface front__flex-margin no-padding">
       <div class="row row-flex-col">
@@ -331,28 +293,6 @@
 
                       </div>
                     </div>
-                  </div>
-
-                  <div class="d-none d-sm-block social-media text-center">
-                    <ul>
-                      <li><a class="d-none d-sm-block overlay-btn" id="overlay-btn" data-toggle="tooltip" data-placement="bottom" title="Open Menu"><i class="fas fa-bars"></i></a></li>
-                      <li class="front-icon"> <a class="share-btn" id="overlay-share" data-toggle="tooltip" data-placement="bottom" title="Contact Us"><i class="fas fa-phone"></i></a></li>
-                      <li> <a class="search-btn" id="search-overlay" target="_self" data-toggle="tooltip" data-placement="bottom" title="Contact Us"><i class="fas fa-envelope"></i></a></li>
-                      <li class="dropdown">
-                        <a class="lang-change dropdown-toggle" data-bs-toggle="dropdown" id="dropdownLang" aria-haspopup="true" title="Change Language"><i class="fas fa-language"></i></a>
-                        <ul class="dropdown-menu" aria-labelledby="dropdownLang">
-                          <li><a class="dropdown-item" href="/en">English</a></li>
-                          <li><a class="dropdown-item" href="/zh-hans">简体中文</a></li>
-                          <li><a class="dropdown-item" href="/fr">Français</a></li>
-                          <li><a class="dropdown-item" href="/de">Deutsch</a></li>
-                          <li><a class="dropdown-item" href="/it">Italiano</a></li>
-                          <li><a class="dropdown-item" href="/pl">Polski</a></li>
-                          <li><a class="dropdown-item" href="/ru">Русский</a></li>
-                          <li><a class="dropdown-item" href="/es">Español</a></li>
-                          <li><a class="dropdown-item" href="/tr">Türkçe</a></li>
-                        </ul>
-                      </li>
-                    </ul>
                   </div>
                 </div>
 
