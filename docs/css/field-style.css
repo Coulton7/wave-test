@@ -144,7 +144,7 @@
   z-index: 1029;
 }
 
-.overlay-btn, .share-btn {
+.overlay-btn {
   float: right;
   margin-right: 1.5em;
   position: fixed;
@@ -166,7 +166,7 @@
   border-bottom: 1px dashed #888c8f;
 }
 
-.overlay-btn:hover, .overlay-btn:focus, .share-btn:hover, .share-btn:focus {
+.overlay-btn:hover, .overlay-btn:focus {
   border-top: 4px solid #dd1e25;
   border-bottom: none;
   color: #333;
