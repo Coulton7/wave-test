@@ -73,6 +73,14 @@ body.navbar-is-fixed-top.navbar-administration .navbar, body.navbar-is-fixed-top
   color: #333;
 }
 
+.navbar-expand-lg .navbar-collapse {
+  justify-content: center;
+}
+
+.navbar-nav .nav-link {
+  color: #ffffff;
+}
+
 a.no-underline {
   border-bottom: none;
 }
@@ -5905,7 +5913,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     padding-top: 7em;
   }
 
-  .nav li a {
+  .navbar-expand-lg .navbar-nav .nav-link {
     padding: 0.95em 1.1em;
   }
 
