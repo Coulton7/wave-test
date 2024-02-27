@@ -5870,7 +5870,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     background-size: auto;
     background-repeat: repeat;
     background-color: #012e58;
-    background-position: bottom right;
+    background-position: 65%;
     animation: none;
     padding-top: 3em;
   }
