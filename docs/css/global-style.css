@@ -208,6 +208,63 @@ a.no-underline :hover {
   border-bottom: none;
 }
 
+.front .scroll-nav {
+  background: transparent;
+  backdrop-filter: blur(0);
+  -webkit-backdrop-filter: blur(0);
+}
+
+.fronte .shadow-back {
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  transition: all 0.3s ease-in-out;
+}
+
+.shadow-back {
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  transition: all 0.3s ease-in-out;
+}
+
+.scroll-nav {
+  position: fixed;
+  transform: translateY(-105%);
+  z-index: 1031;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  display: flex;
+  justify-content: center;
+}
+
+.front .scroll-nav {
+  transform: translateY(105%);
+}
+
+.front .scrolled-down {
+  transform: translateY(-210%);
+  transition: all 0.3s ease-in-out;
+}
+
+.front .scrolled-up {
+  transform: translateY(102%);
+  transition: all 0.3s ease-in-out;
+}
+
+.scrolled-down {
+  transform: translateY(-210%);
+  transition: all 0.3s ease-in-out;
+  transition-delay: 0.75s;
+  z-index: -1;
+}
+
+.scrolled-up {
+  transform: translateY(-107%);
+  transition: all 0.3s ease-in-out;
+}
+
 .overlay-btn {
   float: right;
   margin-right: 1.5em;
