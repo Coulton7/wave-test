@@ -5898,10 +5898,6 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   .change::after {
     top: 3em;
   }
-
-  .navbar {
-    background: #fff!important;
-  }
 }
 
 @media screen and (min-width: 992px) {
@@ -6373,6 +6369,12 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     background: linear-gradient(90deg, transparent 67%, rgba(136,140,143,1) 94%), url("https://static.aesseal.com/photo/wavehead/wideformatfull/pillar-adv-techhnology.jpg");
     background-size: cover;
     aspect-ratio: 4/3;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .navbar {
+    background: #fff!important;
   }
 }
 
