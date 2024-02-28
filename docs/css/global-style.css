@@ -300,7 +300,7 @@ a.no-underline :hover {
   text-decoration: none;
 }
 
-.overlay-btn:hover, .share-btn:hover, .search-btn:hover {
+.share-btn:hover, .search-btn:hover {
   border-top: none;
 }
 
