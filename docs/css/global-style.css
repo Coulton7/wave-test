@@ -6477,10 +6477,6 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   .navbar-nav .nav-link {
     color: #535354;
   }
-
-  .carousel-caption{
-    left: auto;
-  }
 }
 
 @media screen and (max-width: 1012px) {
