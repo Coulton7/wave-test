@@ -5605,7 +5605,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   .mobile-carousel-caption {
-    top: 8vh;
+    top: 14vh;
     position: relative;
     transform: translateY(0%);
     z-index: 4;
