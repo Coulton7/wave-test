@@ -6463,6 +6463,10 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     background-size: cover;
     aspect-ratio: 4/3;
   }
+
+  .carousel-caption{
+    left: 0;
+  }
 }
 
 @media screen and (max-width: 992px) {
@@ -6472,6 +6476,10 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
   .navbar-nav .nav-link {
     color: #535354;
+  }
+
+  .carousel-caption{
+    left: auto;
   }
 }
 
