@@ -294,6 +294,10 @@ a.no-underline :hover {
   text-decoration: none;
 }
 
+.front .overlay-btn.normText{
+  color: #777;
+}
+
 .overlay-btn:focus {
   border-bottom: none;
   color: #333;
