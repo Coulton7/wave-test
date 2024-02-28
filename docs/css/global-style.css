@@ -296,7 +296,7 @@ a.no-underline :hover {
 
 .overlay-btn:focus {
   border-bottom: none;
-  color: #535454;
+  color: #333;
   text-decoration: none;
 }
 
