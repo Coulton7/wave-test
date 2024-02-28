@@ -6478,6 +6478,11 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   .carousel-caption {
     top: 10vh;
   }
+
+  .icons-col-placement {
+    position: relative;
+    bottom: 8em;
+  }
 }
 
 @media screen and (max-width: 1012px) {
