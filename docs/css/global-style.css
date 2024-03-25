@@ -3538,6 +3538,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   position: absolute;
   background-size: cover;
   background-position: top center, bottom center;
+  background-repeat: no-repeat;
   top: 60%;
   right: 0;
   left: 0;
