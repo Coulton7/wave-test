@@ -3537,7 +3537,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   background: url(https://coulton7.github.io/wave-test/Images/homewave-gradient-higher.svg);
   position: absolute;
   background-size: contain;
-  top: 55%;
+  top: 51.5%;
   right: 0;
   left: 71%;
   bottom: 0;
@@ -3551,13 +3551,15 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   background: url(https://coulton7.github.io/wave-test/Images//homewave-gradient-lower.svg);
   position: absolute;
   background-size: cover;
-  top: 77%;
+  top: 37%;
   right: 0;
   left: 0;
   bottom: 0;
-  height: 23%;
+  height: 100%;
   width: 100%;
   z-index: 2;
+  transform: scaleY(0.27);
+  background-position: center bottom;
 }
 
 .owl-nav {
