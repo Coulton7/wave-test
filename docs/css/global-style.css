@@ -3534,11 +3534,9 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
 .video-overlay {
   background-color: rgb(0,42,91);
-  background: url(https://coulton7.github.io/wave-test/Images/homewave-gradient-higher.svg), url(https://coulton7.github.io/wave-test/Images/homewave-gradient-lower.svg);
+  background: url(https://coulton7.github.io/wave-test/Images/lowerwave-white-glass-v2.svg);
   position: absolute;
-  background-size: 50vh, 50vh;
-  background-position: center, center;
-  background-repeat: no-repeat;
+  background-size: cover;
   top: 60%;
   right: 0;
   left: 0;
