@@ -3544,6 +3544,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   height: 22%;
   width: 100%;
   z-index: 2;
+  background-repeat: no-repeat;
 }
 
 .lower-wave-overlay {
